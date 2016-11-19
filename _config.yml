@@ -35,16 +35,16 @@ gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
 
 ## Values for podcast RSS feed
 
-podcast_subtitle: Podcasts for the Write the Docs Community
+podcast_subtitle: A discussion podcast based on WTD topics and issues, focused on technical writing and documentation for software products.
 podcast_url: http://writethedocspodcast.org
 podcast_album_art: http://writethedocspodcast.org/assets/img/wtdpodcastlogo.png
 podcast_title: Write the Docs Podcast
-podcast_owner: Write the Docs
+podcast_owner: Write the Docs Community
 podcast_email: writethedocspodcast@gmail.com
 podcast_category: Technology
 podcast_subcategory_one: Software How-To
 podcast_subcategory_two: Tech News
 podcast_explicit: "no"
-podcast_author: Write the Docs community
+podcast_author: Write the Docs Community
 podcast_description: Podcasts for the Write the Docs community. Mostly focused on tech comm, tech writing, UX, IA, and more.
 podcast_summary: "Write the Docs is a series of conferences, local meetups, and Slack groups focused on all things related to software documentation. We consider everyone who cares about communication, documentation, and their users to be a member of our community. This can be programmers, tech writers, customer support, marketers, and anyone else who wants people to have great experiences with software. This podcast is focused on topics discussed and debated within this community."

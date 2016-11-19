@@ -19,7 +19,7 @@ layout: null
     <itunes:image href="{{site.url}}/assets/img/wtdpodcastlogo.png"/>
 
     <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
-    <itunes:summary>{{site.podcast_description}}</itunes:summary>
+    <itunes:summary>{{site.podcast_summary}}</itunes:summary>
     <itunes:owner>
       <itunes:name>{{site.podcast_title}}</itunes:name>
       <itunes:email>{{site.podcast_email}}</itunes:email>
