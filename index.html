@@ -1,5 +1,127 @@
 ---
 title: Home
-layout: default
 type: homepage
 ---
+
+
+<!-- ===== MAIN ===== -->
+<main id="main" class="main">
+
+    {% if page.type == "homepage" %}
+    <!-- ===== PODCAST LIST ===== -->
+    <section id="#episodes" class="section-positive">
+        <div class="container">
+
+            <!-- ===== SECTION TITLE ===== -->
+            <h2 class="title-default">Episodes</h2>
+
+            <div class="row">
+
+                <!-- ===== PODCAST CARD FULL ===== -->
+
+                {% for post in site.posts %}
+                <div class="col-sm-12 mb-40">
+                    <div class="podcast-card full">
+                        <figure class="podcast-image"><a href="{{post.url}}"><img src="{{site.url}}/assets/img/cards/podcast-full-thumb.jpg" alt="{{post.title}}" title="{{post.title}}" /></a></figure>
+                        <div class="podcast-content">
+                            <span class="podcast-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                            <h2 class="podcast-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+                            <p class="podcast-excerpt"><a href="{{post.url}}">{{ post.content | truncatewords: 50 | strip_html }}</a></p>
+                            <ul class="podcast-meta">
+                                <li class="item"><a href="#" class="podcast-tag" rel="tag">{{post.tags}}</a></li>
+                                <li class="item"><i class="fa fa-clock-o"></i> {{post.time}}</li>
+                                <li class="item"><a class="podcast-play" href="{{post.url}}"><i class="fa fa-play"></i> View Episode</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+                {% endif %}
+
+
+
+                -->
+                <!-- ===== CHECK MORE ===== -->
+                <!--
+                <div class="col-sm-12 mb-50">
+                    <a href="podcasts.html" class="btn btn-primary btn-block btn-lg">View more episodes</a>
+                </div>
+
+                -->
+
+            </div>
+
+        </div>
+    </section>
+
+    {% if page.type != "homepage" %}
+    <!-- ===== SECTION ===== -->
+    <section class="section-negative">
+        <div class="container">
+
+            <!-- ===== PAGE CONTENT ===== -->
+            <div class="page-content mt-60">
+
+                <!-- ===== PAGE TITLE & DESCRIPTION ===== -->
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2 class="title-default mb-10">{{page.title}}</h2>
+                        <p class="page-description mb-70">{{content}}</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    {% endif %}
+
+    {% if page.type == "homepage" or page.type == "about" %}
+    <!-- ===== ABOUT US ===== -->
+    <section id="about-us" class="section-negative">
+        <div class="container">
+
+
+            <!-- ===== SECTION TITLE ===== -->
+            {% if page.type == "homepage" %}
+            <h2 class="title-default text-center">Behind the mic...</h2>
+            {% endif %}
+
+            <div class="row mb-30">
+
+                <!-- ===== TEAM CARD ===== -->
+                {% for profile in site.data.profiles.info %}
+
+                <div class="col-lg-4 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-12 mb-40">
+                    <div class="team-card">
+                        <figure class="team-card-image"><img src="assets/img/team/{{profile.image}}" alt="{{profile.name}}" title="{{profile.name}}" /></figure>
+                        <div class="team-card-content">
+                            <h2 class="team-card-title">{{profile.name}}</h2>
+                            <p class="team-card-job">@{{profile.slack_handle}}</p>
+                            <p class="team-card-description">{{profile.description}}</p>
+                            <ul class="team-card-social">
+                                <li class="social-item"><a href="{{profile.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li class="social-item"><a href="{{profile.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="social-item"><a href="{{profile.slack_handle}}" target="_blank"><i class="fa fa-slack"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </section>
+    {% endif %}
+
+    {% include newsletter.html %}
+
+
+    </div>
+    </section>
+
+</main>
+
+{% include footer.html %}

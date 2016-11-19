@@ -11,60 +11,51 @@
                 <div class="col-sm-3 mb-40">
                     <h2 class="title-separator white">Sitemap</h2>
                     <ul class="footer-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="podcasts.html">Podcasts</a></li>
-                        <li><a href="single-page.html">Pages</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        {% for page in site.pages %}
+                        <li><a href="{{page.url}}">{{page.title}}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
 
                 <!-- ===== PODCASTS EPISODES ===== -->
                 <div class="col-sm-3 mb-40">
-                    <h2 class="title-separator white">Lastest Episodes</h2>
+                    <h2 class="title-separator white">Latest Episodes</h2>
                     <ul class="footer-complement">
+                        {% for ep in site.posts limit: 5 %}
                         <li>
-                            <a href="podcast.html">#08 - Our vacations have been so amazing!</a>
-                            <span>December 22, 2015</span>
+                            <a href="{{ep.url}}">{{ep.title}}</a>
+                            <span>{{ep.date | date: "%b %-d, %Y" }}</span>
                         </li>
-                        <li>
-                            <a href="podcast-soundcloud.html">#07 - Podcast embed from SoundCloud</a>
-                            <span>December 21, 2015</span>
-                        </li>
+
+                        {% endfor %}
                     </ul>
                 </div>
 
                 <!-- ===== PODCASTS EPISODES ===== -->
                 <div class="col-sm-3 mb-40">
-                    <h2 class="title-separator white">Who is helping?</h2>
+                    <h2 class="title-separator white">Co-hosts</h2>
                     <ul class="footer-complement">
+                        {% for profile in site.data.profiles.info %}
+                        {{host}}
+                        {% if profile.main_cohost == true %}
                         <li>
-                            <a href="#">@reidarking</a>
-                            <span>Donation - U$ 10</span>
+                            <a href="{{profile.slack_url}}">{{profile.slack_handle}}</a>
+                            <span>{{profile.name}}</span>
                         </li>
-                        <li>
-                            <a href="#">@reidarking</a>
-                            <span>Donation - U$ 5</span>
-                        </li>
-                        <li>
-                            <a href="#">@reidarking</a>
-                            <span>Donation - U$ 50</span>
-                        </li>
+                        {% endif %}
+                        {% endfor %}
+
                     </ul>
                 </div>
 
                 <!-- ===== SOCIAL CONNECTION ===== -->
                 <div class="col-sm-3 mb-40">
-                    <h2 class="title-separator white">We are social</h2>
+                    <h2 class="title-separator white">Links</h2>
                     <ul class="social-list">
-                        <li class="social-item"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social-item"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-item"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li class="social-item"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="social-item"><a href="#" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
-                        <li class="social-item"><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-                        <li class="social-item"><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                        <li class="social-item"><a href="#" target="_blank"><i class="fa fa-spotify"></i></a></li>
+                        <!-- <li class="social-item"><a href="#" target="_blank"><i class="fa-podcast"></i></a></li>-->
+                        <li class="social-item"><a href="https://writethedocs.slack.com/messages/podcast" target="_blank"><i class="fa fa-slack"></i></a></li>
+                        <li class="social-item"><a href="https://www.youtube.com/channel/UCUI--N-VWjK93292AaaArCg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li class="social-item"><a href="http://writethedocspodcast.com/feed.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
                     </ul>
                 </div>
 

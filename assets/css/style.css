@@ -591,24 +591,24 @@ li {
 	background: #005f8c;
 }
 
-.social-list.colored .pinterest {
+.social-list.colored .podcast {
 	border: #cb2027;
 	background: #cb2027;
 }
 
-.social-list.colored .pinterest:hover a,
-.social-list.colored .pinterest:focus a {
+.social-list.colored .podcast:hover a,
+.social-list.colored .podcast:focus a {
 	border: #a81a20;
 	background: #a81a20;
 }
 
-.social-list.colored .spotfy {
+.social-list.colored .spotify {
 	border: #00e461;
 	background: #00e461;
 }
 
-.social-list.colored .spotfy:hover a,
-.social-list.colored .spotfy:focus a {
+.social-list.colored .spotify:hover a,
+.social-list.colored .spotify:focus a {
 	border: #00bb50;
 	background: #00bb50;
 }
@@ -2066,7 +2066,7 @@ form .form-callback.error {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	padding-top: 140px;
+	/*padding-top: 140px;*/
 	background-color: #110f16;
 	background-color: rgba(17, 15, 22, 0.7);
 	zoom: 1;

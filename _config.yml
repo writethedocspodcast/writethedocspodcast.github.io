@@ -1,6 +1,5 @@
 title: Write the Docs Podcast
 description: Podcasts for the Write the Docs community. Mostly focused on tech comm, tech writing, UX, IA, and more.
-
 url: http://writethedocspodcast.org
 
 host: 127.0.0.1
@@ -32,3 +31,19 @@ defaults:
     values:
       layout: "default"
 
+gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
+
+
+podcast_url: http://www.idratherbewriting.com
+podcast_album_art: /images/techwritervoices.jpg
+podcast_title: I'd Rather Be Writing Podcast
+podcast_owner: Tom Johnson
+podcast_email: tom@idratherbewriting.com
+podcast_category: Technology
+podcast_subcategory_one: Software How-To
+podcast_subcategory_two: Tech News
+podcast_explicit: "no"
+podcast_author: Tom Johnson
+podcast_description: Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.
+podcast_summary: A technical writing podcast about the latest trends and practices in the field of technical communication. Technical communication includes topics like technical writing (software help), information architecture, usability, API documentation, information design, web design, illustration, DITA, structured authoring, visual communication, and more. If you're a technical writer or interested in technical writing, this is the one of few podcasts in this niche. I also have a blog at http://idratherbewriting.com where the podcasts and other blog topics are published.
+podcast_subtitle: Technical writing trends, innovations, and news. Content original from idratherbewriting.com. Hosted by Tom Johnson.
