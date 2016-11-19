@@ -1,0 +1,34 @@
+title: Write the Docs Podcast
+description: Podcasts for the Write the Docs community. Mostly focused on tech comm, tech writing, UX, IA, and more.
+
+url: http://writethedocspodcast.org
+
+host: 127.0.0.1
+port: 4004
+
+exclude:
+  - .idea
+
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
