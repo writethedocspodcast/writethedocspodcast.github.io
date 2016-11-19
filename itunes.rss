@@ -41,8 +41,8 @@ layout: null
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
             <itunes:subtitle>{{ ep.summary | strip_html | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
-            <itunes:summary>{{ ep.content | expand_urls: site.url | cdata_escape }}</itunes:summary>
-            <itunes:author>{{site.podcast_title}}</itunes:author>
+            <itunes:summary>{{ ep.summary | expand_urls: site.url | cdata_escape }}</itunes:summary>
+            <itunes:author>Write the Docs community</itunes:author>
             <itunes:image href="{{site.url}}/assets/img/wtdpodcastlogo.png" />
             <itunes:explicit>no</itunes:explicit>
             <itunes:duration>{{ ep.podcast_duration }}</itunes:duration>
