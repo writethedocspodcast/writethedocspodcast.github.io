@@ -1,5 +1,5 @@
 ---
-title: "Episode 1, Write the Docs Podcast: This Week in Tech Comm"
+title: "WTD Episode 1: This Week in Tech Comm"
 keywords: technical writing
 categories: 
 - podcasts

@@ -44,7 +44,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
 
     <!-- FONT AWESOME -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
     <!-- =================================== -->
     <!-- 		 	THEME COLOR 			 -->
@@ -131,14 +131,14 @@
     <div class="container">
 
         <!-- ===== LOGO ===== -->
-         <h1 class="logo"><a href="/"><img itemprop="logo" style="max-width: 200px" src="/assets/img/sitelogo.png" alt="{{site.title}}" title="{{site.title}}" /></a></h1>
+         <h1 class="logo"><a href="/"><i class="fa fa-podcast" aria-hidden="true"></i> <img itemprop="logo" style="max-width: 200px" src="/assets/img/sitelogo.png" alt="{{site.title}}" title="{{site.title}}" /></a></h1>
 
         <!-- ===== NAVIGATION ===== -->
         <nav class="navigation">
             <!-- ===== MENU ===== -->
             <ul class="menu">
 
-                <li class="menuitem {% if page.url == "index.html" or page.url == "/" %}active{% endif %}"><a href="index.html">Home</a></li>
+                <li class="menuitem {% if page.url == "/index.html" or page.url == "/" %}active{% endif %}"><a href="/">Home</a href="index.html"></li>
                 <li class="menuitem {% if page.url == "/about.html" %}active{% endif %}"><a href="about.html">About Us</a></li>
                 <li class="menuitem {% if page.url == "/contact.html" %}active{% endif %}"><a href="contact.html">Contact</a></li>
                 <!--
