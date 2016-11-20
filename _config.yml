@@ -1,6 +1,7 @@
 title: Write the Docs Podcast
 description: Podcasts for the Write the Docs community. Mostly focused on tech comm, tech writing, UX, IA, and more.
 url: http://writethedocspodcast.org
+twitter: writethedocspod
 
 host: 127.0.0.1
 port: 4008

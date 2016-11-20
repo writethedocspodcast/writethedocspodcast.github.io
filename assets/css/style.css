@@ -1,3 +1,4 @@
+
 /*
 	Theme Name: Soundcast
 	Theme URI: http://www.reidark.com.br/themes/soundcast
@@ -1296,11 +1297,25 @@ form .form-callback.error {
 /* ========================= */
 
 .title-default {
-	margin: 50px 0;
+	margin-top: 0px;
+	margin-bottom:50px;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 22px;
-	font-size: 2.2rem;
+	font-size: 4.2rem;
+	text-align: center;
+}
+
+.secondaryTitle {
+
+	margin-top: 50px;
+	margin-bottom:50px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 22px;
+	font-size: 2.7rem;
+	text-align: center;
+
 }
 
 /* ========================= */
@@ -1393,10 +1408,12 @@ form .form-callback.error {
 
 .logo {
 	float: left;
-	padding: 25px 0;
+	padding: 40px 0;
 	margin: 0;
 	line-height: 0;
 }
+
+h1.logo {text-transform: uppercase;}
 
 /* ========================= */
 
@@ -2796,4 +2813,7 @@ form .form-callback.error {
 }
 
 }
+
+
+
 

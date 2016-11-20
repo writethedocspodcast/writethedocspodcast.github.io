@@ -20,23 +20,24 @@
     <!-- 			MORDERNIZR 			 	 -->
     <!-- =================================== -->
 
-    <script src="{{site.url}}/assets/js/modernizr.js"></script>
+    <script src="/assets/js/modernizr.js"></script>
 
     <!-- =================================== -->
     <!-- 			  STYLES 				 -->
     <!-- =================================== -->
 
     <!-- BOOTSTRAP MIN -->
-    <link href="{{site.url}}/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- MEDIA ELEMENT -->
-    <link href="{{site.url}}/assets/css/mediaelementplayer.min.css" rel="stylesheet" />
+    <link href="/assets/css/mediaelementplayer.min.css" rel="stylesheet" />
 
     <!-- MAGNIFIC POPUP CSS -->
-    <link href="{{site.url}}/assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="/assets/css/magnific-popup.css" rel="stylesheet" />
 
     <!-- THEME CSS -->
-    <link href="{{site.url}}/assets/css/style.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="/assets/css/customstyle.css" rel="stylesheet" />
 
     <!-- GOOGLE FONTS -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -70,17 +71,17 @@
     <!-- 			  AUTHOR 				 -->
     <!-- =================================== -->
 
-    <meta name="author" content="Write the Docs" />
-    <meta name="reply-to" content="writethedocspodcast@gmail.com" />
-    <meta name="DC.publisher" content="Write the Docs" />
-    <meta name="generator" content="Write the Docs" />
+    <meta name="author" content="{{site.title}}" />
+    <meta name="reply-to" content="{{site.email}}" />
+    <meta name="DC.publisher" content="{{site.title}}" />
+    <meta name="generator" content="{{site.title}}" />
 
     <!-- =================================== -->
     <!-- 			 CONTENT 				 -->
     <!-- =================================== -->
 
     <meta name="keywords" content="write the docs, podcast, technical writing, technical communication, webcast, video" />
-    <meta name="description" content="A podcast from the Write the Docs community, focused on topics in technical writing/communication." />
+    <meta name="description" content="A podcast from the Write the Docs community, focused on topics in technical writing and software documentation." />
 
     <!-- =================================== -->
     <!-- 			 ROBOTS 				 -->
@@ -105,15 +106,15 @@
     <!-- =================================== -->
     <!-- 			  TWITTER 				 -->
     <!-- =================================== -->
-    <!--
+
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:site" content="http://www.reidark.com.br/soundcast" />
-            <meta name="twitter:creator" content="@reidarking" />
-            <meta name="twitter:title" content="Soundcast" />
-            <meta name="twitter:description" content="Podcast Responsive Theme" />
-            <meta name="twitter:domain" content="reidark" />
-            <meta name="twitter:image" content="http://www.reidark.com.br/soundcast/assets/img/twitter-og.jpg" />
-    -->
+            <meta name="twitter:site" content="{{site.url}}" />
+            <meta name="twitter:creator" content="@writethedocspod" />
+            <meta name="twitter:title" content="{{site.title}}" />
+            <meta name="twitter:description" content="{{site.description}}" />
+            <meta name="twitter:domain" content="{{site.twitter}}" />
+            <meta name="twitter:image" content="{{site.podcast_album_art}}" />
+
     <!-- =================================== -->
     <!-- 			  FAVICON 				 -->
     <!-- =================================== -->
@@ -130,7 +131,7 @@
     <div class="container">
 
         <!-- ===== LOGO ===== -->
-        <h1 class="logo"><a href="/"><img itemprop="logo" src="{{site.url}}/assets/img/wtdpodcastlogo.svg" alt="Write the Docs Podcast" title="Write the Docs Podcast" /></a></h1>
+         <h1 class="logo"><a href="/"><img itemprop="logo" style="max-width: 200px" src="/assets/img/sitelogo.png" alt="{{site.title}}" title="{{site.title}}" /></a></h1>
 
         <!-- ===== NAVIGATION ===== -->
         <nav class="navigation">
@@ -138,11 +139,17 @@
             <ul class="menu">
 
                 <li class="menuitem {% if page.url == "index.html" or page.url == "/" %}active{% endif %}"><a href="index.html">Home</a></li>
+                <li class="menuitem {% if page.url == "/about.html" %}active{% endif %}"><a href="about.html">About Us</a></li>
+                <li class="menuitem {% if page.url == "/contact.html" %}active{% endif %}"><a href="contact.html">Contact</a></li>
                 <!--
-                <li class="menuitem"><a href="podcasts.html">Podcasts</a></li>
+                <li class="menuitem"><a href="podcasts.html">Podcasts</a></li> -->
                 <li class="menuitem dropdown">
-                    <a href="#">Pages</a>
+                    <a href="#">More Info</a>
                     <ul class="droplist">
+                        {% for page in site.pages %}
+                        {% if page.topnav == true %}
+                        <li class="droplist-item"><a href="{{page.url}}">{{page.title}}</a></li>
+                        <!--
                         <li class="droplist-item"><a href="columns.html">Columns</a></li>
                         <li class="droplist-item"><a href="shortcodes.html">Shortcodes</a></li>
                         <li class="droplist-item"><a href="typography.html">Typography</a></li>
@@ -150,11 +157,13 @@
                         <li class="droplist-item"><a href="sticky-header.html">Sticky Header</a></li>
                         <li class="droplist-item"><a href="static-header.html">Static Header</a></li>
                         <li class="droplist-item"><a href="404.html">404</a></li>
+                        -->
+                        {% endif %}
+                        {% endfor %}
                     </ul>
                 </li>
-                -->
-                <li class="menuitem {% if page.url == "/about.html" %}active{% endif %}"><a href="about.html">About Us</a></li>
-                <li class="menuitem {% if page.url == "/contact.html" %}active{% endif %}"><a href="contact.html">Contact</a></li>
+
+
             </ul>
             <!-- ===== HAMBURGER ICON ===== -->
             <a href="#" class="btn-hamburguer-menu"><i class="fa fa-bars"></i></a>

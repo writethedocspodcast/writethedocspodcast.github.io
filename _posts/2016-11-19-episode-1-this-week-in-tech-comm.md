@@ -1,8 +1,10 @@
 ---
 title: "Episode 1, Write the Docs Podcast: This Week in Tech Comm"
 keywords: technical writing
+layout: singlepost_video
 categories: 
 - podcasts
+- video
 # date: 2016-11-19
 tags:
 - write the docs
@@ -15,8 +17,9 @@ podcast_link: http://idratherassets.com/writethedocspodcast/wtd_episode_1.mp3
 podcast_file_size: 47.1 MB
 podcast_duration: "59:15"
 podcast_length: 47066142 
-summary: "In this first episode, we chat about content strategy, style guides, abbreviations and acronyms, developer-written UI copy, and more. The four co-hosts include Jared Morgan, Carlee Potter, Chris Ward, and Tom Johnson. Locations for the co-hosts include Sydney, Brisbane, Berlin, and California. In this first episode, we introduce the podcast, co-hosts, style, and general "
+summary: "In this first episode, we chat about content strategy, style guides, abbreviations and acronyms, developer-written UI copy, and more. The four co-hosts include Jared Morgan, Carlee Potter, Chris Ward, and Tom Johnson. Locations for the co-hosts include Sydney, Brisbane, Berlin, and California. In this first episode, we introduce the podcast, co-hosts, style, and general tone of the podcast."
 bitlink: http://bit.ly/wtdpodcast1
+thumb: episode1.png
 ---
 
 Here are some links to topics we discussed in the podcast:
