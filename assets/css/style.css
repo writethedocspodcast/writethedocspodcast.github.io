@@ -1297,7 +1297,7 @@ form .form-callback.error {
 /* ========================= */
 
 .title-default {
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-bottom:50px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -2029,7 +2029,6 @@ h1.logo {text-transform: uppercase;}
 .page-header-podcast,
 .page-error {
 	position: relative;
-	height: 450px;
 	padding: 0;
 	margin: 0;
 	background-position: center center;
@@ -2176,7 +2175,6 @@ h1.logo {text-transform: uppercase;}
 
 .podcast-player .video-frame {
 	width: 800px;
-	height: 450px;
 	display: block;
 	margin: 0 auto;
 }
