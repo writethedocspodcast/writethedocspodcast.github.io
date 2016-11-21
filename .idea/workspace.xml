@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eaac68e0-c2bf-43c7-a011-b3ea7a3c2940" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/profiles.yml" afterPath="$PROJECT_DIR$/_data/profiles.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
     </list>
     <ignored path="writethedocspodcast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+            <state relative-caret-position="328">
+              <caret line="85" column="122" selection-start-line="85" selection-start-column="122" selection-end-line="85" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -61,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profiles.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profiles.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/profiles.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="60">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -197,8 +198,8 @@
         <option value="$PROJECT_DIR$/_includes/sidebar.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/sample_audio_post.md" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_data/profiles.yml" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
       </list>
     </option>
   </component>
@@ -562,12 +563,12 @@
       <workItem from="1479573065567" duration="354000" />
       <workItem from="1479576412233" duration="18503000" />
       <workItem from="1479619453619" duration="595000" />
-      <workItem from="1479620057003" duration="23218000" />
+      <workItem from="1479620057003" duration="23374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64118000" />
+    <option name="totallyTimeSpent" value="64274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-35" y="23" width="1280" height="732" extended-state="0" />
@@ -1009,18 +1010,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/_data/profiles.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/profiles.yml">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="328">
+          <caret line="85" column="122" selection-start-line="85" selection-start-column="122" selection-end-line="85" selection-end-column="122" />
           <folding />
         </state>
       </provider>

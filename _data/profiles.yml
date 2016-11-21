@@ -2,7 +2,7 @@
 info:
 
 - name: Jared Morgan
-  slack_handle: https://writethedocs.slack.com/team/jaredmorgs
+  slack_handle: jaredmorgs
   twitter: http://twitter.com/jaredmorgs
   linkedin: https://www.linkedin.com/in/jaredmorgs
   description: Tech Writer at Ladbrokes Digital Australia. Pinball fan. Podcaster.
@@ -10,19 +10,19 @@ info:
   main_cohost: true
 
 - name: Carlee Potter
-  slack_handle: https://writethedocs.slack.com/team/carleecomm
+  slack_handle: carleecomm
   description: Head tech writer at Campaign Monitor. Drawn to writing user manuals out of a love of organising things and a hatred of poorly designed UX.
   image: carlee_potter.jpg
   main_cohost: true
 
 - name: Chris Ward
-  slack_handle: https://writethedocs.slack.com/team/chrisward
+  slack_handle: chrisward
   description: Technical writer at Contentful. Born in England, raised in Australia, living in Berlin.
   image: chris_ward.jpg
   main_cohost: true
 
 - name: Tom Johnson
-  slack_handle: https://writethedocs.slack.com/team/tomjohnson
+  slack_handle: tomjohnson
   twitter: http://twitter.com/tomjohnson
   linkedin: https://www.linkedin.com/in/tomjohnson1492
   description: Technical writer at Amazon Lab 126. Blog at http://idratherbewriting.com. Live in San Francisco Bay, California.
