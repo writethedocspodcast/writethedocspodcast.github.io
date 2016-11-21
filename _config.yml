@@ -1,5 +1,5 @@
 title: Write the Docs Podcast
-description: Podcasts for the Write the Docs community. Mostly focused on tech comm, tech writing, UX, IA, and more.
+description: Podcasts for the Write the Docs community. Topics focus on technical writing, software documentation, information architecture, user experience, and more.
 url: http://writethedocspodcast.org
 twitter: writethedocspod
 
@@ -9,6 +9,7 @@ port: 4008
 exclude:
   - .idea
 
+permalink: /:year/:month/:day/:title/
 
 highlighter: rouge
 markdown: kramdown

@@ -1,0 +1,18 @@
+info:
+
+- title: Youtube
+  url: https://www.youtube.com/channel/UCUI--N-VWjK93292AaaArCg
+  fontawesome: youtube
+
+- title: Slack
+  url: https://writethedocs.slack.com/messages/podcast
+  fontawesome: slack
+
+- title: RSS
+  url: http://writethedocspodcast.org/feed.xml
+  fontawesome: rss
+
+- title: Email
+  url: /subscribe-by-email
+  fontawesome: newspaper-o
+

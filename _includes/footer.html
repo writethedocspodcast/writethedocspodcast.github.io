@@ -7,12 +7,12 @@
 
             <div class="row mt-70 mb-30">
 
-                <!-- ===== SITEMAP ===== -->
+                <!-- ===== Related Sites ===== -->
                 <div class="col-sm-3 mb-40">
-                    <h2 class="title-separator white">Sitemap</h2>
+                    <h2 class="title-separator white">Related Sites</h2>
                     <ul class="footer-list">
-                        {% for page in site.pages %}
-                        <li><a href="{{page.url}}">{{page.title}}</a></li>
+                        {% for item in site.data.related_sites.info %}
+                        <li><a href="{{item.url}}">{{item.title}}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -36,7 +36,6 @@
                     <h2 class="title-separator white">Co-hosts</h2>
                     <ul class="footer-complement">
                         {% for profile in site.data.profiles.info %}
-                        {{host}}
                         {% if profile.main_cohost == true %}
                         <li>
                             <a href="https://writethedocs.slack.com/team/{{profile.slack_handle}}">@{{profile.slack_handle}}</a>
@@ -50,15 +49,17 @@
 
                 <!-- ===== SOCIAL CONNECTION ===== -->
                 <div class="col-sm-3 mb-40">
-                    <h2 class="title-separator white">Links</h2>
+                    <h2 class="title-separator white">Subscribe</h2>
                     <ul class="social-list">
                         <!-- <li class="social-item"><a href="#" target="_blank"><i class="fa-podcast"></i></a></li>-->
                         <li class="social-item"><a href="https://writethedocs.slack.com/messages/podcast" target="_blank"><i class="fa fa-slack"></i></a></li>
                         <li class="social-item"><a href="https://www.youtube.com/channel/UCUI--N-VWjK93292AaaArCg" target="_blank"><i class="fa fa-youtube"></i></a></li>
                         <li class="social-item"><a href="http://writethedocspodcast.com/feed.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
-                        <li class="social-item"><a href="http://itunes.com" target="_blank"><i class="fa fa-podcast"></i></a></li>
-                        <li class="social-item"><a href="http://twitter.com/writethedocspod" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        {% comment %}<li class="social-item"><a href="http://itunes.com" target="_blank"><i class="fa fa-podcast"></i></a></li>
+                        <li class="social-item"><a href="http://twitter.com/writethedocspod" target="_blank"><i class="fa fa-twitter"></i></a></li> {% endcomment %}
                     </ul>
+
+
                 </div>
 
             </div>
@@ -72,14 +73,15 @@
 
             <div class="row">
 
+                <!-- ===== CREDIT LOGO ===== -->
+                <div class="col-sm-6 footer-logo">
+                    <h2><a href="{{site.url}}"><img src="/assets/img/wtdclassiclogo.png" alt="{{site.title}}" title="{{site.title}}" /></a></h2>
+                </div>
 
                 <!-- ===== CREDIT LOGO ===== -->
-                 <div class="col-sm-6 footer-logo text-right">
-                     <h2><a href="index.html"><img style="float: right; padding-bottom: 15px; max-width: 200px;" src="{{site.url}}/assets/img/wtdclassiclogo.png" alt="{{site.title}}" title="{{site.title}}" /></a></h2>
-                     <p>2016. All rights reserved.</p>
-                 </div>
-
-
+                <div class="col-sm-6 text-left">
+                    {{site.title}} - 2016. All rights reserved.
+                </div>
 
             </div>
 

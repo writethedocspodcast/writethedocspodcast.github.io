@@ -4,7 +4,7 @@
 <main id="main" class="main">
 
     <!-- ===== PAGE HEADER ===== -->
-    <header class="page-header-podcast" style="background-image: url(assets/img/single-background.jpg)">
+    <header class="page-header-podcast">
         <div class="page-header-inner">
             <div class="container">
 
@@ -29,14 +29,15 @@
     </div>
 
     <!-- ===== PODCAST META ===== -->
-    <div class="podcast-meta-element">
-        <span class="podcast-meta-item"><i class="fa fa-calendar"></i> December 22, 2015</span>
-        <span class="podcast-meta-item"><i class="fa fa-clock-o"></i> 51 minutes</span>
-        <a class="podcast-meta-item" href="#"><i class="fa fa-tag"></i> Lifestyle</a>
-        <a class="podcast-meta-item" href="#"><i class="fa fa-download"></i> Download (MP3)</a>
-    </div>
 
+    <div class="podcast-meta-element">
+        <span class="podcast-meta-item"><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
+        <span class="podcast-meta-item"><i class="fa fa-clock-o"></i> {{page.podcast_duration}}</span>
+        <a class="podcast-meta-item" href="#"><i class="fa fa-tag"></i> {% if page.layout == "video_post"%} video {% elsif page.layout == "audio_post" %} audio {% endif %}</a>
+        <a class="podcast-meta-item" href="{{page.podcast_link}}"><i class="fa fa-download"></i> Download (MP3)</a>
+    </div>
     <!-- ===== PODCAST LINKS ===== -->
+    {% comment %}
     <div class="podcast-links">
         <div class="container">
             <ul class="podcast-links-list">
@@ -49,6 +50,7 @@
             </ul>
         </div>
     </div>
+    {% endcomment %}
 
     <!-- ===== SINGLE PAGE CONTENT ===== -->
     <div class="section-negative">

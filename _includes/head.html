@@ -94,24 +94,24 @@
     <!-- =================================== -->
     <!-- 			 FACEBOOK 				 -->
     <!-- =================================== -->
-    <!--
+
             <meta property="og:locale" content="en" />
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="Write the Docs" />
-            <meta property="og:description" content="Podcast from Write the Docs" />
+            <meta property="og:title" content="{{site.title}}" />
+            <meta property="og:description" content="{{site.title}}" />
             <meta property="og:url" content="http://www.writethedocspodcast.com" />
-            <meta property="og:site_name" content="Write the Docs" />
-            <meta property="og:image" content="http://writethedocspodcast.com/" />
-    -->
+            <meta property="og:site_name" content="{{site.title}}" />
+            <meta property="og:image" content="{{site.url}}" />
+
     <!-- =================================== -->
     <!-- 			  TWITTER 				 -->
     <!-- =================================== -->
 
-            <meta name="twitter:card" content="summary" />
-            <meta name="twitter:site" content="{{site.url}}" />
-            <meta name="twitter:creator" content="@writethedocspod" />
-            <meta name="twitter:title" content="{{site.title}}" />
-            <meta name="twitter:description" content="{{site.description}}" />
+            <meta name="twitter:card" content="{{page.title}}" />
+            <meta name="twitter:site" content="{{site.url}}{{page.url}}" />
+            <meta name="twitter:creator" content="@{{site.twitter}}" />
+            <meta name="twitter:title" content="{{page.title}}" />
+            <meta name="twitter:description" content="{{page.description}}" />
             <meta name="twitter:domain" content="{{site.twitter}}" />
             <meta name="twitter:image" content="{{site.podcast_album_art}}" />
 
@@ -138,30 +138,30 @@
             <!-- ===== MENU ===== -->
             <ul class="menu">
 
-                <li class="menuitem {% if page.url == "/index.html" or page.url == "/" %}active{% endif %}"><a href="/">Home</a href="index.html"></li>
-                <li class="menuitem {% if page.url == "/about.html" %}active{% endif %}"><a href="about.html">About Us</a></li>
-                <li class="menuitem {% if page.url == "/contact.html" %}active{% endif %}"><a href="contact.html">Contact</a></li>
-                <!--
-                <li class="menuitem"><a href="podcasts.html">Podcasts</a></li> -->
+                <li class="menuitem {% if page.url == "{{site.url}}" or page.url == "/" %}active{% endif %}"><a href="/">Home</a href="{{site.url}}"></li>
+                <li class="menuitem {% if page.url == "/about" %}active{% endif %}"><a href="/about">About Us</a></li>
+                <li class="menuitem {% if page.url == "/contact" %}active{% endif %}"><a href="/contact">Contact</a></li>
                 <li class="menuitem dropdown">
                     <a href="#">More Info</a>
                     <ul class="droplist">
                         {% for page in site.pages %}
                         {% if page.topnav == true %}
                         <li class="droplist-item"><a href="{{page.url}}">{{page.title}}</a></li>
-                        <!--
-                        <li class="droplist-item"><a href="columns.html">Columns</a></li>
-                        <li class="droplist-item"><a href="shortcodes.html">Shortcodes</a></li>
-                        <li class="droplist-item"><a href="typography.html">Typography</a></li>
-                        <li class="droplist-item"><a href="single-page.html">Single Page</a></li>
-                        <li class="droplist-item"><a href="sticky-header.html">Sticky Header</a></li>
-                        <li class="droplist-item"><a href="static-header.html">Static Header</a></li>
-                        <li class="droplist-item"><a href="404.html">404</a></li>
-                        -->
                         {% endif %}
                         {% endfor %}
                     </ul>
                 </li>
+
+                <li class="menuitem dropdown">
+                    <a href="#">Subscribe</a>
+                    <ul class="droplist">
+                {% for item in site.data.subscribe_options.info %}
+                        <li class="menuitem"><a href="{{item.url}}"><i class="fa fa-{{item.fontawesome}}" aria-hidden="true"></i>  {{item.title}}</a></li>
+                        {% endfor %}
+
+                    </ul>
+                </li>
+
 
 
             </ul>

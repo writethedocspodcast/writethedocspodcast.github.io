@@ -1,9 +1,9 @@
 ---
 title: Sample page
-permalink: samplepage.html
----
+permalink: /sample-page/
+published: false
+---         
 
-                
                 
 This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. This is a test page. 
 

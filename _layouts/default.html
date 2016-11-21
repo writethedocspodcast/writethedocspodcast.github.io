@@ -18,13 +18,13 @@
                 {% for post in site.posts %}
                 <div class="col-sm-12 mb-40">
                     <div class="podcast-card full">
-                        <figure class="podcast-image"><a href="{{post.url}}"><img src="/assets/img/episodethumbs/{{post.thumb}}" alt="{{post.title}}" title="{{post.title}}" /></a></figure>
+                        <figure class="podcast-image"><a href="{{post.url}}"><img src="/assets/img/episodethumbs/{% if post.thumb %}{{post.thumb}}{% else %}fillerthumb.png{% endif %}" alt="{{post.title}}" title="{{post.title}}" /></a></figure>
                         <div class="podcast-content">
                             <span class="podcast-date">{{ post.date | date: "%b %-d, %Y" }}</span>
                             <h2 class="podcast-title"><a href="{{post.url}}">{{post.title}}</a></h2>
                             <p class="podcast-excerpt"><a href="{{post.url}}">{{ post.summary | strip_html }}</a></p>
                             <ul class="podcast-meta">
-                                <!-- <li class="item"><a href="#" class="podcast-tag" rel="tag">{{post.tags}}</a></li> -->
+                                <li class="item"> {% if post.layout == "video_post" %}video {% elsif post.layout == "audio_post" %} audio{% endif %}</li>
                                 <li class="item"><i class="fa fa-clock-o"></i> {{post.podcast_duration}}</li>
                                 <li class="item"><a class="podcast-play" href="{{post.url}}"><i class="fa fa-play"></i> View Episode</a></li>
                             </ul>
@@ -34,96 +34,6 @@
 
                 {% endfor %}
                 {% endif %}
-
-                <!-- ===== PODCAST CARD BOXED ===== -->
-
-                <!--
-                <div class="col-sm-6 mb-40">
-                    <div class="podcast-card boxed">
-                        <figure class="podcast-image"><a href="podcast-video.html"><img src="{{site.url}}/assets/img/cards/podcast-boxed-thumb.jpg" alt="Biking" title="Biking" /></a></figure>
-                        <div class="podcast-content">
-                            <span class="podcast-date">December 19, 2015</span>
-                            <h2 class="podcast-title"><a href="podcast-video.html">Episode #06 - You can also post a video</a></h2>
-                            <p class="podcast-excerpt"><a href="podcast-video.html">This is a boxed podcast layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a></p>
-                            <ul class="podcast-meta">
-                                <li class="item"><a href="#" class="podcast-tag" rel="tag">Lifehacks</a></li>
-                                <li class="item"><i class="fa fa-clock-o"></i> 51 mins.</li>
-                                <li class="item"><a href="podcast-video.html" class="podcast-play"><i class="fa fa-play"></i> Play Episode</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                -->
-
-                <!-- ===== PODCAST CARD BOXED ===== -->
-
-                <!--
-                <div class="col-sm-6 mb-40">
-                    <div class="podcast-card boxed">
-                        <figure class="podcast-image"><a href="podcast.html"><img src="{{site.url}}/assets/img/cards/podcast-boxed-thumb2.jpg" alt="Photography" title="Photography" /></a></figure>
-                        <div class="podcast-content">
-                            <span class="podcast-date">December 12, 2015</span>
-                            <h2 class="podcast-title"><a href="podcast.html">Episode #05 - What I learned from photography</a></h2>
-                            <p class="podcast-excerpt"><a href="podcast.html">This is a boxed podcast layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a></p>
-                            <ul class="podcast-meta">
-                                <li class="item"><a href="#" class="podcast-tag" rel="tag">Lifehacks</a></li>
-                                <li class="item"><i class="fa fa-clock-o"></i> 29 mins.</li>
-                                <li class="item"><a href="podcast.html" class="podcast-play"><i class="fa fa-play"></i> Play Episode</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                -->
-
-                <!-- ===== PODCAST CARD BOXED ===== -->
-
-                <!--
-                <div class="col-sm-6 mb-40">
-                    <div class="podcast-card boxed">
-                        <figure class="podcast-image"><a href="podcast.html"><img src="{{site.url}}/assets/img/cards/podcast-boxed-thumb3.jpg" alt="Soccer" title="Soccer" /></a></figure>
-                        <div class="podcast-content">
-                            <span class="podcast-date">December 9, 2015</span>
-                            <h2 class="podcast-title"><a href="podcast.html">Episode #04 - How we decide to play soccer</a></h2>
-                            <p class="podcast-excerpt"><a href="podcast.html">This is a boxed podcast layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a></p>
-                            <ul class="podcast-meta">
-                                <li class="item"><a href="#" class="podcast-tag" rel="tag">Sports</a></li>
-                                <li class="item"><i class="fa fa-clock-o"></i> 40 mins.</li>
-                                <li class="item"><a href="podcast.html" class="podcast-play"><i class="fa fa-play"></i> Play Episode</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                -->
-
-                <!-- ===== PODCAST CARD BOXED ===== -->
-
-                <!--
-                <div class="col-sm-6 mb-40">
-                    <div class="podcast-card boxed">
-                        <figure class="podcast-image"><a href="podcast.html"><img src="{{site.url}}/assets/img/cards/podcast-boxed-thumb4.jpg" alt="Music Show" title="Music Show" /></a></figure>
-                        <div class="podcast-content">
-                            <span class="podcast-date">November 27, 2015</span>
-                            <h2 class="podcast-title"><a href="podcast.html">Episode #03 - The best show of our lifes</a></h2>
-                            <p class="podcast-excerpt"><a href="podcast.html">This is a boxed podcast layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit...</a></p>
-                            <ul class="podcast-meta">
-                                <li class="item"><a href="#" class="podcast-tag" rel="tag">Lifestyle</a></li>
-                                <li class="item"><i class="fa fa-clock-o"></i> 18 mins.</li>
-                                <li class="item"><a href="podcast.html" class="podcast-play"><i class="fa fa-play"></i> Play Episode</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                -->
-                <!-- ===== CHECK MORE ===== -->
-                <!--
-                <div class="col-sm-12 mb-50">
-                    <a href="podcasts.html" class="btn btn-primary btn-block btn-lg">View more episodes</a>
-                </div>
-
-                -->
 
             </div>
 
@@ -170,7 +80,7 @@
 
                 <div class="col-lg-4 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-12 mb-40">
                     <div class="team-card">
-                        <figure class="team-card-image"><img src="assets/img/team/{{profile.image}}" alt="{{profile.name}}" title="{{profile.name}}" /></figure>
+                        <figure class="team-card-image"><img src="/assets/img/team/{{profile.image}}" alt="{{profile.name}}" title="{{profile.name}}" /></figure>
                         <div class="team-card-content">
                             <h2 class="team-card-title">{{profile.name}}</h2>
                             <p class="team-card-job">@{{profile.slack_handle}}</p>

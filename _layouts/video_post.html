@@ -30,7 +30,7 @@
     <div class="podcast-player">
         <div class="podcast-player-inner">
             <div class="episodeContainer">
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/o1_TXiltVfA" frameborder="0" allowfullscreen></iframe>
+                <iframe width="853" height="480" src="{{page.youtube_url}}" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -39,7 +39,7 @@
     <div class="podcast-meta-element">
         <span class="podcast-meta-item"><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</span>
         <span class="podcast-meta-item"><i class="fa fa-clock-o"></i> {{page.podcast_duration}}</span>
-        <a class="podcast-meta-item" href="#"><i class="fa fa-tag"></i> {% if page.layout == "singlepost_video"%} video {% elsif page.layout == "singlepost_audio" %} audio {% endif %}</a>
+        <a class="podcast-meta-item" href="#"><i class="fa fa-tag"></i> {% if page.layout == "video_post"%} video {% elsif page.layout == "audio_post" %} audio {% endif %}</a>
         <a class="podcast-meta-item" href="{{page.podcast_link}}"><i class="fa fa-download"></i> Download (MP3)</a>
     </div>
 
