@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaac68e0-c2bf-43c7-a011-b3ea7a3c2940" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_data/subscribe_options.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/contact.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/favorite-podcasts.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/how-to-subscribe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/instructions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/subscribe-by-email.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-11-13-episode-0-the-brain-storm.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_unused_theme_files/podcast-soundcloud.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_unused_theme_files/podcast.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_unused_theme_files/podcasts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_unused_theme_files/shortcodes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_unused_theme_files/single-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_unused_theme_files/static-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_unused_theme_files/sticky-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/avatar/avatar-f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/avatar/avatar-m.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/cards/podcast-boxed-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/cards/podcast-boxed-thumb2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/cards/podcast-boxed-thumb3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/cards/podcast-boxed-thumb4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/cards/podcast-full-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/facebook-og.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/podcast-hero.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/single-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/twitter-og.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/wtdlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/wtdpodcastlogo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/podcast-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/update.sh" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/none.html" afterPath="$PROJECT_DIR$/_data/related_sites.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/singlepost_audio.html" afterPath="$PROJECT_DIR$/_layouts/audio_post.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/singlepost_video.html" afterPath="$PROJECT_DIR$/_layouts/video_post.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-11-15-random-audio-episode.md" afterPath="$PROJECT_DIR$/_posts/sample_audio_post.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/pages/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/samplepage.md" afterPath="$PROJECT_DIR$/pages/samplepage.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/writethedocspodcast.iml" afterPath="$PROJECT_DIR$/.idea/writethedocspodcast.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar.html" afterPath="$PROJECT_DIR$/_includes/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-19-episode-1-this-week-in-tech-comm.md" afterPath="$PROJECT_DIR$/_posts/2016-11-19-episode-1-this-week-in-tech-comm.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_profiles/carlee_potter.html" afterPath="$PROJECT_DIR$/_profiles/carlee_potter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_profiles/chris_ward.html" afterPath="$PROJECT_DIR$/_profiles/chris_ward.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_profiles/jared_morgan.html" afterPath="$PROJECT_DIR$/_profiles/jared_morgan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_profiles/tom_johnson.html" afterPath="$PROJECT_DIR$/_profiles/tom_johnson.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/customstyle.css" afterPath="$PROJECT_DIR$/assets/css/customstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/profiles.yml" afterPath="$PROJECT_DIR$/_data/profiles.yml" />
     </list>
     <ignored path="writethedocspodcast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,6 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="customstyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/customstyle.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,19 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="142" column="96" selection-start-line="142" selection-start-column="96" selection-end-line="142" selection-end-column="96" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sample_audio_post.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sample_audio_post.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/sample_audio_post.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -116,6 +58,16 @@
           </provider>
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profiles.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_data/profiles.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -188,16 +140,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subscribe-by-email.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/subscribe-by-email.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="169" selection-start-line="7" selection-start-column="169" selection-end-line="7" selection-end-column="169" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -208,7 +150,6 @@
       <list>
         <option value="$PROJECT_DIR$/_includes/header2.html" />
         <option value="$PROJECT_DIR$/feed.xml" />
-        <option value="$PROJECT_DIR$/_data/profiles.yml" />
         <option value="$PROJECT_DIR$/_layouts/about.html" />
         <option value="$PROJECT_DIR$/_posts/2016-11-17-episode-1-this-week-in-tech-comm.md" />
         <option value="$PROJECT_DIR$/_posts/2016-11-15-episode-0-the-brain-storm.md" />
@@ -235,7 +176,6 @@
         <option value="$PROJECT_DIR$/_posts/2016-11-13-episode-0-the-brain-storm.md" />
         <option value="$PROJECT_DIR$/_posts/2016-11-15-random-audio-episode.md" />
         <option value="$PROJECT_DIR$/_layouts/video_post.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_profiles/carlee_potter.html" />
         <option value="$PROJECT_DIR$/pages/favorite-podcasts.md" />
         <option value="$PROJECT_DIR$/pages/how-to-subscribe.md" />
@@ -257,6 +197,8 @@
         <option value="$PROJECT_DIR$/_includes/sidebar.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/sample_audio_post.md" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_data/profiles.yml" />
       </list>
     </option>
   </component>
@@ -620,12 +562,12 @@
       <workItem from="1479573065567" duration="354000" />
       <workItem from="1479576412233" duration="18503000" />
       <workItem from="1479619453619" duration="595000" />
-      <workItem from="1479620057003" duration="22927000" />
+      <workItem from="1479620057003" duration="23218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63827000" />
+    <option name="totallyTimeSpent" value="64118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-35" y="23" width="1280" height="732" extended-state="0" />
@@ -910,22 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="103" column="24" selection-start-line="103" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/profiles.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/newsletter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1081,6 +1007,22 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/profiles.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
