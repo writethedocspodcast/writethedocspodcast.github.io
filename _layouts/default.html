@@ -100,8 +100,9 @@
         </div>
     </section>
     {% endif %}
-
+{% unless page.newsletter == false %}
     {% include newsletter.html %}
+    {% endunless %}
 
 
     </div>
