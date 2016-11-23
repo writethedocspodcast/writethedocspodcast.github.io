@@ -13,7 +13,7 @@ tags:
 - UX text
 - content strategy
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: http://dts.podtrac.com/redirect.mp3/idratherassets.com/writethedocspodcast/wtd_episode_1.mp3
+podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_1.mp3
 podcast_file_size: 47.1 MB
 podcast_duration: "59:15"
 podcast_length: 47066142 
