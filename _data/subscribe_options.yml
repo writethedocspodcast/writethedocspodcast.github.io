@@ -13,7 +13,7 @@ info:
   fontawesome: slack
 
 - title: RSS
-  url: http://writethedocspodcast.org/feed.xml
+  url: http://podcast.writethedocs.org/feed.xml
   fontawesome: rss
 
 - title: Email

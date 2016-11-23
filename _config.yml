@@ -1,6 +1,6 @@
 title: Write the Docs Podcast
 description: Podcasts for the Write the Docs community. Topics focus on technical writing, software documentation, information architecture, user experience, and more.
-url: http://writethedocspodcast.org
+url: http://podcast.writethedocs.org
 twitter: writethedocspod
 
 host: 127.0.0.1
@@ -39,8 +39,8 @@ gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
 ## Values for podcast RSS feed
 
 podcast_subtitle: A discussion podcast based on WTD topics and issues, focused on technical writing and documentation for software products.
-podcast_url: http://writethedocspodcast.org
-podcast_album_art: http://writethedocspodcast.org/assets/img/wtdpodcastlogo.png
+podcast_url: http://podcast.writethedocs.org
+podcast_album_art: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_title: Write the Docs Podcast
 podcast_owner: Write the Docs Community
 podcast_email: writethedocspodcast@gmail.com
