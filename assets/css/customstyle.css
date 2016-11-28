@@ -62,3 +62,15 @@ div.page-content li {
 .sidebar-widget input#email-newsletter {
     color: black;
 }
+
+.favpodcasts img {
+    float: left;
+    padding: 20px;
+    max-width: 200px;
+}
+
+img.podcastSubscribe {
+    max-width: 200px;
+    padding: 0px 10px 10px 0px;
+    float: left;
+}
