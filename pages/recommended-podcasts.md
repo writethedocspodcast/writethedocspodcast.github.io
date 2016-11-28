@@ -14,5 +14,7 @@ Here are some other recommended podcasts:
 {% endfor %}
 </div>
 
+<div style="clear: both;"></div>
+
 If you have a podcast you'd like to recommend, [let us know](/contact) and we'll add it here.
 
