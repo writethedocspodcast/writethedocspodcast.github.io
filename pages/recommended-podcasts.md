@@ -1,5 +1,5 @@
 ---
-title: Recommended Podcasts
+title: Other Podcasts
 topnav: true
 permalink: /recommended-podcasts/
 ---
