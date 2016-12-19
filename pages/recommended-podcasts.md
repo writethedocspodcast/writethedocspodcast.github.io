@@ -1,7 +1,7 @@
 ---
 title: Other Podcasts
 topnav: true
-permalink: /recommended-podcasts/
+permalink: /other-podcasts/
 ---
 
 Here are some other recommended podcasts:
@@ -16,5 +16,4 @@ Here are some other recommended podcasts:
 
 <div style="clear: both;"></div>
 
-If you have a podcast you'd like to recommend, [let us know](/contact) and we'll add it here.
-
+If you have a podcast you'd like to recommend, [let us know](/contact/) and we'll add it here.

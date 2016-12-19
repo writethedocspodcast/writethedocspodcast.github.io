@@ -29,3 +29,18 @@ podcasts:
   author: Tom Johnson
   url: http://idratherbewriting.com/category-podcasts/
   img: tomjohnsonpodcast.jpg
+
+- title: Reply All
+  author: Gimlet Media
+  url: https://gimletmedia.com/reply-all/
+  img: replyall.jpg
+
+- title: The Accidental Tech Podcast
+  author: atp.fm
+  url: http://atp.fm/
+  img: accidentaltechpodcast.jpg
+
+- title: Boagworld
+  author: Paul Boag
+  url: https://boagworld.com/show/
+  img: boagworld.jpg
