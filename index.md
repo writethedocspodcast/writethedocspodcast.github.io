@@ -4,7 +4,7 @@ type: homepage
 layout: default
 ---
 
-Write the Docs is a community of people focused on software documentation. We consider everyone who cares about communication, documentation, and their users to be a member of our community. This can be programmers, tech writers, customer support, marketers, and anyone else who wants people to have great experiences with software.
+[Write the Docs](http://www.writethedocs.org/) is a community of people focused on software documentation. We consider everyone who cares about communication, documentation, and their users to be a member of our community. This can be programmers, tech writers, customer support, marketers, and anyone else who wants people to have great experiences with software.
 
 Members in the Write the Docs community interact through regular conferences, meetups, and Slack channels. Some great discussions and ideas develop in these spaces. This podcast is a way of bringing some of those ideas together, sharing news and other WTD information, and also furthering the discussion in the audio space.
 
