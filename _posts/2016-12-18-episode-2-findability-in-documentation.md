@@ -18,7 +18,7 @@ podcast_file_size: 45.5 MB
 podcast_duration: "55:21"
 podcast_length: 45500667
 youtube_url: https://www.youtube.com/embed/Z8puPiBVa0w
-summary: "In episode 2 of the Write the Docs podcast, we explore how to help users find what they're looking for in your documentation. We talks about various tools for findability: search, tags, faceted filters,  sidebar navigation, inline links, related links, terms/glossaries, and breadcrumbs."
+summary: "In episode 2 of the Write the Docs podcast, we explore how to help users find what they're looking for in your documentation. We talk about various tools for findability: search, tags, faceted filters, sidebar navigation, inline links, related links, terms/glossaries, and breadcrumbs."
 bitlink: http://bit.ly/wtdpodcastepisode2
 thumb: episode2.png
 ---
@@ -37,4 +37,4 @@ Here are some links to topics mentioned in the podcast:
 
 If you would like to recommend a topic or article for discussion for the next podcast, [let us know](/contact). The planned topic for the next podcast is trends.
 
-<small>The podcast image is from <a href="https://www.vecteezy.com/vector-art/94333-marketing-research-illustration">Vecteezy</a>.</small>
+<small>Image credit: <a href="https://www.vecteezy.com/vector-art/94333-marketing-research-illustration">Vecteezy</a>.</small>
