@@ -141,7 +141,7 @@
                 <li class="menuitem {% if page.url == "/index.html" or page.url == "/" %}active{% endif %}"><a href="/">Home</a href="{{site.url}}"></li>
                 <li class="menuitem {% if page.url == "/about/" %}active{% endif %}"><a href="/about">About Us</a></li>
                 <li class="menuitem {% if page.url == "/contact/" %}active{% endif %}"><a href="/contact">Contact</a></li>
-                <li class="menuitem dropdown {% if page.url == "/how-to-subscribe/" or "/other-podcasts/" %} active{% endif %}">
+                <li class="menuitem dropdown {% if page.url == "/how-to-subscribe/" or page.url == "/other-podcasts/" %}active{% endif %}">
                     <a href="#">More Info</a>
                     <ul class="droplist">
                         {% for page in site.pages %}
