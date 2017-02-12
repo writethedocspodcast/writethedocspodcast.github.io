@@ -4,7 +4,7 @@ keywords: technical writing
 layout: audio_post
 categories: 
 - podcasts
-date: 2016-11-13
+event_date: 2016-11-13
 tags:
 - write the docs
 - technical writing

@@ -1,18 +1,17 @@
 ---
-title: Other Podcasts
-topnav: true
-permalink: /other-podcasts/
+title: Recommended Podcasts
+permalink: /recommended-podcasts/
 ---
 
 Here are some other recommended podcasts:
 
-<div class="favpodcasts">
+
 {% for item in site.data.recommended_podcasts.podcasts %}
 
-<a href="{{item.url}}"><img src="/assets/img/podcastthumbs/{{item.img}}" alt="{{item.title}}"/></a>
+<a href="{{item.url}}"><img class="recommendedPodcasts" src="/assets/img/podcastthumbs/{{item.img}}" alt="{{item.title}}"/></a>
 
 {% endfor %}
-</div>
+
 
 <div style="clear: both;"></div>
 

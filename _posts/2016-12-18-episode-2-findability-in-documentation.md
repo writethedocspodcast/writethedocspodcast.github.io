@@ -1,11 +1,9 @@
 ---
-title: "WTD Episode 2: Findability -- Helping users find what they're looking for in documentation"
+title: "WTD Episode 2: Findability -- helping users find what they're looking for"
 keywords: technical writing
-layout: video_post
-categories:
+categories: 
 - podcasts
-- video
-date: 2016-12-18
+event_date: 2016-12-18
 tags:
 - write the docs
 - technical writing
@@ -17,10 +15,8 @@ podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_ep
 podcast_file_size: 45.5 MB
 podcast_duration: "55:21"
 podcast_length: 45500667
-youtube_url: https://www.youtube.com/embed/Z8puPiBVa0w
+youtube_id: Z8puPiBVa0w
 summary: "In episode 2 of the Write the Docs podcast, we explore how to help users find what they're looking for in your documentation. We talk about various tools for findability: search, tags, faceted filters, sidebar navigation, inline links, related links, terms/glossaries, and breadcrumbs."
-bitlink: http://bit.ly/wtdpodcastepisode2
-thumb: episode2.png
 ---
 
 Here are some links to topics mentioned in the podcast:
@@ -36,5 +32,3 @@ Here are some links to topics mentioned in the podcast:
 * [Findability is a content problem, not a search problem, by Mark Baker](http://everypageispageone.com/2013/05/28/findability-is-a-content-problem-not-a-search-problem/)
 
 If you would like to recommend a topic or article for discussion for the next podcast, [let us know](/contact). The planned topic for the next podcast is trends.
-
-<small>Image credit: <a href="https://www.vecteezy.com/vector-art/94333-marketing-research-illustration">Vecteezy</a>.</small>
