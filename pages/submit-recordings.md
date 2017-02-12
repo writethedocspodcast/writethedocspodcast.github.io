@@ -12,6 +12,3 @@ Any meetup can submit a recording or other audio file. Just submit a pull reques
 4.  Customize the tags with your own values.
 5.  Submit the pull request.
 6.  To upload your audio files, you can FTP them into the writethedocspodcast directory. Contact us on the [WTD Slack channel](https://writethedocs.slack.com/messages/podcast) for the FTP info. Alternatively, contact us [another way](/contact/).
-
-
-You can also reach out to us on the .

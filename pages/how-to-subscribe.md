@@ -27,4 +27,4 @@ The podcast episodes are also on the WTD Podcast YouTube channel (though the mee
 
 ## RSS feed
 
-You can also [follow the RSS feed](http://podcast.writethedocs.org/itunes.xml).
+You can also [follow the RSS feed](http://podcast.writethedocs.org/itunes.rss).
