@@ -10,7 +10,14 @@
 <meta content="Write the Docs Podcast" name="author" />
 <meta content="Portland, Oregon" name="geo.placename" />
 
+      {% if page.type == "homepage" %}
+      <title>{{ page.title }} | {{ site.description | escape }}</title>
+
+      {% else %}
+
     <title>{{ page.title }} | {{ site.title }}</title>
+
+      {% endif %}
     
     <link rel="stylesheet" href="http://www.writethedocs.org/_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="http://www.writethedocs.org/_static/pygments.css" type="text/css" />
