@@ -41,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="podcast.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="podcast.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/podcast.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -123,12 +123,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submit-recordings.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="submit-recordings.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/submit-recordings.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <first_editor relative-caret-position="225">
+                <caret line="13" column="188" lean-forward="false" selection-start-line="13" selection-start-column="188" selection-end-line="13" selection-end-column="188" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -221,12 +221,12 @@
         <option value="$PROJECT_DIR$/_posts/2016-10-27-github-for-docs-rhonda-glennon.md" />
         <option value="$PROJECT_DIR$/_posts/2016-11-19-episode-1-this-week-in-tech-comm.md" />
         <option value="$PROJECT_DIR$/_posts/2016-12-18-episode-2-findability-in-documentation.md" />
-        <option value="$PROJECT_DIR$/pages/submit-recordings.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/pages/how-to-subscribe.md" />
         <option value="$PROJECT_DIR$/_data/sidebar_links.yml" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_layouts/podcast.html" />
+        <option value="$PROJECT_DIR$/pages/submit-recordings.md" />
       </list>
     </option>
   </component>
@@ -799,17 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/submit-recordings.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-01-25-episode-3-trends.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -872,6 +861,17 @@
         <state relative-caret-position="120">
           <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/submit-recordings.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="225">
+            <caret line="13" column="188" lean-forward="false" selection-start-line="13" selection-start-column="188" selection-end-line="13" selection-end-column="188" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
