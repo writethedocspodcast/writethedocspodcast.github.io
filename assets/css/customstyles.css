@@ -65,3 +65,7 @@ li.social-item {
 i.fa {
     text-decoration: none;
 }
+
+ul.team-card-social {
+    margin: 0px;
+}
