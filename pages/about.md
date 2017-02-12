@@ -10,3 +10,4 @@ Members in the Write the Docs community interact through regular conferences, me
 Although the core team for Write the Docs is a small group of individuals, the format and platform is open to anyone who wants to join. The sessions are recorded on Youtube live, where you can join in, ask questions, and otherwise contribute. If you’d like to suggest a topic, participate as a co-host, or contribute your own audio, let us know.
 
 The podcast is just getting started, but we hope to continue it with regular cadence, releasing a new show every couple of weeks and following a discussion-style format.
+
