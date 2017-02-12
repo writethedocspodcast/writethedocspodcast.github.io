@@ -13,7 +13,7 @@ tags:
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/twine-for-interactive-docs-al.mp3
 podcast_file_size: 4.1
-podcast_duration: "04:40"
+podcast_duration: "4:40"
 podcast_length: 4113153
 youtube_id: ibk8uQsq0yM
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."

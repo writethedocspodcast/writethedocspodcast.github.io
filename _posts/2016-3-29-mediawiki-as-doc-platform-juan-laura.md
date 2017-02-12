@@ -13,7 +13,7 @@ tags:
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/mediawiki-as-doc-platform-juan-lara.mp3
 podcast_file_size: 3.3
-podcast_duration: "03:38"
+podcast_duration: "3:38"
 podcast_length: 3248701
 youtube_id: 5nk4fHY74_Y
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."

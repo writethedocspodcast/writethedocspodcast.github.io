@@ -13,7 +13,7 @@ tags:
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/tribe-called-tech-writers-mary-swift.mp3
 podcast_file_size: 3.9
-podcast_duration: "04:22"
+podcast_duration: "4:22"
 podcast_length: 3878191
 youtube_id: E1Mz57aMDzc
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."

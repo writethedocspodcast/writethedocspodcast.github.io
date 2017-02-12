@@ -13,7 +13,7 @@ tags:
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/storycraft-in-docs-elisa-sawyer.mp3
 podcast_file_size: 8.0
-podcast_duration: "09:03"
+podcast_duration: "9:03"
 podcast_length: 8012554
 youtube_id: mAzR0GVP-Ag
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."

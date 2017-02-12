@@ -14,7 +14,7 @@ tags:
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/github-workshop-rhonda-glennon.mp3
 podcast_file_size: 27.3
-podcast_duration: "01:28:11"
+podcast_duration: "1:28:11"
 podcast_length: 110681568
 youtube_id: 812E14gFgb4
 summary: "GitHub enables people to collaborate on projects, and many organizations use it for managing both software code and documentation. At this Write the Docs, you will get started with GitHub by applying its tools to building a documentation website."

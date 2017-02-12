@@ -13,7 +13,7 @@ tags:
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/writing-effective-app-copy-sarah-day.mp3
 podcast_file_size: 7.1
-podcast_duration: "07:54"
+podcast_duration: "7:54"
 podcast_length: 7130947
 youtube_id: HIOcmTnx9sY
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."

@@ -13,7 +13,7 @@ tags:
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/localization-readiness-william-clemens.mp3
 podcast_file_size: 4.2
-podcast_duration: "04:53"
+podcast_duration: "4:53"
 podcast_length: 4225272
 youtube_id: 2vHy5ruBqRk
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."

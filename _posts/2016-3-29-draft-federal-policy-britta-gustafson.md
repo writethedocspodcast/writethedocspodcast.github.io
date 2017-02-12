@@ -14,7 +14,7 @@ tags:
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/draft-federal-policy-britta-gustafson.mp3
 podcast_file_size: 4.1
-podcast_duration: "04:36"
+podcast_duration: "4:36"
 podcast_length: 4059044
 youtube_id: hAkQ2b5XOmo
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
