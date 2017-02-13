@@ -40,12 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itunes.rss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="itunes.rss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itunes.rss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="294">
+              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-11-17-modern-tech-writing-etter-wtdsf.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-11-17-modern-tech-writing-etter-wtdsf.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="360">
+                <caret line="22" column="180" lean-forward="false" selection-start-line="22" selection-start-column="180" selection-end-line="22" selection-end-column="180" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -64,19 +77,6 @@
         <entry file="file://$PROJECT_DIR$/assets/img/homeicon.png">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="podcast-hosts.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/podcast-hosts.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="15">
-                <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
           </provider>
         </entry>
       </file>
@@ -193,7 +193,6 @@
         <option value="$PROJECT_DIR$/_includes/mailchimp.html" />
         <option value="$PROJECT_DIR$/pages/subscribe-by-email.html" />
         <option value="$PROJECT_DIR$/_includes/tinyletter.html" />
-        <option value="$PROJECT_DIR$/_posts/2016-11-17-modern-tech-writing-etter-wtdsf.md" />
         <option value="$PROJECT_DIR$/_posts/2016-3-29-storycraft-in-docs-elisa-sawyer.md" />
         <option value="$PROJECT_DIR$/_posts/2016-3-29-tribe-called-tech-writers-mary-swift.md" />
         <option value="$PROJECT_DIR$/_posts/2016-05-18-move-fast-doc-things-ruthie-bendor.md" />
@@ -221,6 +220,7 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_data/subscribe_options.yml" />
         <option value="$PROJECT_DIR$/itunes.rss" />
+        <option value="$PROJECT_DIR$/_posts/2016-11-17-modern-tech-writing-etter-wtdsf.md" />
       </list>
     </option>
   </component>
@@ -286,35 +286,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writethedocspodcast-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writethedocspodcast-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writethedocspodcast-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writethedocspodcast-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_data" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,17 +504,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-05-18-move-fast-doc-things-ruthie-bendor.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-11-17-modern-tech-writing-etter-wtdsf.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="15">
@@ -831,9 +792,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/itunes.rss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="294">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-11-17-modern-tech-writing-etter-wtdsf.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="360">
+            <caret line="22" column="180" lean-forward="false" selection-start-line="22" selection-start-column="180" selection-end-line="22" selection-end-column="180" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
