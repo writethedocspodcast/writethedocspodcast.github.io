@@ -40,6 +40,7 @@ layout: null
             </description>
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
+            <enclosure url="{{ ep.dropbox }}" length="{{ ep.podcast_length}}" type=”video/mpeg”/>
             <itunes:subtitle>{{ ep.summary | strip_html | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
             <itunes:summary>{{ ep.summary | expand_urls: site.url | cdata_escape }}</itunes:summary>
             <itunes:author>Write the Docs community</itunes:author>
