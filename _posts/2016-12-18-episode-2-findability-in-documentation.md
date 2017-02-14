@@ -17,6 +17,7 @@ podcast_duration: "55:21"
 podcast_length: 45500667
 youtube_id: Z8puPiBVa0w
 summary: "In episode 2 of the Write the Docs podcast, we explore how to help users find what they're looking for in your documentation. We talk about various tools for findability: search, tags, faceted filters, sidebar navigation, inline links, related links, terms/glossaries, and breadcrumbs."
+dropbox: https://www.dropbox.com/s/k3ig3qv78hrztnt/wtdpodcast_episode_2_findability.mp4?dl=0
 ---
 
 Here are some links to topics mentioned in the podcast:

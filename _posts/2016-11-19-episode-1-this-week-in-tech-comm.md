@@ -17,6 +17,7 @@ podcast_duration: "59:15"
 podcast_length: 47066142 
 youtube_id: o1_TXiltVfA
 summary: "In this first episode, we introduce the co-hosts, the podcast theme, and chat about a few articles. The four co-hosts include Jared Morgan, Carlee Potter, Chris Ward, and Tom Johnson. We're located in Sydney, Brisbane, Berlin, and California. In this episode, we chat about content strategy, style guides, abbreviations and acronyms, developer-written UI copy, and more."
+dropbox: https://www.dropbox.com/s/s1wxdarllmnb6rp/wtdpodcast_episode_1_technews.mp4?dl=0
 ---
 
 In this first episode, we introduce the co-hosts, the podcast theme, and chat about a few articles. The four co-hosts include Jared Morgan, Carlee Potter, Chris Ward, and Tom Johnson. We're located in Sydney, Brisbane, Berlin, and California. In this episode, we chat about content strategy, style guides, abbreviations and acronyms, developer-written UI copy, and more.

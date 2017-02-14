@@ -18,6 +18,7 @@ podcast_length: 4120574
 youtube_id: fvvKz1h6XqE
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: https://www.slideshare.net/secret/FgLPf6VdoJnJjF
+dropbox: https://www.dropbox.com/s/c15rg14abve2smt/contributing_through_github_rhonda_glennon_lightning.mp4?dl=0
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016
