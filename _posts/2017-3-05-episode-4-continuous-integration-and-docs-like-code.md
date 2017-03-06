@@ -18,7 +18,8 @@ podcast_duration: "58:10"
 podcast_length: 46380443
 youtube_id: xT0WPZI62C4
 summary: "In this episode, we talk about continuous integration strategies for docs (for style, screenshots, and REST calls). We also dive into discussions around docs as code, including how encourage developer collaboration, how to stay informed about code updates developers make, and more."
-bitlink: http://bit.ly/wtdpodcastepisode3
+bitlink: http://bit.ly/wtdpodcastepisode4
+dropbox: https://www.dropbox.com/s/xmrfnc9yyfj6d1r/wtdpodcast_episode_4_continous_integration_and_docs-like-code.mp4?dl=0
 ---
 
 In this episode, we talk about continuous integration strategies for docs (for style, screenshots, and REST calls). We also dive into discussions around docs as code, including how encourage developer collaboration, how to stay informed about code updates developers make, and more.
