@@ -19,7 +19,7 @@ podcast_length: 18510066
 youtube_id: 1MtcHfK2M_I
 summary: "User assistance (documentation) is basically self-service customer support. Both documentation and customer support are critical to the success of any company, and they work better when they assist and improve each other. How can you tap the knowledge of support agents to improve the documentation, and how can you make the lives of support agents easier in return?"
 slides: https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386
-mp4_url: https://www.dropbox.com/s/3kxlcpwzu3q2jpm/docs_and_support_neal_kaplan.mp4
+mp4_url: http://writethedocspodcast.org/video/docs_and_support_neal_kaplan.mp4
 mp4_length: 118466746
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---

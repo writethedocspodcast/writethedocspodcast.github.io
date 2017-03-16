@@ -18,7 +18,7 @@ podcast_duration: "1:11:39"
 podcast_length: 50242923
 youtube_id: hbl2pgWJquE
 summary: "Recently, Andrew Etter published Modern Technical Writing: An Introduction to Software Documentation. The book presents an argument for writing in lightweight markup, storing it in distributed version control, and using static site generators. This talk features a short summary of an already short book, lessons learned during the Kindle publishing process, and the additions and changes Andrew would make to a hypothetical second edition."
-mp4_url: https://www.dropbox.com/s/yvd7h3oxl60fa0j/modern_technical_writing_andrew_etter.mp4
+mp4_url: http://writethedocspodcast.org/video/modern_technical_writing_andrew_etter.mp4
 mp4_length: 145558100
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---

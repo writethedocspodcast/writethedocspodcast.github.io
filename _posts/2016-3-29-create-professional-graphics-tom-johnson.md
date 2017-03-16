@@ -18,7 +18,7 @@ podcast_length: 4611682
 youtube_id: Thpq3kryvhQ
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016"
 slides: http://idratherbewriting.com/files/professionalgraphics
-mp4_url: https://www.dropbox.com/s/hikotpa6ywioq78/professional_looking_diagrams_tom_johnson.mp4
+mp4_url: http://writethedocspodcast.org/video/professional_looking_diagrams_tom_johnson.mp4
 mp4_length: 6361732
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---

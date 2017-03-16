@@ -20,7 +20,7 @@ podcast_length: 56518010
 youtube_id: pl7VrgPlHpE
 summary: "Technical writers are brought into startup companies when the company's product starts getting traction and someone recognizes that the documentation requires professional attention. But startup companies aren't like established companies, and the environments can pose unique challenges for technical writers."
 slides: https://www.slideshare.net/secret/FgLPf6VdoJnJjF
-mp4_url: https://www.dropbox.com/s/2jbebgiu9cbcwje/video_documentatino_alicia_avrach.mp4?dl=0
+mp4_url: http://writethedocspodcast.org/video/video_documentatino_alicia_avrach.mp4?dl=0
 mp4_length: 562479557
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---

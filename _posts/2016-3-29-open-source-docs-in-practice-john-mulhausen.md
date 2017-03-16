@@ -19,7 +19,7 @@ podcast_length: 4120738
 youtube_id: 7HN_M-DmMdo
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: https://docs.google.com/presentation/d/1uA9xhqlHUcKYTZ6hJ8QbuvhiMOsS8uVr-qESnTYj5yA/edit#slide=id.p4
-mp4_url: https://www.dropbox.com/s/w5b9kjldvuq1h7l/open_source_docs_john_mulhausen.mp4
+mp4_url: http://writethedocspodcast.org/video/open_source_docs_john_mulhausen.mp4
 mp4_length: 17461158
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---

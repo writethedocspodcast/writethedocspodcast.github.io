@@ -18,7 +18,7 @@ podcast_length: 4113153
 youtube_id: ibk8uQsq0yM
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: https://www.slideshare.net/secret/GaCriV8Xit0gsN
-mp4_url: https://www.dropbox.com/s/r5c8q1xhy939qyt/twine_for_interactive_docs_al_nelson.mp4
+mp4_url: http://writethedocspodcast.org/video/twine_for_interactive_docs_al_nelson.mp4
 mp4_length: 5417490
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---

@@ -18,7 +18,7 @@ podcast_length: 7130947
 youtube_id: HIOcmTnx9sY
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: https://www.slideshare.net/secret/y5dA0Ajq4WMESR
-mp4_url: https://www.dropbox.com/s/5moxh3geohxw8fy/writing_effective_copy_sarah_day.mp4
+mp4_url: http://writethedocspodcast.org/video/writing_effective_copy_sarah_day.mp4
 mp4_length: 8095512
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---

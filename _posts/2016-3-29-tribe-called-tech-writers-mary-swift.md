@@ -18,7 +18,7 @@ podcast_length: 3878191
 youtube_id: E1Mz57aMDzc
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: https://www.slideshare.net/secret/gq1f6x3g9PjMMI
-mp4_url: https://www.dropbox.com/s/6uz049jvdiara4r/tribe_called_tech_mary_swift.mp4
+mp4_url: http://writethedocspodcast.org/video/tribe_called_tech_mary_swift.mp4
 mp4_length: 4907429
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---

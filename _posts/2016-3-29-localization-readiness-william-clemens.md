@@ -18,7 +18,7 @@ podcast_length: 4225272
 youtube_id: 2vHy5ruBqRk
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: http://www.slideshare.net/secret/bY6jjnYGf4H9R8
-mp4_url: https://www.dropbox.com/s/oaoiy9er53f5rge/localization_readiness_william_clemens.mp4
+mp4_url: http://writethedocspodcast.org/video/localization_readiness_william_clemens.mp4
 mp4_length: 5397229
 mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
