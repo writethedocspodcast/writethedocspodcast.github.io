@@ -38,10 +38,10 @@ TWiT, Technology, Bob Heil, Heil Sound, ham radio, amateur radio, call sign, Gor
 <itunes:name>Leo Laporte</itunes:name>
 <itunes:email>leo@twit.tv</itunes:email>
 </itunes:owner>
-<itunes:category text="Games & Hobbies">
+<itunes:category text="Games and Hobbies">
 <itunes:category text="Hobbies"/>
 </itunes:category>
-<itunes:category text="Games & Hobbies"/>
+<itunes:category text="Games and Hobbies"/>
 <itunes:category text="Technology">
 <itunes:category text="Gadgets"/>
 </itunes:category>
@@ -328,7 +328,7 @@ http://www.podtrac.com/pts/redirect.mp4/cdn.twit.tv/video/hn/hn0285/hn0285_h264m
 </media:content>
 </item>
 <item>
-<title>HN 284: Sean Kutzko & Val in Puerto Rico</title>
+<title>HN 284: Sean Kutzko and Val in Puerto Rico</title>
 <pubDate>Wed, 25 Jan 2017 21:07:24 PDT</pubDate>
 <link>https://twit.tv/shows/ham-nation/episodes/284</link>
 <comments>https://twit.tv/shows/ham-nation/episodes/284</comments>
