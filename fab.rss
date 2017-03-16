@@ -37,9 +37,15 @@ layout: null
              <itunes:subtitle>{{ep.summary | truncate: 20 }}</itunes:subtitle>
             <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
 
-            <media:content url="{{ep.mp4_url}}" fileSize="{{ep.mp4_length}}" type="video/mp4" medium="video">
-              <media:thumbnail url="{{ep.mp4_thumbnail}}" />
+            <media:content url="{{ep.mp4_url}}" fileSize="{{ep.mp4_length}}" type="video/x-msvideo" height="240" width="320" medium="video" isDefault="true"><media:title>{{ep.title}}</media:title>
+            <media:description>{{ep.summary}}</media:description>
+            <media:thumbnail url="{{ep.mp4_thumbnail}}"/>
             </media:content>
+
+            Source: How to Create MRSS Feeds Tutorial: Syndicate Video with Media RSS http://tubularinsights.com/how-to-create-mrss/#ixzz4bRwdcPhT
+            ©TubularInsights.com, All Rights Reserved
+
+
 
             <description>
                 <![CDATA[{{ ep.summary | cdata_escape }}]]>
