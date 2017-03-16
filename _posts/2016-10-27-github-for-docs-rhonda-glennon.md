@@ -2,7 +2,7 @@
 title: Github for documentation, by Rhonda Glennon
 meetup: WTD San Francisco
 event_link: https://www.meetup.com/Write-the-Docs-SF/events/234679051/
-categories: 
+categories:
 - meetups
 event_date: 2016-10-27
 tags:
@@ -19,7 +19,9 @@ podcast_length: 110681568
 youtube_id: 812E14gFgb4
 summary: "GitHub enables people to collaborate on projects, and many organizations use it for managing both software code and documentation. At this Write the Docs, you will get started with GitHub by applying its tools to building a documentation website."
 slides: https://speakerdeck.com/unruthless/move-fast-and-document-things
-dropbox: https://www.dropbox.com/s/msjlkzg19ik8cuz/github_for_docs_rhonda_glennon.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/msjlkzg19ik8cuz/github_for_docs_rhonda_glennon.mp4
+mp4_length: 698189237
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 GitHub enables people to collaborate on projects, and many organizations use it for managing both software code and documentation. At this Write the Docs, you will get started with GitHub by applying its tools to building a documentation website.

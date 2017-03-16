@@ -2,7 +2,7 @@
 title: Storycraft in SDK documentation, or a writer’s theory of everything, by Elisa Sawyer
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
-categories: 
+categories:
 - meetups
 event_date: 2016-03-29
 tags:
@@ -18,7 +18,9 @@ podcast_length: 8012554
 youtube_id: mAzR0GVP-Ag
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: http://www.slideshare.net/ElisaSawyer/a-writers-theory-of-everything
-dropbox: https://www.dropbox.com/s/r9brrcspk6kpoif/storycraft_in_docs_elisa_sawyer.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/r9brrcspk6kpoif/storycraft_in_docs_elisa_sawyer.mp4
+mp4_length: 6703449
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

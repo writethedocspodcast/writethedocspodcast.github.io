@@ -2,7 +2,7 @@
 title: "Creating documentation for startups: Panel discussion"
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/226495517/
-categories: 
+categories:
 - meetups
 event_date: 2015-12-17
 tags:
@@ -18,10 +18,12 @@ podcast_length: 68746429
 youtube_id: ZMc_GAg1i3A
 summary: "Technical writers are brought into startup companies when the company's product starts getting traction and someone recognizes that the documentation requires professional attention. But startup companies aren't like established companies, and the environments can pose unique challenges for technical writers."
 slides: https://www.slideshare.net/secret/FgLPf6VdoJnJjF
-dropbox: https://www.dropbox.com/s/fm1awxj8p6zp2jp/create_doc_for_startups_panel.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/fm1awxj8p6zp2jp/create_doc_for_startups_panel.mp4
+mp4_length: 562479557
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
-Technical writers are brought into startup companies when the company's product starts getting traction and someone recognizes that the documentation requires professional attention. 
+Technical writers are brought into startup companies when the company's product starts getting traction and someone recognizes that the documentation requires professional attention.
 
 But startup companies aren't like established companies, and the environments can pose unique challenges for technical writers. At a startup company, the following are often the case:
 
@@ -43,7 +45,7 @@ The format of this event is an interactive panel discussion. You can ask the pan
 
 **Kayce Basque**
 
-Kayce created API guides and references at an Internet of Things startup for three years. He shot himself in the foot by creating an incredibly painful and counterproductive authoring workflow in DocBook, and then created an acceptable one using Sphinx and Markdown. He now documents Polymer and Chrome DevTools at Google. 
+Kayce created API guides and references at an Internet of Things startup for three years. He shot himself in the foot by creating an incredibly painful and counterproductive authoring workflow in DocBook, and then created an acceptable one using Sphinx and Markdown. He now documents Polymer and Chrome DevTools at Google.
 
 **Elisa Sawyer**
 

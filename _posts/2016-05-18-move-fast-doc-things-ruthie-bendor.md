@@ -2,7 +2,7 @@
 title: Move fast and ... document things? Lessons learned in building documentation culture at a startup, by Ruthie BenDor
 meetup: WTD San Francisco
 event_link: https://www.meetup.com/Write-the-Docs-SF/events/230537559/
-categories: 
+categories:
 - meetups
 event_date: 2016-05-18
 tags:
@@ -18,7 +18,9 @@ podcast_length: 27289440
 youtube_id: mMr16fzjY7M
 summary: "At startups and other fast-moving organizations, the imperative to ship provides a convenient excuse to skip writing the README. But should we accept this as the cost of moving fast? Or can we reframe how we communicate the value of documentation so that the message resonates in startup-land? Can we adapt how we practice the art of documentation so that it happens even when nobody has time?"
 slides: https://speakerdeck.com/unruthless/move-fast-and-document-things
-dropbox: https://www.dropbox.com/s/zpeos391gh4meod/move_fast_doc_thing_ruthie_bendor.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/zpeos391gh4meod/move_fast_doc_thing_ruthie_bendor.mp4
+mp4_length: 123198342
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 At startups and other fast-moving organizations, the imperative to ship provides a convenient excuse to skip writing the README. But should we accept this as the cost of moving fast? Or can we reframe how we communicate the value of documentation so that the message resonates in startup-land? Can we adapt how we practice the art of documentation so that it happens even when nobody has time?

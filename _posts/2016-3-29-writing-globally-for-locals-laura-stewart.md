@@ -2,7 +2,7 @@
 title: Writing globally for locals, by Laura Stewart
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
-categories: 
+categories:
 - meetups
 event_date: 2016-03-29
 tags:
@@ -18,15 +18,9 @@ podcast_length: 5461543
 youtube_id: Ov3pUWXS7Yk
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016"
 slides: https://www.slideshare.net/secret/HwNusytFaCh4x
-dropbox: https://www.dropbox.com/s/uemc9k5b3xr4xkx/writing_globally_laura_stewart.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/uemc9k5b3xr4xkx/writing_globally_laura_stewart.mp4
+mp4_length: 8568020
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016
-
-
-
-
-
-
-
-

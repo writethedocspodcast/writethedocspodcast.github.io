@@ -2,7 +2,7 @@
 title: Comment on the Draft Federal Source Code Policy, by Britta Gustafson
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
-categories: 
+categories:
 - meetups
 event_date: 2016-03-29
 tags:
@@ -19,8 +19,9 @@ podcast_length: 4059044
 youtube_id: hAkQ2b5XOmo
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: https://docs.google.com/presentation/d/1a4vBgxYDrR7X14phxwRx4NsIcIlLySb6Xh1C8pfDAeg/mobilepresent?slide=id.g10ee21bdb5_0_25
-dropbox: https://www.dropbox.com/s/tcto2q04ir2k5wk/drafting_federal_docs_britta_gustafson.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/tcto2q04ir2k5wk/drafting_federal_docs_britta_gustafson.mp4
+mp4_length: 7739084
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016
-

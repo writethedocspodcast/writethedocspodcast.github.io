@@ -2,7 +2,7 @@
 title: Contributing to open-source projects through documentation, by Rhonda Glennon
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
-categories: 
+categories:
 - meetups
 event_date: 2016-03-29
 tags:
@@ -18,10 +18,9 @@ podcast_length: 4120574
 youtube_id: fvvKz1h6XqE
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: https://www.slideshare.net/secret/FgLPf6VdoJnJjF
-dropbox: https://www.dropbox.com/s/c15rg14abve2smt/contributing_through_github_rhonda_glennon_lightning.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/c15rg14abve2smt/contributing_through_github_rhonda_glennon_lightning.mp4
+mp4_length: 4846852
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016
-
-
-

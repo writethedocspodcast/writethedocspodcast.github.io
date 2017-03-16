@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 1: This week in tech comm"
 keywords: technical writing
-categories: 
+categories:
 - podcasts
 event_date: 2016-11-19
 tags:
@@ -14,10 +14,12 @@ image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_1.mp3
 podcast_file_size: 47.1 MB
 podcast_duration: "59:15"
-podcast_length: 47066142 
+podcast_length: 47066142
 youtube_id: o1_TXiltVfA
 summary: "In this first episode, we introduce the co-hosts, the podcast theme, and chat about a few articles. The four co-hosts include Jared Morgan, Carlee Potter, Chris Ward, and Tom Johnson. We're located in Sydney, Brisbane, Berlin, and California. In this episode, we chat about content strategy, style guides, abbreviations and acronyms, developer-written UI copy, and more."
-dropbox: https://www.dropbox.com/s/s1wxdarllmnb6rp/wtdpodcast_episode_1_technews.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/s1wxdarllmnb6rp/wtdpodcast_episode_1_technews.mp4
+mp4_length: 636346697
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 In this first episode, we introduce the co-hosts, the podcast theme, and chat about a few articles. The four co-hosts include Jared Morgan, Carlee Potter, Chris Ward, and Tom Johnson. We're located in Sydney, Brisbane, Berlin, and California. In this episode, we chat about content strategy, style guides, abbreviations and acronyms, developer-written UI copy, and more.

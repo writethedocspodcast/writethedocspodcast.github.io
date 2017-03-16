@@ -2,7 +2,7 @@
 title: Localization readiness 101, by William Clemens
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
-categories: 
+categories:
 - meetups
 event_date: 2016-03-29
 tags:
@@ -18,7 +18,9 @@ podcast_length: 4225272
 youtube_id: 2vHy5ruBqRk
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: http://www.slideshare.net/secret/bY6jjnYGf4H9R8
-dropbox: https://www.dropbox.com/s/oaoiy9er53f5rge/localization_readiness_william_clemens.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/oaoiy9er53f5rge/localization_readiness_william_clemens.mp4
+mp4_length: 5397229
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

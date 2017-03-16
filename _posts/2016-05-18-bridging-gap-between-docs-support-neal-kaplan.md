@@ -2,7 +2,7 @@
 title: Bridging the gap between documentation and support, with Neal Kaplan
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs-SF/events/230537559/
-categories: 
+categories:
 - meetups
 event_date: 2016-05-18
 tags:
@@ -19,7 +19,9 @@ podcast_length: 18510066
 youtube_id: 1MtcHfK2M_I
 summary: "User assistance (documentation) is basically self-service customer support. Both documentation and customer support are critical to the success of any company, and they work better when they assist and improve each other. How can you tap the knowledge of support agents to improve the documentation, and how can you make the lives of support agents easier in return?"
 slides: https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386
-dropbox: https://www.dropbox.com/s/3kxlcpwzu3q2jpm/docs_and_support_neal_kaplan.mp4?dl=0
+mp4_url: https://www.dropbox.com/s/3kxlcpwzu3q2jpm/docs_and_support_neal_kaplan.mp4
+mp4_length: 118466746
+mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
 ---
 
 User assistance (documentation) is basically self-service customer support. Both documentation and customer support are critical to the success of any company, and they work better when they assist and improve each other. How can you tap the knowledge of support agents to improve the documentation, and how can you make the lives of support agents easier in return?

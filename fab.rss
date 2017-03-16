@@ -34,7 +34,13 @@ layout: null
             <itunes:category text="Technology">
                 <itunes:category text="Software How-To"/>
              </itunes:category>
+             <itunes:subtitle>{{ep.summary | truncate: 20 }}</itunes:subtitle>
             <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
+
+            <media:content url="{{ep.mp4_url}}" fileSize="{{ep.mp4_length}}" type="video/mp4" medium="video">
+              <media:thumbnail url="{{ep.mp4_thumbnail}}" />
+            </media:content>
+
             <description>
                 <![CDATA[{{ ep.summary | cdata_escape }}]]>
             </description>
