@@ -10,13 +10,13 @@ layout: null
       <language>en-US</language>
       <copyright>© {{ post.date | date: %Y" }} {{site.podcast_title}}</copyright>
       <creativeCommons:license>http://creativecommons.org/licenses/by-nc-nd/4.0/</creativeCommons:license>
-      <managingEditor>tom@idratherbewriting.com (Tom Johnson)</managingEditor>
+      <managingEditor>writethedocspodcast@gmail.org</managingEditor>
       <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</lastBuildDate>
       <pubDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</pubDate>
       <itunes:author>Write the Docs</itunes:author>
       <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
       <itunes:summary>{{site.podcast_summary}}</itunes:summary>
-      <description>This is the description element...</description>
+      <description>{{site.description}}</description>
       <itunes:keywords>documentation, technical writing, user assistance, technical communication, write the docs</itunes:keywords>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:block>no</itunes:block>
@@ -24,13 +24,9 @@ layout: null
          <itunes:name>{{site.podcast_title}}</itunes:name>
          <itunes:email>{{site.podcast_email}}</itunes:email>
       </itunes:owner>
-      <itunes:category text="Games &amp; Hobbies">
-         <itunes:category text="Hobbies" />
-      </itunes:category>
-      <itunes:category text="Games &amp; Hobbies" />
       <itunes:category text="Technology">
-         <itunes:category text="Gadgets" />
-      </itunes:category>
+          <itunes:category text="Software How-To"/>
+       </itunes:category>
       <image>
          <title>{{site.podcast_title}}</title>
          <url>http://www.writethedocs.org/_static/sticker-wtd-colors.png</url>
@@ -46,13 +42,11 @@ layout: null
          <title>{{ep.title}}</title>
          <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
          <link>{{ site.url }}{{ ep.url }}</link>
-         <comments>https://twit.tv/shows/ham-nation/episodes/290</comments>
-         <itunes:author>TWiT</itunes:author>
-         <itunes:category text="Technology">
-             <itunes:category text="Software How-To"/>
-          </itunes:category>
+         <comments>{{ep.url}}</comments>
+         <itunes:author>Write the Docs Podcast</itunes:author>
+         <category>{{ep.categories[0]}}</category>
          <itunes:explicit>clean</itunes:explicit>
-         <itunes:subtitle>{{ep.summary | truncate: 20 }}</itunes:subtitle>
+         <itunes:subtitle>{{ep.summary}}</itunes:subtitle>
          <itunes:summary><![CDATA[{{ep.summary}}]]></itunes:summary>
          <itunes:keywords>Write the docs</itunes:keywords>
          <description><![CDATA[{{ep.summary}}]]></description>
@@ -60,7 +54,7 @@ layout: null
          <itunes:duration>{{ep.podcast_duration}}</itunes:duration>
          <enclosure url="{{ep.mp4_url}}" length="{{ep.mp4_length}}" type="video/mp4" />
          <media:content url="{{ep.mp4_url}}" fileSize="{{ep.mp4_length}}" type="video/mp4" medium="video">
-            <media:thumbnail url="{{ep.mp4_thumbnail}}" />
+            <media:thumbnail url="{{site.url}}/{{ep.mp4_thumbnail}}" />
          </media:content>
       </item>
       {% endfor %}
