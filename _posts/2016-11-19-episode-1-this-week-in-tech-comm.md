@@ -1,5 +1,6 @@
 ---
 title: "WTD Episode 1: This week in tech comm"
+meetup: WTD Podcast
 keywords: technical writing
 categories:
 - podcasts

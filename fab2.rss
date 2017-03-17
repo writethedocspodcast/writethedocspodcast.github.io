@@ -44,7 +44,7 @@ layout: null
          <link>{{ site.url }}{{ ep.url }}</link>
          <comments>{{ep.url}}</comments>
          <itunes:author>Write the Docs Podcast</itunes:author>
-         <category>{{ep.categories[0]}}</category>
+         <category>{{ep.meetup}}</category>
          <itunes:explicit>clean</itunes:explicit>
          <itunes:subtitle>{{ep.summary}}</itunes:subtitle>
          <itunes:summary><![CDATA[{{ep.summary}}]]></itunes:summary>

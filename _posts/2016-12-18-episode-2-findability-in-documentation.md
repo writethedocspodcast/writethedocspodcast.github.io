@@ -1,5 +1,6 @@
 ---
 title: "WTD Episode 2: Findability -- helping users find what they're looking for"
+meetup: WTD Podcast
 keywords: technical writing
 categories:
 - podcasts

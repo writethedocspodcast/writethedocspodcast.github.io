@@ -1,5 +1,6 @@
 ---
 title: "WTD Episode 3: Technical writing trends for 2017"
+meetup: WTD Podcast
 keywords: technical writing
 categories:
 - podcasts
