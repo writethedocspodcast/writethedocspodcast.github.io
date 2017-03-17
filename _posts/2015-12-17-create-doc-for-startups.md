@@ -20,7 +20,7 @@ summary: "Technical writers are brought into startup companies when the company'
 slides: https://www.slideshare.net/secret/FgLPf6VdoJnJjF
 mp4_url: http://writethedocspodcast.org/video/create_doc_for_startups_panel.mp4
 mp4_length: 562479557
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/startuppanel.png
 ---
 
 Technical writers are brought into startup companies when the company's product starts getting traction and someone recognizes that the documentation requires professional attention.

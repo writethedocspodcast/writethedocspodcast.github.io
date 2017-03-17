@@ -20,7 +20,7 @@ summary: "Lightning talk presentation given at Write the Docs San Francisco, Mar
 slides: https://www.slideshare.net/secret/gq1f6x3g9PjMMI
 mp4_url: http://writethedocspodcast.org/video/tribe_called_tech_mary_swift.mp4
 mp4_length: 4907429
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/tribe.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

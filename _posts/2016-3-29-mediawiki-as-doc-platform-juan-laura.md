@@ -20,7 +20,7 @@ summary: "Lightning talk presentation given at Write the Docs San Francisco, Mar
 slides: http://www.slideshare.net/JuanLara52/mediawiki-as-a-documentation-platform
 mp4_url: http://writethedocspodcast.org/video/mediawiki_as_platform_juan_lara.mp4
 mp4_length: 3782433
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/mediawiki.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

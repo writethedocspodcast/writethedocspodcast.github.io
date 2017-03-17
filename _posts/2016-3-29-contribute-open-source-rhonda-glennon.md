@@ -20,7 +20,7 @@ summary: "Lightning talk presentation given at Write the Docs San Francisco, Mar
 slides: https://www.slideshare.net/secret/FgLPf6VdoJnJjF
 mp4_url: http://writethedocspodcast.org/video/contributing_through_github_rhonda_glennon_lightning.mp4
 mp4_length: 4846852
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/opensourcecontributions.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

@@ -20,7 +20,7 @@ summary: "Lightning talk presentation given at Write the Docs San Francisco, Mar
 slides: https://www.slideshare.net/secret/HwNusytFaCh4x
 mp4_url: http://writethedocspodcast.org/video/writing_globally_laura_stewart.mp4
 mp4_length: 8568020
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/writingglobally.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

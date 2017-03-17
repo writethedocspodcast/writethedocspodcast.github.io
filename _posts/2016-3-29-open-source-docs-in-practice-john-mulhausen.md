@@ -21,7 +21,7 @@ summary: "Lightning talk presentation given at Write the Docs San Francisco, Mar
 slides: https://docs.google.com/presentation/d/1uA9xhqlHUcKYTZ6hJ8QbuvhiMOsS8uVr-qESnTYj5yA/edit#slide=id.p4
 mp4_url: http://writethedocspodcast.org/video/open_source_docs_john_mulhausen.mp4
 mp4_length: 17461158
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/opensourcedocs.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

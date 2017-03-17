@@ -20,7 +20,7 @@ summary: "Lightning talk presentation given at Write the Docs San Francisco, Mar
 slides: https://www.slideshare.net/secret/GaCriV8Xit0gsN
 mp4_url: http://writethedocspodcast.org/video/twine_for_interactive_docs_al_nelson.mp4
 mp4_length: 5417490
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/twine.png
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

@@ -22,7 +22,7 @@ summary: "Technical writers are brought into startup companies when the company'
 slides: https://www.slideshare.net/secret/FgLPf6VdoJnJjF
 mp4_url: http://writethedocspodcast.org/video/video_documentation_alicia_avrach.mp4
 mp4_length: 562479557
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/videodocumentation.png
 ---
 
 Curious about video documentation?

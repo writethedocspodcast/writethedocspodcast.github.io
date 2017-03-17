@@ -21,7 +21,7 @@ summary: "GitHub enables people to collaborate on projects, and many organizatio
 slides: https://speakerdeck.com/unruthless/move-fast-and-document-things
 mp4_url: http://writethedocspodcast.org/video/github_for_docs_rhonda_glennon.mp4
 mp4_length: 698189237
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/githubworkshop.png
 ---
 
 GitHub enables people to collaborate on projects, and many organizations use it for managing both software code and documentation. At this Write the Docs, you will get started with GitHub by applying its tools to building a documentation website.

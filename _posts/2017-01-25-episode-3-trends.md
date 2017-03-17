@@ -20,7 +20,7 @@ summary: "In this episode, we discuss top technical writing trends for 2017. Chr
 bitlink: http://bit.ly/wtdpodcastepisode3
 mp4_url: http://writethedocspodcast.org/video/wtdpodcast_episode_3_trends.mp4
 mp4_length: 509521217
-mp4_thumbnail: assets/img/episodethumbs/fillerthumb.png
+mp4_thumbnail: assets/img/episodethumbs/episode3_carlee.png
 ---
 
 In this episode, we discuss top technical writing trends for 2017. Chris discusses how more technical writers are interacting with support groups, and even being embedded within support departments. Jared discusses how docs are being planned for earlier in development cycles, as more product managers are seeing the value of docs. Tom talks about how more technical writers are treating documentation as code, and the challenges inherent in developer tools and workflows.
