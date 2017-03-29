@@ -2,8 +2,6 @@
 layout: null
 ---
 
-
-
 [
   {% for ep in site.posts %}
   {
@@ -20,8 +18,8 @@ layout: null
     "channel_id": "{{ ep.categories }}",
     "recommendations": [
       {% for tag in ep.tags %}
-      {% for mypost in site.tags.[tag] %}
-      "{{ mypost.url | remove: ".html" | split: "/" | last | }}" {% unless forloop.last %},{% endunless %}
+      {% for mypost in site.tags[tag] %}
+      "{{ mypost.url | remove: ".html" | split: "/" | last | uniq }}" {% unless forloop.last %},{% endunless %}
       {% endfor %}{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]

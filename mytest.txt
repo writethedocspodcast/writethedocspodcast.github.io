@@ -1,0 +1,15 @@
+---
+permalink: mytest.html
+---
+
+test:
+<ul>
+{% for ep in site.posts %}
+{% for tag in ep.tags %}
+{{tag}}
+  {% for mypost in site.tags[tag] %}
+  <li>{{mypost.url}}</li>
+    {% endfor %}
+      {% endfor %}
+        {% endfor %}
+</ul>
