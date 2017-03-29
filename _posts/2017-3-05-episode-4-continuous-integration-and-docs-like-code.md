@@ -4,7 +4,6 @@ meetup: WTD Podcast
 keywords: technical writing
 categories:
 - podcasts
-- video
 date: 2017-03-05
 tags:
 - write the docs
