@@ -17,7 +17,32 @@ layout: null
     "categories": [
       "{{ ep.meetup }}"
     ],
-    "channel_id": "{{ ep.categories }}"
+    "channel_id": "{{ ep.categories }}",
+    "recommendations": [
+      {% for tag in ep.tags %}
+      {% for mypost in site.tags.[tag] %}
+      "{{ mypost.url | remove: ".html" | split: "/" | last | }}" {% unless forloop.last %},{% endunless %}
+      {% endfor %}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+    ,
+    "maturityRating": "PG",
+    "live": "1",
+    "startTime": 1490393748,
+    "endTime": 1490397347,
+    "videoPreviewUrl": "http://mywebsite.com/some/url/to/the/video.mp4",
+    "imdbId": "tt2417148",
+    "closeCaptionUrls": "1",
+    "genres": "DRAMA"
+
   } {% unless forloop.last %},{% endunless %}
-{% endfor %}
+{% endfor %},
+{
+"globalRecommendations": [
+  {% assign globalRecs = site.posts | where: "global_recommendation", true %}
+{% for ep in globalRecs %}
+  "{{ ep.url | remove: ".html" | split: "/" | last }}"{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+}
 ]

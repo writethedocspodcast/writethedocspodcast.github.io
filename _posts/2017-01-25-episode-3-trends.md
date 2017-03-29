@@ -6,11 +6,9 @@ categories:
 - podcasts
 event_date: 2017-01-25
 tags:
-- write the docs
-- technical writing
-- trends
+- docs-as-code
 - support
-- doc as code
+- api-docs
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_3.mp3
 podcast_file_size: 48.1 MB

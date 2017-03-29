@@ -7,11 +7,7 @@ categories:
 event_date: 2016-04-21
 slides: http://bit.ly/videodocaliciaslides
 tags:
-- write the docs
-- technical writing
-- videos
-- screencasts
-- recording equipment
+- video
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/aliciaavrachaudio.mp3
 podcast_file_size: 56.5

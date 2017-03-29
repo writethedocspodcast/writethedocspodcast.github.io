@@ -6,11 +6,7 @@ categories:
 - meetups
 event_date: 2016-05-18
 tags:
-- write the docs
-- technical writing
 - support
-- knowledge base
-- cross-department communication
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/nealdocssupportwtd.mp3
 podcast_file_size: 18.5

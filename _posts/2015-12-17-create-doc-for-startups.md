@@ -6,10 +6,7 @@ categories:
 - meetups
 event_date: 2015-12-17
 tags:
-- write the docs
-- technical writing
 - startups
-- documentation
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdstartuppanel.mp3
 podcast_file_size: 68.7

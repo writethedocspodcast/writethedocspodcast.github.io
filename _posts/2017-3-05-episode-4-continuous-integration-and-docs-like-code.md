@@ -2,15 +2,12 @@
 title: "WTD Episode 4: Continuous Integration and Docs like Code"
 meetup: WTD Podcast
 keywords: technical writing
+global_recommendation: true
 categories:
 - podcasts
 date: 2017-03-05
 tags:
-- write the docs
-- technical writing
-- continuous integration
-- support
-- doc as code
+- docs-as-code
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_4.mp3
 podcast_file_size: 46.4 MB

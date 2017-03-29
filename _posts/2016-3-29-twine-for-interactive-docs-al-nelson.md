@@ -6,10 +6,7 @@ categories:
 - meetups
 event_date: 2016-03-29
 tags:
-- write the docs
-- technical writing
-- interactivity
-- twine
+- tools
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/twine-for-interactive-docs-al.mp3
 podcast_file_size: 4.1

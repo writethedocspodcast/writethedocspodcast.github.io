@@ -1,14 +1,14 @@
 ---
 title: "Sydney event: Transitioning into API Technical Writing | The Corilla story"
 meetup: WTD Australia
+global_recommendation: true
 event_link: https://www.meetup.com/Write-the-Docs-Australia/events/237665711/
 categories:
 - meetups
 event_date: 2017-03-02
 tags:
-- write the docs
-- technical writing
-- Australia
+- startups
+- api-docs
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdsydneymar2_2017.mp3
 podcast_file_size: 45.6
