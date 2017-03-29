@@ -6,7 +6,6 @@ categories:
 - podcasts
 event_date: 2016-11-19
 tags:
-- community
 - writing
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_1.mp3

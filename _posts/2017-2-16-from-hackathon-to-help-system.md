@@ -7,7 +7,6 @@ categories:
 event_date: 2017-02-16
 tags:
 - support
-- community
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/from_hackathon_to_help_system.mp3
 podcast_file_size: 34.4
