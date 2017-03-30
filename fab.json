@@ -19,7 +19,7 @@ layout: null
     "recommendations": [
       {% for tag in ep.tags %}
       {% for mypost in site.tags[tag] %}
-      "{{ mypost.url | remove: ".html" | split: "/" | last | uniq }}" {% unless forloop.last %},{% endunless %}
+      "{{ mypost.url | remove: ".html" | split: "/" | last }}" {% unless forloop.last %},{% endunless %}
       {% endfor %}{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
