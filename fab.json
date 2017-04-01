@@ -5,17 +5,18 @@ layout: null
 [
   {% for ep in site.posts %}
   {
-    "id": "{{ ep.guid }}",
-    "title": "{{ ep.title }}",
-    "description": "{{ ep.summary }}",
-    "duration": "{{ ep.podcast_duration }}",
-    "thumbURL": "{{site.url}}/{{ ep.mp4_thumbnail | escape }}",
-    "imgURL": "{{site.url}}/{{ ep.mp4_thumbnail | escape }}",
-    "videoURL": "{{ ep.mp4_url}}",
+    "id": "{{ep.guid}}",
+    "title": "{{ep.title}}",
+    "description": "{{ep.summary}}",
+    "duration": "{{ep.podcast_duration}}",
+    "thumbURL": "{{site.url}}/{{ep.mp4_thumbnail | escape}}",
+    "imgURL": "{{site.url}}/{{ep.mp4_thumbnail | escape}}",
+    "videoURL": "{{ep.mp4_url}}",
+    "tags": "{{ep.tags | join: ', '}}",
     "categories": [
-      "{{ ep.meetup }}"
+      "{{ep.meetup}}"
     ],
-    "channel_id": "{{ ep.categories }}",
+    "channel_id": "{{ep.categories}}",
     "recommendations":
      {% assign my_array = "" | split: ", " %}
 
@@ -27,7 +28,7 @@ layout: null
   {% endfor %}
 {% endfor %}
 
-{{ my_array | jsonify }}
+{{my_array | jsonify}}
 
   } {% unless forloop.last %},{% endunless %}
 {% endfor %},
