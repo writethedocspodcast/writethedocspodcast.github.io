@@ -1,5 +1,6 @@
 ---
 title: Comment on the Draft Federal Source Code Policy, by Britta Gustafson
+guid: gustafson_federal_policy
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:

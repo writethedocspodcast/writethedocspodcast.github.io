@@ -1,5 +1,6 @@
 ---
 title: "Write the Docs Prague: Wrap-up - Sydney"
+guid: prague_wrapup
 meetup: WTD Australia
 event_link: https://www.meetup.com/Write-the-Docs-Australia/events/234610168/
 categories:

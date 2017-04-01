@@ -1,5 +1,6 @@
 ---
 title: Writing globally for locals, by Laura Stewart
+guid: localization_stewart
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:

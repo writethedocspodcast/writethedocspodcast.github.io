@@ -1,5 +1,6 @@
 ---
 title: Bridging the gap between documentation and support, with Neal Kaplan
+guid: kaplan_support
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs-SF/events/230537559/
 categories:

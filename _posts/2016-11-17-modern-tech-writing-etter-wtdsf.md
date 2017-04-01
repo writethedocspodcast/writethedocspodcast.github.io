@@ -1,5 +1,6 @@
 ---
 title: Modern Technical Writing, by Andrew Etter
+guid: modern_tech_writing
 meetup: WTD San Francisco
 event_link: https://www.meetup.com/Write-the-Docs-SF/events/235272272/
 categories:

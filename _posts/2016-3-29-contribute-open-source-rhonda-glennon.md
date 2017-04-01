@@ -1,12 +1,12 @@
 ---
 title: Contributing to open-source projects through documentation, by Rhonda Glennon
+guid: glennon_opensource_contributions
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:
 - meetups
 event_date: 2016-03-29
 tags:
-- github
 - open-source
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/contributing-open-source-docs-rhonda-glennon.mp3

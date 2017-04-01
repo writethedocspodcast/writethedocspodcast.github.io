@@ -1,5 +1,6 @@
 ---
 title: Open source documentation in practice (Kubernetes case study), by John Mulhausen
+guid: mulhausen_kubernetes
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:
@@ -7,8 +8,6 @@ categories:
 event_date: 2016-03-29
 tags:
 - open-source
-- github
-- docs-as-code
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/open-source-docs-in-practice-john-mulhausen.mp3
 podcast_file_size: 4.1

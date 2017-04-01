@@ -1,5 +1,6 @@
 ---
 title: The easiest way to create professional-looking illustrations and diagrams, by Tom Johnson
+guid: johnson_graphics
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:
@@ -7,6 +8,7 @@ categories:
 event_date: 2016-03-29
 tags:
 - visuals
+- video
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/create-professional-graphics-tom-johnson.mp3
 podcast_file_size: 4.6

@@ -1,5 +1,6 @@
 ---
 title: "Creating documentation for startups: Panel discussion"
+guid: startup_panel
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/226495517/
 categories:
@@ -7,6 +8,7 @@ categories:
 event_date: 2015-12-17
 tags:
 - startups
+- tools
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdstartuppanel.mp3
 podcast_file_size: 68.7

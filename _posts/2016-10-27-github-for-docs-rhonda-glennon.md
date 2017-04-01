@@ -1,5 +1,6 @@
 ---
 title: Github for documentation, by Rhonda Glennon
+guid: glennon_github_doc
 meetup: WTD San Francisco
 event_link: https://www.meetup.com/Write-the-Docs-SF/events/234679051/
 global_recommendation: true

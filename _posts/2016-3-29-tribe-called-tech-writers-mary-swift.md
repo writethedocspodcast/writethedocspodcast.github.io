@@ -1,5 +1,6 @@
 ---
 title: A tribe called tech (writers), by Mary Swift
+guid: swift_tribe
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:

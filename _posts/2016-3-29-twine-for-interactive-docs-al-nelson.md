@@ -1,5 +1,6 @@
 ---
 title: Using Twine as interactive documentation, by Al Nelson
+guid: nelson_twine
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:

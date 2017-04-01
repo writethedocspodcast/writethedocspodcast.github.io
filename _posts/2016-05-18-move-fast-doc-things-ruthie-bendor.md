@@ -1,5 +1,6 @@
 ---
 title: Move fast and ... document things? Lessons learned in building documentation culture at a startup, by Ruthie BenDor
+guid: bendor_engineering_doc
 meetup: WTD San Francisco
 event_link: https://www.meetup.com/Write-the-Docs-SF/events/230537559/
 categories:

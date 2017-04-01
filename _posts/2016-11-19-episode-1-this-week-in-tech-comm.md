@@ -1,5 +1,6 @@
 ---
 title: "WTD Episode 1: This week in tech comm"
+guid: wtdpodcast_ep1_style
 meetup: WTD Podcast
 keywords: technical writing
 categories:
@@ -7,6 +8,7 @@ categories:
 event_date: 2016-11-19
 tags:
 - writing
+- community
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_1.mp3
 podcast_file_size: 47.1 MB

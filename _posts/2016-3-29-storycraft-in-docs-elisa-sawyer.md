@@ -1,5 +1,6 @@
 ---
 title: Storycraft in SDK documentation, or a writer’s theory of everything, by Elisa Sawyer
+guid: sawyer_storycraft
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:

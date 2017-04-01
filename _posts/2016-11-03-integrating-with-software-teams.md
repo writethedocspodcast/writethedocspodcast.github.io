@@ -1,5 +1,6 @@
 ---
 title: Integrating more closely with software teams, by Craig Simms
+guid: simms_software_team_integration
 meetup: WTD Australia
 event_link: https://www.meetup.com/Write-the-Docs-Australia/events/234610168/
 categories:

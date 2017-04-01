@@ -1,5 +1,6 @@
 ---
 title: "Video Documentation: Production to End User Experience"
+guid: videodoc_avrach
 meetup: WTD San Francisco
 event_link: https://www.meetup.com/Write-the-Docs-SF/events/229946722/
 categories:

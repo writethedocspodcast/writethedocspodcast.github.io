@@ -1,5 +1,6 @@
 ---
 title: Localization readiness 101, by William Clemens
+guid: clemens_localization
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:
@@ -7,6 +8,7 @@ categories:
 event_date: 2016-03-29
 tags:
 - localization
+- writing
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/localization-readiness-william-clemens.mp3
 podcast_file_size: 4.2

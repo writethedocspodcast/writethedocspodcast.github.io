@@ -1,5 +1,6 @@
 ---
 title: Writing effective app copy, by Sarah Day
+guid: copy_day
 meetup: WTD San Francisco
 event_link: http://www.meetup.com/Write-the-Docs/events/228358497/
 categories:

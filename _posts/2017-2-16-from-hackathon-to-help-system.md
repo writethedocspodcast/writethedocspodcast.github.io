@@ -1,5 +1,6 @@
 ---
 title: From Hackathon to Help System
+guid: hackathon_support
 meetup: WTD Australia
 event_link: https://www.meetup.com/Write-the-Docs-Australia/events/235449558/
 categories:
