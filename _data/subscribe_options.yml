@@ -16,6 +16,10 @@ info:
   url: https://writethedocs.slack.com/messages/podcast
   fontawesome: slack
 
+- title: Fire TV
+  url: https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1
+  fontawesome: fa-television
+
 - title: RSS
   url: http://podcast.writethedocs.org/itunes.rss
   fontawesome: rss
@@ -23,4 +27,3 @@ info:
 - title: Email
   url: /subscribe-by-email
   fontawesome: newspaper-o
-
