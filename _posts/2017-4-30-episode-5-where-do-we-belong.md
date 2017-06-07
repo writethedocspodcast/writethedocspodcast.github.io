@@ -20,7 +20,7 @@ summary: "In this episode, we explore where technical writers belong in an organ
 bitlink: http://bit.ly/wtdpodcastepisode5
 mp4_url: http://writethedocspodcast.org/video/wtd_episode_5_place.mp4
 mp4_length: 507373834
-mp4_thumbnail: assets/img/episodethumbs/episode5thumbchris.jpg
+mp4_thumbnail: assets/img/episodethumbs/episode5thumbchris.png
 ---
 
 In this episode, we explore where technical writers belong in an organization. Is tech comm best placed within engineering, marketing, product management, or another group? We also talk about strategies for doc navigation, in particular, the merits of inline links and/or sidebar navigation, using a post from Every Page Is Page One as a starting point. Are hierarchical sidebar menus still useful, or are they a relic of the past? Finally, we provide details about the upcoming Write the Docs conference in Portland, and Chris mentions his new book on responsive design.

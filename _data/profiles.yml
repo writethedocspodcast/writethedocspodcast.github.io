@@ -25,6 +25,13 @@ info:
   slack_handle: tomjohnson
   twitter: http://twitter.com/tomjohnson
   linkedin: https://www.linkedin.com/in/tomjohnson1492
-  description: Technical writer at Amazon Lab 126. Blog at http://idratherbewriting.com. Live in San Francisco Bay, California.
+  description: Technical writer at Amazon Lab 126. Blog at <a href="http://idratherbewriting.com">idratherbewriting.com</a>. Live in San Francisco Bay area, California.
   image: tom_johnson.jpg
   main_cohost: true
+
+- name: Eva Jackolis
+  slack_handle: evalachief
+  # twitter: http://twitter.com/evajackolis
+  linkedin: https://www.linkedin.com/in/eva-jackolis-a31bb3109/
+  description: Technical Writer at Seerene. Based in Berlin.
+  image: eva_jackolis.png
