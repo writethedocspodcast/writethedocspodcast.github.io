@@ -39,3 +39,10 @@ info:
   linkedin: https://www.linkedin.com/in/eva-jackolis-a31bb3109/
   description: 'Technical Writer at Seerene in Potsdam. Based in Berlin. Member of WTD Berlin.'
   image: eva_jackolis.png
+
+- name: Pawel Kowaluk
+  slack_handle: pawelkowaluk
+  twitter: https://twitter.com/pawelkowaluk
+  linkedin: https://www.linkedin.com/in/pawelkowaluk/?ppe=1
+  description: 'Technical Writer in Poland. Organizes soap conference, expert in DITA.'
+  image: pawel_kowaluk.png
