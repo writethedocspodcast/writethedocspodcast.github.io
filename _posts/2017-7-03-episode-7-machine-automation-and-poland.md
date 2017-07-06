@@ -6,7 +6,7 @@ keywords: technical writing, automation, poland, robots
 global_recommendation: true
 categories:
 - podcasts
-date: 2017-06-02
+date: 2017-07-03
 tags:
 - tools
 - findability
