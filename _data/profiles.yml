@@ -46,3 +46,10 @@ info:
   linkedin: https://www.linkedin.com/in/pawelkowaluk/?ppe=1
   description: 'Technical Writer in Poland. DITA geek. Passionate about community. <a href="http://pawelkowaluk.brandyourself.com/">pawalkowaluk.brandyourself.com</a>'
   image: pawel_kowaluk.png
+
+- name: Beth Aitman
+  slack_handle: beth.aitman
+  twitter: https://twitter.com/baitman
+  linkedin: https://www.linkedin.com/in/bethaitman
+  description: 'Technical writer at @improbableio. Based in Cambridge, England. Passionate about good UI design. <a href="http://uiwriting.tumblr.com/">uiwriting.tumblr.com/</a>'
+  image: beth_aitman.png
