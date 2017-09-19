@@ -23,12 +23,12 @@ layout: null
      {% for tag in ep.tags %}
      {% for mypost in site.tags[tag] %}
      {% if mypost.url != ep.url %}
-    {% assign my_array = my_array | push: {{mypost.guid}} %}
+    {% assign my_array = my_array | push: mypost.guid %}
     {% endif %}
   {% endfor %}
 {% endfor %}
 
-{{my_array | jsonify}}
+{{ my_array | jsonify }}
 
   } {% unless forloop.last %},{% endunless %}
 {% endfor %},

@@ -34,7 +34,7 @@ defaults:
       layout: "podcast"
       comments: true
 
-gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
+plugins: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
 
 ## Values for podcast RSS feed
 
