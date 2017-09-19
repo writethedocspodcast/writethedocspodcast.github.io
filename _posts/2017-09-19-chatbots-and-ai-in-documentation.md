@@ -23,7 +23,7 @@ mp4_length: 376909373
 mp4_thumbnail: assets/img/episodethumbs/episode8_ellis2.png
 ---
 
-In this episode, we're joined by Beth Aitman to talk about what happened with the Stack Overflow Documentation Beta. What did Stack Overflow try to do with documentation, and why did they abandon the effort? Why did their effort to crowdsource docs fail but succeed so well with forums and niche content? Additionally, we discuss the difficulties of creating good documentation with open source projects. A recent survey found that incomplete or outdated documentation is the number one issue with open source projects. Why? What makes it so difficult to create documentation on an open source project?
+In this episode, we're joined by Ellis Pratt from Cherryleaf to talk about chatbots in documentation. What are chatbots, and how can you incorporate them in your docs to enhance the user experience? Are chatbots the next evolution of wizards? What are some examples of successful chatbots? How does one get started using chatbots in documentation? Are there chatbot services you can leverage inexpensively to try them out? These are some of the questions explored in this podcast
 
 
 **Links mentioned during the podcast:**
