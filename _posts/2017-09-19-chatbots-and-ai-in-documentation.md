@@ -23,7 +23,7 @@ mp4_length: 376909373
 mp4_thumbnail: assets/img/episodethumbs/episode8_ellis2.png
 ---
 
-In this episode, we're joined by Ellis Pratt from Cherryleaf to talk about chatbots in documentation. What are chatbots, and how can you incorporate them in your docs to enhance the user experience? Are chatbots the next evolution of wizards? What are some examples of successful chatbots? How does one get started using chatbots in documentation? Are there chatbot services you can leverage inexpensively to try them out? These are some of the questions explored in this podcast
+In this episode, we're joined by Ellis Pratt from Cherryleaf to talk about chatbots in documentation. What are chatbots, and how can you incorporate them in your docs to enhance the user experience? Are chatbots the next evolution of wizards? What are some examples of successful chatbots? How does one get started using chatbots in documentation? Are there chatbot services you can leverage inexpensively to try them out? These are some of the questions explored in this podcast.
 
 
 **Links mentioned during the podcast:**
