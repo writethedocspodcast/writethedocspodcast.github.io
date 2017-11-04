@@ -25,9 +25,9 @@ If you want to be sent an email when new episodes are posted, subscribe to the W
 
 The podcast episodes are also on the WTD Podcast YouTube channel (though the meetup recordings usually aren't.) You can subscribe to the [YouTube channel](https://www.youtube.com/channel/UCUI--N-VWjK93292AaaArCg).
 
-## Fire TV
+## Fire TV or Android TV
 
-You can subscribe by downloading the [Write the Docs app on Fire TV](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1). This lets you play episodes on your television for the ten-foot viewing experience. In your Appstore, search for "technical writing" or "write the docs."
+You can subscribe by downloading the Write the Docs app on [Fire TV](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1) or on [Android TV](https://play.google.com/store/apps/details?id=com.amazon.android.writethedocspodcast). This lets you play episodes on your television for the ten-foot viewing experience. In your Appstore, search for "technical writing" or "write the docs."
 
 ## RSS feed
 
