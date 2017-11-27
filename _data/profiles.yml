@@ -60,3 +60,9 @@ info:
   linkedin: https://www.linkedin.com/in/ellispratt/
   description: 'Director, Consulting Technical Communicator at Cherryleaf. Based near London. Guru for tech comm in Europe. <a href="https://www.cherryleaf.com/">cherryleaf.com</a>'
   image: ellis_pratt.jpg
+
+- name: Kadir Topal
+  twitter: https://twitter.com/atopal
+  linkedin: https://www.linkedin.com/in/kadirtopal/
+  description: "Product manager for Mozilla Developer Network's Web Docs project. Based in Germany. <a href=\"https://redronin.de/\">redronin.de/</a>"
+  image: kadir_topal.png
