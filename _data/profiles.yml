@@ -66,3 +66,17 @@ info:
   linkedin: https://www.linkedin.com/in/kadirtopal/
   description: "Product manager for Mozilla Developer Network's Web Docs project. Based in Germany. <a href=\"https://redronin.de/\">redronin.de/</a>"
   image: kadir_topal.png
+
+- name: Mikey Ariel
+  slack_handle: thatdocslady
+  twitter: https://twitter.com/thatdocslady
+  linkedin: https://www.linkedin.com/in/thatdocslady/
+  description: "Documentarion czar for WTD Europe. Works at Red Hat, lives in Prague. <a href=\"http://docsideofthemoon.com/\">docsideofthemoon.com/</a>"
+  image: mikey_ariel.png
+
+- name: Eric Holscher
+  slack_handle: ericholscher
+  twitter: https://twitter.com/ericholscher
+  linkedin: https://www.linkedin.com/in/eric-holscher-2b975111b/
+  description: "Cofounder of WTD and also <a href=\"https://readthedocs.org/\">Read the Docs</a> doc platform. Primary Portland conference organizer. <a href=\"http://ericholscher.com/\">ericholscher.com/</a>"
+  image: eric_holscher.png
