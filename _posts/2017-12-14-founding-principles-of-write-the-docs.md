@@ -17,14 +17,14 @@ podcast_file_size: 56.9 MB
 podcast_duration: "1:02:18"
 podcast_length: 56892530
 youtube_id: hH6lYBq7_VU
-summary: "In this episode, we chat with Eric Holscher (WTD cofounder) and Mikey Ariel (WTD Europe organizer) about the Write the Docs community itself, including origins, founding ideas, goals, challenges, trends, and roadmaps for the community. We dive specifically into idea of diversity of roles (and the term 'documentarian'), the way open source principles informs the community's core values, balancing freedom for individuals to contribute as desired with the expectations of the WTD experience, and more."
+summary: "In this episode, we chat with Eric Holscher (WTD cofounder) and Mikey Ariel (WTD Europe organizer) about the Write the Docs community itself, including origins, founding ideas, goals, challenges, trends, and roadmaps for the community. We dive specifically into idea of diversity of roles (and the term 'documentarian'), the way open source principles informs the community's core values, balancing individual freedom to contribute on one's own terms with the expectations of the WTD experience, and more."
 bitlink: http://bit.ly/wtdpodcast_episode_12_founding_ideas
 mp4_url: http://writethedocspodcast.org/video/wtdpodcast_episode_12_founding_ideas.mp4
 mp4_length: 412674693
 mp4_thumbnail: assets/img/episodethumbs/episode12thumberic.png
 ---
 
-In this episode, we chat with Eric Holscher (WTD cofounder) and Mikey Ariel (WTD Europe organizer) about the Write the Docs community itself, including origins, founding ideas, goals, challenges, trends, and roadmaps for the community. We dive specifically into idea of diversity of roles (and the term 'documentarian'), the way open source principles informs the community's core values, balancing freedom for individuals to contribute as desired with the expectations of the WTD experience, and more.
+In this episode, we chat with Eric Holscher (WTD cofounder) and Mikey Ariel (WTD Europe organizer) about the Write the Docs community itself, including origins, founding ideas, goals, challenges, trends, and roadmaps for the community. We dive specifically into idea of diversity of roles (and the term 'documentarian'), the way open source principles informs the community's core values, balancing individual freedom to contribute on one's own terms with the expectations of the WTD experience, and more.
 
 Here are some of the questions discussed during the podcast:
 
