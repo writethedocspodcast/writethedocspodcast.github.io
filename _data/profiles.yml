@@ -80,3 +80,10 @@ info:
   linkedin: https://www.linkedin.com/in/eric-holscher-2b975111b/
   description: "Co-founder of WTD and the <a href=\"https://readthedocs.org/\">Read the Docs</a> platform. Driving force behind the WTD community. Passionate about open source. <a href=\"http://ericholscher.com/\">ericholscher.com/</a>"
   image: eric_holscher.png
+
+- name: Abhinav Asthana
+  # slack_handle: ericholscher
+  twitter: https://twitter.com/a85
+  linkedin: https://www.linkedin.com/in/abhinavasthana
+  description: "Founder and CEO of Postman. On a mission to simplify API development. <a href=\"http://getpostman.com/\">getpostman.com/</a>"
+  image: abhinavasthana.png
