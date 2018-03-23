@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 14: Humanizing documentation"
+title: "WTD Episode 14: Humanizing your documentation"
 guid: postman
 meetup: WTD Podcast
 keywords: tone, ethics, gender, conversation
