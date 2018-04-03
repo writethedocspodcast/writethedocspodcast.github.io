@@ -1,9 +1,5 @@
 podcasts:
 
-- title: Write the Docs podcast
-  author: Chris Ward, Tom Johnson, and other WTD community
-  url: http://podcast.writethedocs.org/
-  img: wtdpodcast.png
 
 - title: 10 Minute Tech Comm podcast
   author: Ryan Weber
@@ -39,3 +35,8 @@ podcasts:
   author: Institute of Scientific and Technical Communicators
   url: https://istctechcomm.podbean.com/
   img: istc.jpg
+
+- title: Write the Docs podcast
+  author: Chris Ward, Tom Johnson, and other WTD community
+  url: http://podcast.writethedocs.org/
+  img: wtdpodcast.png
