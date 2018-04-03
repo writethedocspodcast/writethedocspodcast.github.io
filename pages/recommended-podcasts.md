@@ -3,8 +3,7 @@ title: Recommended Podcasts
 permalink: /recommended-podcasts/
 ---
 
-Here are some other recommended podcasts:
-
+Here are some other podcasts focused on tech-comm:
 
 {% for item in site.data.recommended_podcasts.podcasts %}
 

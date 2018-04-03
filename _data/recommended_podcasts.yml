@@ -1,46 +1,36 @@
 podcasts:
 
+- title: 10 Minute Tech Comm
+  author: Ryan Weber
+  url: https://www.stitcher.com/podcast/uah-technical-writing/10minute-tech-comm
+  img: tenminute.jpg
+
+- title: Cherryleaf
+  author: Ellis Pratt
+  url: https://cherryleaf.podbean.com/
+  img: cherryleaf.jpg
+
 - title: Content Content
   author: Ed Marsh
   url: http://edmarsh.com/content-content-podcast/
   img: edmarsh.jpg
 
-- title: The Not Boring Technical Writer
-  author: Jacob Moses
-  url: http://jacobmoses.com/series/tech-writer-podcast/
-  img: jacobmoses.jpg
-
-- title: This Week in Tech
-  author: Leo Laporte
-  url: https://twit.tv/shows/this-week-in-tech
-  img: leolaporte.jpg
-
-- title: The Verge Cast
-  author: The Verge
-  url: http://www.theverge.com/podcasts
-  img: verge.png
-
-- title: Radio Lab
-  author: Jad Abumbrad and Robert Krulwich
-  url: http://www.radiolab.org/
-  img: radiolab.png
+- title: Scriptorium - The Content Strategy Experts
+  author: Ed Marsh
+  url: https://www.scriptorium.com/category/podcast/
+  img: contentstrategyexperts.jpg
 
 - title: I'd Rather Be Writing
   author: Tom Johnson
   url: http://idratherbewriting.com/category-podcasts/
   img: tomjohnsonpodcast.jpg
 
-- title: Reply All
-  author: Gimlet Media
-  url: https://gimletmedia.com/reply-all/
-  img: replyall.jpg
+- title: Grammar Girl Podcast
+  author: Mignon Fogarty
+  url: https://www.quickanddirtytips.com/grammar-girl
+  img: grammargirl.jpg
 
-- title: The Accidental Tech Podcast
-  author: atp.fm
-  url: http://atp.fm/
-  img: accidentaltechpodcast.jpg
-
-- title: Boagworld
-  author: Paul Boag
-  url: https://boagworld.com/show/
-  img: boagworld.jpg
+- title: ISTC's podcast
+  author: Institute of Scientific and Technical Communicators
+  url: https://istctechcomm.podbean.com/
+  img: istc.jpg
