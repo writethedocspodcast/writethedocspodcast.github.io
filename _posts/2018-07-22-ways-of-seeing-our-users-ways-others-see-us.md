@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 15: Assumptions about end users and tech writers"
+title: "WTD Episode 15: User research, tech writer stereotypes, and conversations"
 guid: ways_of_seeing
 meetup: WTD Podcast
 keywords:
