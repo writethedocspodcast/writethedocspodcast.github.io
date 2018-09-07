@@ -88,10 +88,16 @@ info:
   description: "Founder and CEO of Postman. On a mission to simplify API development. Innovator and product genius. <a href=\"http://getpostman.com/\">getpostman.com/</a>"
   image: abhinavasthana.png
 
-
 - name: Carolyn Stransky
   slack_handle: carolyn
   twitter: https://twitter.com/carolstran
   linkedin: https://www.linkedin.com/in/carolstran/
   description: "Journalist and JavaScript Developer in Berlin, Germany. Passionate about humanizing docs. <a href=\"https://about.me/carolstran\">about.me/carolstran/</a>"
   image: caroylyn_stransky.jpg
+
+- name: Anett Pozsar
+  slack_handle: anettpozsar
+  twitter: https://twitter.com/katsa23
+  linkedin: https://www.linkedin.com/in/anettpozsar/
+  description: "Hungarian technical Writer at Pronovix. Also in a death metal band. <a href=\"https://twitter.com/katsa23\">@katsa23</a>"
+  image: annet_pozsar.jpg
