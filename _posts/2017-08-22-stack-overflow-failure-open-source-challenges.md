@@ -15,7 +15,7 @@ tags:
 - engineers-write
 
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_8.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_8.mp3
 podcast_file_size: 39.8 MB
 podcast_duration: "50:40"
 podcast_length: 39750699

@@ -9,7 +9,7 @@ event_date: 2016-05-18
 tags:
 - support
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/nealdocssupportwtd.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/nealdocssupportwtd.mp3
 podcast_file_size: 18.5
 podcast_duration: "24:37"
 podcast_length: 18510066

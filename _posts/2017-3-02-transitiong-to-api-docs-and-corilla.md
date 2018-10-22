@@ -11,7 +11,7 @@ tags:
 - api-docs
 - startups
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdsydneymar2_2017.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdsydneymar2_2017.mp3
 podcast_file_size: 45.6
 podcast_duration: "47:23"
 podcast_length: 45568228

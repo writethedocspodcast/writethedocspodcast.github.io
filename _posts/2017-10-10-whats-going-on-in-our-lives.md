@@ -13,7 +13,7 @@ tags:
 - docs-as-code
 - agile
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdpodcast_episode_10_ourlives.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdpodcast_episode_10_ourlives.mp3
 podcast_file_size: 49.7 MB
 podcast_duration: "1:01:46"
 podcast_length: 49726448

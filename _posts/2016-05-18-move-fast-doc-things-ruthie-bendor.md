@@ -9,7 +9,7 @@ event_date: 2016-05-18
 tags:
 - engineers-write
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/ruthiemovefastanddocwtd.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/ruthiemovefastanddocwtd.mp3
 podcast_file_size: 27.3
 podcast_duration: "35.51"
 podcast_length: 27289440

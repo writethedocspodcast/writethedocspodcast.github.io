@@ -10,7 +10,7 @@ event_date: 2016-10-27
 tags:
 - github
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: http://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/github-workshop-rhonda-glennon.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/github-workshop-rhonda-glennon.mp3
 podcast_file_size: 27.3
 podcast_duration: "1:28:11"
 podcast_length: 110681568
