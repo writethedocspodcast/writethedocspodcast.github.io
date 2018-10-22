@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 17: Structured writing"
+title: "WTD Episode 17: Structured writing &mdash; reasons and approaches"
 guid: structured_authoring
 meetup: WTD Podcast
 keywords:
