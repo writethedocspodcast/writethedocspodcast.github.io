@@ -101,3 +101,10 @@ info:
   linkedin: https://www.linkedin.com/in/anettpozsar/
   description: "Hungarian technical Writer at Pronovix. Also in a death metal band. <a href=\"https://twitter.com/katsa23\">@katsa23</a>"
   image: annet_pozsar.jpg
+
+- name: Mark Baker
+  slack_handle: mbaker.analecta
+  twitter: https://twitter.com/mbakeranalecta
+  linkedin: https://www.linkedin.com/in/mbakeranalecta/
+  description: "Author, <i>Every Page is Page One</i> and <i>Structured Writing</i> <a href=\"https://everypageispageone.com\">everypageispageone.com</a>"
+  image: mark_baker.png
