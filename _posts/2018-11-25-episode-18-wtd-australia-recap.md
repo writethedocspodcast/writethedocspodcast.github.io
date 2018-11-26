@@ -16,7 +16,7 @@ podcast_file_size: 44.2 MB
 podcast_duration: "50:20"
 podcast_length: 44246986
 youtube_id: NG0sKE7Ujbg
-summary: "In episode 18 of the Write the Docs podcast, we discuss the recent Write the Docs Australia 2018 conference held in Melbourne. Jared was an emcee at the event and shares his inside perspective about what made the event so successful. We dive deep into the unconference format, how to instill the Write the Docs brand into the conference experience, how super volunteers can avoid burnout, standout sessions and workshops, and more. Also, Chris confesses that he has attended about 40 conferences this year, and explains a few reasons why."
+summary: "In episode 18 of the Write the Docs podcast, we discuss the recent Write the Docs Australia 2018 conference held in Melbourne. Jared was an emcee at the event and shares his inside perspective about what made the event so successful. We dive deep into the unconference format, how to instill the Write the Docs brand into the conference experience, how super volunteers can avoid burnout, what sessions stood out, and more. Also, Chris confesses that he has attended about 40 conferences this year, and explains a few reasons why."
 bitlink: http://bit.ly/wtdpodcast18
 mp4_url: http://writethedocspodcast.org/video/wtd_episode_18_wtd_australia.mp4
 mp4_length: 316085551
