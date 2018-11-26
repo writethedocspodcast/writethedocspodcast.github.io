@@ -3,7 +3,7 @@ layout: default
 type: homepage
 ---
 
-The Write the Docs Podcast publishes both discussion-style podcasts and meetup recordings.
+The Write the Docs Podcast publishes discussion-style podcasts focusing on topics related to the Write the Docs community.
 
 <h2>Recent Podcasts</h2>
 
@@ -12,7 +12,7 @@ The Write the Docs Podcast publishes both discussion-style podcasts and meetup r
     <li><a class="reference internal" href="{{ post.url }}">{{ post.title}}</a> (<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>)</li>
 {% endfor %}
 </ul>
-
+{% comment %}
 <h2>Recent Meetup Recordings</h2>
 
 <ul class="postlist">
@@ -20,5 +20,4 @@ The Write the Docs Podcast publishes both discussion-style podcasts and meetup r
     <li><a class="reference internal" href="{{ post.url }}">{{ post.title}}</a> (<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>)</li>
     {% endfor %}
 </ul>
-
-
+{% endcomment %}

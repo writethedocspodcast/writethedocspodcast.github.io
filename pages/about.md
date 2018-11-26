@@ -7,7 +7,4 @@ Write the Docs is a community of people focused on software documentation. We co
 
 Members in the Write the Docs community interact through regular conferences, meetups, and Slack channels. Some great discussions and ideas develop in these spaces. This podcast is a way of bringing some of those ideas together, sharing news and other WTD information, and also furthering the discussion in the audio space.
 
-Although the core team for Write the Docs is a small group of individuals, the format and platform is open to anyone who wants to join. The sessions are recorded on Youtube live, where you can join in, ask questions, and otherwise contribute. If you’d like to suggest a topic, participate as a co-host, or contribute your own audio, let us know.
-
-The podcast is just getting started, but we hope to continue it with regular cadence, releasing a new show every couple of weeks and following a discussion-style format.
-
+Although the core team for Write the Docs is a small group of individuals, the format and platform is open to anyone who wants to join. The sessions are recorded on Youtube live, where you can join in, ask questions, and otherwise contribute. If you’d like to suggest a topic, participate as a co-host, or contribute your own audio, let us know. We release new shows each month, often including a guest and following a discussion-style format.

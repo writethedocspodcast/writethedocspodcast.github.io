@@ -13,8 +13,6 @@ tags:
 - engineers-write
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdpodcast_episode_15_assumptions_users_writers.mp3
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtdpodcast_episode_14_humanizing_docs.mp3
-
 podcast_file_size: 54.8 MB
 podcast_duration: "56:11"
 podcast_length: 54766194
