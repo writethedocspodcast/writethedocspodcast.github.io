@@ -1,6 +1,6 @@
 ---
 title: "WTD Episode 18: Recap and thoughts on Write the Docs Australia 2018"
-guid: structured_authoring
+guid: wtd_australia
 meetup: WTD Podcast
 keywords:
 global_recommendation: true
