@@ -17,9 +17,10 @@ podcast_length: 3248701
 youtube_id: 5nk4fHY74_Y
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: http://www.slideshare.net/JuanLara52/mediawiki-as-a-documentation-platform
-mp4_url: http://writethedocspodcast.org/video/mediawiki_as_platform_juan_lara.mp4
+mp4_filename: mediawiki_as_platform_juan_lara.mp4
 mp4_length: 3782433
 mp4_thumbnail: assets/img/episodethumbs/mediawiki.png
+published: false
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

@@ -18,7 +18,7 @@ podcast_length: 51462773
 youtube_id: uGnDzVoJ2Lw
 summary: "In this episode, we explore the role of metadata in documentation and how it can be used to classify topics and assist in the discoverability of information. We're joined by special guest Eva Jackolis who explains a strategy for metadata used in German mechanical engineering documentation. We also discuss involving tech writers in UX copy and the challenges inherent in influencing UI copy, product naming, and working with UX designers and product teams."
 bitlink: http://bit.ly/wtdpodcastepisode6
-mp4_url: http://writethedocspodcast.org/video/wtdpodcast_ep6_powerofmetadata.mp4
+mp4_filename: wtdpodcast_ep6_powerofmetadata.mp4
 mp4_length: 148200888
 mp4_thumbnail: assets/img/episodethumbs/episode6thumbeva.png
 ---

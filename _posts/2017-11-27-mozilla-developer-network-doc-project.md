@@ -19,7 +19,7 @@ podcast_length: 47521737
 youtube_id: bSMpdsbigpw
 summary: "In this episode of the Write the Docs podcast, we chat with Kadir Topal, product manager for Mozilla Developer Network Web Docs project, about how they manage this large body of documentation for web developers. The MDN project provides standards-based documentation around web development topics (for example, HTML, CSS, and JS) intended for web developers, with the goal of producing consistent experiences for users across browsers. Kadir gives us an inside look into the challenges, goals, and roadmap of this project."
 bitlink: http://bit.ly/wtdpodcastepisode11
-mp4_url: http://writethedocspodcast.org/video/wtdpodcast_episode_11_combine_forces.mp4
+mp4_filename: wtdpodcast_episode_11_combine_forces.mp4
 mp4_length: 312296280
 mp4_thumbnail: assets/img/episodethumbs/episode11thumbkadir.png
 ---

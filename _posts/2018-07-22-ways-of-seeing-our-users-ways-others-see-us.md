@@ -19,7 +19,7 @@ podcast_length: 54766194
 youtube_id: 8UC3fWXCKp4
 summary: "After a short summer break, we've returned to the WTD podcast and taken up our mics again to talk about important doc issues. In this episode, we first chat about assumptions we have regarding our users and the value of doing user research. Basing the discussion on Jen Lambourne's talk at WTD Portland 2018, we talk about ways to capture the user perspective and limitations/workarounds for user research within the corporate domain. Next, we chat about an article by Emily January Petersen on the Make-It-Pretty Philosophy, where the roles of tech writers are reduced to grammar and style editing only, without more substantive updates and revisions to content. Finally, we talk about Tom's research project on healing the academic/practitioner divide and how he hopes his conversation posts will bring both sides more closely together."
 bitlink: http://bit.ly/wtdpodcast_episode_15_assumptions_users_writers
-mp4_url: http://writethedocspodcast.org/video/wtdpodcast_episode_15_assumptions_users_writers.mp4
+mp4_filename: wtdpodcast_episode_15_assumptions_users_writers.mp4
 mp4_length: 444659349
 mp4_thumbnail: assets/img/episodethumbs/episode15chris.png
 ---

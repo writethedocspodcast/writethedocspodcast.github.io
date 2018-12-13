@@ -36,6 +36,9 @@ defaults:
 
 plugins: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
 
+## mp4 videos for fire tv app are hosted here. this field appears in the fab.json template.
+mp4_cdn_url: https://d1pspton2hyndh.cloudfront.net
+
 ## Values for podcast RSS feed
 
 podcast_subtitle: A discussion podcast based on WTD topics and issues, focused on technical writing and documentation for software products.

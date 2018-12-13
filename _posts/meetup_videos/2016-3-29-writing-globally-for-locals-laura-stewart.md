@@ -16,9 +16,10 @@ podcast_length: 5461543
 youtube_id: Ov3pUWXS7Yk
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016"
 slides: https://www.slideshare.net/secret/HwNusytFaCh4x
-mp4_url: http://writethedocspodcast.org/video/writing_globally_laura_stewart.mp4
+mp4_filename: writing_globally_laura_stewart.mp4
 mp4_length: 8568020
 mp4_thumbnail: assets/img/episodethumbs/writingglobally.png
+published: false
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

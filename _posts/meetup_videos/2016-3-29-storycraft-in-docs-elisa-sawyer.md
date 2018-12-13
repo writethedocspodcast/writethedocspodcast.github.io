@@ -16,9 +16,10 @@ podcast_length: 8012554
 youtube_id: mAzR0GVP-Ag
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: http://www.slideshare.net/ElisaSawyer/a-writers-theory-of-everything
-mp4_url: http://writethedocspodcast.org/video/storycraft_in_docs_elisa_sawyer.mp4
+mp4_filename: storycraft_in_docs_elisa_sawyer.mp4
 mp4_length: 6703449
 mp4_thumbnail: assets/img/episodethumbs/everything.png
+published: false
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

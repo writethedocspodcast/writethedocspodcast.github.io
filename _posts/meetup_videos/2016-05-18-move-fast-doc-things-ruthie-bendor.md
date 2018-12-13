@@ -16,9 +16,10 @@ podcast_length: 27289440
 youtube_id: mMr16fzjY7M
 summary: "At startups and other fast-moving organizations, the imperative to ship provides a convenient excuse to skip writing the README. But should we accept this as the cost of moving fast? Or can we reframe how we communicate the value of documentation so that the message resonates in startup-land? Can we adapt how we practice the art of documentation so that it happens even when nobody has time?"
 slides: https://speakerdeck.com/unruthless/move-fast-and-document-things
-mp4_url: http://writethedocspodcast.org/video/move_fast_doc_thing_ruthie_bendor.mp4
+mp4_filename: move_fast_doc_thing_ruthie_bendor.mp4
 mp4_length: 123198342
 mp4_thumbnail: assets/img/episodethumbs/movefast.png
+published: false
 ---
 
 At startups and other fast-moving organizations, the imperative to ship provides a convenient excuse to skip writing the README. But should we accept this as the cost of moving fast? Or can we reframe how we communicate the value of documentation so that the message resonates in startup-land? Can we adapt how we practice the art of documentation so that it happens even when nobody has time?

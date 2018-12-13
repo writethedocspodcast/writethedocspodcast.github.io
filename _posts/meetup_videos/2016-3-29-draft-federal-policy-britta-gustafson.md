@@ -16,9 +16,10 @@ podcast_length: 4059044
 youtube_id: hAkQ2b5XOmo
 summary: "Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016."
 slides: https://docs.google.com/presentation/d/1a4vBgxYDrR7X14phxwRx4NsIcIlLySb6Xh1C8pfDAeg/mobilepresent?slide=id.g10ee21bdb5_0_25
-mp4_url: http://writethedocspodcast.org/video/drafting_federal_docs_britta_gustafson.mp4
+mp4_filename: drafting_federal_docs_britta_gustafson.mp4
 mp4_length: 7739084
 mp4_thumbnail: assets/img/episodethumbs/federal.png
+published: false
 ---
 
 Lightning talk presentation given at Write the Docs San Francisco, March 29, 2016

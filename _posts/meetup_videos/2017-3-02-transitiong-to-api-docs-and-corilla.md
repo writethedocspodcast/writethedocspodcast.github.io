@@ -17,9 +17,10 @@ podcast_duration: "47:23"
 podcast_length: 45568228
 youtube_id: bd46s-1Hypg
 summary: "Two presentations -- Transitioning into API Technical Writing. A person who’s thinking of specialising in API tech writing may reflect on a number of fair questions ... And The Corilla Story. David Ryan will talk about the journey of a bunch of technical writers that started to tinker with some code in a back room at Red Hat's Brisbane office."
-mp4_url: http://writethedocspodcast.org/video/wtdsydneymar2_2017.mp4
+mp4_filename: wtdsydneymar2_2017.mp4
 mp4_length: 79699681
 mp4_thumbnail: assets/img/episodethumbs/wtdsydneymar2.png
+published: false
 ---
 
 This recording contains two presentations:

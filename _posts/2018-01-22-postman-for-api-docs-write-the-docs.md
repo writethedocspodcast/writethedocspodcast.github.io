@@ -18,7 +18,7 @@ podcast_length: 48081516
 youtube_id: WN4HWuj1Gws
 summary: "In this episode, we chat with Abhinav Asthana (founder and CEO of Postman) to explore how Postman, a REST client, can be used to create, collaborate, and publish API documentation. If you work with API documentation, you've probably used Postman to make and test API requests. But you can do also a lot more with Postman. You can embed Run in Postman buttons that contain collections of requests that users can load in their own Postman clients (perfect for getting started tutorials). You can collaborate with engineers on the requests and documentation by syncing collections across a team account. And with just a few clicks, you can also publish and host your documentation through Postman, complete with code samples in multiple programming languages. Check out Postman's API Network to see many ways different companies use Postman in their documentation."
 bitlink: http://bit.ly/wtdpodcast_episode_13_postman
-mp4_url: http://writethedocspodcast.org/video/wtdpodcast_episode_13_postman.mp4
+mp4_filename: wtdpodcast_episode_13_postman.mp4
 mp4_length: 332252334
 mp4_thumbnail: assets/img/episodethumbs/episode13thumberic.png
 ---

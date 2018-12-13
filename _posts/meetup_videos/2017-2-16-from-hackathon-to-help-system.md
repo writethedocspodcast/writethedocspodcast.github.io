@@ -16,9 +16,10 @@ podcast_length: 34431232
 youtube_id: kEkRWz3HCys
 slides: https://github.com/jaredmorgs/hackathon-help-system
 summary: "Jared Morgan shares a case study about the approach he took to implement Embedded Help in a product not designed to support it."
-mp4_url: http://writethedocspodcast.org/video/from_hackathon_to_help_system.mp4
+mp4_filename: from_hackathon_to_help_system.mp4
 mp4_length: 36461808
 mp4_thumbnail: assets/img/episodethumbs/hackathon.png
+published: false
 ---
 
 Jared Morgan shares a case study about the approach he took to implement Embedded Help in a product not designed to support it.

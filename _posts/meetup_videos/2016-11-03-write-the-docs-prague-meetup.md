@@ -16,9 +16,10 @@ podcast_length: 17453184
 youtube_id: fvvKz1h6XqE
 summary: "Swapnil will provide a quick summary of talks and his experience at attending (and speaking) at the WTD Prague conference in Sept 2016."
 slides: https://www.slideshare.net/secret/18xbiTCVXgs
-mp4_url: http://writethedocspodcast.org/video/wtd_prague_wrapup.mp4
+mp4_filename: wtd_prague_wrapup.mp4
 mp4_length: 43603204
 mp4_thumbnail: assets/img/episodethumbs/wtdprague.png
+published: false
 ---
 
 Swapnil will provide a quick summary of talks and his experience at attending (and speaking) at the WTD Prague conference in Sept 2016.
