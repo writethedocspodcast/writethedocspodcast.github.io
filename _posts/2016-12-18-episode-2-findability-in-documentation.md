@@ -4,7 +4,7 @@ guid: wtdpodcast_ep2_findability
 meetup: WTD Podcast
 keywords: technical writing
 categories:
-- podcasts
+- y2016
 event_date: 2016-12-18
 tags:
 - findability

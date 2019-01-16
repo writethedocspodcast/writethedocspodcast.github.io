@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: technical writing, mozilla, open source, collaboration, wiki
 global_recommendation: true
 categories:
-- podcasts
+- y2017
 date: 2017-11-27
 tags:
 - open-source

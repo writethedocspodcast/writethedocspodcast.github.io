@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: technical writing, docs-as-code, product owners
 global_recommendation: true
 categories:
-- podcasts
+- y2017
 date: 2017-10-10
 tags:
 - tools

@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: technical writing, chatbots, ai
 global_recommendation: true
 categories:
-- podcasts
+- y2017
 date: 2017-09-19
 tags:
 - tools

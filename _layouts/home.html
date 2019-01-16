@@ -7,11 +7,30 @@ The Write the Docs Podcast publishes discussion-style podcasts focusing on topic
 
 <h2>Recent Podcasts</h2>
 
+
+<h2>2018</h2>
 <ul class="postlist">
-{% for post in site.categories.podcasts %}
+{% for post in site.categories.y2018 %}
     <li><a class="reference internal" href="{{ post.url }}">{{ post.title}}</a> (<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>)</li>
 {% endfor %}
 </ul>
+
+<h2>2017</h2>
+<ul class="postlist">
+{% for post in site.categories.y2017 %}
+    <li><a class="reference internal" href="{{ post.url }}">{{ post.title}}</a> (<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>)</li>
+{% endfor %}
+</ul>
+
+<h2>2016</h2>
+<ul class="postlist">
+{% for post in site.categories.y2016 %}
+    <li><a class="reference internal" href="{{ post.url }}">{{ post.title}}</a> (<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>)</li>
+{% endfor %}
+</ul>
+
+
+
 {% comment %}
 <h2>Recent Meetup Recordings</h2>
 

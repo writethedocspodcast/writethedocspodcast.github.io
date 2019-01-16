@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: technical writing, metadata, classification, UI copy
 global_recommendation: true
 categories:
-- podcasts
+- y2017
 date: 2017-06-06
 tags:
 - tools

@@ -14,7 +14,7 @@ layout: null
     "videoURL": "{{site.mp4_cdn_url}}/{{ep.mp4_filename}}",
     "tags": "{{ep.tags | join: ', '}}",
     "categories": [
-      "{{ep.meetup}}"
+      "{{ep.categories[0]}}"
     ],
     "channel_id": "{{ep.categories}}",
     "recommendations":

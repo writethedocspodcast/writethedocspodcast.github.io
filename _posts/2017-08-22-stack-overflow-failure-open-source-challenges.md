@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: technical writing,
 global_recommendation: true
 categories:
-- podcasts
+- y2017
 date: 2017-08-22
 tags:
 - startups
