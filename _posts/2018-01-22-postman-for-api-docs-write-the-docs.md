@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: postman, api documentation, postman rest client, run in postman button
 global_recommendation: true
 categories:
-- 2018
+- "2018"
 date: 2018-01-22
 tags:
 - api-docs

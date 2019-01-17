@@ -4,7 +4,7 @@ guid: wtdpodcast_ep1_style
 meetup: WTD Podcast
 keywords: technical writing
 categories:
-- 2016
+- "2016"
 event_date: 2016-11-19
 tags:
 - writing

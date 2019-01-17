@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: tone, ethics, gender, conversation
 global_recommendation: true
 categories:
-- 2018
+- "2018"
 date: 2018-03-22
 tags:
 - community
