@@ -4,7 +4,7 @@ guid: wtdpodcast_ep3_docsascode
 meetup: WTD Podcast
 keywords: technical writing
 categories:
-- y2017
+- 2017
 event_date: 2017-01-25
 tags:
 - docs-as-code

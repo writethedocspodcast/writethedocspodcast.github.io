@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: write the docs, communities, open source, diversity, technical writing, software documentation
 global_recommendation: true
 categories:
-- y2017
+- 2017
 date: 2017-12-13
 tags:
 - open-source

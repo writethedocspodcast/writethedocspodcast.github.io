@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords: technical writing, automation, poland, robots
 global_recommendation: true
 categories:
-- y2017
+- 2017
 date: 2017-07-03
 tags:
 - tools

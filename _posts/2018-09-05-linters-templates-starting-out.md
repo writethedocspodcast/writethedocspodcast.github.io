@@ -5,7 +5,7 @@ meetup: WTD Podcast
 keywords:
 global_recommendation: true
 categories:
-- y2018
+- 2018
 date: 2018-09-05
 tags:
 - community
