@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 10: What's going on in our lives as documentarians and product owners"
 guid: wtdpodcast_ep10_our_lives
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing, docs-as-code, product owners
 global_recommendation: true
 categories:

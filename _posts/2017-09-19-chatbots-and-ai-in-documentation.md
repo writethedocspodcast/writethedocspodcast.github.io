@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 9: Chatbots in Documentation"
 guid: wtdpodcast_ep9_chatbots
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing, chatbots, ai
 global_recommendation: true
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 4: Continuous Integration and Docs like Code"
 guid: wtdpodcast_ep4_docslikecode
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing
 global_recommendation: true
 categories:

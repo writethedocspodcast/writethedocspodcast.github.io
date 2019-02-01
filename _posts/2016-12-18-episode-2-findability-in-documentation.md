@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 2: Findability -- helping users find what they're looking for"
 guid: wtdpodcast_ep2_findability
-meetup: WTD Podcast
+meetup: 2016
 keywords: technical writing
 categories:
 - y2016

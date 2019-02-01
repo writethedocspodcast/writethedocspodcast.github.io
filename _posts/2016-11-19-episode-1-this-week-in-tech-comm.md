@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 1: This week in tech comm"
 guid: wtdpodcast_ep1_style
-meetup: WTD Podcast
+meetup: 2016
 keywords: technical writing
 categories:
 - y2016

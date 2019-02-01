@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 13: Postman for API development and docs &mdash; Interview with Postman Founder"
 guid: postman
-meetup: WTD Podcast
+meetup: 2018
 keywords: postman, api documentation, postman rest client, run in postman button
 global_recommendation: true
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 16: An open-source Grammarly for tech docs?"
 guid: linters_templates
-meetup: WTD Podcast
+meetup: 2018
 keywords:
 global_recommendation: true
 categories:

@@ -108,3 +108,10 @@ info:
   linkedin: https://www.linkedin.com/in/mbakeranalecta/
   description: "Author, <i>Every Page is Page One</i> and <i>Structured Writing</i> <a href=\"https://everypageispageone.com\">everypageispageone.com</a>"
   image: mark_baker.png
+
+- name: Jessica Parsons
+  slack_handle: verythorough
+  twitter: https://twitter.com/verythorough
+  linkedin: https://www.linkedin.com/in/verythorough/
+  description: "Documentation engineer @netlify. Previously a web developer, now a documentation engineer. <a href=\"https://www.verythorough.com/\">verythorough.com</a>"
+  image: jessica_parsons.png

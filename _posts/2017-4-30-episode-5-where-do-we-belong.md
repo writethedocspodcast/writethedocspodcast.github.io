@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 5: Where do we belong?"
 guid: wtdpodcast_ep5_wheredowebelong
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing
 global_recommendation: true
 categories:

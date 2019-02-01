@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 12: Founding ideas behind Write the Docs"
 guid: founding_principles
-meetup: WTD Podcast
+meetup: 2017
 keywords: write the docs, communities, open source, diversity, technical writing, software documentation
 global_recommendation: true
 categories:

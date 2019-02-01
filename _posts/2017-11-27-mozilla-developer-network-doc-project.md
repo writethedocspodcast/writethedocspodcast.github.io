@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 11: Combining Forces for Documentation Sources -- Exploring the Mozilla Developer Network's Web Docs project"
 guid: wtdpodcast_ep11_combine_forces
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing, mozilla, open source, collaboration, wiki
 global_recommendation: true
 categories:

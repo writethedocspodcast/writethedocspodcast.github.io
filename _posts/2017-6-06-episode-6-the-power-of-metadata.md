@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 6: Metadata and UI copy"
 guid: wtdpodcast_ep6_powerofmetadata
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing, metadata, classification, UI copy
 global_recommendation: true
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 8: Stack Overflow's Documentation Failure and Open Source Challenges"
 guid: wtdpodcast_ep8_stackoverflow
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing,
 global_recommendation: true
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 3: Technical writing trends for 2017"
 guid: wtdpodcast_ep3_docsascode
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing
 categories:
 - y2017

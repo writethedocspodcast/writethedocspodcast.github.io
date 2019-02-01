@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 14: Humanizing your documentation"
 guid: humanizing
-meetup: WTD Podcast
+meetup: 2018
 keywords: tone, ethics, gender, conversation
 global_recommendation: true
 categories:

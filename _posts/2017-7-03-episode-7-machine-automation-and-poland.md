@@ -1,7 +1,7 @@
 ---
 title: "WTD Episode 7: Let the robots do the work"
 guid: wtdpodcast_ep7_machineautopoland
-meetup: WTD Podcast
+meetup: 2017
 keywords: technical writing, automation, poland, robots
 global_recommendation: true
 categories:
