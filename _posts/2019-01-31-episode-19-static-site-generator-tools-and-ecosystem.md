@@ -33,4 +33,6 @@ Links for more information:
 * [Netlify](https://www.netlify.com/)
 * [Netlify CMS](https://www.netlifycms.org/)
 * [Jamstack templates](https://templates.netlify.com/)
+* [Headless CMS](https://headlesscms.org/)
+* [Strapi](https://strapi.io/)
 * [How to pronounce "thorough"](https://dictionary.cambridge.org/us/pronunciation/english/thorough)
