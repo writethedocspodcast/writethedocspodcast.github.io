@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 19: Static site generators"
+title: "WTD Episode 19: Static site generators, with Jessica Parsons"
 guid: wtd_australia
 meetup: WTD Podcast
 keywords:
