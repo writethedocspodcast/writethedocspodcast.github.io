@@ -26,6 +26,8 @@ mp4_thumbnail: assets/img/episodethumbs/episode20thumbmatt.png
 
 {{page.summary}}
 
+{% include guest_host.md guest="U967DEZBL" %}
+
 Links for more information:
 
 * [K15t](https://www.k15t.com/)
