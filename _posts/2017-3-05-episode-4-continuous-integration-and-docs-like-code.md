@@ -20,6 +20,10 @@ bitlink: http://bit.ly/wtdpodcastepisode4
 mp4_filename: wtdpodcast_episode_4_continous_integration_and_docs-like-code.mp4
 mp4_length: 444133175
 mp4_thumbnail: assets/img/episodethumbs/episode4_chris.png
+hosts:
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this episode, we talk about continuous integration strategies for docs (for style, screenshots, and REST calls). We also dive into discussions around docs as code, including how to encourage developer collaboration, how to stay informed about the code updates that developers make, and more.
@@ -34,10 +38,3 @@ Links mentioned during the podcast:
 * [Announcing: Docs Like Code](https://justwriteclick.com/2017/02/28/announcing-docs-like-code/)
 * [Docs like Code book site](http://docslikecode.com/book/)
 * [Remodeling Documentation](Remodeling documentation)
-
-## Hosts for this show
-
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

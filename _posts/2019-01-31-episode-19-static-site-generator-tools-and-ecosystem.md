@@ -22,6 +22,10 @@ mp4_filename: wtd_episode_19_static_site_generators.mp4
 mp4_length: 513946591
 mp4_thumbnail: assets/img/episodethumbs/wtd_episode_19_static_site_generators.png
 # make thumb 378px high by 478px wide. this image appears in FTV app only
+hosts:
+- verythorough
+- jaredmorgs
+- chrisward
 ---
 
 {{page.summary}}
@@ -36,10 +40,3 @@ Links for more information:
 * [Headless CMS](https://headlesscms.org/)
 * [Strapi](https://strapi.io/)
 * [How to pronounce "thorough"](https://dictionary.cambridge.org/us/pronunciation/english/thorough)
-
-## Hosts for this show
-
-{% include guest_host.md guest="verythorough" %}
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

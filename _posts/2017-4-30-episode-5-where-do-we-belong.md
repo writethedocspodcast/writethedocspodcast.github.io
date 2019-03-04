@@ -21,6 +21,10 @@ bitlink: http://bit.ly/wtdpodcastepisode5
 mp4_filename: wtd_episode_5_place.mp4
 mp4_length: 507373834
 mp4_thumbnail: assets/img/episodethumbs/episode5thumbchris.png
+hosts:
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this episode, we explore where technical writers belong in an organization. Is tech comm best placed within engineering, marketing, product management, or another group? We also talk about strategies for doc navigation, in particular, the merits of inline links and/or sidebar navigation, using a post from Every Page Is Page One as a starting point. Are hierarchical sidebar menus still useful, or are they a relic of the past? Finally, we provide details about the upcoming Write the Docs conference in Portland, and Chris mentions his new book on responsive design.
@@ -32,10 +36,3 @@ Links mentioned during the podcast:
 * [Write the Docs Conference in Portland](http://www.writethedocs.org/conf/na/2017/)
 * [Chris Ward's book on Responsive Web Design](https://www.sitepoint.com/premium/books/responsive2/)
 * [Write the Docs app on Fire TV](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1493618613&sr=1-1&keywords=write+the+docs)
-
-## Hosts for this show
-
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

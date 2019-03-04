@@ -21,6 +21,11 @@ bitlink: http://bit.ly/wtdpodcastepisode9
 mp4_filename: wtdpodcast_episode_9_chatbots.mp4
 mp4_length: 376909373
 mp4_thumbnail: assets/img/episodethumbs/episode8_ellis2.png
+hosts:
+- ellispratt
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this episode, we're joined by Ellis Pratt from Cherryleaf to talk about chatbots in documentation. What are chatbots, and how can you incorporate them in your docs to enhance the user experience? Are chatbots the next evolution of wizards? What are some examples of successful chatbots? How does one get started using chatbots in documentation? Are there chatbot services you can leverage inexpensively to try them out? These are some of the questions explored in this podcast.
@@ -35,11 +40,3 @@ In this episode, we're joined by Ellis Pratt from Cherryleaf to talk about chatb
 * [SAP Chatbot – Talk to SAP Applications with Google Home/Facebook Messenger/Skype](https://blogs.sap.com/2017/04/10/sap-tm-chatbot-talk-to-sap-tm-application-with-google-home/)
 * [Ambient Findability](http://shop.oreilly.com/product/9780596007652.do)
 * [Cherryleaf](https://www.cherryleaf.com/)
-
-## Hosts for this show
-
-{% include guest_host.md guest="ellispratt" %}
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

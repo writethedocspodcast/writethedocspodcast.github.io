@@ -25,6 +25,11 @@ bitlink: http://bit.ly/wtdpodcastepisode8
 mp4_filename: wtdpodcast_episode_8_stackoverflow.mp4
 mp4_length: 376909373
 mp4_thumbnail: assets/img/episodethumbs/episode8thumbbeth.png
+hosts:
+- beth.aitman
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this episode, we're joined by Beth Aitman to talk about what happened with the Stack Overflow Documentation Beta. What did Stack Overflow try to do with documentation, and why did they abandon the effort? Why did their effort to crowdsource docs fail but succeed so well with forums and niche content? Additionally, we discuss the difficulties of creating good documentation with open source projects. A recent survey found that incomplete or outdated documentation is the number one issue with open source projects. Why? What makes it so difficult to create documentation on an open source project?
@@ -38,11 +43,3 @@ In this episode, we're joined by Beth Aitman to talk about what happened with th
 * [Free software is suffering because coders don’t know how to write documentation](https://thenextweb.com/dd/2017/06/02/free-software-is-suffering-because-coders-dont-know-how-to-write-documentation/#.tnw_xijs56yV)
 * [Open Source Survey](http://opensourcesurvey.org/2017/)
 * [Why do people answer questions on Stack Overflow?](https://jericson.github.io/2016/07/13/QA_economics.html)
-
-## Hosts for this show
-
-{% include guest_host.md guest="beth.aitman" %}
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

@@ -22,6 +22,11 @@ bitlink: http://bit.ly/wtdpodcastepisode11
 mp4_filename: wtdpodcast_episode_11_combine_forces.mp4
 mp4_length: 312296280
 mp4_thumbnail: assets/img/episodethumbs/episode11thumbkadir.png
+hosts:
+- atopal
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this episode of the Write the Docs podcast, we chat with Kadir Topal, product manager for [Mozilla Developer Network Web Docs project](https://developer.mozilla.org/en-US/), about how they manage their large body of documentation for web developers. The MDN project provides standards-based documentation around web development topics (for example, HTML, CSS, and JS) intended for web developers, with the goal of producing consistent experiences for users across web browsers. Kadir gives us an inside look into the challenges, goals, and roadmap of this project.
@@ -51,11 +56,3 @@ For more detail, see [Mozilla brings Microsoft, Google, the W3C, Samsung togethe
 
 
 You can follow Kadir at [@atopal](https://twitter.com/atopal) on Twitter and read his blog at [https://redronin.de/](https://redronin.de/).
-
-## Hosts for this show
-
-{% include guest_host.md guest="atopal" %}
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

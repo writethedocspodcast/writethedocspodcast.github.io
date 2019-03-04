@@ -21,6 +21,11 @@ bitlink: http://bit.ly/wtdpodcastepisode7
 mp4_filename: wtdpodcast_episode_7_robots.mp4
 mp4_length: 328589808
 mp4_thumbnail: assets/img/episodethumbs/episode7thumbpawel.png
+hosts:
+- pawelkowaluk
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this podcast, we first explore the flourishing community of technical writers in Poland, discussing why the tech writing scene in Krakow is taking off so quickly and what trends this young tech writing community is embracing. We're joined by special guest Pawel Kowaluk, a Polish tech writer who runs SOAP (a tech comm conference based in Poland). We also talk about automation and robot takeovers of tech writing jobs. How are machine-assisted technologies enhancing or displacing technical writers and their work? Given the increase in automation, is tool expertise becoming more or less essential to thrive as a technical writer?
@@ -34,12 +39,3 @@ In this podcast, we first explore the flourishing community of technical writers
 * [Automated writing tool](http://articoolo.com/)
 * [Automatic Documentation Generation via Source Code Summarization of Method Context](https://www3.nd.edu/~cmc/papers/mcburney_icpc_2014.pdf)
 * [soap! -- Poland tech writing conference](http://soapconf.com/)
-
-
-## Hosts for this show
-
-{% include guest_host.md guest="pawelkowaluk" %}
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

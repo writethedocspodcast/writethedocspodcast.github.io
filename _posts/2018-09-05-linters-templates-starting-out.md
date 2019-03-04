@@ -22,6 +22,11 @@ bitlink: http://bit.ly/wtdpodcast_episode_15_assumptions_users_writers
 mp4_filename: wtdpodcast_episode_16_linters_templates.mp4
 mp4_length: 483487964
 mp4_thumbnail: assets/img/episodethumbs/episode16thumbannet.png
+hosts:
+- anettpozsar
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 This episode focuses mainly on testing tools. Last month, some rockstar WTD community members spent a few days at the Pronovix offices in Szeged, Hungary, trying to create a series of open-source testing tools. Specifically, they wanted to create a ‘create a container deployable solution that can automatically check docs’. In more blunt terms, a kind of open-source Grammarly, but integrated into deploys and repositories and focused on tech docs. Host Chris Ward and our podcast guest Anett Pozsar from Szeged (pron. Seg-jed) Hungary also participated in the Test-the-Docs hackathon. Anett recently started in her role as a technical writer, so in this episode we also chat about what it's like starting out as a new technical writer. Finally, we transition from testing tools and linters to templates. Structure and templates can be especially helpful for guiding engineers in writing docs.
@@ -30,11 +35,3 @@ See these links for more information:
 
 * [Join Test The Docs Hackathon (6-9th August)](https://www.linkedin.com/pulse/join-test-docs-hackathon-6-9th-august-anett-pozsar/)
 * [Test the Docs](https://testthedocs.org/)
-
-## Hosts for this show
-
-{% include guest_host.md guest="anettpozsar" %}
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

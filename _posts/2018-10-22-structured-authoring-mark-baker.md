@@ -23,6 +23,11 @@ bitlink: http://bit.ly/wtdpodcast17
 mp4_filename: wtdpodcast_episode_17_structured_authoring.mp4
 mp4_length: 293579343
 mp4_thumbnail: assets/img/episodethumbs/episode_17_mark_baker_structured.png
+hosts:
+- mbaker.analecta
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 {{page.summary}}
@@ -33,11 +38,3 @@ For more information about Mark Baker and his new book, see the following:
 * [Mark Baker's blog](https://everypageispageone.com/)
 * [*Every Page Is Page One*](https://www.amazon.com/Every-Page-One-Topic-Based-Communication/dp/1937434281)
 * [*Structured Writing: Rhetoric and Process*](https://www.amazon.com/Structured-Writing-Rhetoric-Mark-Baker/dp/1937434567)
-
-## Hosts for this show
-
-{% include guest_host.md guest="mbaker.analecta" %}
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

@@ -23,6 +23,10 @@ bitlink: http://bit.ly/wtdpodcastepisode10
 mp4_filename: wtdpodcast_episode_10_ourlives.mp4
 mp4_length: 372115347
 mp4_thumbnail: assets/img/episodethumbs/episode10thumbjared.png
+hosts:
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this episode, we talk about what's going on in our lives as documentarians and product owners:
@@ -38,10 +42,3 @@ In this episode, we talk about what's going on in our lives as documentarians an
 
 * [Melbourne Cup](https://en.wikipedia.org/wiki/Melbourne_Cup)
 * [Convert Google Docs content to Markdown or HTML](http://idratherbewriting.com/2017/09/22/convert-google-docs-to-markdown/)
-
-## Hosts for this show
-
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

@@ -19,6 +19,11 @@ summary: "In this first episode, we introduce the co-hosts, the podcast theme, a
 mp4_filename: wtdpodcast_episode_1_technews.mp4
 mp4_length: 636346697
 mp4_thumbnail: assets/img/episodethumbs/episode1_jared.png
+hosts:
+- carleecomm
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this first episode, we introduce the co-hosts, the podcast theme, and chat about a few articles. The four co-hosts include Jared Morgan, Carlee Potter, Chris Ward, and Tom Johnson. We're located in Sydney, Brisbane, Berlin, and California. In this episode, we chat about content strategy, style guides, abbreviations and acronyms, developer-written UI copy, and more.
@@ -33,11 +38,3 @@ Here are some links to topics we discussed in the podcast:
 * [When engineers write or design interfaces with tech copy](http://jaredleonmorgan.net/2016/11/08/U-Bnk-Has-NFC-About-Correct-User-Feedback.html). What do you do when engineers start writing UX copy? How can you simplify messages that need to community complexity beyond the average user's comprehension?
 
 If you would like to recommend a topic or article for discussion for the next podcast, [let us know](/contact).
-
-## Hosts for this show
-
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="carleecomm" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

@@ -18,6 +18,11 @@ summary: "In episode 2 of the Write the Docs podcast, we explore how to help use
 mp4_filename: wtdpodcast_episode_2_findability.mp4
 mp4_length: 572205291
 mp4_thumbnail: assets/img/episodethumbs/episode2_tom.png
+hosts:
+- carleecomm
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 Here are some links to topics mentioned in the podcast:
@@ -33,11 +38,3 @@ Here are some links to topics mentioned in the podcast:
 * [Findability is a content problem, not a search problem, by Mark Baker](http://everypageispageone.com/2013/05/28/findability-is-a-content-problem-not-a-search-problem/)
 
 If you would like to recommend a topic or article for discussion for the next podcast, [let us know](/contact). The planned topic for the next podcast is trends.
-
-## Hosts for this show
-
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="carleecomm" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

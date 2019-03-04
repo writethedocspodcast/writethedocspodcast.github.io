@@ -21,6 +21,10 @@ bitlink: http://bit.ly/wtdpodcast18
 mp4_filename: wtd_episode_18_wtd_australia.mp4
 mp4_length: 316085551
 mp4_thumbnail: assets/img/episodethumbs/wtd_episode_18_wtd_australia.png
+hosts:
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 {{page.summary}}
@@ -31,10 +35,3 @@ For more information about Write the Docs Australia, see the following:
 * [Conference speakers](http://www.writethedocs.org/conf/australia/2018/speakers/)
 * [Recordings of conference videos](https://www.youtube.com/watch?v=N13_FP2NkSk&list=PLy70RNJ7dYrJ1wANiqa7ObwUnoJjouQjt)
 * [WTD Australia meetup group](https://www.meetup.com/Write-the-Docs-Australia/)
-
-## Hosts for this show
-
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>

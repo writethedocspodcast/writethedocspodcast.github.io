@@ -22,6 +22,11 @@ bitlink: http://bit.ly/wtdpodcast_episode_14_humanizing_docs
 mp4_filename: wtdpodcast_episode_14_humanizing_docs.mp4
 mp4_length: 470554653
 mp4_thumbnail: assets/img/episodethumbs/humanizing_docs.jpg
+hosts:
+- carolyn
+- jaredmorgs
+- tomjohnson
+- chrisward
 ---
 
 In this episode, we chat with Carolyn Stransky, a journalist and JavaScript developer living in Berlin, about ways to humanize documentation. We discuss dilemmas with transparency in docs (the balance between honesty and negativity), ways to avoid gendered language (including whether to correct workplace misuse of "he"), strategies for achieving plain language and clarity (such as by reading your content out loud), the term "user" and alternatives, how to develop empathy for your audience, why terms like "simple" and "easy" are problematic (even in Marketing), tools for identifying insensitivity and complexity in docs (Hemingway, Alex), what makes content sound truly human, and more.
@@ -33,11 +38,3 @@ For more information, see the following:
 * [AlexJS](http://alexjs.com/)
 * [Carolyn's Lightning talk in Berlin](https://www.youtube.com/watch?v=jY2xglypPkQ)
 * [Slide deck on Humanizing documentation](https://speakerdeck.com/carolstran/humanizing-your-documentation-full-talk)
-
-## Hosts for this show
-
-{% include guest_host.md guest="carolyn" %}
-{% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
-{% include guest_host.md guest="chrisward" %}
-<div style="clear:both"></div>
