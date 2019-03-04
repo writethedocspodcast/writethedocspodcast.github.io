@@ -16,5 +16,4 @@
   </div>
 </div>
 {% endif %}
-{% unless include.no_clear == true %}<div style="clear:both"></div>{% endunless %}
 {% endfor %}

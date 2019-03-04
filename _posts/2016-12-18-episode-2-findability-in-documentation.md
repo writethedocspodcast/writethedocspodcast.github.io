@@ -36,8 +36,8 @@ If you would like to recommend a topic or article for discussion for the next po
 
 ## Hosts for this show
 
-{% include guest_host.md guest="jaredmorgs" no_clear=true %}
-{% include guest_host.md guest="carleecomm" no_clear=true %}
-{% include guest_host.md guest="chrisward" no_clear=true %}
-{% include guest_host.md guest="tomjohnson" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" %}
+{% include guest_host.md guest="carleecomm" %}
+{% include guest_host.md guest="tomjohnson" %}
+{% include guest_host.md guest="chrisward" %}
 <div style="clear:both"></div>

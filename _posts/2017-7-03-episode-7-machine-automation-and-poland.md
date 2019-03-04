@@ -38,8 +38,8 @@ In this podcast, we first explore the flourishing community of technical writers
 
 ## Hosts for this show
 
-{% include guest_host.md guest="pawelkowaluk" no_clear=true %}
-{% include guest_host.md guest="jaredmorgs" no_clear=true %}
-{% include guest_host.md guest="chrisward" no_clear=true %}
-{% include guest_host.md guest="tomjohnson" no_clear=true %}
+{% include guest_host.md guest="pawelkowaluk" %}
+{% include guest_host.md guest="jaredmorgs" %}
+{% include guest_host.md guest="tomjohnson" %}
+{% include guest_host.md guest="chrisward" %}
 <div style="clear:both"></div>

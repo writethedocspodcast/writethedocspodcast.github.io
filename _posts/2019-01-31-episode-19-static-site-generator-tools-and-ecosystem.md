@@ -39,8 +39,8 @@ Links for more information:
 
 ## Hosts for this show
 
-{% include guest_host.md guest="verythorough" no_clear=true %}
-{% include guest_host.md guest="jaredmorgs" no_clear=true %}
-{% include guest_host.md guest="chrisward" no_clear=true %}
-{% include guest_host.md guest="tomjohnson" no_clear=true %}
+{% include guest_host.md guest="verythorough" %}
+{% include guest_host.md guest="jaredmorgs" %}
+{% include guest_host.md guest="tomjohnson" %}
+{% include guest_host.md guest="chrisward" %}
 <div style="clear:both"></div>

@@ -41,7 +41,7 @@ In this episode, we talk about what's going on in our lives as documentarians an
 
 ## Hosts for this show
 
-{% include guest_host.md guest="jaredmorgs" no_clear=true %}
-{% include guest_host.md guest="chrisward" no_clear=true %}
-{% include guest_host.md guest="tomjohnson" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" %}
+{% include guest_host.md guest="tomjohnson" %}
+{% include guest_host.md guest="chrisward" %}
 <div style="clear:both"></div>

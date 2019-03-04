@@ -38,8 +38,8 @@ In this episode, we're joined by Ellis Pratt from Cherryleaf to talk about chatb
 
 ## Hosts for this show
 
-{% include guest_host.md guest="ellispratt" no_clear=true %}
-{% include guest_host.md guest="jaredmorgs" no_clear=true %}
-{% include guest_host.md guest="chrisward" no_clear=true %}
-{% include guest_host.md guest="tomjohnson" no_clear=true %}
+{% include guest_host.md guest="ellispratt" %}
+{% include guest_host.md guest="jaredmorgs" %}
+{% include guest_host.md guest="tomjohnson" %}
+{% include guest_host.md guest="chrisward" %}
 <div style="clear:both"></div>

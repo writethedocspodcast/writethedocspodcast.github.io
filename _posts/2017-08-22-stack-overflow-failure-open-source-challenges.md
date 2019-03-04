@@ -41,8 +41,8 @@ In this episode, we're joined by Beth Aitman to talk about what happened with th
 
 ## Hosts for this show
 
-{% include guest_host.md guest="beth.aitman" no_clear=true %}
-{% include guest_host.md guest="jaredmorgs" no_clear=true %}
-{% include guest_host.md guest="chrisward" no_clear=true %}
-{% include guest_host.md guest="tomjohnson" no_clear=true %}
+{% include guest_host.md guest="beth.aitman" %}
+{% include guest_host.md guest="jaredmorgs" %}
+{% include guest_host.md guest="tomjohnson" %}
+{% include guest_host.md guest="chrisward" %}
 <div style="clear:both"></div>
