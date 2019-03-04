@@ -41,6 +41,5 @@ Links for more information:
 
 {% include guest_host.md guest="verythorough" %}
 {% include guest_host.md guest="jaredmorgs" %}
-{% include guest_host.md guest="tomjohnson" %}
 {% include guest_host.md guest="chrisward" %}
 <div style="clear:both"></div>
