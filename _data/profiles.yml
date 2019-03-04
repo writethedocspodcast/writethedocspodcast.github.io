@@ -5,13 +5,13 @@ info:
   slack_handle: jaredmorgs
   twitter: http://twitter.com/jaredmorgs
   linkedin: https://www.linkedin.com/in/jaredmorgs
-  description: 'Play dual role as tech writer and product manager at Ladbrokes Digital Australia. Pinball fan, podcaster. <a href="http://jaredleonmorgan.net/">jaredleonmorgan.net</a>'
+  description: 'Tech writer, prod mgr, and more. Pinball fan, podcaster. <a href="http://jaredleonmorgan.net/">jaredleonmorgan.net</a>'
   image: jared_morgan.jpg
   main_cohost: true
 
 - name: Carlee Potter
   slack_handle: carleecomm
-  description: 'Head tech writer at Campaign Monitor. Write user manuals out of a love of organisation (& hatred of poor UX). <a href="http://ilikestreetart.com/">ilikestreetart.com</a>'
+  description: 'Write user manuals out of a love of organisation (& dislike of poor UX). @ Campaign Monitor. <a href="http://ilikestreetart.com/">ilikestreetart.com</a>'
   image: carlee_potter.jpg
   twitter: https://twitter.com/carleecomm
   linkedin: https://www.linkedin.com/in/carleepotter/
@@ -19,7 +19,7 @@ info:
 
 - name: Chris Ward
   slack_handle: chrisward
-  description: 'Independent consultant. Born in England, raised in Australia, living in Berlin. Former programmer. <a href="https://www.gregariousmammal.com/">gregariousmammal.com</a>'
+  description: 'Indep. consultant. Born in England, raised in Aust., live in Berlin. Former programmer. <a href="https://www.gregariousmammal.com/">gregariousmammal.com</a>'
   image: chris_ward.jpg
   linkedin: https://www.linkedin.com/in/chrischinchilla/
   twitter: https://twitter.com/chrischinch
@@ -29,7 +29,7 @@ info:
   slack_handle: tomjohnson
   twitter: http://twitter.com/tomjohnson
   linkedin: https://www.linkedin.com/in/tomjohnson1492
-  description: 'Technical writer at Amazon Lab 126. Live in San Francisco Bay area, California. Bike commuter, pickup baller. <a href="http://idratherbewriting.com">idratherbewriting.com</a>'
+  description: 'Technical writer at Amazon. Live in SF Bay area. Blogger, podcaster, and pickup baller. <a href="http://idratherbewriting.com">idratherbewriting.com</a>'
   image: tom_johnson.jpg
   main_cohost: true
 
@@ -51,7 +51,7 @@ info:
   slack_handle: beth.aitman
   twitter: https://twitter.com/baitman
   linkedin: https://www.linkedin.com/in/bethaitman
-  description: 'Technical writer at @improbableio. Based in Cambridge, England. Passionate about good UI design. <a href="http://uiwriting.tumblr.com/">uiwriting.tumblr.com/</a>'
+  description: 'Technical writer at @improbableio. Based in England. Passionate about UI design. <a href="http://uiwriting.tumblr.com/">uiwriting.tumblr.com/</a>'
   image: beth_aitman.png
 
 - name: Ellis Pratt
@@ -78,7 +78,7 @@ info:
   slack_handle: ericholscher
   twitter: https://twitter.com/ericholscher
   linkedin: https://www.linkedin.com/in/eric-holscher-2b975111b/
-  description: "Co-founder of WTD and the <a href=\"https://readthedocs.org/\">Read the Docs</a> platform. Driving force behind the WTD community. <a href=\"http://ericholscher.com/\">ericholscher.com/</a>"
+  description: "Co-founder WTD & <a href=\"https://readthedocs.org/\">Read the Docs</a> platform. The driving force. <a href=\"http://ericholscher.com/\">ericholscher.com/</a>"
   image: eric_holscher.png
 
 - name: Abhinav Asthana
@@ -115,3 +115,10 @@ info:
   linkedin: https://www.linkedin.com/in/verythorough/
   description: "Documentation engineer @netlify. Previously a web developer, now a documentation engineer. <a href=\"https://www.verythorough.com/\">verythorough.com</a>"
   image: jessica_parsons.png
+
+- name: Matt Reiner
+  slack_handle: U967DEZBL
+  twitter: https://twitter.com/reinermatthew
+  linkedin: https://www.linkedin.com/in/matthewreiner/
+  description: "Technical writer, storyteller, & Oxford comma user. Currently at K15t. <a href=\"https://medium.com/@reinermatthew/\">medium.com</a>"
+  image: matt_reiner.png
