@@ -31,3 +31,10 @@ For more information about Write the Docs Australia, see the following:
 * [Conference speakers](http://www.writethedocs.org/conf/australia/2018/speakers/)
 * [Recordings of conference videos](https://www.youtube.com/watch?v=N13_FP2NkSk&list=PLy70RNJ7dYrJ1wANiqa7ObwUnoJjouQjt)
 * [WTD Australia meetup group](https://www.meetup.com/Write-the-Docs-Australia/)
+
+## Hosts for this show
+
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

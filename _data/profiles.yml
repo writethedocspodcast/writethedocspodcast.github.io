@@ -2,6 +2,7 @@
 info:
 
 - name: Jared Morgan
+  website: http://jaredleonmorgan.net
   slack_handle: jaredmorgs
   twitter: http://twitter.com/jaredmorgs
   linkedin: https://www.linkedin.com/in/jaredmorgs
@@ -10,6 +11,7 @@ info:
   main_cohost: true
 
 - name: Carlee Potter
+  website: http://ilikestreetart.com
   slack_handle: carleecomm
   description: 'Write user manuals out of a love of organisation (& dislike of poor UX). @ Campaign Monitor. <a href="http://ilikestreetart.com/">ilikestreetart.com</a>'
   image: carlee_potter.jpg
@@ -18,6 +20,7 @@ info:
   main_cohost: true
 
 - name: Chris Ward
+  website: https://www.gregariousmammal.com
   slack_handle: chrisward
   description: 'Indep. consultant. Born in England, raised in Aust., live in Berlin. Former programmer. <a href="https://www.gregariousmammal.com/">gregariousmammal.com</a>'
   image: chris_ward.jpg
@@ -26,14 +29,16 @@ info:
   main_cohost: true
 
 - name: Tom Johnson
+  website: https://idratherbewriting.com
   slack_handle: tomjohnson
   twitter: http://twitter.com/tomjohnson
   linkedin: https://www.linkedin.com/in/tomjohnson1492
-  description: 'Technical writer at Amazon. Live in SF Bay area. Blogger, podcaster, and pickup baller. <a href="http://idratherbewriting.com">idratherbewriting.com</a>'
+  description: 'Technical writer at Amazon. Live in SF Bay area. Blogger, podcaster, and pickup baller. <a href="https://idratherbewriting.com">idratherbewriting.com</a>'
   image: tom_johnson.jpg
   main_cohost: true
 
 - name: Eva Jackolis
+  website: https://www.linkedin.com/in/eva-jackolis-a31bb3109/
   slack_handle: evalachief
   # twitter: http://twitter.com/evajackolis
   linkedin: https://www.linkedin.com/in/eva-jackolis-a31bb3109/
@@ -41,6 +46,7 @@ info:
   image: eva_jackolis.png
 
 - name: Pawel Kowaluk
+  website: http://pawelkowaluk.brandyourself.com/
   slack_handle: pawelkowaluk
   twitter: https://twitter.com/pawelkowaluk
   linkedin: https://www.linkedin.com/in/pawelkowaluk/?ppe=1
@@ -48,6 +54,7 @@ info:
   image: pawel_kowaluk.png
 
 - name: Beth Aitman
+  website: http://uiwriting.tumblr.com
   slack_handle: beth.aitman
   twitter: https://twitter.com/baitman
   linkedin: https://www.linkedin.com/in/bethaitman
@@ -55,6 +62,7 @@ info:
   image: beth_aitman.png
 
 - name: Ellis Pratt
+  website: https://www.cherryleaf.com
   slack_handle: ellispratt
   twitter: https://twitter.com/ellispratt
   linkedin: https://www.linkedin.com/in/ellispratt/
@@ -62,12 +70,14 @@ info:
   image: ellis_pratt.jpg
 
 - name: Kadir Topal
+  website: https://redronin.de
   twitter: https://twitter.com/atopal
   linkedin: https://www.linkedin.com/in/kadirtopal/
   description: "Product manager for Mozilla Developer Network's Web Docs project. Based in Germany. <a href=\"https://redronin.de/\">redronin.de/</a>"
   image: kadir_topal.png
 
 - name: Mikey Ariel
+  website: http://docsideofthemoon.com
   slack_handle: thatdocslady
   twitter: https://twitter.com/thatdocslady
   linkedin: https://www.linkedin.com/in/thatdocslady/
@@ -75,6 +85,7 @@ info:
   image: mikey_ariel.png
 
 - name: Eric Holscher
+  website: http://ericholscher.com
   slack_handle: ericholscher
   twitter: https://twitter.com/ericholscher
   linkedin: https://www.linkedin.com/in/eric-holscher-2b975111b/
@@ -82,13 +93,16 @@ info:
   image: eric_holscher.png
 
 - name: Abhinav Asthana
-  # slack_handle: ericholscher
+  website: http://getpostman.com
+# note: user does not have actual slack handle. added this here for guest_host.html include.
+  slack_handle: Abhinav_Asthana
   twitter: https://twitter.com/a85
   linkedin: https://www.linkedin.com/in/abhinavasthana
   description: "Founder and CEO of Postman. On a mission to simplify API development. Innovator and product genius. <a href=\"http://getpostman.com/\">getpostman.com/</a>"
   image: abhinavasthana.png
 
 - name: Carolyn Stransky
+  website: https://about.me/carolstran
   slack_handle: carolyn
   twitter: https://twitter.com/carolstran
   linkedin: https://www.linkedin.com/in/carolstran/
@@ -96,6 +110,7 @@ info:
   image: caroylyn_stransky.jpg
 
 - name: Anett Pozsar
+  website: https://twitter.com/katsa23
   slack_handle: anettpozsar
   twitter: https://twitter.com/katsa23
   linkedin: https://www.linkedin.com/in/anettpozsar/
@@ -103,6 +118,7 @@ info:
   image: annet_pozsar.jpg
 
 - name: Mark Baker
+  website: https://everypageispageone.com
   slack_handle: mbaker.analecta
   twitter: https://twitter.com/mbakeranalecta
   linkedin: https://www.linkedin.com/in/mbakeranalecta/
@@ -110,6 +126,7 @@ info:
   image: mark_baker.png
 
 - name: Jessica Parsons
+  website: https://www.verythorough.com
   slack_handle: verythorough
   twitter: https://twitter.com/verythorough
   linkedin: https://www.linkedin.com/in/verythorough/
@@ -117,6 +134,7 @@ info:
   image: jessica_parsons.png
 
 - name: Matt Reiner
+  website: https://medium.com/@reinermatthew
   slack_handle: U967DEZBL
   twitter: https://twitter.com/reinermatthew
   linkedin: https://www.linkedin.com/in/matthewreiner/

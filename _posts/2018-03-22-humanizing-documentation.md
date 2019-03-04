@@ -33,3 +33,11 @@ For more information, see the following:
 * [AlexJS](http://alexjs.com/)
 * [Carolyn's Lightning talk in Berlin](https://www.youtube.com/watch?v=jY2xglypPkQ)
 * [Slide deck on Humanizing documentation](https://speakerdeck.com/carolstran/humanizing-your-documentation-full-talk)
+
+## Hosts for this show
+
+{% include guest_host.md guest="carolyn" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

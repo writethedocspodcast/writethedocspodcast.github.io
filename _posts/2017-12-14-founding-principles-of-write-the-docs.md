@@ -46,3 +46,12 @@ For more information, see the following:
 * [Write the Docs organizer guide](http://www.writethedocs.org/organizer-guide/)
 * [Write the docs meetups](http://www.writethedocs.org/meetups/)
 * [Write the Docs newsletter and mailing lists](http://www.writethedocs.org/newsletter/)
+
+## Hosts for this show
+
+{% include guest_host.md guest="thatdocslady" no_clear=true %}
+{% include guest_host.md guest="ericholscher" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

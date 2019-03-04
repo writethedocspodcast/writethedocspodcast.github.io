@@ -29,3 +29,11 @@ In this episode, we explore the role of metadata in documentation and how it can
 
 * [PI Classification (Institute for Info and Content Mgmt)](http://i4icm.de/steinbeis-transfer-center-stc/pi-classification/?L=1)
 * [Why Your Design Team Should Hire A Writer](https://medium.com/dropbox-design/why-your-design-team-should-hire-a-writer-24d55f1e2d4a)
+
+## Hosts for this show
+
+{% include guest_host.md guest="evalachief" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

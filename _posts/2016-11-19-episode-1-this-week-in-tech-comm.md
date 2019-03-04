@@ -33,3 +33,11 @@ Here are some links to topics we discussed in the podcast:
 * [When engineers write or design interfaces with tech copy](http://jaredleonmorgan.net/2016/11/08/U-Bnk-Has-NFC-About-Correct-User-Feedback.html). What do you do when engineers start writing UX copy? How can you simplify messages that need to community complexity beyond the average user's comprehension?
 
 If you would like to recommend a topic or article for discussion for the next podcast, [let us know](/contact).
+
+## Hosts for this show
+
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="carleecomm" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

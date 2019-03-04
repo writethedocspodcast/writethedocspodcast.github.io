@@ -32,3 +32,10 @@ Links mentioned during the podcast:
 * [Write the Docs Conference in Portland](http://www.writethedocs.org/conf/na/2017/)
 * [Chris Ward's book on Responsive Web Design](https://www.sitepoint.com/premium/books/responsive2/)
 * [Write the Docs app on Fire TV](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1493618613&sr=1-1&keywords=write+the+docs)
+
+## Hosts for this show
+
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

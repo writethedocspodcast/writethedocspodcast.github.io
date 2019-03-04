@@ -30,3 +30,11 @@ See these links for more information:
 
 * [Join Test The Docs Hackathon (6-9th August)](https://www.linkedin.com/pulse/join-test-docs-hackathon-6-9th-august-anett-pozsar/)
 * [Test the Docs](https://testthedocs.org/)
+
+## Hosts for this show
+
+{% include guest_host.md guest="anettpozsar" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

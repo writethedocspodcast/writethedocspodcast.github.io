@@ -51,3 +51,11 @@ For more detail, see [Mozilla brings Microsoft, Google, the W3C, Samsung togethe
 
 
 You can follow Kadir at [@atopal](https://twitter.com/atopal) on Twitter and read his blog at [https://redronin.de/](https://redronin.de/).
+
+## Hosts for this show
+
+{% include guest_host.md guest="atopal" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

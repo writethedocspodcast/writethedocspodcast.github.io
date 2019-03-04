@@ -15,7 +15,7 @@ permalink: /podcast-hosts/
     {% if profile.slack_handle %}<li class="social-item"><a href="https://writethedocs.slack.com/team/{{profile.slack_handle}}" target="_blank"><i class="fa fa-slack"></i></a></li>{% endif %}
   </ul>  
   <div style="clear: both;"></div>
-      <p>{{profile.description}}</p>
+      <p><a href="{{profile.website}}">{{profile.website | remove: "https://" | remove: "http://" | truncate: 24 }}</a></p>
   </div>
 </div>
 

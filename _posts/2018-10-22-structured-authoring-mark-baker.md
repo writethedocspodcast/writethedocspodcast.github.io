@@ -33,3 +33,11 @@ For more information about Mark Baker and his new book, see the following:
 * [Mark Baker's blog](https://everypageispageone.com/)
 * [*Every Page Is Page One*](https://www.amazon.com/Every-Page-One-Topic-Based-Communication/dp/1937434281)
 * [*Structured Writing: Rhetoric and Process*](https://www.amazon.com/Structured-Writing-Rhetoric-Mark-Baker/dp/1937434567)
+
+## Hosts for this show
+
+{% include guest_host.md guest="mbaker.analecta" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

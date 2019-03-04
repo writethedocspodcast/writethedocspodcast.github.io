@@ -35,3 +35,11 @@ In this episode, we're joined by Ellis Pratt from Cherryleaf to talk about chatb
 * [SAP Chatbot – Talk to SAP Applications with Google Home/Facebook Messenger/Skype](https://blogs.sap.com/2017/04/10/sap-tm-chatbot-talk-to-sap-tm-application-with-google-home/)
 * [Ambient Findability](http://shop.oreilly.com/product/9780596007652.do)
 * [Cherryleaf](https://www.cherryleaf.com/)
+
+## Hosts for this show
+
+{% include guest_host.md guest="ellispratt" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

@@ -34,3 +34,10 @@ Links mentioned during the podcast:
 * [Announcing: Docs Like Code](https://justwriteclick.com/2017/02/28/announcing-docs-like-code/)
 * [Docs like Code book site](http://docslikecode.com/book/)
 * [Remodeling Documentation](Remodeling documentation)
+
+## Hosts for this show
+
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

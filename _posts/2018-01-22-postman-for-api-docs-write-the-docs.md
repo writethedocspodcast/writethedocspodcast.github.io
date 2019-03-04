@@ -35,3 +35,12 @@ For more information, see the following:
 * [Postman tutorial in API doc course](https://idratherbewriting.com/learnapidoc/docapis_postman.html)
 * [Postman Pro](https://www.getpostman.com/docs/pro/what_is_pro)
 * [Abhinav Asthana and team](https://www.getpostman.com/team)
+
+
+## Hosts for this show
+
+{% include guest_host.md guest="Abhinav_Asthana" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

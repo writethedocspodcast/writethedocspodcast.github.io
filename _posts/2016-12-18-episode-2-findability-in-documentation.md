@@ -33,3 +33,11 @@ Here are some links to topics mentioned in the podcast:
 * [Findability is a content problem, not a search problem, by Mark Baker](http://everypageispageone.com/2013/05/28/findability-is-a-content-problem-not-a-search-problem/)
 
 If you would like to recommend a topic or article for discussion for the next podcast, [let us know](/contact). The planned topic for the next podcast is trends.
+
+## Hosts for this show
+
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="carleecomm" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

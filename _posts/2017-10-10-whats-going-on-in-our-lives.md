@@ -38,3 +38,10 @@ In this episode, we talk about what's going on in our lives as documentarians an
 
 * [Melbourne Cup](https://en.wikipedia.org/wiki/Melbourne_Cup)
 * [Convert Google Docs content to Markdown or HTML](http://idratherbewriting.com/2017/09/22/convert-google-docs-to-markdown/)
+
+## Hosts for this show
+
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

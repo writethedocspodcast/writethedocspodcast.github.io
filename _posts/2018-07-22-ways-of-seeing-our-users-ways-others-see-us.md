@@ -33,3 +33,10 @@ See these links for more information:
 * [Combatting the "Make-It-Pretty" Philosophy](http://idratherbewriting.com/2018/07/18/stereotypes-about-tech-writers-in-workplace/), by Emily January Petersen
 
 * [Results from Academic/Practitioner Attitudes surveys now available](http://idratherbewriting.com/2018/07/17/interpreting-results-of-academic-practitioner-survey/), by Tom Johnson
+
+## Hosts for this show
+
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

@@ -34,3 +34,12 @@ In this podcast, we first explore the flourishing community of technical writers
 * [Automated writing tool](http://articoolo.com/)
 * [Automatic Documentation Generation via Source Code Summarization of Method Context](https://www3.nd.edu/~cmc/papers/mcburney_icpc_2014.pdf)
 * [soap! -- Poland tech writing conference](http://soapconf.com/)
+
+
+## Hosts for this show
+
+{% include guest_host.md guest="pawelkowaluk" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>

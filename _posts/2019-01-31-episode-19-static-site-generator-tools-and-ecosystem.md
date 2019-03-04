@@ -36,3 +36,11 @@ Links for more information:
 * [Headless CMS](https://headlesscms.org/)
 * [Strapi](https://strapi.io/)
 * [How to pronounce "thorough"](https://dictionary.cambridge.org/us/pronunciation/english/thorough)
+
+## Hosts for this show
+
+{% include guest_host.md guest="verythorough" no_clear=true %}
+{% include guest_host.md guest="jaredmorgs" no_clear=true %}
+{% include guest_host.md guest="chrisward" no_clear=true %}
+{% include guest_host.md guest="tomjohnson" no_clear=true %}
+<div style="clear:both"></div>
