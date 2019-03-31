@@ -140,3 +140,10 @@ info:
   linkedin: https://www.linkedin.com/in/matthewreiner/
   description: "Technical writer, storyteller, & Oxford comma user. Currently at K15t. <a href=\"https://medium.com/@reinermatthew/\">medium.com</a>"
   image: matt_reiner.png
+
+- name: Becky Todd
+  website: https://twitter.com/beckatodd
+  slack_handle: becky
+  twitter: https://twitter.com/beckatodd
+  linkedin: https://www.linkedin.com/in/toddbecky/
+  image: becky_todd.jpg
