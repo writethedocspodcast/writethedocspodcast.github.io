@@ -28,8 +28,6 @@ hosts:
 - chrisward
 ---
 
-{{page.summary}}
-
 Links for more information:
 
 * [Staticgen.com](https://www.staticgen.com/)

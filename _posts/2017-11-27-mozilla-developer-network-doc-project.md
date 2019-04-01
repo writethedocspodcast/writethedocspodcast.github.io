@@ -29,7 +29,7 @@ hosts:
 - chrisward
 ---
 
-In this episode of the Write the Docs podcast, we chat with Kadir Topal, product manager for [Mozilla Developer Network Web Docs project](https://developer.mozilla.org/en-US/), about how they manage their large body of documentation for web developers. The MDN project provides standards-based documentation around web development topics (for example, HTML, CSS, and JS) intended for web developers, with the goal of producing consistent experiences for users across web browsers. Kadir gives us an inside look into the challenges, goals, and roadmap of this project.
+## Topics covered
 
 Here are some of the questions discussed during the podcast:
 
@@ -49,8 +49,9 @@ For more detail, see [Mozilla brings Microsoft, Google, the W3C, Samsung togethe
 > In this year alone, 8,021 users made 76,203 edits, greatly increasing the scope and quality of the content. Cross-browser documentation contributions include input from writers at Google and Microsoft; Microsoft writers have made more than 5,000 edits so far in 2017.
 
 
-## Additional links
+## Links
 
+* [Mozilla Developer Network Web Docs project](https://developer.mozilla.org/en-US/)
 * [Contributing to MDN](https://developer.mozilla.org/en-US/docs/MDN/Contribute)
 * [Writing Day at Write the Docs](http://www.writethedocs.org/conf/portland/2018/writing-day/)
 

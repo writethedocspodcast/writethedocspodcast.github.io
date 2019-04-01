@@ -30,8 +30,6 @@ hosts:
 - chrisward
 ---
 
-{{page.summary}}
-
 ## Links
 
 * [Season of Docs](https://developers.google.com/season-of-docs/): "Let's bring open source and technical writer communities together, to the benefit of both. Together we raise awareness of open source, of docs, and of technical writing."

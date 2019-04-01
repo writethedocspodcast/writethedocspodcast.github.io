@@ -28,7 +28,7 @@ hosts:
 - chrisward
 ---
 
-In this episode, we chat with Abhinav Asthana (founder and CEO of Postman) to explore how [Postman](https://www.getpostman.com/), a REST client, can be used to create, collaborate, and publish API documentation. If you work with API documentation, you've probably used Postman to make and test API requests. But you can do also a lot more with Postman. You can embed [Run in Postman buttons](https://www.getpostman.com/docs/postman_for_publishers/run_button/creating_run_button) that contain collections of requests that users can load in their own Postman clients (perfect for getting started tutorials). You can collaborate with engineers on the requests and documentation by syncing collections across a team account. And with just a few clicks, you can also publish and host your documentation through Postman, complete with code samples in multiple programming languages. Check out [Postman's API Network](https://www.getpostman.com/api-network/) to see many ways different companies use Postman in their documentation.
+## Links
 
 For more information, see the following:
 

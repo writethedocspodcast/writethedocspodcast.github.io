@@ -28,9 +28,7 @@ hosts:
 - chrisward
 ---
 
-In this podcast, we first explore the flourishing community of technical writers in Poland, discussing why the tech writing scene in Krakow is taking off so quickly and what trends this young tech writing community is embracing. We're joined by special guest Pawel Kowaluk, a Polish tech writer who runs SOAP (a tech comm conference based in Poland). We also talk about automation and robot takeovers of tech writing jobs. How are machine-assisted technologies enhancing or displacing technical writers and their work? Given the increase in automation, is tool expertise becoming more or less essential to thrive as a technical writer?
-
-**Links mentioned during the podcast:**
+## Links
 
 * [89% chance that tech writers lose jobs to robots](https://twitter.com/TheNextWeb/status/869592670263529472)
 * [The Rise of the Machine](https://www.youtube.com/watch?v=WSKi8HfcxEk) (video, 11:40 min)

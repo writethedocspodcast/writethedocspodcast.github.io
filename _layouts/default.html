@@ -6,9 +6,9 @@
 <html xmlns="https://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta content="A series of events for technical writers, documentarians, and all those who write the docs." name="description" />
+    <meta content="{% if page.summary %} {{ page.summary }}{% else %} {{ site.description }} {% endif %}" name="description" />
 <meta content="Write the Docs Podcast" name="author" />
-<meta content="Portland, Oregon" name="geo.placename" />
+<meta content="Global" name="geo.placename" />
 
       {% if page.type == "homepage" %}
       <title>{{ page.title }} | {{ site.description | escape }}</title>

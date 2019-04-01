@@ -27,8 +27,6 @@ hosts:
 - chrisward
 ---
 
-{{page.summary}}
-
 For more information about Write the Docs Australia, see the following:
 
 * [WTD Australia 2018](http://www.writethedocs.org/conf/australia/2018/)

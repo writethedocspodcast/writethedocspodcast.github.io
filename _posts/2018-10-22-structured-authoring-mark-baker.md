@@ -30,8 +30,6 @@ hosts:
 - chrisward
 ---
 
-{{page.summary}}
-
 For more information about Mark Baker and his new book, see the following:
 
 * [About Mark Baker](https://analecta.com/)

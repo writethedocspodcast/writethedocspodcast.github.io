@@ -27,9 +27,7 @@ hosts:
 - chrisward
 ---
 
-In this episode, we explore where technical writers belong in an organization. Is tech comm best placed within engineering, marketing, product management, or another group? We also talk about strategies for doc navigation, in particular, the merits of inline links and/or sidebar navigation, using a post from Every Page Is Page One as a starting point. Are hierarchical sidebar menus still useful, or are they a relic of the past? Finally, we provide details about the upcoming Write the Docs conference in Portland, and Chris mentions his new book on responsive design.
-
-Links mentioned during the podcast:
+## Links
 
 * [Where do technical writers fit in an organisation, by Sarah Maddox](https://ffeathers.wordpress.com/2016/11/13/where-do-technical-writers-fit-in-an-organisation/)
 * [Why Technical Content and Marketing Belong Together, by Doug Moran](https://www.rivaliq.com/blog/technical-content-marketing/)

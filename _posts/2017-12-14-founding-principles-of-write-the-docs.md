@@ -30,7 +30,7 @@ hosts:
 - chrisward
 ---
 
-In this episode, we chat with Eric Holscher (WTD cofounder) and Mikey Ariel (WTD Europe organizer) about the Write the Docs community itself, including origins, founding ideas, goals, challenges, trends, and roadmaps for the community. We dive specifically into idea of diversity of roles (and the term 'documentarian'), the way open source principles inform the community's core values, balancing individual freedom to contribute on one's own terms with the expectations of the WTD experience, and more.
+## Topics covered
 
 Here are some of the questions discussed during the podcast:
 
@@ -42,6 +42,8 @@ Here are some of the questions discussed during the podcast:
 * Does the idea of open source (namely, contributing back, sharing) provide long-term sustaining momentum for an almost entirely *volunteer-run* community?
 * In what ways is WTD experimenting with new ideas and approaches?
 * What trends do you see for WTD and the industry in the future?
+
+## Links
 
 For more information, see the following:
 

@@ -29,8 +29,6 @@ hosts:
 - chrisward
 ---
 
-{{page.summary}}
-
 Links for more information:
 
 * [K15t](https://www.k15t.com/)

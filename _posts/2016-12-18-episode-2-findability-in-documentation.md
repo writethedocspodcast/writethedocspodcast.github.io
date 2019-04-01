@@ -25,7 +25,7 @@ hosts:
 - chrisward
 ---
 
-Here are some links to topics mentioned in the podcast:
+## Links
 
 * [Lunr search](http://lunrjs.com/)
 * [Jekyll Tips tutorial on configuring Lunr search in Jekyll](http://jekyll.tips/jekyll-casts/jekyll-search-using-lunr-js/)

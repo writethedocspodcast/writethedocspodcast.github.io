@@ -26,9 +26,7 @@ hosts:
 - chrisward
 ---
 
-In this episode, we talk about continuous integration strategies for docs (for style, screenshots, and REST calls). We also dive into discussions around docs as code, including how to encourage developer collaboration, how to stay informed about the code updates that developers make, and more.
-
-Links mentioned during the podcast:
+## Links
 
 * [Improve Documentation by Automating Spelling and Grammar Checks](https://blog.codeship.com/improve-documentation-by-automating-spelling-and-grammar-checks/)
 * [Testing Code Examples in Documentation](https://blog.codeship.com/testing-code-examples-in-documentation/)

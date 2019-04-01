@@ -25,5 +25,3 @@ hosts:
 - tomjohnson
 - chrisward
 ---
-
-In this episode, we discuss top technical writing trends for 2017. Chris discusses how more technical writers are interacting with support groups, and even being embedded within support departments. Jared discusses how docs are being planned for earlier in development cycles, as more product managers are seeing the value of docs. Tom talks about how more technical writers are treating documentation as code, and the challenges inherent in developer tools and workflows.
