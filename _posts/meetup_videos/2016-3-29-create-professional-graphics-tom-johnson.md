@@ -10,7 +10,7 @@ tags:
 - visuals
 - video
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/create-professional-graphics-tom-johnson.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/create-professional-graphics-tom-johnson.mp3
 podcast_file_size: 4.6
 podcast_duration: "5:14"
 podcast_length: 4611682

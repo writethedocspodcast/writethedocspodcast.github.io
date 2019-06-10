@@ -11,7 +11,7 @@ tags:
 - tools
 - writing
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_9.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtd_episode_9.mp3
 podcast_file_size: 35.9 MB
 podcast_duration: "47:50"
 podcast_length: 35913281

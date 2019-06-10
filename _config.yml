@@ -1,6 +1,6 @@
 title: Write the Docs Podcast
 description: >
-  WTD Podcasts features discussions from members of the Write the Docs community, usually featuring a new guest each time in addition to the regular hosts. Discussions focus on topics related to software documentation. 
+  WTD Podcasts features discussions from members of the Write the Docs community, usually featuring a new guest each time in addition to the regular hosts. Discussions focus on topics related to software documentation.
 url: http://podcast.writethedocs.org
 
 host: 127.0.0.1
@@ -38,6 +38,7 @@ plugins: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate
 
 ## mp4 videos for fire tv app are hosted here. this field appears in the fab.json template.
 mp4_cdn_url: https://d1pspton2hyndh.cloudfront.net
+
 # mp4_cdn_url: http://writethedocs-podcast.s3-website-us-west-2.amazonaws.com
 
 ## Values for podcast RSS feed

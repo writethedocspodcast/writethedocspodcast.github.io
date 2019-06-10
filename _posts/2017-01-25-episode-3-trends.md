@@ -10,7 +10,7 @@ tags:
 - docs-as-code
 - support
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_3.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtd_episode_3.mp3
 podcast_file_size: 48.1 MB
 podcast_duration: "48:31"
 podcast_length: 48107627

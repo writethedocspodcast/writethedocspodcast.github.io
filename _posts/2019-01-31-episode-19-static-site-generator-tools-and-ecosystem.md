@@ -11,7 +11,7 @@ tags:
 - story
 - community
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocspodcast.org/wtd_episode_19_static_site_generators.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtd_episode_19_static_site_generators.mp3
 podcast_file_size: 54.8 MB
 podcast_duration: "01:02:40"
 podcast_length: 54824269
