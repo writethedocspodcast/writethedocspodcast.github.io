@@ -11,7 +11,7 @@ tags:
 - api-docs
 - docs-as-code
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtdpodcast_episode_13_postman.mp3
+podcast_link: https://d1pspton2hyndh.cloudfront.net/wtdpodcast_episode_13_postman.mp3
 podcast_file_size: 48.1 MB
 podcast_duration: "52:10"
 podcast_length: 48081516

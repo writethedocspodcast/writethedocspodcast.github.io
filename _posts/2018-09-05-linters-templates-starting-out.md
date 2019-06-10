@@ -12,7 +12,7 @@ tags:
 - writing
 - engineers-write
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtdpodcast_episode_16_linters_templates.mp3
+podcast_link: https://d1pspton2hyndh.cloudfront.net/wtdpodcast_episode_16_linters_templates.mp3
 podcast_file_size: 59.3 MB
 podcast_duration: "01:03:31"
 podcast_length: 59332717

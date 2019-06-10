@@ -9,7 +9,7 @@ event_date: 2016-03-29
 tags:
 - story
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/storycraft-in-docs-elisa-sawyer.mp3
+podcast_link: https://d1pspton2hyndh.cloudfront.net/storycraft-in-docs-elisa-sawyer.mp3
 podcast_file_size: 8.0
 podcast_duration: "9:03"
 podcast_length: 8012554

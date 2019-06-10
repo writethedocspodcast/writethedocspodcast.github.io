@@ -10,7 +10,7 @@ date: 2017-03-05
 tags:
 - docs-as-code
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtd_episode_4.mp3
+podcast_link: https://d1pspton2hyndh.cloudfront.net/wtd_episode_4.mp3
 podcast_file_size: 46.4 MB
 podcast_duration: "58:10"
 podcast_length: 46380443
