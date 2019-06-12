@@ -11,7 +11,7 @@ tags:
 - story
 - community
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://d1pspton2hyndh.cloudfront.net/wtd_episode_18_wtd_australia.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtd_episode_18_wtd_australia.mp3
 podcast_file_size: 44.2 MB
 podcast_duration: "50:20"
 podcast_length: 44246986

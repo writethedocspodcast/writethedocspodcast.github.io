@@ -10,7 +10,7 @@ tags:
 - tools
 - open-source
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://d1pspton2hyndh.cloudfront.net/mediawiki-as-doc-platform-juan-lara.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/mediawiki-as-doc-platform-juan-lara.mp3
 podcast_file_size: 3.3
 podcast_duration: "3:38"
 podcast_length: 3248701
