@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 22: Managing Multiple Docs Projects Across Git Repositories, with Giles Gaskell"
+title: "WTD Episode 22: Managing multiple doc projects across Git repositories, with Giles Gaskell"
 guid: wtd_managing_multiple_git_repos
 meetup: WTD Podcast
 keywords:
