@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 22: Managing Multiple Docs Projects Across Git Repositories"
+title: "WTD Episode 22: Managing Multiple Docs Projects Across Git Repositories, with Giles Gaskell"
 guid: wtd_managing_multiple_git_repos
 meetup: WTD Podcast
 keywords:
@@ -16,7 +16,7 @@ podcast_file_size: 51.4 MB
 podcast_duration: "01:01:40"
 podcast_length: 51266433
 youtube_id: 6aQZT6EwBtU
-summary: "In episode 22, Giles Gaskell from Squiz in Australia joins us to talk managing multiple doc projects across Git repositories through Antora. Giles talks about establishing processes such that updating documentation becomes part of the definition of done, and how they manage their build process across multiple Gitlab repositories through a static site generator called Antora. We also talk about distributing doc work across engineers through templates, scaling workloads when you're the lone technical writer in the company, times when dogfooding your own product for docs makes sense and when it does not, pros and cons of Asciidoc versus Markdown, and more docs-as-code topics."
+summary: "In episode 22, Giles Gaskell from Squiz in Australia joins us to talk about managing multiple doc projects across Git repositories through Antora. Giles explains how to establish processes such that updating documentation becomes part of the definition of done, how to manage build process across multiple Gitlab repositories, strategies for distributing doc work across engineers through templates, how to scale workloads when you're the lone technical writer in the company, times when dogfooding your own product for docs makes sense and when it does not, pros and cons of Asciidoc versus Markdown, and more docs-as-code topics."
 bitlink: http://bit.ly/wtdpodcast22
 mp4_filename: wtd_episode_22_multiple_git.mp4
 mp4_length: 387906304

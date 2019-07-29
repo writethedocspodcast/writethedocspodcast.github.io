@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 21: On career growth, leadership, and mentoring in Tech Writing "
+title: "WTD Episode 21: On career growth, leadership, and mentoring in tech writing, with Becky Todd"
 guid: wtd_careergrowth
 meetup: WTD Podcast
 keywords:
