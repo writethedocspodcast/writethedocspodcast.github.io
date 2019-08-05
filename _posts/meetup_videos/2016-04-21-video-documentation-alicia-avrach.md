@@ -10,7 +10,7 @@ slides: http://bit.ly/videodocaliciaslides
 tags:
 - video
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/aliciaavrachaudio.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/aliciaavrachaudio.mp3
 podcast_file_size: 56.5
 podcast_duration: "1:16:39"
 podcast_length: 56518010

@@ -12,7 +12,7 @@ tags:
 - writing
 - engineers-write
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtdpodcast_episode_15_assumptions_users_writers.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_15_assumptions_users_writers.mp3
 podcast_file_size: 54.8 MB
 podcast_duration: "56:11"
 podcast_length: 54766194

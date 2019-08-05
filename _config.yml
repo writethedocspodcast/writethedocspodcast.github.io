@@ -37,8 +37,8 @@ defaults:
 plugins: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
 
 ## mp4 videos for fire tv app are hosted here. this field appears in the fab.json template.
-# mp4_cdn_url: https://d1pspton2hyndh.cloudfront.net
-mp4_cdn_url: https://d1pspton2hyndh.cloudfront.net/
+# mp4_cdn_url: https://writethedocs-podcast.s3-us-west-2.amazonaws.com
+mp4_cdn_url: https://writethedocs-podcast.s3-us-west-2.amazonaws.com/
 
 ## Values for podcast RSS feed
 

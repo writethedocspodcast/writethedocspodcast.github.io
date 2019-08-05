@@ -13,7 +13,7 @@ tags:
 - writing
 - api-docs
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtdpodcast_episode_17_structured_authoring.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_17_structured_authoring.mp3
 podcast_file_size: 54.4 MB
 podcast_duration: "58:38"
 podcast_length: 54378680

@@ -11,7 +11,7 @@ tags:
 - api-docs
 - tools
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtd_episode_22_multiple_git.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_22_multiple_git.mp3
 podcast_file_size: 51.4 MB
 podcast_duration: "01:01:40"
 podcast_length: 51266433

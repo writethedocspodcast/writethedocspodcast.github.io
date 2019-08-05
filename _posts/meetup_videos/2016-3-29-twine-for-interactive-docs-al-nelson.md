@@ -9,7 +9,7 @@ event_date: 2016-03-29
 tags:
 - tools
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/twine-for-interactive-docs-al.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/twine-for-interactive-docs-al.mp3
 podcast_file_size: 4.1
 podcast_duration: "4:40"
 podcast_length: 4113153

@@ -9,7 +9,7 @@ event_date: 2016-11-03
 tags:
 - agile
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/integrating_with_software_teams.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/integrating_with_software_teams.mp3
 podcast_file_size: 13.9
 podcast_duration: "14:21"
 podcast_length: 13880320

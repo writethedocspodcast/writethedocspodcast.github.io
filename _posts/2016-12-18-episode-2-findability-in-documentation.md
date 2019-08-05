@@ -9,7 +9,7 @@ event_date: 2016-12-18
 tags:
 - findability
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/wtd_episode_2.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_2.mp3
 podcast_file_size: 45.5 MB
 podcast_duration: "55:21"
 podcast_length: 45500667

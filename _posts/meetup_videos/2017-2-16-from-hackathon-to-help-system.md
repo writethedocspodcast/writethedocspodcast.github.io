@@ -9,7 +9,7 @@ event_date: 2017-02-16
 tags:
 - support
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/d1pspton2hyndh.cloudfront.net/from_hackathon_to_help_system.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/from_hackathon_to_help_system.mp3
 podcast_file_size: 34.4
 podcast_duration: "23:51"
 podcast_length: 34431232
