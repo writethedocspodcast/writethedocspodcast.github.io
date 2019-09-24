@@ -158,7 +158,14 @@ info:
 - name: Lucie Le Naour
   slack_handle: lucue_le_naour
 #  website: https://twitter.com/beckatodd
-#  slack_handle: gilesgas
 #  twitter: https://twitter.com/giles_gas
   linkedin: https://www.linkedin.com/in/lucie-le-naour-97750822/
   image: lucie_le_naour.png
+  
+- name: Swapnil Ogale
+  slack_handle: swapnil_ogale
+  website: https://icreatedocs.wordpress.com/
+  slack_handle: swapnilogale
+  twitter: https://twitter.com/swapnilogale
+  linkedin: https://www.linkedin.com/in/swapnilogale/
+  image: swapnil_ogale.png
