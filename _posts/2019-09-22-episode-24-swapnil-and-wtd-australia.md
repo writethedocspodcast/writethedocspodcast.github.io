@@ -16,7 +16,7 @@ podcast_file_size: 38.8 MB
 podcast_duration: "55:20"
 podcast_length: 37,998,094
 youtube_id: Qh1nlOluy1E
-summary: "In this episode, we're joined by the Write the Docs Australia initiator Swapnil Ogale. We talk about conference wind-downs and ramp-ups, highlights from the just-finished WTD Prague conference, speakers announced for upcoming Write the Docs Australia conference, Swapnil's new \"Good Docs Project,\" the tech writing scene in Australia, and more."
+summary: "In this episode, we're joined by the Write the Docs Australia initiator Swapnil Ogale. We talk about conference wind-downs and ramp-ups, highlights from the just-finished WTD Prague conference, speakers announced for upcoming Write the Docs Australia conference, the \"Good Docs Project,\" the tech writing scene in Australia, and more."
 bitlink: http://bit.ly/wtdpodcast24
 mp4_filename: wtd_episode_24_wtd_community_australia.mp4
 mp4_length: 354898051
