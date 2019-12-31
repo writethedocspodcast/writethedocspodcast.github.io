@@ -171,7 +171,14 @@ info:
 
 - name: Andrew Head
   website: https://andrewhead.info
-  slack_handle: andrewhead
+  slack_handle: UH9061AG2
   twitter: https://twitter.com/drewmikehead
 #  linkedin:
   image: andrew_head.png
+
+- name: Alan Bowman
+  website: http://alanbowman.net
+  slack_handle: U6F5NLPNG
+  twitter: https://twitter.com/alanbowman
+  linkedin: https://www.linkedin.com/in/ralanbowman/
+  image: alan_bowman.png

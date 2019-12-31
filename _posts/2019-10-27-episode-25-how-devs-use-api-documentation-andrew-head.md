@@ -22,7 +22,8 @@ mp4_length: 30487266
 mp4_thumbnail: assets/img/episodethumbs/episode25andrew.png
 # make thumb 378px high by 478px wide. this image appears in FTV app only
 hosts:
-- andrewhead
+- UH9061AG2
+# above tag is andrewhead
 - chrisward
 - jaredmorgs
 - tomjohnson
