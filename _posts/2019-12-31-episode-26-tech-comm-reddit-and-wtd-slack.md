@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 26: Tech Writing and Reddit"
+title: "WTD Episode 26: Tech Writing and Reddit, with Alan Bowman"
 guid: wtd_apidocs_reddit
 meetup: WTD Podcast
 keywords:
