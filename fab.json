@@ -11,7 +11,7 @@ layout: null
     "duration": "{{ep.podcast_duration}}",
     "thumbURL": "{{site.url}}/{{ep.mp4_thumbnail | escape}}",
     "imgURL": "{{site.url}}/{{ep.mp4_thumbnail | escape}}",
-    "videoURL": "{{site.mp4_cdn_url}}/{{ep.mp4_filename}}",
+    "videoURL": "{{site.mp4_cdn_url}}{{ep.mp4_filename}}",
     "tags": "{{ep.tags | join: ', '}}",
     "categories": [
       "{{ep.categories[0]}}"
