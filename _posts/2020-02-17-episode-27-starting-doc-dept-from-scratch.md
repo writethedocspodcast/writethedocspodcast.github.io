@@ -24,8 +24,8 @@ mp4_length: 46787100
 mp4_thumbnail: assets/img/episodethumbs/episode27_first.png
 # make thumb 378px high by 478px wide. this image appears in FTV app only
 hosts:
-- arty-chan
 - AmyQ
+- arty-chan
 - jaredmorgs
 - chrisward
 - tomjohnson
