@@ -35,3 +35,6 @@ layout: default
     <a href="{{ option.url }}">{{ option.title }}</a> {% unless forloop.last %} | {% endunless %}
     {% endfor %}
 </ul>
+{% if page.transcript %}
+{% include transcripts/transcript_episode27.html %}
+{% endif %}
