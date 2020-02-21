@@ -1,5 +1,5 @@
 ---
-title: "WTD Episode 27: Starting a doc group/process/runbook when you're the first"
+title: "WTD Episode 27: Starting a doc group/process when you're the first"
 guid: wtd_start_from_scratch
 meetup: WTD Podcast
 keywords: documentation, technical writing, knowledge management
