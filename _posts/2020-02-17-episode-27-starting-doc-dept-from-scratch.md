@@ -6,7 +6,7 @@ keywords: documentation, technical writing, knowledge management
 global_recommendation: true
 categories:
 - y2020
-date: 2019-02-20
+date: 2020-02-20
 tags:
 - community
 - findability
