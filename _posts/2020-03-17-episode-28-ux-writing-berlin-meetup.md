@@ -23,3 +23,13 @@ mp4_length: 125995624
 mp4_thumbnail: assets/img/episodethumbs/episode28_ux_writing.png
 # make thumb 378px high by 478px wide. this image appears in FTV app only
 ---
+
+You can follow the presenters on Twitter here:
+* Natasha: [@Nat_Sarana](https://twitter.com/Nat_Sarana)
+* Roger: [@infotexture](https://twitter.com/infotexture)
+
+Here's a picture from the meetup:
+
+<a href="https://twitter.com/humanitec_com/status/1237712702786670592"><img src="/assets/img/meetups/berlinux.jpeg" style="max-width: 700px" /></a>
+
+See more information about [Write the Docs Berlin on Meetup.com](https://www.meetup.com/Write-The-Docs-Berlin/). The [UX writing event](https://www.meetup.com/Write-The-Docs-Berlin/events/268683447/) was held March 9, 2020.
