@@ -31,11 +31,6 @@ podcasts:
   url: https://www.quickanddirtytips.com/grammar-girl
   img: grammargirl.jpg
 
-- title: ISTC's podcast
-  author: Institute of Scientific and Technical Communicators
-  url: https://istctechcomm.podbean.com/
-  img: istc.jpg
-
 - title: Write the Docs podcast
   author: Chris Ward, Tom Johnson, and other WTD community
   url: http://podcast.writethedocs.org/
@@ -45,3 +40,23 @@ podcasts:
   author: Jacob Moses
   url: https://www.thenotboringtechwriter.com/
   img: jacobmoses.jpg
+
+- title: Writers of Silicon Valley
+  author: Patrick Stafford
+  url: https://www.writersofsiliconvalley.com/
+  img: writers_of_silicon_valley.png
+
+- title: The Manuscript
+  author: Breno Barreto
+  url: https://podcasts.apple.com/podcast/the-manuscript/id1501843799
+  img: the_manuscript.png
+
+- title: Knowledgebase Ninjas
+  author: Gowri Ramkumar
+  url: https://document360.io/blog/category/knowledgebase-ninjas/
+  img: knowledgebase_ninjas.png
+
+- title: The Content Strategy Podcast
+  author: Kristina Halvorson
+  url: https://www.contentstrategy.com/podcast
+  img: content_strategy.png
