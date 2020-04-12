@@ -1,133 +1,61 @@
-<h2>Transcript</h2>
-
-<p>For this episode we actually have a transcript auto-generated through some transcription tools. The following is verbatim from the transcription and not edited, so beware of that.</p>
-
-<script>
-jQuery(document).ready(function($)
-{
-$("#author_bio_wrap_toggle").click(function()
-{
-
-$("#author_bio_wrap").slideToggle( "slow");
-
-if ($("#author_bio_wrap_toggle").text() == "Expand Transcript")
-{
-$("#author_bio_wrap_toggle").html("Hide Transcript")
-}
-else
-{
-$("#author_bio_wrap_toggle").text("Expand Transcript")
-}
-
-});
-
-});
-</script>
-<style>
-.author_bio_toggle_wrapper
-{
-
-}
-
-#author_bio_wrap
-{
-    margin-top: 0px;
-    margin-bottom: 30px;
-    background: white;
-    padding: 10px;
-    width: auto; height: 50px;
-}
-
-#author_bio_wrap_toggle
-{
-    display: block;
-    width: 100%;
-    height: 35px;
-    line-height: 35px;
-    background: #9E9E77;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-variant: small-caps;
-    box-shadow: 2px 2px 3px #888888;
-    text-decoration:none;
-}
-
-#author_bio_wrap_toggle:hover
-{
-    text-decoration:none;
-    border-top: 1px groove white;
-    border-left: 1px groove white;
-    border-bottom: 1px solid #7B7B78;
-    border-right: 1px solid #7B7B78;
-    color: #663200;
-    background: #EBEBB3;
-    box-shadow: 1px 1px 2px #888888;
-}
-</style>
-
-<div class="author_bio_toggle_wrapper">
-  <a href="#0" id="author_bio_wrap_toggle">Expand Transcript</a>
-</div>
-<div id="author_bio_wrap" style="display: none;">
-<p>[00:00:00] Jared: [00:00:00] Hello folks, and welcome to write the docs episode. Wow. What are we up to now? Geez, it’s like 28 or something, isn’t it guys? It’s like, I can’t believe how many we’ve like besides the 16 yeah, no, it’s, it’s not quite that, and I know it’s, it’s, we’re getting up there and emphasize now, and we’ve been doing this for a nearly.</p>
+<p>[00:00:00] <b>Jared:</b> [00:00:00] Hello folks, and welcome to write the docs episode. Wow. What are we up to now? Geez, it’s like 28 or something, isn’t it guys? It’s like, I can’t believe how many we’ve like besides the 16 yeah, no, it’s, it’s not quite that, and I know it’s, it’s, we’re getting up there and emphasize now, and we’ve been doing this for a nearly.</p>
 
 <p>[00:00:26] Two or three years now, which is kind of crazy to think that 70 people have joined us on the show to debate. Anyhow, I digress, which is what I normally do at five 30 in the morning. Um, I’m Jared Morgan. I’m a technical writer at, um, um. Company here in Brisbane called squiz, and, uh, and, uh, it’s, it’s actually quite a fun game at the moment.</p>
 
 <p>[00:00:49] Um, and, uh, yeah, it’s, uh, I’m never short of work, so that’s very good. It’s good. Good problem to have if you’re a technical writer. But, uh, it’s not just me on this show today. I’m joined with [00:01:00] the. A myriad of other people on the show, including our regulars. So let’s introduce them and see how they’re going.</p>
 
 <p>[00:01:08] Uh, this time round, we’ll start with, uh, Tom Johnson in the U S hello Tom. How are you?
-[00:01:14] Tom: [00:01:14] I’m going very well. Yeah.</p>
+[00:01:14] <b>Tom:</b> [00:01:14] I’m going very well. Yeah.</p>
 
-<p>[00:01:17] Amy: [00:01:17] You notice, uh,</p>
+<p>[00:01:17] <b>Amy:</b> [00:01:17] You notice, uh,</p>
 
-<p>[00:01:18] Tom: [00:01:18] Jared, there’s, um, there’s kind of an idiom that I, you often say that, uh, was kind, kinda fun. When you say how, how are you going? It’s kind of an Australia thing, I think. Right?</p>
+<p>[00:01:18] <b>Tom:</b> [00:01:18] Jared, there’s, um, there’s kind of an idiom that I, you often say that, uh, was kind, kinda fun. When you say how, how are you going? It’s kind of an Australia thing, I think. Right?</p>
 
-<p>[00:01:28] Jared: [00:01:28] It’s, it’s very much, Hey, how you going?</p>
+<p>[00:01:28] <b>Jared:</b> [00:01:28] It’s, it’s very much, Hey, how you going?</p>
 
 <p>[00:01:30] Yeah. Yeah. We also do people often,</p>
 
-<p>[00:01:34] Tom: [00:01:34] do people in Australia often respond like I’m going well or, or do they not say that.</p>
+<p>[00:01:34] <b>Tom:</b> [00:01:34] do people in Australia often respond like I’m going well or, or do they not say that.</p>
 
-<p>[00:01:40] Jared: [00:01:40] Oh, the often it’s, yeah. Oh, yeah, yeah. All right, mate. Or whatever, you know? Yeah. It’s a bit like, um, have you eaten in some countries? You know, they say that, yeah. Yeah.</p>
+<p>[00:01:40] <b>Jared:</b> [00:01:40] Oh, the often it’s, yeah. Oh, yeah, yeah. All right, mate. Or whatever, you know? Yeah. It’s a bit like, um, have you eaten in some countries? You know, they say that, yeah. Yeah.</p>
 
-<p>[00:01:52] Tom: [00:01:52] Uh, it’s, it’s going great here.</p>
+<p>[00:01:52] <b>Tom:</b> [00:01:52] Uh, it’s, it’s going great here.</p>
 
 <p>[00:01:53] We have a three day weekend, so looking forward to, uh, doing my taxes and other fun stuff, so.</p>
 
-<p>[00:02:00] [00:02:00] Jared: [00:02:00] Right. That sounds, uh, fun.</p>
+<p>[00:02:00] [00:02:00] <b>Jared:</b> [00:02:00] Right. That sounds, uh, fun.</p>
 
 <p>[00:02:07] How about you, Chris ? They, Chris over in Berlin</p>
 
-<p>[00:02:10] Chris: [00:02:10] at the moment, currently in Manchester in the UK.</p>
+<p>[00:02:10] <b>Chris:</b> [00:02:10] at the moment, currently in Manchester in the UK.</p>
 
-<p>[00:02:14] Jared: [00:02:14] Ah. Just</p>
+<p>[00:02:14] <b>Jared:</b> [00:02:14] Ah. Just</p>
 
-<p>[00:02:16] Chris: [00:02:16] we were visiting for fun basically. Although I’m actually meeting the person who organizes the Manchester meetup tech  up on Tuesday. So a little bit of connection there.</p>
+<p>[00:02:16] <b>Chris:</b> [00:02:16] we were visiting for fun basically. Although I’m actually meeting the person who organizes the Manchester meetup tech  up on Tuesday. So a little bit of connection there.</p>
 
-<p>[00:02:27] Jared: [00:02:27] So,</p>
+<p>[00:02:27] <b>Jared:</b> [00:02:27] So,</p>
 
-<p>[00:02:28] Chris: [00:02:28] and I’m, I worked for a few different people, but I’m actually about to embark on a short period of fun employment semi intentionally.</p>
+<p>[00:02:28] <b>Chris:</b> [00:02:28] and I’m, I worked for a few different people, but I’m actually about to embark on a short period of fun employment semi intentionally.</p>
 
 <p>[00:02:36] So watch this space cause there’ll will awesome lots of things</p>
 
-<p>[00:02:39] Jared: [00:02:39] emerging. Oh, very good. Well, I have to follow you on the Twitters. Where can we find you on Twitter, by the way, for those people who haven’t yet, uh,</p>
+<p>[00:02:39] <b>Jared:</b> [00:02:39] emerging. Oh, very good. Well, I have to follow you on the Twitters. Where can we find you on Twitter, by the way, for those people who haven’t yet, uh,</p>
 
-<p>[00:02:47] Chris: [00:02:47] Chris judge,</p>
+<p>[00:02:47] <b>Chris:</b> [00:02:47] Chris judge,</p>
 
-<p>[00:02:49] Jared: [00:02:49] risk change. Very good. All right, we’ll have to check that out. Thanks, Chris. So we are joined today by two folks, both in the U S so I’d like to [00:03:00] introduce them to you.</p>
+<p>[00:02:49] <b>Jared:</b> [00:02:49] risk change. Very good. All right, we’ll have to check that out. Thanks, Chris. So we are joined today by two folks, both in the U S so I’d like to [00:03:00] introduce them to you.</p>
 
 <p>[00:03:00] That’s that first with Cynthia in how are you, Cynthia?</p>
 
-<p>[00:03:04] Cynthia: [00:03:04] I’m good. Thank you. But a correction is, I mean, Canada, not in the</p>
+<p>[00:03:04] <b>Cynthia:</b> [00:03:04] I’m good. Thank you. But a correction is, I mean, Canada, not in the</p>
 
-<p>[00:03:07] Jared: [00:03:07] U S</p>
+<p>[00:03:07] <b>Jared:</b> [00:03:07] U S</p>
 
 <p>[00:03:14] I</p>
 
-<p>[00:03:14] Amy: [00:03:14] wondered if you were going to let that pass.</p>
+<p>[00:03:14] <b>Amy:</b> [00:03:14] wondered if you were going to let that pass.</p>
 
-<p>[00:03:19] Cynthia: [00:03:19] No. Self respecting Canadian could ever let pass that they’re in Canada and out of the U S. It’s, um, no, it’s going well. The weather’s actually, uh, been holding out despite being in the Pacific Northwest. Um, I’m actually on Vancouver Island on the very West side. Uh, British Columbia, as we say, beautiful British Columbia.</p>
+<p>[00:03:19] <b>Cynthia:</b> [00:03:19] No. Self respecting Canadian could ever let pass that they’re in Canada and out of the U S. It’s, um, no, it’s going well. The weather’s actually, uh, been holding out despite being in the Pacific Northwest. Um, I’m actually on Vancouver Island on the very West side. Uh, British Columbia, as we say, beautiful British Columbia.</p>
 
 <p>[00:03:44] Um, I, uh, I’m currently a support engineer at get lab. Um, but our. What’s a bit more relevant today for today’s topic that I’m sure we’ll get into is that I’ve worked [00:04:00] myriad jobs, mostly because there were contracts, but I’ve worked at, uh, Oh, a whole bunch of academic institutions, both university and colleges.</p>
 
@@ -135,17 +63,17 @@ $("#author_bio_wrap_toggle").text("Expand Transcript")
 
 <p>[00:04:37] Very avid documentarians, so that’s why I’m here.</p>
 
-<p>[00:04:42] Jared: [00:04:42] Yes, I follow some librarians on Twitter. I know that they are indeed very avid documents hearings. So that’s, that’s very true. Thanks for that. That’s a great intro, Cynthia. Now there’s one other person joining us today and her name is Amy calls. Hello, Amy.</p>
+<p>[00:04:42] <b>Jared:</b> [00:04:42] Yes, I follow some librarians on Twitter. I know that they are indeed very avid documents hearings. So that’s, that’s very true. Thanks for that. That’s a great intro, Cynthia. Now there’s one other person joining us today and her name is Amy calls. Hello, Amy.</p>
 
-<p>[00:04:56] Amy: [00:04:56] Hello.</p>
+<p>[00:04:56] <b>Amy:</b> [00:04:56] Hello.</p>
 
-<p>[00:04:57] Jared: [00:04:57] Thanks for joining us today. And then tell us a bit about yourself.</p>
+<p>[00:04:57] <b>Jared:</b> [00:04:57] Thanks for joining us today. And then tell us a bit about yourself.</p>
 
-<p>[00:05:00] [00:05:00] Amy: [00:05:00] So I am a shiny, shiny, new technical writer at get lab. I have been here for two months. Long enough to still be questioning, what have I done? Why have you made the mistake in hiring me? That sort of thing. I was a, I’ve been a technical writer for another startup before, and while I can’t claim librarian status, I did work at a public library.</p>
+<p>[00:05:00] [00:05:00] <b>Amy:</b> [00:05:00] So I am a shiny, shiny, new technical writer at get lab. I have been here for two months. Long enough to still be questioning, what have I done? Why have you made the mistake in hiring me? That sort of thing. I was a, I’ve been a technical writer for another startup before, and while I can’t claim librarian status, I did work at a public library.</p>
 
 <p>[00:05:27] The difference is surprisingly important. To people who have MLSs and MLI SS. And so I try not to cast myself as something that I was not for fear of going down in verbal flames</p>
 
-<p>[00:05:47] Jared: [00:05:47] and also a great introduction. Thank you very much. You’re welcome. That’s great. So there’s definitely a library flavor in today’s show, which is going to be good.</p>
+<p>[00:05:47] <b>Jared:</b> [00:05:47] and also a great introduction. Thank you very much. You’re welcome. That’s great. So there’s definitely a library flavor in today’s show, which is going to be good.</p>
 
 <p>[00:05:56] And the more librarians are better. Um, righto. Let’s get stuck in to today’s subject that now title it, um, a working title of documentarians or it didn’t happen. Uh, because what we know to talk about today is, um, when, um, folks working organizations that don’t have a technical writer and have to sit up an organization.</p>
 
@@ -155,7 +83,7 @@ $("#author_bio_wrap_toggle").text("Expand Transcript")
 
 <p>[00:07:16] So how about you tell us, um, what sort of positions you worked in, um, leading up to the point at which you thought that sitting up a technical writing, um, gig in a organization was important.</p>
 
-<p>[00:07:32] Cynthia: [00:07:32] Yeah. I mean, I do want to preface the fact that like in a lot of these organizations, you’re never, it’s never going to go to the point where there is a dedicated position for technical writing.</p>
+<p>[00:07:32] <b>Cynthia:</b> [00:07:32] Yeah. I mean, I do want to preface the fact that like in a lot of these organizations, you’re never, it’s never going to go to the point where there is a dedicated position for technical writing.</p>
 
 <p>[00:07:43] Um, so in, in all of these organizations, I mean, if you. I mean, I’ve worked at a bunch of libraries, but again, also like nonprofits and government, you know, where you, you have a team of people. Um, I usually ended up somewhere [00:08:00] in technology, right? Um, and. Like your, your team is maybe your entire technology team might be like four or five people.</p>
 
@@ -179,101 +107,101 @@ $("#author_bio_wrap_toggle").text("Expand Transcript")
 
 <p>[00:11:20] Um. We’ll, you can get into other</p>
 
-<p>[00:11:23] Amy: [00:11:23] details later.</p>
+<p>[00:11:23] <b>Amy:</b> [00:11:23] details later.</p>
 
-<p>[00:11:25] Jared: [00:11:25] Yeah, that’s a, yeah, it’s a pretty good overview of pretty much the entire podcast right there. So that’s, that’s quite a nice lead in, um, AB yours stories. A little bit the same, but not exactly the same. Right.</p>
+<p>[00:11:25] <b>Jared:</b> [00:11:25] Yeah, that’s a, yeah, it’s a pretty good overview of pretty much the entire podcast right there. So that’s, that’s quite a nice lead in, um, AB yours stories. A little bit the same, but not exactly the same. Right.</p>
 
-<p>[00:11:39] Amy: [00:11:39] Mine came from literally slamming my hands down on a table and saying.</p>
+<p>[00:11:39] <b>Amy:</b> [00:11:39] Mine came from literally slamming my hands down on a table and saying.</p>
 
 <p>[00:11:46] You know what would have helped me? So nine years ago, I joined a startup that was the, at the time, around 70 people worldwide. I was employee number 73 and they flew me to Boston [00:12:00] for my onboarding. And my onboarding consists of, here’s your laptop, please sign the sexual harassment policy. Please sign up, sign your information so we can deposit your checks.</p>
 
 <p>[00:12:11] You’re good to go right? You’re ready to take support tickets,</p>
 
-<p>[00:12:16] Cynthia: [00:12:16] right?</p>
+<p>[00:12:16] <b>Cynthia:</b> [00:12:16] right?</p>
 
-<p>[00:12:17] Chris: [00:12:17] Isn’t that normally onboarding? I mean, that’d be,</p>
+<p>[00:12:17] <b>Chris:</b> [00:12:17] Isn’t that normally onboarding? I mean, that’d be,</p>
 
-<p>[00:12:24] Jared: [00:12:24] that’d be startup onboarding right there.</p>
+<p>[00:12:24] <b>Jared:</b> [00:12:24] that’d be startup onboarding right there.</p>
 
-<p>[00:12:29] Amy: [00:12:29] And so. The, my first reaction was every time I hit something I didn’t know or couldn’t find, I had a Google doc and I started writing it down and fast forward to the end of my three week. Onboarding time in Boston. I walked into my mentor’s office and slammed my hand down on Kenny’s desk and said, do you know what would have helped me?</p>
+<p>[00:12:29] <b>Amy:</b> [00:12:29] And so. The, my first reaction was every time I hit something I didn’t know or couldn’t find, I had a Google doc and I started writing it down and fast forward to the end of my three week. Onboarding time in Boston. I walked into my mentor’s office and slammed my hand down on Kenny’s desk and said, do you know what would have helped me?</p>
 
 <p>[00:12:55] This keep looks at it, reads through it and says, cool.</p>
 
 <p>[00:13:00] We got another person starting in about three weeks, so can you have this ready for them? And. That document. We started the policy unofficially because it’s a startup, you’re not going to have official policies. We made clear</p>
 
-<p>[00:13:20] Cynthia: [00:13:20] to</p>
+<p>[00:13:20] <b>Cynthia:</b> [00:13:20] to</p>
 
-<p>[00:13:21] Amy: [00:13:21] every person who was being onboarded.</p>
+<p>[00:13:21] <b>Amy:</b> [00:13:21] every person who was being onboarded.</p>
 
 <p>[00:13:23] Your first job was to take this document, work through it, and anything that you found was a hole or a problem or slam your hand on desk. This is what someone should have told me. Put it in the doc. And then give it to the next person. And some number of years later, I went back and checked and there was my doc, except it had become a formal onboarding process and that’s actually how I got started doing documentation.</p>
 
 <p>[00:13:52] Literally slamming my hand down on a table.</p>
 
-<p>[00:13:55] Jared: [00:13:55] Wow. That’s quite the story right there. That’s awesome. [00:14:00] Um, so we’ve, that’s a bit of the background. So, and I think part of the next conversation, which I’ll invite Tom and, um, and Chris to talk about is, uh, that you identified a need that documentation required, but sometimes that isn’t as obvious as some of these sort of, you know, things that are just sort of.</p>
+<p>[00:13:55] <b>Jared:</b> [00:13:55] Wow. That’s quite the story right there. That’s awesome. [00:14:00] Um, so we’ve, that’s a bit of the background. So, and I think part of the next conversation, which I’ll invite Tom and, um, and Chris to talk about is, uh, that you identified a need that documentation required, but sometimes that isn’t as obvious as some of these sort of, you know, things that are just sort of.</p>
 
 <p>[00:14:22] Comes about. So Chris and I’m Tom, how about we delve into some of that, um, that side of things as well. Uh, Chris, do you want to, I’d kick off a couple of questions around this area cause it’s, it’s sort of like one of the harder things sometimes to, to actually realize that you’ve got a problem to solve.</p>
 
-<p>[00:14:43] Chris: [00:14:43] And I think from the perspective of an often worked in, which is mostly with developers onboarding, is that. Do you notice that, um, you have to, people have to keep having a lot of conversations around the same thing over and over again, uh, or you’re on remote teams and no one [00:15:00] has that conversation. And someone who spends a lot of time wasting their time, uh, before they get to the point.</p>
+<p>[00:14:43] <b>Chris:</b> [00:14:43] And I think from the perspective of an often worked in, which is mostly with developers onboarding, is that. Do you notice that, um, you have to, people have to keep having a lot of conversations around the same thing over and over again, uh, or you’re on remote teams and no one [00:15:00] has that conversation. And someone who spends a lot of time wasting their time, uh, before they get to the point.</p>
 
 <p>[00:15:05] So I guess there’s some, some obvious places where you think, Oh, this, this should be documented, but, um, where do we think that the. There, maybe the less obvious ones or even some kind of things to look out for. Rough, rough ideas, even of numbers of times. You should do something before you think,</p>
 
-<p>[00:15:24] Jared: [00:15:24] okay,</p>
+<p>[00:15:24] <b>Jared:</b> [00:15:24] okay,</p>
 
-<p>[00:15:24] Chris: [00:15:24] let’s, let’s put this down somewhere too.</p>
+<p>[00:15:24] <b>Chris:</b> [00:15:24] let’s, let’s put this down somewhere too.</p>
 
 <p>[00:15:28] Okay. All right.</p>
 
-<p>[00:15:29] Jared: [00:15:29] Two or three is the numbers that Cynthia and Amy are holding up at the moment. Yeah.</p>
+<p>[00:15:29] <b>Jared:</b> [00:15:29] Two or three is the numbers that Cynthia and Amy are holding up at the moment. Yeah.</p>
 
-<p>[00:15:35] Chris: [00:15:35] Yeah. Uh, and I must’ve been, I’ve struggled in engineering teams to make them often think this is worth it. But, uh, that’s a whole other conversation. Um, yeah. Uh, what of what of what of your experiences being in identifying that time?</p>
+<p>[00:15:35] <b>Chris:</b> [00:15:35] Yeah. Uh, and I must’ve been, I’ve struggled in engineering teams to make them often think this is worth it. But, uh, that’s a whole other conversation. Um, yeah. Uh, what of what of what of your experiences being in identifying that time?</p>
 
 <p>[00:15:53] Uh, and I guess then getting someone to actually, well, I guess in your case, [00:16:00] um, Amy, it was, you just did it, but maybe more formally, hopefully getting someone to agree that it’s a good idea as well.</p>
 
-<p>[00:16:09] Amy: [00:16:09] It took a couple of years. I ended up working in the support team and then they decided, you know, this is the, given that the company is rapidly expanding.</p>
+<p>[00:16:09] <b>Amy:</b> [00:16:09] It took a couple of years. I ended up working in the support team and then they decided, you know, this is the, given that the company is rapidly expanding.</p>
 
 <p>[00:16:22] Perhaps we should put someone on this, you know, halftime, let’s, let’s not be overzealous here. Let’s, let’s give someone half time to work on documentation and onboarding. And I ended up being in that position for about. Five years.</p>
 
-<p>[00:16:38] Chris: [00:16:38] Okay. Right. And this is, was this mostly internal</p>
+<p>[00:16:38] <b>Chris:</b> [00:16:38] Okay. Right. And this is, was this mostly internal</p>
 
-<p>[00:16:42] Jared: [00:16:42] stuff, I’m</p>
+<p>[00:16:42] <b>Jared:</b> [00:16:42] stuff, I’m</p>
 
-<p>[00:16:43] Chris: [00:16:43] guessing, or not necessarily?</p>
+<p>[00:16:43] <b>Chris:</b> [00:16:43] guessing, or not necessarily?</p>
 
-<p>[00:16:44] Cynthia: [00:16:44] At first,</p>
+<p>[00:16:44] <b>Cynthia:</b> [00:16:44] At first,</p>
 
-<p>[00:16:46] Amy: [00:16:46] after a while, the loan documentarian for the external docs figured out. I knew more about some of their products than he did. And so what started out as, [00:17:00] let me pass information over to you gradually became, let me give you a write up that you can Polish and then eventually it was just published this, it already meets your standards.</p>
+<p>[00:16:46] <b>Amy:</b> [00:16:46] after a while, the loan documentarian for the external docs figured out. I knew more about some of their products than he did. And so what started out as, [00:17:00] let me pass information over to you gradually became, let me give you a write up that you can Polish and then eventually it was just published this, it already meets your standards.</p>
 
 <p>[00:17:10] And then I replaced him when he got a new job.</p>
 
-<p>[00:17:16] Jared: [00:17:16] That’s leveling up.</p>
+<p>[00:17:16] <b>Jared:</b> [00:17:16] That’s leveling up.</p>
 
-<p>[00:17:20] Amy: [00:17:20] I, I’m</p>
+<p>[00:17:20] <b>Amy:</b> [00:17:20] I, I’m</p>
 
-<p>[00:17:21] Tom: [00:17:21] hoping we can clarify as a point that I’m confused about. Are we talking about like an internal run book for how the documentation team is set up and organize and publish and all their processes, or are we talking about actual internal documentation for other teams and their products are both here.</p>
+<p>[00:17:21] <b>Tom:</b> [00:17:21] hoping we can clarify as a point that I’m confused about. Are we talking about like an internal run book for how the documentation team is set up and organize and publish and all their processes, or are we talking about actual internal documentation for other teams and their products are both here.</p>
 
-<p>[00:17:41] Amy: [00:17:41] If that question was directed to me, it was a combination of internal runbooks, uh, internal procedures. And then wait, the reason nobody knew how to do this was because it was never in our public dock. So I, once I got the internal docs where I needed them to be, I started turning my focus to [00:18:00] let’s take as much of this as possible and just, we should have made this public first anyway.</p>
+<p>[00:17:41] <b>Amy:</b> [00:17:41] If that question was directed to me, it was a combination of internal runbooks, uh, internal procedures. And then wait, the reason nobody knew how to do this was because it was never in our public dock. So I, once I got the internal docs where I needed them to be, I started turning my focus to [00:18:00] let’s take as much of this as possible and just, we should have made this public first anyway.</p>
 
 <p>[00:18:06] All right.</p>
 
-<p>[00:18:06] Tom: [00:18:06] Can you maybe list out a few of the more prominent topics in this internal runbook? I’m just kinda curious, what are some of these, uh, really important issues that you, you, you have in there</p>
+<p>[00:18:06] <b>Tom:</b> [00:18:06] Can you maybe list out a few of the more prominent topics in this internal runbook? I’m just kinda curious, what are some of these, uh, really important issues that you, you, you have in there</p>
 
-<p>[00:18:20] Amy: [00:18:20] a list of the systems that you need to gain access to when you’re a new employee? Who, who controls them, where, where you need to file tickets to get them and who to bother.</p>
+<p>[00:18:20] <b>Amy:</b> [00:18:20] a list of the systems that you need to gain access to when you’re a new employee? Who, who controls them, where, where you need to file tickets to get them and who to bother.</p>
 
 <p>[00:18:31] If that doesn’t happen, happen the way you expect. And then we, the goal with the onboarding documentation was to take someone from, here’s your laptop. I Pat you on the head and send you forth into the world to answer support tickets to, here’s where you can find information here. Here’s how you need to set up your laptop.</p>
 
 <p>[00:18:54] Here’s how our products work. Here’s how you can gain access to them at assist admin level [00:19:00] so that you can sign in, figure out what’s going on, troubleshoot. I wrote up troubleshooting documentation for all of our products and then go solve. The problem</p>
 
-<p>[00:19:13] Chris: [00:19:13] was, was there ever, um, I don’t know why. I think there’s maybe just because sometimes people like things the way they are.</p>
+<p>[00:19:13] <b>Chris:</b> [00:19:13] was, was there ever, um, I don’t know why. I think there’s maybe just because sometimes people like things the way they are.</p>
 
 <p>[00:19:21] Was there ever a time that someone said, don’t do it and gave you a justified reason?</p>
 
-<p>[00:19:27] Amy: [00:19:27] There was a time where someone said, don’t do it, but the reason was a sort of unrelated, um. The pushback that I received on doing the documentation was not necessarily about what I was writing. It was the system that I was lodging the information in.</p>
+<p>[00:19:27] <b>Amy:</b> [00:19:27] There was a time where someone said, don’t do it, but the reason was a sort of unrelated, um. The pushback that I received on doing the documentation was not necessarily about what I was writing. It was the system that I was lodging the information in.</p>
 
 <p>[00:19:43] They loved the idea, but could you not use this software? Why reasons so. Hmm. Yeah, they, they opposed the idea of a Wiki for reasons that [00:20:00] honestly don’t matter. It was nine years ago, but once the company standardized on Atlassian products, everything moved over to confluence. We had a solution that the entire company supported, and so we just moved the docs there.</p>
 
-<p>[00:20:16] Jared: [00:20:16] I sent the, I’m going to circle back to you about, um, the, the, the, the reasons or the, the cues that you get, um, to set up, but I just want to sort of ask, since we’re talking about tools. In the, in the various jobs that you’ve had, what sort of tools have been available to you to document stuff? Or is it just a ticks pad?</p>
+<p>[00:20:16] <b>Jared:</b> [00:20:16] I sent the, I’m going to circle back to you about, um, the, the, the, the reasons or the, the cues that you get, um, to set up, but I just want to sort of ask, since we’re talking about tools. In the, in the various jobs that you’ve had, what sort of tools have been available to you to document stuff? Or is it just a ticks pad?</p>
 
-<p>[00:20:40] Cynthia: [00:20:40] Oh, gosh.</p>
+<p>[00:20:40] <b>Cynthia:</b> [00:20:40] Oh, gosh.</p>
 
 <p>[00:20:45] It’s one of those kind of ABOs desperation blasts, right? Like, it depends on where I worked. Um, I definitely had a range of what was available to me, and sometimes. You know, [00:21:00] standardization is great and sometimes standardization is really a struggle because of what that means. So I’ve, you know, done the gamut of.</p>
 
@@ -299,9 +227,9 @@ $("#author_bio_wrap_toggle").text("Expand Transcript")
 
 <p>[00:25:18] When you can go off on your own. Sometimes it’s good and sometimes it’s bad because like I say, if it’s very established or very institutionalized, you want other people on board and you know, using the tools that. That they’re used to using. Uh, so for me it was more just about like, yeah, just, just get it written down in a place where other people can find it and we’ll go from there.</p>
 
-<p>[00:25:44] Jared: [00:25:44] So what sort of cues do you think the cues that you saw in the business that you’re in was sort of the same as, as Amy’s. Um, or do you think there were, depending on the, the, perhaps the, the job you’re in those, the, the cues that you needed a [00:26:00] technical writer were different?</p>
+<p>[00:25:44] <b>Jared:</b> [00:25:44] So what sort of cues do you think the cues that you saw in the business that you’re in was sort of the same as, as Amy’s. Um, or do you think there were, depending on the, the, perhaps the, the job you’re in those, the, the cues that you needed a [00:26:00] technical writer were different?</p>
 
-<p>[00:26:04] Cynthia: [00:26:04] I think it’s the saying. I think a lot of it issues like the lack of information.</p>
+<p>[00:26:04] <b>Cynthia:</b> [00:26:04] I think it’s the saying. I think a lot of it issues like the lack of information.</p>
 
 <p>[00:26:09] Do what and get where, that sort of thing. And, um, certainly in a lot of places, in some places, some of the documentation was there, but just really hard to find. So just needed someone to kind of go in and, and help organize. Um, you know, sometimes, like I say, you know, move it to a system where it’s easier to find, um, other times, you know, I think it’s just, I mean, a lot of it is, is.</p>
 
@@ -317,33 +245,33 @@ $("#author_bio_wrap_toggle").text("Expand Transcript")
 
 <p>[00:28:18] So, um, definitely, yeah. For me, it’s, it’s both. Uh, kind of a selfish thing and cut that kind of turns into something that, you know, would help others in the future. But even the institution as the organization as a whole, like, you’re going to save so much money, right. By not having every single person who is looking for this information, dig it up every time.</p>
 
-<p>[00:28:43] Jared: [00:28:43] Yeah, for sure.</p>
+<p>[00:28:43] <b>Jared:</b> [00:28:43] Yeah, for sure.</p>
 
-<p>[00:28:45] Chris: [00:28:45] Did you, sorry. Um, and I completely lost my train of thought. Uh.</p>
+<p>[00:28:45] <b>Chris:</b> [00:28:45] Did you, sorry. Um, and I completely lost my train of thought. Uh.</p>
 
-<p>[00:29:06] Tom: [00:29:06] find it pretty fascinating that we have two librarians here. Right. Um, and it’s interesting to see the, the points that you emphasize, it seems like there’s a strong emphasis on knowledge management, on documenting processes so that others can find the information, how to organize it.</p>
+<p>[00:29:06] <b>Tom:</b> [00:29:06] find it pretty fascinating that we have two librarians here. Right. Um, and it’s interesting to see the, the points that you emphasize, it seems like there’s a strong emphasis on knowledge management, on documenting processes so that others can find the information, how to organize it.</p>
 
 <p>[00:29:22] Do you think that emphasis, um, is partly due to your library and background.</p>
 
-<p>[00:29:31] Amy: [00:29:31] It’s how librarian background.</p>
+<p>[00:29:31] <b>Amy:</b> [00:29:31] It’s how librarian background.</p>
 
-<p>[00:29:35] Cynthia: [00:29:35] I think it’s just true of people who, who recognize that need and see it. I actually like I, like I say, I’ve worked in a lot of libraries. And the fact that this, none of this was ever written down is like, kinda just boggles my mind that like, how do we have this many information professionals?</p>
+<p>[00:29:35] <b>Cynthia:</b> [00:29:35] I think it’s just true of people who, who recognize that need and see it. I actually like I, like I say, I’ve worked in a lot of libraries. And the fact that this, none of this was ever written down is like, kinda just boggles my mind that like, how do we have this many information professionals?</p>
 
 <p>[00:29:52] And none of this is written down anywhere actually.</p>
 
-<p>[00:29:57] Chris: [00:29:57] So now I’ve remembered what my question was. It follows [00:30:00] on nicely. So Tom, obviously it was reading my mind, um, which was in, in how many cases when you’ve done this for the two of you, did people</p>
+<p>[00:29:57] <b>Chris:</b> [00:29:57] So now I’ve remembered what my question was. It follows [00:30:00] on nicely. So Tom, obviously it was reading my mind, um, which was in, in how many cases when you’ve done this for the two of you, did people</p>
 
-<p>[00:30:09] Jared: [00:30:09] continue it afterwards?</p>
+<p>[00:30:09] <b>Jared:</b> [00:30:09] continue it afterwards?</p>
 
-<p>[00:30:11] Chris: [00:30:11] Or did thing, I mean, Amy already mentioned one where it did continue, but you know when sometimes has a great idea and start something, but then after you’ve left, it just</p>
+<p>[00:30:11] <b>Chris:</b> [00:30:11] Or did thing, I mean, Amy already mentioned one where it did continue, but you know when sometimes has a great idea and start something, but then after you’ve left, it just</p>
 
-<p>[00:30:20] Jared: [00:30:20] stalls and it</p>
+<p>[00:30:20] <b>Jared:</b> [00:30:20] stalls and it</p>
 
-<p>[00:30:21] Chris: [00:30:21] becomes kind of no use because it’s out of date anyway.</p>
+<p>[00:30:21] <b>Chris:</b> [00:30:21] becomes kind of no use because it’s out of date anyway.</p>
 
 <p>[00:30:25] Um, so yeah. How many kept doing it after you kind of kicked it</p>
 
-<p>[00:30:29] Amy: [00:30:29] off? So far? I’m three for three. Okay. The library system that I worked at, the, and then the internal and external docs for my previous company. It’s still go with the, with what I initially set up, the the one that is a little bit of an outlier and I wanted to circle back to Tom’s question.</p>
+<p>[00:30:29] <b>Amy:</b> [00:30:29] off? So far? I’m three for three. Okay. The library system that I worked at, the, and then the internal and external docs for my previous company. It’s still go with the, with what I initially set up, the the one that is a little bit of an outlier and I wanted to circle back to Tom’s question.</p>
 
 <p>[00:30:56] It’s actually related here. I’d actually broaden [00:31:00] the scope from libraries to nonprofits that every nonprofit that I’ve spent time with has a need for organization and. Infrastructure work, especially knowledge infrastructure work because that never pays the bills. And it’s one of the last things to get get funding and one of the first things to be cut.</p>
 
@@ -351,26 +279,25 @@ $("#author_bio_wrap_toggle").text("Expand Transcript")
 
 <p>[00:32:01] That I think is a, is a better measure.</p>
 
-<p>[00:32:05] Chris: [00:32:05] It’s actually interesting you say this, I used to work in the nonprofit sector as well. And I think we’ve all, most of us here on this call at the moment are in this sort of tech space that we think around this space, but internal documentation is probably vastly more important and vastly under done in many other sectors.</p>
+<p>[00:32:05] <b>Chris:</b> [00:32:05] It’s actually interesting you say this, I used to work in the nonprofit sector as well. And I think we’ve all, most of us here on this call at the moment are in this sort of tech space that we think around this space, but internal documentation is probably vastly more important and vastly under done in many other sectors.</p>
 
 <p>[00:32:23] Actually.</p>
 
-<p>[00:32:26] Jared: [00:32:26] Tell him you had something to say.</p>
+<p>[00:32:26] <b>Jared:</b> [00:32:26] Tell him you had something to say.</p>
 
-<p>[00:32:27] Tom: [00:32:27] Yeah, no, I, I, I like the comparison to nonprofit because I feel like internal documentation is, is a nonprofit activity. Uh, it, people seem to really be interested in outward facing documentation, right? But all this internal information about the different systems required and to set up the processes that are gonna enable that external docs.</p>
+<p>[00:32:27] <b>Tom:</b> [00:32:27] Yeah, no, I, I, I like the comparison to nonprofit because I feel like internal documentation is, is a nonprofit activity. Uh, it, people seem to really be interested in outward facing documentation, right? But all this internal information about the different systems required and to set up the processes that are gonna enable that external docs.</p>
 
 <p>[00:32:50] Nobody really seems to care about that until some new person
 onboards in. They’re completely lost. Right. So it, I can see how this is a sort of a [00:33:00] nonprofit endeavor.</p>
 
-<p>[00:33:05] Tom: [00:33:05] Do you separate out in your internal documentation, kind of like a, a run book for your doc team versus a, uh, sort of internal customer facing.</p>
+<p>[00:33:05] <b>Tom:</b> [00:33:05] Do you separate out in your internal documentation, kind of like a, a run book for your doc team versus a, uh, sort of internal customer facing.</p>
 
 <p>[00:33:17] Intake manual for how they work with your team? Like how do you separate out the different components of internal docs?</p>
 
-<p>[00:33:28] Cynthia: [00:33:28] I think that would be different depending on the organization. Um, so what, what’s interesting is that like a lot of nonprofits, um, and like public institutions that I’ve worked at, there’s. You know, there isn’t really so much a separation between like thinking about something for like, that you would use in dealing with customers.</p>
+<p>[00:33:28] <b>Cynthia:</b> [00:33:28] I think that would be different depending on the organization. Um, so what, what’s interesting is that like a lot of nonprofits, um, and like public institutions that I’ve worked at, there’s. You know, there isn’t really so much a separation between like thinking about something for like, that you would use in dealing with customers.</p>
 
 <p>[00:33:56] I mean, to a certain extent there is like, um, [00:34:00] and, and what’s interesting is that a lot of places I’ve worked at. Um, that’s actually often well documented is how you either external documentation, which is outward facing for users or, um, you know, internally and how to deal or work with users. Um, because especially in a lot of public institutions, almost everyone is doing that.</p>
 
 <p>[00:34:26] Those processes are actually often. Well-documented, or I mean, again, maybe not in the tool, your choice, but at least it is often written down because that’s part of some kind of like guideline or this is how you deal with this exact situation because it comes up all the time. Um, what I find is often lacking are more things that are purely internal.</p>
 
 <p>[00:34:51] So, um, like again, it kind of boggles my brain that like. Some technology, a [00:35:00] lot of technologies actually an in public institutions. They’re developed by a single person or maybe two, and then they say, develop an internal tool that is used, but then don’t document anything about how it’s maintained or may or may not even include inline comments</p>
-</div>

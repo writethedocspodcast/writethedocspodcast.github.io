@@ -1,0 +1,822 @@
+<p>
+<strong>Jared: </strong>[00:00:00] Good morning, folks. Good evening folks. Wherever you are. I think depends on the time zone, but the same is that we are in, right? The docs podcast time and it's right. The docs podcast, episode 29, we're nearly at 30. Uh, I don't know how that happened, but it's a, it's, it seems too much. Oh, that's right, Chris.
+</p>
+<p>
+[00:00:24] So we're, we have a different car seat today. Um, first off, I'd like to introduce, uh, a regular, um, podcasting crew, which is, um, Chris ward, or like Chris
+</p>
+<p>
+[00:00:37] <strong>Chris: </strong>[00:00:37] and Jared.
+</p>
+<p>
+[00:00:40] <strong>Jared: </strong>[00:00:40] I do, I do actually have, you probably won't see this unless you're, uh, you might actually, if you watch a YouTube and you're not watching this or listening to this through your ears, through a podcasting app, but I've got a write the docs.
+</p>
+<p>
+[00:00:50] Um, Australia showed on, uh, today. It's the one that they always were when I'd podcast for the show now, cause it's very cool. And that was from 20 nineteens um, uh, conference and the  we pride. Um, so yes, it's very good. And what's been happening over in Berlin?
+</p>
+<p>
+[00:01:08] <strong>Chris: </strong>[00:01:08] Oh, you know,
+</p>
+<p>
+[00:01:08] <strong>Jared: </strong>[00:01:08] uh,
+</p>
+<p>
+[00:01:09] <strong>Chris: </strong>[00:01:09] I finished a couple of contracts I got, I'm doing a few new things right now, kind of in a little bit of an in between time.
+</p>
+<p>
+[00:01:16] Um, may have some news next episode, but not right now. Okay.
+</p>
+<p>
+[00:01:21] <strong>Jared: </strong>[00:01:21] Well stay tuned for episode.
+</p>
+<p>
+[00:01:25] <strong>Chris: </strong>[00:01:25] Try lots of experiments right now. I'm sure we'll get to that soon.
+</p>
+<p>
+[00:01:30] <strong>Jared: </strong>[00:01:30] It's plenty of time to do it right. Yes. I, I, I have been, uh, missing around with stuff as well, but, uh, it's usually during work hours, which is actually good cause you know.
+</p>
+<p>
+[00:01:42] Yeah. You get to try out new things and push the boundaries of tools or use, which is pretty cool.
+</p>
+<p>
+[00:01:47] <strong>Eric: </strong>[00:01:47] Huge Arabs. Oh, look,
+</p>
+<p>
+[00:01:50] <strong>Jared: </strong>[00:01:50] I'm all right. Look, you know, things are going well here. We've switched to fully work from home at our place. Be out by workplace. Yeah. We, we've, uh, I do two days a week from home regularly because I've seen as type one diabetes, but, um, now it's full five days a week, um, way from home and they've just, it's been a bit tough.
+</p>
+<p>
+[00:02:10] I didn't think it would be because I've been doing two days a week from home, but it's definitely different. But I guess we could probably go into that more in the show cause it seems like it's probably on people's people's minds. And I'm sure that, um, you M our guest today will actually have to tips about, uh, how to manage that.
+</p>
+<p>
+[00:02:27] And, uh, as a, as a sort of half good, decent segue, let's actually keep the cheese to our guest, which today is Eric culture. There you go.
+</p>
+<p>
+[00:02:37] <strong>Eric: </strong>[00:02:37] You're there. I'm doing all right about as good as can be expected, I guess
+</p>
+<p>
+[00:02:42] <strong>Jared: </strong>[00:02:42] that's fair enough. Now, Eric, for those who don't know what you do and how you're involved in, right, the docs, do you want to give people a bit of a, an overview of what you do.
+</p>
+<p>
+[00:02:51] Sure.
+</p>
+<p>
+[00:02:51] <strong>Eric: </strong>[00:02:51] Yeah. So I guess kind of my, my formal role is kind of co-founder. Um, sorry. I was one of the folks who kind of ran the first, right, the docs conference in Portland back in 2013 and then I've been kind of around in the community, uh, ever since. So really trying to, you know, make it what it, uh, hopefully it should be in the world.
+</p>
+<p>
+[00:03:10] And in my kind of background, there was, I, I work on a product called docs, um, which does kind of. You can think about it as continuous integration for documentation, doctor's code. You know what? All the things that we talk about that kind of spawned the conference from my work on that stuff. So, uh, that's kind of, yeah, that's my background.
+</p>
+<p>
+[00:03:26] And so now I'm just kind of one of the, the core folks that work on write the docs and kind of keep things going. And my. Kind of core role is still probably the biggest thing is I'm the chair of the Portland conference at this point, so that's a, that's me, right?
+</p>
+<p>
+[00:03:41] <strong>Chris: </strong>[00:03:41] We did, actually, I was just checking. We did I speak to you before, actually, my God, it was a long time ago.
+</p>
+<p>
+[00:03:50] <strong>Jared: </strong>[00:03:50] Yes, it
+</p>
+<p>
+[00:03:50] <strong>Eric: </strong>[00:03:50] was
+</p>
+<p>
+[00:03:52] <strong>Chris: </strong>[00:03:52] December, 2017. Wow.
+</p>
+<p>
+[00:03:54] <strong>Eric: </strong>[00:03:54] Okay.
+</p>
+<p>
+[00:03:55] <strong>Jared: </strong>[00:03:55] Which is why we sort of thought, well, you know what's probably is how you had your order get Eric, because you know, it's been a while between drinks and you know, lots of stuff has happened between then and now, so it'd be probably worthwhile getting you back on again and having a chat just in general about stuff.
+</p>
+<p>
+[00:04:11] Um, and really that's going to be the format of the show today. Like it's going to be a. A bit of a, there's no set agenda for today's show. We're just going to have a talk like we're sitting in a pub with, with a coffee or a beer, depending on what time zone we're at. And, um, yeah, just have a bit of a laugh.
+</p>
+<p>
+[00:04:28] Um,
+</p>
+<p>
+[00:04:28] <strong>Eric: </strong>[00:04:28] and definitely, and I know, I don't know how much I'm going to be able to say about the future at this point. I feel like, uh, like in the last month, the future has just turned into this haze.
+</p>
+<p>
+[00:04:38] <strong>Jared: </strong>[00:04:38] Oh yeah. You
+</p>
+<p>
+[00:04:39] <strong>Eric: </strong>[00:04:39] can't quick see anymore. Like it's a, it's a very disorienting feeling, but I'll, I'll do my best.
+</p>
+<p>
+[00:04:44] <strong>Jared: </strong>[00:04:44] Yeah. Exactly. Exactly right.
+</p>
+<p>
+[00:04:46] <strong>Eric: </strong>[00:04:46] Well,
+</p>
+<p>
+[00:04:46] <strong>Chris: </strong>[00:04:46] maybe we should kick off with what we do know, and let's talk about a couple of things that the community, the, the core organizers have been up to over the past few months. I know there's a couple of things that have happened in the past few months that are a bit more definite, so maybe we should kick off with those.
+</p>
+<p>
+[00:05:02] <strong>Jared: </strong>[00:05:02] Yeah, that sounds like a good idea. What's the, what's the first one I think is the, the salary survey, isn't it Chris? Yeah. So more about that. Yeah.
+</p>
+<p>
+[00:05:11] <strong>Eric: </strong>[00:05:11] Sure. Yeah. So I mean, this is something we've wanted to do, uh, for a long time. I know the goal here really is to kind of reduce pay inequality across both, you know, geographies or genders or, you know, kind of along along all the different axes that we care about in the community.
+</p>
+<p>
+[00:05:28] And, you know, one of the biggest things holding people back from getting paid more is just knowledge of how much their coworkers or their com kind of comparable people are getting paid across the industry. Um. And so that was really the goal with the salary survey is to kind of ask people questions about their job and how much they're getting paid and compensation and that kind of stuff, really with the outcome being that hopefully that will give people some, you know, some value when they go to negotiated toward change jobs or that kind of stuff.
+</p>
+<p>
+[00:05:56] So yeah, it was really just trying to, trying to understand. What the kind of going rate is for various, you know, parts of the world, I think is, is where we started with it, which is kind of the best thing that we could do. Um, so yeah, I think that was the goal there. And I think we've gotten some really good feedback that it's been very kind of interesting for folks to read through it.
+</p>
+<p>
+[00:06:17] So.
+</p>
+<p>
+[00:06:19] <strong>Jared: </strong>[00:06:19] All right. It's very interesting. Like the whole thing about the salary survey is, it's the appeal of it for me is that the fact that, you know, you could probably, you know, go up to people that you work with in like say your local region, like Brisbane for me, for example, and sort of quiz them approximately on, on how much they, they might be earning if you're good friends with them.
+</p>
+<p>
+[00:06:40] But, you know, it's an always an awkward conversation because often, you know, we have. You know, you're not supposed to talk about celery and stuff like that.
+</p>
+<p>
+[00:06:49] <strong>Eric: </strong>[00:06:49] Typically it's taboo.
+</p>
+<p>
+[00:06:50] <strong>Jared: </strong>[00:06:50] Yeah, definitely is a taboo. I don't know why it is, but it seems to be so,
+</p>
+<p>
+[00:06:56] <strong>Eric: </strong>[00:06:56] so, so a couple of interesting points there. First off is actually in the United States, it's illegal for employers to, uh, you know.
+</p>
+<p>
+[00:07:03] It's, every employee has the ability to talk about their salary. It's actually illegal for employers to, to kind of reprimand or, or, you know, like punish you for some reason, uh, for talking about it. So that's actually a protected thing, and at least in the U S and I imagine in a lot of other places as well.
+</p>
+<p>
+[00:07:19] Um, but yeah, I mean, I think the, the main reason that the taboo exists is because, you know, employers benefit from it. Well, that's good.
+</p>
+<p>
+[00:07:30] <strong>Jared: </strong>[00:07:30] Yeah. Hmm. I wonder why I take the point now just to welcome Tony Johnson. Hey Tom, how are you going this morning? You all decide this afternoon?
+</p>
+<p>
+[00:07:39] <strong>Tom: </strong>[00:07:39] I'm doing well. Thanks for, uh, yeah, let me join late here.
+</p>
+<p>
+[00:07:42] I appreciate it. Sorry.
+</p>
+<p>
+[00:07:43] <strong>Jared: </strong>[00:07:43] No, that's all right. That's all right. So we were just, uh, we'll talk to you about, uh, we're just introducing the salary survey and, um, what, uh, has been going on with that, so we'll, we'll keep on going with that. Um, so yeah. What insights, what do you think, if you could say the biggest insight from the salary survey, Eric, what do you reckon that would be.
+</p>
+<p>
+[00:08:03] <strong>Eric: </strong>[00:08:03] Um, I mean, I think really the biggest thing is just really kind of the, the geographic breakdown of average salary. Um, so I think, you know, we definitely got a lot more responses from the U S and from kind of Northern America and Europe, just cause that's kind of where our historical kind of community has, has been the strongest.
+</p>
+<p>
+[00:08:22] Um, but, you know, I think there's just some really interesting ones with flake. For example, I think the average salary in Canada was like 60,000 and the average in the U S was like 90,000, for example. And I would expect those to be a little bit closer, you know, without knowing kind of how the industry salary works and all that kind of stuff.
+</p>
+<p>
+[00:08:38] Um, and just similarly kind of the, the salaries across all the different. Geographies and that kind of stuff, how are they change? Um, and even within the U S they're, they're pretty, you know, dramatically different, uh, you know, based on maybe the West versus the East coast or, or these kinds of things. Um, so yeah, I mean, I think that was really the, the goal.
+</p>
+<p>
+[00:08:57] And I think that was really the, the most interesting data for me.
+</p>
+<p>
+[00:09:00] <strong>Chris: </strong>[00:09:00] I mean, the thing that jumps out at me, I, I see this a lot on Twitter when, um, American engineers especially say, you know, people in Europe get paid a lot less. But of course, there's other factors in play. With wages and things like that sometimes.
+</p>
+<p>
+[00:09:14] And it's probably the same with Canada. Canada does have health care, I think
+</p>
+<p>
+[00:09:18] <strong>Eric: </strong>[00:09:18] and stuff like that.
+</p>
+<p>
+[00:09:20] <strong>Chris: </strong>[00:09:20] Yeah. So, and that's the same in Europe. And actually when I look at these numbers, they seem saying kind of just about right. Some jump out at me as being surprising for some places, but for the most part, they seem sort of what I would expect.
+</p>
+<p>
+[00:09:36] And
+</p>
+<p>
+[00:09:36] <strong>Eric: </strong>[00:09:36] I think the other, the other thing is, again, the sample sizes, right? Like, I mean, I think we got 350 responses from the U S but you know, from like, you know, Russia for example, we only got nine. So yeah, the data there is going to be a little more, a little more skewed for sure.
+</p>
+<p>
+[00:09:50] <strong>Jared: </strong>[00:09:50] Just curious, how many did you get from Australia in this sort of Asian Pacific region?
+</p>
+<p>
+[00:09:54] Oceana.
+</p>
+<p>
+[00:09:57] <strong>Eric: </strong>[00:09:57] Third.
+</p>
+<p>
+[00:09:59] <strong>Jared: </strong>[00:09:59] Okay. Yeah, well that's all bad. Um,
+</p>
+<p>
+[00:10:01] <strong>Eric: </strong>[00:10:01] yeah, and one I think, you know, I think the goal with this is, is like all things, the first time you do it, you're, you're, it always takes a little bit of time to build, you know, momentum in the community, uh, for any kind of initiative. And so, you know, hopefully as people get value out of this and they, they have it, you know, have an impact them, then they're going to be more likely to contribute and share it in the future.
+</p>
+<p>
+[00:10:19] So, you know, the goal would be to do it again next year and then hopefully get more respondents and make it even more valuable. So,
+</p>
+<p>
+[00:10:26] <strong>Jared: </strong>[00:10:26] Oh, that's cool.
+</p>
+<p>
+[00:10:27] <strong>Chris: </strong>[00:10:27] Actually the first question jumps out at me the most, 94% employed. I think I hang out with self employed people too much, so
+</p>
+<p>
+[00:10:38] that that took me by surprise.
+</p>
+<p>
+[00:10:41] <strong>Eric: </strong>[00:10:41] I know, Tom, you've done a little bit with surveys as well, right? Like I know. Have you kind of seen seen value in that overtime?
+</p>
+<p>
+[00:10:49] <strong>Tom: </strong>[00:10:49] Yeah, I mean, I recently did a survey in and realized a few things just about surveys in general and one is that. I like, they're hard to do well.
+</p>
+<p>
+[00:10:58] Right? Uh, especially when you tackle something like salary. I mean, that's a very complex topic to survey. And I'm guessing that like the people who, you know, the team that was trying to process all this information probably, you know, had a lot of, a lot of tough decisions and questions and complexities. I certainly think that, um, uh, this is where the academic community kind of shines in their, in their analytical processes.
+</p>
+<p>
+[00:11:24] But. Just like segmenting the audience and understanding if you're getting a good representation is key. Because, um, I've seen some surveys where like the entire survey was a skewed demographic because it was just pulling from a specific group and it's like, well, that's not representative. So are there any sort of complexities that you had to wrangle with, with this that you want to call out.
+</p>
+<p>
+[00:11:48] <strong>Eric: </strong>[00:11:48] Um, yeah, I mean, there was definitely a lot of it around kind of normalizing data and you know, like, I think there was a few places where we maybe weren't super explicit with the question, whether, you know, maybe some people put monthly salaries versus yearly salaries or pretax or post-tax or you just, I think there's a lot of places along the lines with benefits as well, right?
+</p>
+<p>
+[00:12:08] I mean, to your point, right, like salaries or like working from home is a huge benefit that isn't monetary or, you know, and then. Along every access. You have to slice it in a subset of ways, right? You can't just, if, if you want to get the data somewhat anonymous, like you can't just say, you know, for every person that worked from home that worked in Pennsylvania, that or whatever.
+</p>
+<p>
+[00:12:30] Um, so yeah, you, you ended up kind of being very constrained with what you can actually. Say, and how you can break it down, which I definitely, and it took us longer than we, we wish to kind of actually process it, you know, because of some of that complexity where, you know, we had to go through and try and find the outliers and, um, yeah.
+</p>
+<p>
+[00:12:50] So we tried to make notes of where that happened, but you know, again, yeah, it's a very, very complex thing and we definitely have some, some notes for how to do it again, better for next year.
+</p>
+<p>
+[00:12:59] <strong>Tom: </strong>[00:12:59] Yeah. I'm just looking at the median salary by, by state part, right. Where California, the median salary was one 20 and Washington was one 26.
+</p>
+<p>
+[00:13:10] New York one Oh five. Right in my immediate questions would be, uh, is this. Just base salary. And then do you have to add on your restricted stock units or RSU signing bonus, a cost of living, like how do you factor that in? So somebody who's working in California say, how do they know if that salary is a good salary based on all these other inputs in additions or the omission of them?
+</p>
+<p>
+[00:13:39] How do you, how do you handle that?
+</p>
+<p>
+[00:13:43] <strong>Jared: </strong>[00:13:43] I
+</p>
+<p>
+[00:13:43] <strong>Eric: </strong>[00:13:43] mean, I think we basically just said, you know, the annual value, expected value of your, of your salary, right? So, yeah, I don't think it would necessarily kind of signing bonus, for example. Um, and again, stock is always going to be a variable, a variable thing, you know?
+</p>
+<p>
+[00:13:59] But yeah, no, I think it's there, there is no perfect way. Um, but I think getting, at least within the ballpark is. It's about the best you're going to be able to do.
+</p>
+<p>
+[00:14:09] <strong>Jared: </strong>[00:14:09] So the, the only other salary survey that I'm aware of is the, the one conducted by the society of technical communication or STC. Um, they do one, I don't think it's every year.
+</p>
+<p>
+[00:14:22] I think they do one every couple of years, if anyone is aware of that. Um. But it's, it's only available to members, so you have to be an STC member to access it. Um, which in there's the rub. So, um, the thing I like about this survey is that anyone can read it. It's not pay walled. And I think that's really, really important.
+</p>
+<p>
+[00:14:46] Um, because, you know, for people who, for whatever reason, don't, don't find any sort of affiliation with SDC, uh, and maybe we're only keeping a membership for that data. Um, you know, that's, that's actually a big, like, you know, a cost saving. And also, you know, um, fettering the data like you have, I think is, is the right way to go for this sort of information.
+</p>
+<p>
+[00:15:10] Um, were there any .
+</p>
+<p>
+[00:15:14] <strong>Eric: </strong>[00:15:14] Well,
+</p>
+<p>
+[00:15:16] <strong>Jared: </strong>[00:15:16] I was gonna say, did you, um, what was the, did you sort of have a blueprint of what you're trying to do with the survey? Was it very much like, was it inspired by something like the STC. Um, salary survey all, was it just purely, no, this is what we wanted to achieve with the survey.
+</p>
+<p>
+[00:15:33] How did you sort of plan out what you wanted to do with it? Sure.
+</p>
+<p>
+[00:15:37] <strong>Eric: </strong>[00:15:37] Yeah. So I've, I've heard tell of this survey, but yeah, it kind of, as you said, it's behind a pay wall and I've never actually seen the data, so I don't, I don't, I don't actually know what the, the STC surveys like, um, where I actually drew a lot of our inspiration was from support driven to support driven is a similar community that's like write the docs, but for people doing customer support.
+</p>
+<p>
+[00:15:56] Uh, and actually it was also created out of Portland. Uh, so this, um, my friend Scott, uh, is actually one of the cofounders of that community. And we, we meet up and have coffee or do a call every like, you know, three or four months. And, um, so actually I was most inspired by them cause I think they've done a really good job with this.
+</p>
+<p>
+[00:16:14] And they actually have been doing it for a couple of years. Um, and I had talked with him about it. Puberty. Pretty strongly, um, just as, as something, you know, he said that was one of the biggest things they were providing of like concrete value to their community. Um, and kind of to the point of, of publishing.
+</p>
+<p>
+[00:16:29] And I think there's a really, really important point there that is, you know, the people who need this most are the least likely to have the privilege of a membership in a professional organization, right? The person who's most likely to be adversely affected by being underpaid as a, you know, somebody at their first time job, someone who's not being appreciated at their.
+</p>
+<p>
+[00:16:48] You know, workplace, maybe they're not getting sent to conferences, maybe they're not getting, you know, these educational benefits or memberships. Um, and so I really do think it's, yeah, there's almost a perverse selection by having this data behind a paywall.
+</p>
+<p>
+[00:17:04] <strong>Jared: </strong>[00:17:04] Yeah. Quiet. No, it's, um, it is very interesting.
+</p>
+<p>
+[00:17:08] Does anyone else have any, uh, insights into the data? What's really jumping out at Utah.
+</p>
+<p>
+[00:17:14] <strong>Tom: </strong>[00:17:14] Well, I wanted to comment on the comparison to the STC salary database. First of all, the STC doesn't do a survey, even though they have this salary survey. This is just public data. They pull from the Bureau of labor statistics, so it is available.
+</p>
+<p>
+[00:17:32] However . As far as I can tell, the
+</p>
+<p>
+[00:17:35] <strong>Eric: </strong>[00:17:35] STC kind of
+</p>
+<p>
+[00:17:36] <strong>Tom: </strong>[00:17:36] outsources this to a sponsor to do. Um, and, and they do a nice job. Um, but yeah, it's, it's not as if they're doing like a comprehensive survey that the Bureau of labor statistics does the surveys every approximately two years across
+</p>
+<p>
+[00:17:54] <strong>Eric: </strong>[00:17:54] the industry.
+</p>
+<p>
+[00:17:56] <strong>Tom: </strong>[00:17:56] And, well, one of the nice things is that it does segment by years of experience.
+</p>
+<p>
+[00:18:01] So you can. Get more of a range and say, well, I've been, I've been in the profession 15 years, I should expect this range. Versus I'm a complete newbie. I should expect that range. So, uh, there's that. But, um, there's also a European survey.
+</p>
+<p>
+[00:18:17] <strong>Chris: </strong>[00:18:17] Yeah. Especially just looking for that. So I'm looking on tech home right now to see if they had one, but.
+</p>
+<p>
+[00:18:23] Yeah,
+</p>
+<p>
+[00:18:24] <strong>Tom: </strong>[00:18:24] I just saw mention of it. Cause I know LS prep with cherry leaf. I don't know if he did the survey or just reported on it, but, uh, you know, they, they focused on Europe because the, the SDC one is very us centric. And I don't even know how to, uh, evaluate, you know, pounds and what exactly that means to, to compare one group is paid more than the other based on location.
+</p>
+<p>
+[00:18:49] Um. I was also going to say job titles are also difficult because if you, if you're trying to find, um, like if you're trying to narrow down on job titles, right? How did you handle that, Eric? Like if somebody says that they're an information designer or they're a knowledge creator, or they're the strategic experience influencer,
+</p>
+<p>
+[00:19:16] how do you. Do you, do you exclude them? Are they just part of like this larger umbrella? How did you consolidate?
+</p>
+<p>
+[00:19:23] <strong>Eric: </strong>[00:19:23] So, wait, I think we basically just like said what job pails were. I don't think we actually did like a listing of job title by salary or, or any of those kind of breakdowns. And I guess that's one of the other kind of like.
+</p>
+<p>
+[00:19:36] Kind of, to your point, the, the core kind of questions within surveying is whether, you know, when we started this, we were actually thinking about releasing the data in some kind of an anonymized form, but we realized pretty quickly that there's almost no way to like, like when you have somebody's job title and location, it's, it's pretty easy to like figure out who that human is.
+</p>
+<p>
+[00:19:56] Um, you know, so, so this is very anonymized data because there's so specific. Um, but I think that's really where. One of those places where we struggled, where, you know, we could output a, uh, you know, job title, average salary. But like, when each job title only has, you know, 10 or 15 people, the value of that data is pretty low and you know, it, it diminishes pretty quickly.
+</p>
+<p>
+[00:20:19] And so we definitely asked people, but we didn't see a lot of value in the title. As like a, a breakdown point, I guess, or you know, like, like a way to, to judge compensation, you know, maybe senior versus junior would be a trivial one. But yeah, the, you know, user experience architect versus the documentation, you know, manager or what, you know, like, I think those are all very different based on the company.
+</p>
+<p>
+[00:20:42] I guess. It's
+</p>
+<p>
+[00:20:44] <strong>Chris: </strong>[00:20:44] actually interesting because I mean, my experience of the conferences anyway, the European and the North American conference and the Australian conference, um, has been that. The community is very full of people who identify as someone who wants to contribute to good documentation but isn't necessarily a documentation person.
+</p>
+<p>
+[00:21:05] And yet the job titles seem to almost flip that. Like there's actually only 12 respondents in support and one developer advocate, which is not reflective of most of my experience with the people I've met, which is strange. Oh, sure.
+</p>
+<p>
+[00:21:22] <strong>Eric: </strong>[00:21:22] Well, yeah, and I think that goes back to Tom's point about, you know, getting a, a well rounded sample, right?
+</p>
+<p>
+[00:21:28] Like, I, I do think there's a, there's always going to be a bias and the respondents, and I think that's a little bit more like the job titles might help you understand who actually filled out the survey so that you can kind of match your situation or identity against them. Um, but yeah, it is certainly a, a very hard problem.
+</p>
+<p>
+[00:21:48] Oh
+</p>
+<p>
+[00:21:48] <strong>Jared: </strong>[00:21:48] yeah,
+</p>
+<p>
+[00:21:48] <strong>Tom: </strong>[00:21:48] I am. I really like having this data and I'm so happy to see you make it public. I remember I was, uh, some years ago, I'm trying to negotiate a job salary and I, I, uh, leveraged some salary data for the position and negotiated like 10 K more because of that. A lot of times these HR groups, they don't have.
+</p>
+<p>
+[00:22:09] Like data. So they're, and they often don't even know the role very well in the industry. And so they, it's very difficult for them. And when you can present data and say, here, here's the average salary for somebody in my experience in this area, you know, or here's, here are sample perks. You know, 50% of the people are getting salary bonuses in my profession.
+</p>
+<p>
+[00:22:29] You're not providing any, you know, having actual data is huge. And I also really like. I like this discussion. I think I joined right as you were talking about it, but breaking down taboos around salary information. I know there've been some other sites around this that have been even more transparent. I remember, um, I was having a discussion with a, with a former colleague who had, who had gone to another company and we had a really transparent discussion around salaries.
+</p>
+<p>
+[00:22:55] Uh, basically shared what. Salary, each of us were receiving. And it was like kind of mind blowing, to be honest, a very, very mind blowing and thought, thought provoking. Because as you said, um, you know, not Shang salaries is in the best interest of the company, uh, so that they can basically keep people in the dark.
+</p>
+<p>
+[00:23:14] You're constantly playing a guessing game about whether you're paid just right or under or over and, uh, you know, more information around this topic. It's definitely more empowering. And if it frustrates. You know, if you find out, Oh my colleagues making like 20 K more, well that should prompt some kind of action.
+</p>
+<p>
+[00:23:31] It shouldn't just like dismantle relationships with your colleagues.
+</p>
+<p>
+[00:23:36] <strong>Jared: </strong>[00:23:36] Well, you'd hope so, but it's tough when you introduce money into any sort of discussion, it can get heated and it can be divisive. So you give rights. I'm having this data in plain text available to anybody. Those awkward conversations don't have to happen anymore.
+</p>
+<p>
+[00:23:55] Or you could still have them if you want, but you've got this to back it up,
+</p>
+<p>
+[00:24:00] <strong>Eric: </strong>[00:24:00] gives you a, it gives you an Avenue that is not an awkward conversation.
+</p>
+<p>
+[00:24:03] <strong>Jared: </strong>[00:24:03] That's right.
+</p>
+<p>
+[00:24:07] <strong>Chris: </strong>[00:24:07] According to this. Well to hear the question, I'm just asking you how you can pay.
+</p>
+<p>
+[00:24:16] <strong>Eric: </strong>[00:24:16] All right. And I do want to give a little bit more credit to Daniel Beck, who is someone who's kind of at the conferences, like each conference we've done kind of an unconference, uh, I think in the last year he's done a talk pay kind of un-conference session. And so he's definitely also someone in the community who's been kind of like advancing and advocating for this.
+</p>
+<p>
+[00:24:34] This notion that, you know, the more we talk about salary, that the better it is for everyone. So I think kind of back to the inspirations, I think he was definitely someone that did, uh, push this work along as well. So I definitely wanted to give credit there too.
+</p>
+<p>
+[00:24:48] <strong>Jared: </strong>[00:24:48] Definitely. The last question I have is, is how many people actually analyze the data and component?
+</p>
+<p>
+[00:24:55] What we see on the right, the docs.org site at the moment. Yeah. So
+</p>
+<p>
+[00:25:00] <strong>Eric: </strong>[00:25:00] I mean, we basically just had like two kind of core people work on it, and then we had kind of a review team, uh, kind of go through and, you know, QA it and ask questions and that kind of stuff. So I'd say kind of overall it was only maybe five, five, five or six folks who really kind of were engaged in the process, but really just to kind of doing the.
+</p>
+<p>
+[00:25:20] The bulk of the work in the primary, I guess the primary way is K a who's actually done the photography for us, uh, at the conferences as well as she also has a background in this kind of stuff. So yeah, so she was kind of the, the core one doing the work. Um, but yeah, so it was definitely a, a pretty small team.
+</p>
+<p>
+[00:25:37] And I think that's also part of why it took a little while. I think it took us about three months to go from, you know. Closing the survey to action publishing the results, but that's just, yeah, it took kind of, to Tom's point, it's, it's a lot to get your head around, um, to really understand how to, how to deal with this massive data.
+</p>
+<p>
+[00:25:54] And, and we definitely have a decent number of notes for next year to hopefully make that processing easier as well. So. Oh,
+</p>
+<p>
+[00:26:00] <strong>Jared: </strong>[00:26:00] that's really fantastic. Well, in closing, do, uh, Tom and Chris, do you have any, um, other thoughts about the survey that you want to share?
+</p>
+<p>
+[00:26:09] <strong>Chris: </strong>[00:26:09] No, but, uh, alluding to what we were discussing when we open this.
+</p>
+<p>
+[00:26:13] If I get into a territory of Southern regurgitation soon, I have material.
+</p>
+<p>
+[00:26:18] <strong>Jared: </strong>[00:26:18] Exactly right.
+</p>
+<p>
+[00:26:20] <strong>Tom: </strong>[00:26:20] I think the timing of this is really interesting because Chris, you just mentioned, you know, the scenarios of salary negotiation, and I think one of the big concerns in many people's minds is whether they're going to be laid off or not.
+</p>
+<p>
+[00:26:33] The whole like crisis. And so at least if you do, uh, encounter that sort of scenario where you're laid off and suddenly looking for a new job, now you have some salary information,
+</p>
+<p>
+[00:26:43] <strong>Eric: </strong>[00:26:43] whether you
+</p>
+<p>
+[00:26:44] <strong>Tom: </strong>[00:26:44] could actually use it right now to demand a raise or to like try to level up might be something you want to.
+</p>
+<p>
+[00:26:52] Feel out.
+</p>
+<p>
+[00:26:56] I don't know if like the timing is right now, but anyway, I have one quick little question about how to, how to visualize all this data. Um, what, what kinda JavaScript packages or, or what did you use to do the graphs and everything in your, in your report.
+</p>
+<p>
+[00:27:17] <strong>Eric: </strong>[00:27:17] Uh, it's my JavaScript, it's, I forget the exact tool, but yeah, it was all basically taken out of like effectively, like an Excel style thing.
+</p>
+<p>
+[00:27:25] And then, yeah, it was basically all processed in the background. So this isn't actually live rendered and these are just images.
+</p>
+<p>
+[00:27:31] <strong>Tom: </strong>[00:27:31] Oh. Did you choose that route for a particular reason, that approach?
+</p>
+<p>
+[00:27:36] <strong>Eric: </strong>[00:27:36] Um, I mean, I think mostly just for. That's kind of the tool set that we knew and we knew it was be compatible, you know, across, across the world.
+</p>
+<p>
+[00:27:45] But yeah, I mean, it'd be nice if you could hover and, and kind of have a little bit more interactivity. Um, but then you, yeah, like we were, we were much more worried about just kind of trying to get it shipped, you know, in a usable format than like, you know, the Dux of actually interacting with the data.
+</p>
+<p>
+[00:28:00] Uh, and I, and I think that's really, you know, one of the big questions for us going forward is I'd love to do one where we're actually going to release the data, kind of like. With people's consent. Obviously, like at the beginning we would say, you know, like support driven, I believe actually releases their raw data and lets people in the community kind of build on top of that.
+</p>
+<p>
+[00:28:17] Because yeah, like we're, we're not a bunch of JavaScript front end people. Um, and so it'd be really cool if we could take this data and, and the community could, could build on it, but we just wanted to do something with aggregated data. We didn't want to kind of have to, to force people to be comfortable.
+</p>
+<p>
+[00:28:33] You know, exposing their, their identity necessarily. And so we just, for the first one, we started with, you know, kind of an anonymized. Uh, but I think at some point we'd really love to do one where we could ship the raw data and kind of let people, you know, play with it however they want to do. Cause there's, there's a million more questions that you could ask if you had the raw data, if you really wanted to.
+</p>
+<p>
+[00:28:53] So.
+</p>
+<p>
+[00:28:56] <strong>Jared: </strong>[00:28:56] Very interesting. Well, look, uh, I think on behalf of the, the community, thanks for taking the effort to actually produce this for us because it's a, it's a, it's a big deal and it's gonna make a big impact for a lot of folks who, uh, you know, probably at this time to actually work out where they sit. Um, and it might actually be, it might actually help people work out, you know.
+</p>
+<p>
+[00:29:19] Whether they can level up or whether they should just sit and hold for the time being. So I think it's kind of like the, just a perfect time, um, for the community at the moment. So I'd say it's fantastic. Um, okay, well, moving on to different topics and, um, one that's certainly come up for me, which I'll I'll put on the table, is, you know, the adjustment of, um, working from home full time.
+</p>
+<p>
+[00:29:42] Um, you know, I started off at two days a week, um, and pretty regularly working from home, I thought, yeah, yeah, I'm totally fine with waking foam. This is great. And then I've switched to five days a week and things started to change a lot for me right. I don't know if anyone else has a similar experience or perhaps those that are longterm, um, telecommuters might have a position on this as well.
+</p>
+<p>
+[00:30:07] So I thought I'd open up with the question of, um, has the way you work changed since, um, covert 19 is started? And have you noticed any differences if you are already a remote employee to how other people have actually started working from home?
+</p>
+<p>
+[00:30:25] <strong>Chris: </strong>[00:30:25] Actually. So as someone who
+</p>
+<p>
+[00:30:27] <strong>Tom: </strong>[00:30:27] is
+</p>
+<p>
+[00:30:30] <strong>Chris: </strong>[00:30:30] mostly, I've always worked remotely, that hasn't necessarily meant work from home because I do have access to, well, I did have access to, to coworking spaces and an office, but I didn't have to use them.
+</p>
+<p>
+[00:30:42] Um, so I kind of worked where I wanted to work. Um, so it hasn't been a huge adjustment. I already had a set up. We already have good internet. We have a good router. I have a good screen. I have a good keyboard. Like working from home was not a huge adjustment, but actually something you said there was what clicked something in my mind.
+</p>
+<p>
+[00:31:03] And the actually, the bigger adjustment has been me adjusting to other people. Um, and I. Trying to help those people, but getting to a certain point where you have to kind of stop because it's too much as well, cause you're, you're not
+</p>
+<p>
+[00:31:19] <strong>Jared: </strong>[00:31:19] doing
+</p>
+<p>
+[00:31:20] <strong>Chris: </strong>[00:31:20] your own stuff enough. Um, and also in a similar vein, trying by virtue of trying to help others, like setting up support groups, um, setting up virtual meetups, joining virtual meetups.
+</p>
+<p>
+[00:31:35] I did find at least the first week and a half for me. I was way too distracted and in the second week I had to really cut back. So it was actually bizarrely me adapting to other people that affected me more than me myself, if that makes any sort of sense
+</p>
+<p>
+[00:31:51] <strong>Jared: </strong>[00:31:51] actually does. Yeah. Yeah,
+</p>
+<p>
+[00:31:53] <strong>Eric: </strong>[00:31:53] definitely. Yeah. Like I think the whole world is trying to figure it out all at once.
+</p>
+<p>
+[00:31:57] Right. And, uh, yeah, I've been working remotely for the past eight years or so. And even, you know, within the teams that I've been on, they're pretty small teams and everyone's been remote. But just. The, the world falling apart around you. And, you know, some of my teammates have had children at home and they've been doing, you know, half days because of childcare.
+</p>
+<p>
+[00:32:15] Um, you know. Some people just can't stop refreshing the news. Some people can't leave their house, you know? Um, so I think it's really just the, I don't think the biggest change is working from home. It's, it's working in the middle of a, you know, worldwide, you know, health crisis and the mental health. Um.
+</p>
+<p>
+[00:32:33] The mental health struggles that have been there. You know, I've, I've had days where I've struggled just to open my email just because the state of the world. Right. And, and that is maybe harder if you're trying to adjust from working from home, but like, I think that's just, that's the experience that we're all living through as well, that everyone kind of handles differently.
+</p>
+<p>
+[00:32:50] So I think that's gotta be the . The biggest change is, is just the mental health side of it for me. Sorry.
+</p>
+<p>
+[00:32:58] <strong>Jared: </strong>[00:32:58] Yeah. What about YouTube?
+</p>
+<p>
+[00:32:59] <strong>Tom: </strong>[00:32:59] I agree. I mean, I work with remote teams all the time and I'm just as productive at home. But as Eric said, it's like living, it's trying to work when the whole world is basically falling apart, right?
+</p>
+<p>
+[00:33:11] And it's so distracting. And every single news article is all coven related. It's, it's like you can't, you can't escape that. So there's like mentally. Emotionally. It's difficult even though, yeah, I mean, I'm already set up. I sort of get a little impatient when people like can't work remotely very well.
+</p>
+<p>
+[00:33:30] They like, they can't connect their video or their microphone sounds terrible. I'm like, come on, like you work in a tech company, you should, you should be visually present. . Uh, you know, your audio should sound Chris, but it's not a big deal. But yeah, find out suddenly a lot of people are new to it, so it's hard.
+</p>
+<p>
+[00:33:49] <strong>Jared: </strong>[00:33:49] Oh, I found that, um, you know, a lot of, to that point, Chris, I've, I've, I've got a coworker that I work with and he's, you know, he's got a headset and he's got like the computer and all that sort of stuff. But you know, there, it's not until you're doing a lot of calls, it's when you realize that, Oh, hang on, the equipment that I've been using for the odd Cole here and there.
+</p>
+<p>
+[00:34:12] And I kind of really need to invest in some more gear. So you go, cool, well, I'll go down the shop and I'll go and buy it like a new headset. Um, I've been recommending some injury level Microsoft headsets to folks who, who, you know, have been like new to, um. Uh, the whole video conferencing thing, cause they're easy to like, they're cheap, they're decent quality.
+</p>
+<p>
+[00:34:33] Um, they're nothing special, but you know, they get the job done pretty well. And the thing is though, the, I did the same thing to my colleague and you go, Oh cool, I will go down and get one of those nonstop. So, yup,
+</p>
+<p>
+[00:34:45] <strong>Eric: </strong>[00:34:45] yup,
+</p>
+<p>
+[00:34:45] <strong>Jared: </strong>[00:34:45] yup. The access and availability to tech, even, uh, things like, well, I need to work from home.
+</p>
+<p>
+[00:34:51] I've got to get a desk. Uh, there aren't any available, literally anywhere in North lakes, at least like standing desks, you cannot buy one for love of money at, at, um, at Ikea, for example. Um. And that's, that's pretty unusual. So getting access to equipment and the stuff you need to actually effectively, way from home if you're just not set up for it.
+</p>
+<p>
+[00:35:13] It's probably why a lot of people are really struggling with working from home.
+</p>
+<p>
+[00:35:17] <strong>Chris: </strong>[00:35:17] Yeah. Yeah. It's certainly been, Oh, someone said something that made me want to. Oh, losing lost my train of thought. Uh, did you, did you do? I dunno. Yeah. Um, you're right. And that's actually, we were, I guess all fairly lucky in that we probably had at least 50% of what we needed already.
+</p>
+<p>
+[00:35:36] In fact, also in some cases, um, I'm actually lending some microphones to some people cause I have three microphones. So, you know, I don't need them all at once.
+</p>
+<p>
+[00:35:46] <strong>Jared: </strong>[00:35:46] So it's really flushed with microphones. Yeah.
+</p>
+<p>
+[00:35:50] <strong>Chris: </strong>[00:35:50] Stuff like that. You know, you can kind of help people out with a few things here and there. Uh, yeah.
+</p>
+<p>
+[00:35:57] Um, I know, actually I had friends keep a webcam, so that was looking at webcams today, and they still come back and stock here at least. So
+</p>
+<p>
+[00:36:06] <strong>Jared: </strong>[00:36:06] it's like everything really, isn't it? Like the supply chains, uh, uh, lean by design. So if, you know, if there's a rush on stuff when you've seen it, France, certainly in Australia, we panic buying toilet paper or, you know, there's, there's a very lean.
+</p>
+<p>
+[00:36:22] Connection between like supply and demand in supply chain. So it's people start buying stuff all in one hit, then it's not going to come back into the shelves for a bit until the stuff can be ordered in. And you know. Take stuff. No one makes tech stuff in Australia, really. So, you know, you're relying on overseas companies to do this for you.
+</p>
+<p>
+[00:36:44] Um, so, you know, it's one of those things you've just got to, Oh, well I'll guess I'll just wait and, and struggle through, uh, with the stuff I've got until such time as I can get some better gear.
+</p>
+<p>
+[00:36:54] <strong>Chris: </strong>[00:36:54] I'd be on the more practical side, at least I think 75% of us are. Used to working remotely in some way, shape or form, and I don't mean that in like two or the two of the three of us or anything.
+</p>
+<p>
+[00:37:06] Just like 75% in aggregate of us have worked from home or work remotely in some capacity. There may be actually the one useful thing right now. Um, would be, does, does anyone have any tips, advice for coping with the change? And as, uh, Tom and Eric are both also said, coping with the distractions when there's, there's, you know, all sorts of, I'm struggling not to use an expletive, but when there's all sorts of things going on around you.
+</p>
+<p>
+[00:37:35] So
+</p>
+<p>
+[00:37:35] <strong>Jared: </strong>[00:37:35] I think the biggest thing for me, I've got one thing, uh, it's, it's from two sides. Um. The first thing is try like, it's really important with video and stuff when you're talking to people that they can see you so. Think about where you got your, if you can, like, some people don't have the luxury of where they set up their home office and I totally get that.
+</p>
+<p>
+[00:37:56] Um, but try and front light yourself. Don't, don't sit behind a big bright window. Um, and, and, and just be literally a black shadow, a silhouette. I've seen that a fair bit, and, you know, wow, she's living sunglasses.
+</p>
+<p>
+[00:38:20] Um, so, you know, there's that. But, um, I guess the, the other thing too is it's, it's on. For F trying to plan out your Workday is the thing that I'm really struggling with. Like when do you have meetings versus when are you actually trying to be productive? And that's really hard when when people all run on different schedules and they all have different conflicting meetings going on and you're trying to slot in meetings where you can, because the demand for FaceTime is now.
+</p>
+<p>
+[00:38:49] They're not just FaceTime from an Apple app perspective, but FaceTime in general from talking to people. It's so much higher because of remote. Yeah. I'm finding it quite difficult sometimes to focus because you're going from meeting to maybe 30 minutes of work and we all know that as documentarians trying to do short bursts of work like that.
+</p>
+<p>
+[00:39:09] Generally. Isn't productive cause you need to get into a, a focal sort of, what's the word I'm looking for? Like a zone when you're writing, right. So there's this like chopping and changing all the time. I'm finding really hard to do. And one of the things that, um, I think where we might be considering within our team, where we're working at the moment.
+</p>
+<p>
+[00:39:31] Is blocking off time. So almost like if you need to do a standup, you do it between like nine 30 and 10 o'clock in the day. And if that means you have to make tough decisions about what standup should go to, then you do that, you know? And then if you need to do like sprint. Sprint reviews or like you know, playbacks and stuff like that to your, your engineering team.
+</p>
+<p>
+[00:39:54] Well those happen between one 30 and three 30 so that way you can sort of slice up and, and block out your day and work out, you know, where your, your like sort of where your most productive, cause sometimes it's, it's different for different people of course. So trying to work out. Well, when your most productive versus when the meetings are, and then trying to strike a balance between that.
+</p>
+<p>
+[00:40:18] Um, I think it's probably the biggest suggestion, like for the longterm for me. What are some of the other suggestions that, that you folks have on the call? I might start with you, Eric.
+</p>
+<p>
+[00:40:29] <strong>Eric: </strong>[00:40:29] Yeah, I dunno if I have a lot of great kind of coping suggestion just cause I've been doing this for so long. But yeah, I mean, I think a lot of it really is just the, you know, finding the way that you prefer to work.
+</p>
+<p>
+[00:40:40] And I like, one of the things that, for me, I actually have found is I, I much prefer audio calls. Like almost all my meetings I'll do as I walk and I'll just like go out into the woods and, and walk around and I find myself much able to. I'm much better at thinking and talking. And, you know, I, I find that much more productive, but I think a lot of people are rushing towards video, uh, in this, you know, kind of newly disconnected world.
+</p>
+<p>
+[00:41:01] But I, I do think it's good to kind of think about what really does work best for you. Um, and, you know, I think having five video calls a day is just incredibly tiring and a little overwhelming. So don't like, I think replacing every in person interaction with a video call is, is not the takeaway, right?
+</p>
+<p>
+[00:41:19] It's, it's much more like, how can I. Carve out the space that I need and then get the, get the connection that I crave in that work and find those places. You know, I think the, the 37 signals folks have been talking about this for a long time where it's like, you know, don't replace every meeting. You know, that was going to happen in person with a video call.
+</p>
+<p>
+[00:41:39] Like maybe it can become an email now and really kind of try to work a little bit more asynchronously. Um, but that's been though. The really huge benefit for me as I've gone at like transitioning from an office to remote kind of culturally has been that the value of writing and the value of kind of asynchronous communication and, you know, adapting work to the way I need it to be.
+</p>
+<p>
+[00:42:01] And so, yeah, I think there's, there's some, like. Very obvious, like one to one transitions. But this is a huge shift. And so I think rethinking, you know, your approach to things is, is really necessary if you're, if your goal is to be productive, uh, as you were in the previous paradigm, right? You're not just going to be able to take the exact same thing and move it to another context.
+</p>
+<p>
+[00:42:21] You really do have to find what works for you.
+</p>
+<p>
+[00:42:23] <strong>Jared: </strong>[00:42:23] So absolutely. How about you tell them.
+</p>
+<p>
+[00:42:27] <strong>Tom: </strong>[00:42:27] I don't have any great tips. I mean, just going along with kind of what Eric said initially, um, if you can take a call while you're out walking, that's great. I have a, we have a hammock in our backyard and I, uh, went out and laid in there while listening to a call.
+</p>
+<p>
+[00:42:42] It was great. Uh, sometimes I'll go on a bike ride in the middle of the day, especially if I have to join a call where I'm mostly a passive listener. Um, it's kinda nice. Uh. My back was hurting initially and I thought, Oh, my chairs are sucks. So I did a bunch of core exercises and it like helped, but that might just be my own back.
+</p>
+<p>
+[00:43:01] I sense of have dragged my work chair in my work monitor home. So it's, it's helped a lot. But, uh, I know a lot of people, you know, there's no chair. You're at a weird situation and it's probably not cut out for longterm kind of work productivity. And so you might. Yeah. Might have to get up a lot more, but I'm still trying to figure it out to be honest.
+</p>
+<p>
+[00:43:21] Like I've, I've even debated like taking my stuff and going to some remote wilderness area and just working to be outside. But I haven't really done that yet. Cause like, uh, as Eric said, a lot of these calls are now video calls and so you kind of have to. Present the appearance of being in an office like environment.
+</p>
+<p>
+[00:43:39] So if I joined from like some woodsy trail, I don't know. Yeah, yeah,
+</p>
+<p>
+[00:43:44] <strong>Jared: </strong>[00:43:44] that's fine. You just use OBS and greenspring you background. If you're going to forest, you already have green Bay zoom now, just pardon me. Key in the background. You'll be fine.
+</p>
+<p>
+[00:43:57] <strong>Eric: </strong>[00:43:57] I've got a black guy. Do you think there's anything, there's value in that kind of creating a sense of space, like actually there's like a.
+</p>
+<p>
+[00:44:03] A bench that I go to by a Creek when I want to do like pull request review. And so I'm like, okay, I'm going to save all my pull request reviews. I'm going to go to this bench and I'm going to just like tether my phone and I'm just going to like work from there. And then like some days I'm like, is there more to review?
+</p>
+<p>
+[00:44:17] Like I don't, like, I don't want to go home yet. Like, this is the, this is my happy place for the day. And um, you know, I think if you have the luxury of having. Access to nature or, or shared spaces that are not, you know, full of humans. Um, you know, finding the ability to, to have a sense of space. You know what I mean?
+</p>
+<p>
+[00:44:34] I think the classic is if you have a room, you can have beer office, you know, don't work from your bedroom or that kind of stuff. But I think even more so. Just creating rituals and spaces where you, you know, you have your coffee and you re, you know, Stratec re newsletter or whatever in the morning. And then I'll do whatever I need to do, but I know I can, like, if it's sunny out, I'll go do my PR review at the Creek.
+</p>
+<p>
+[00:44:55] And like, just creating a little bit of a structure. And it's not like the like, here's where the meetings go, but it's much more like, how can I make my, my day, you know, fit my, my worldview a little better, I think is. Maybe the  historically to pitch for roommate work and working from home to go away. So
+</p>
+<p>
+[00:45:16] <strong>Chris: </strong>[00:45:16] I'd like to add to that if I may, just to, you know, it obviously depends who you work for.
+</p>
+<p>
+[00:45:22] I think Eric and I are both lucky in that we possibly can be a little bit more flexible. Um. There's not necessarily such a, a prior definition of time in our workplaces anyway, but I would also say that time is very, very fluffy right now. So I don't think time has to apply. You don't have to do Monday to Friday, nine to five, unless you, uh, um,
+</p>
+<p>
+[00:45:47] <strong>Tom: </strong>[00:45:47] you'd have other
+</p>
+<p>
+[00:45:47] <strong>Chris: </strong>[00:45:47] reasons like the children or whatever.
+</p>
+<p>
+[00:45:49] And then even then, depending on the age of the child, it could vary as well. So I would kind of say at this present moment in time, do what works. So I've been finding, you know, I'm a very sociable person. I can't do a lot of the things I usually would do, like go out and evening. So what I have been doing in States, because most of my social activities have moved online, which is great, you know, the fact that it's even possible is great.
+</p>
+<p>
+[00:46:12] I haven't stopped playing board games. I haven't stopped hanging out with friends. I haven't stopped going to meet ups or they've all been online, which means just staring at a screen all the time, which is my biggest issue. So what I had been doing instead is taking a big break in the middle of the day.
+</p>
+<p>
+[00:46:27] So I'll work for a few hours, then take almost my time off in the middle of the day and then do a bit more work and then segue into social time. And so you don't feel like you've been staring at a screen all day and you've had a bit of a break in the middle. And that's really helped actually. So sometimes, you know, in times of change you also just have to change routine little bit to suit it and do whatever, just helps you not what you feel like you have to do, I suppose.
+</p>
+<p>
+[00:46:54] <strong>Jared: </strong>[00:46:54] Yeah, that sounds fair enough. I think just realizing that, you know, this is an opportunity to, to, to just shake things up a bit. Um, and rethink the way you structure your day. And I think the other thing that, that, um, and there's my coworker who's actually been on the show before Joel's, he, he has been. Um, work from home and fully remote company before.
+</p>
+<p>
+[00:47:20] And one of the thing he's actually, uh, coached me on and giving me feedback on is the fact that you need to almost over-communicate when your fully remote. Um, like if the things that you would normally do, um, you know, in a, like an office, you need to over communicate. Those things. And and to the point where it doesn't feel natural, but in fact it actually is the right amount of communication to have.
+</p>
+<p>
+[00:47:45] So that's something I'm working into at the moment into, into my sort of daily work cycle. It's to, to keep the, keep the spice flowing, keep the communication flowing and, and over-communicate a bit more. I think. I
+</p>
+<p>
+[00:47:58] <strong>Eric: </strong>[00:47:58] was nodding vigorously to that.
+</p>
+<p>
+[00:48:00] <strong>Jared: </strong>[00:48:00] Yeah. Because that's our important, right? Everyone needs to know what everyone else is doing.
+</p>
+<p>
+[00:48:04] And I think your point there, Eric, about, you know, maybe considering what constitutes amazing and going like, you know, well, what if we actually put this into something like that? Like this meeting into an agenda, into confluence and had people just asynchronously update it, you know, and give their thoughts that way or put it into a decision register or something like that.
+</p>
+<p>
+[00:48:24] And to confluence, I mean, confluence cloud. Not saying that everyone needs to use that tool, but you know, it has some pretty nice templates now. Um, that you can use to do exactly this sort of thing. Um, and you know, if your organization's got that already, then like take advantage of it. Cause it actually does, does help a bit to actually sort of share ideas and quickly iterate on them too.
+</p>
+<p>
+[00:48:48] <strong>Eric: </strong>[00:48:48] I think they all, they'll build together, right? They're like not being in person, face to face on a video call, you know, lets you make your day a little bit more async, but you take a break, you know, like, like removing those kind of synchronous commitments lets you, that's the building block for. For building the kind of day to day life that you want with your work.
+</p>
+<p>
+[00:49:09] And so, yeah, like every meeting that's not a phone call that becomes a, an email or a confluence document or, or whatever. Um, or proposal that then has another proposal or something like that. Like that's your, you know, two 30 to four, you know, sunshine walk in the afternoon that you then get to come home and have your, you know, five to six 30, you know, evening, you know, work session or whatever.
+</p>
+<p>
+[00:49:31] Right. It's like all of these things work together to. To kind of have what you want your kind of work from home life to be. And if it's just, you know, I'm on, you know, video calls five hours a day, then you're sitting in your office five hours a day and those exact hours. It is really a holistic change that needs to happen.
+</p>
+<p>
+[00:49:51] <strong>Jared: </strong>[00:49:51] Hey Tom, I know you're an avid bike rider and I see plenty of, plenty of posts of your commutes along beautiful, um, little paths and stuff on your way of work. Are you. Are you finding that you're missing that aspect of like working in the office? Like the, the, the commute?
+</p>
+<p>
+[00:50:08] <strong>Tom: </strong>[00:50:08] Oh, yeah, definitely. I mean, but, but, uh, in my area, you can still go out and exercise, so I'll still go out and do a bike ride every, a couple of days, so that's fine.
+</p>
+<p>
+[00:50:19] Um, but yeah. I was going to say like, I kinda think this work from home scenario or there's a time is interesting because although a lot of people are just thinking, when am I going to go back to work? How long is this going to last? It's kind of a taste or a preview of a potential future scenario where it's the norm.
+</p>
+<p>
+[00:50:39] What if I'm, you know, in it later on down the line, people aren't working from home due to the virus, but due to pollution or something or, or, or. Just maybe companies wake up to the fact that a globalized distributed workforce is so much less expensive when you can hire experts from lots of different areas and you don't have to pay them as a salary that would be livable in a high cost city like Seattle or San Francisco.
+</p>
+<p>
+[00:51:06] Suddenly you can hire two people instead of one because one's in like. Brazil and the others in Canada or something like a far remote region of Canada. Uh, what if like companies wake up and realize, Holy crap, we're so much more productive and powerful with this model. I also know notice that like, uh, it's lot easier being a remote employee when everybody else is remote to join a standup.
+</p>
+<p>
+[00:51:33] And like, you can hear everybody, right? Whereas previously I would join stand ups. They wouldn't. I mean, you'd have people 20 feet away from a onboard Mike. He couldn't hear him. And people would, people add more detail and JIRA, they have more of an online footprint. It's lot easier to sort of work. So, I don't know.
+</p>
+<p>
+[00:51:51] It's a, I like the social, I'm not even a social person compared to Chris who goes to like 40 conferences a year and multiple meetups. I'm, I'm like the opposite of that. I don't, I don't even, I don't have a bunch of friends I hang out with other than, you know, maybe a basketball game. Uh. So it's not a huge transition for me.
+</p>
+<p>
+[00:52:12] Um, but anyway, it's interesting to contemplate this being the norm in a future scenario.
+</p>
+<p>
+[00:52:18] <strong>Jared: </strong>[00:52:18] That's the biggest thing I'm sort of like hoping for. I mean, certainly businesses, and I've seen this written countless times, businesses should not treat this. What we're seeing now and experiencing now as what worked from home is cause it's totally not.
+</p>
+<p>
+[00:52:33] Um, but at the same time. They should use it to iterate rapidly on what they, what they think works from home should be in their organization and, and work out what that balance is and what feels right to them. Because it will different for each organ. It will differ for each organization. Um, and it just w just realizing that is really important.
+</p>
+<p>
+[00:52:55] <strong>Eric: </strong>[00:52:55] I think.
+</p>
+<p>
+[00:52:58] <strong>Jared: </strong>[00:52:58] Well that, uh, on that humbled Bob shell to quite another show. Um, uh, I think we might, um, wrap up this episode of write the docs, which is episode 29. So, uh, I'd just like to take a moment to thank, uh, Eric for coming on the show. Thanks, Eric, for joining us today. Um, it's been great having you. Yeah,
+</p>
+<p>
+[00:53:20] <strong>Eric: </strong>[00:53:20] thanks for the invite then.
+</p>
+<p>
+[00:53:22] Thank you all for doing the podcast. It's always, always a pleasure.
+</p>
+<p>
+[00:53:25] <strong>Jared: </strong>[00:53:25] So, uh, we do it for the community as well. So yeah, this is all about like giving the community a voice and, and making sure everyone's heard within the right docs community as well, which is why, um, Chris and Tom and I love doing it, cause usually every month we get to speak to someone.
+</p>
+<p>
+[00:53:42] Ah, very interesting. And I'm always learn something from it. So it's, it's really, really great to have the opportunity to do it. And, uh, thank you, Chris, for coming on, uh, very late in the Berlin evening this evening. Um, and, uh, enjoying. So that end for Tom as well. Thanks for jumping in. And, uh. In linear thoughts to this, uh, sort of a, uh, a strange and not really structured episode, but it's worked out really well, I think.
+</p>
+<p>
+[00:54:11] And I think we've covered some good stuff. So, uh, it's been very successful. So if you'd like to, um, connect with us, um, outside of, uh, the, the medium that is podcasts, you can do so in a number of ways. While you can go to podcast dot. Write the docs.org. Where we have all of our episodes up there for you to access free of charge.
+</p>
+<p>
+[00:54:32] Um, we've also got, um, right, the docs Slack and you can find us on the podcast channel, uh, in right, the docs Slack. So come and join us and if you like what you've heard on the show, you can come and, uh, and maybe suggest some other topics that you'd like to hear about or perhaps even maybe come and join the show.
+</p>
+<p>
+[00:54:51] Um,
+</p>
+<p>
+[00:54:51] <strong>Eric: </strong>[00:54:51] yourself. Can I just add something there as well, Jared,
+</p>
+<p>
+[00:54:54] <strong>Jared: </strong>[00:54:54] in use again.
+</p>
+<p>
+[00:54:55] <strong>Eric: </strong>[00:54:55] In this current
+</p>
+<p>
+[00:54:56] <strong>Chris: </strong>[00:54:56] time, but again, as you said, with the working remotely, it doesn't have to be just for now. It can be in the future. We've been hosting a lot more recordings of meetups, virtual meetups the past couple of weeks. Please keep sending them our way.
+</p>
+<p>
+[00:55:11] Um, contact us in the podcast channel. We can either add you to the YouTube channel or we can just upload them for you. It never works. So you can get your voice on the podcast without even coming on the podcast.
+</p>
+<p>
+[00:55:21] <strong>Jared: </strong>[00:55:21] You don't need a tip us, it's not even a
+</p>
+<p>
+[00:55:24] <strong>Tom: </strong>[00:55:24] requirement.
+</p>
+<p>
+[00:55:25] Yeah, we're happy to host meetups. It's great to actually have more content up on the, uh, the right, the docs, um, YouTube channel and meetups are fantastic for that.
+</p>
+<p>
+[00:55:32] So yeah, definitely. That's a really good point. Chris, contact us and get your meetups added up, even if they're virtual. It's even better if it virtual really. Cause you often have very good audio when they're virtual. So yeah, definitely do that as well. So as always to close out the show. Um, I have one parting comment and that is  docs or it didn't happen.
+</p>
+<p>
+[00:55:56] Have an awesome time and stay safe everyone. Bye for now.
+</p>
