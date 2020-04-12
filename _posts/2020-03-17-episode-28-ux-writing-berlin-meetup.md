@@ -22,6 +22,7 @@ mp4_filename: wtd_episode_28_ux_writing_berlin.mp4
 mp4_length: 125995624
 mp4_thumbnail: assets/img/episodethumbs/episode28_ux_writing.png
 # make thumb 378px high by 478px wide. this image appears in FTV app only
+transcript: transcripts/transcript_episode28.html
 ---
 
 You can follow the presenters on Twitter here:
