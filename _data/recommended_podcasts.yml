@@ -50,7 +50,7 @@ podcasts:
   author: Ferry Vermeulen
   url: https://open.spotify.com/show/0OqluDn7YSjc1cdAULPOB8
   img: instrktiv.png
-  
+
 - title: The Manuscript
   author: Breno Barreto
   url: https://podcasts.apple.com/podcast/the-manuscript/id1501843799
@@ -65,3 +65,8 @@ podcasts:
   author: Kristina Halvorson
   url: https://www.contentstrategy.com/podcast
   img: content_strategy.png
+
+- title: The Weekly Squeak
+  author: Chris Ward
+  url: https://chrischinchilla.com/podcasts/
+  img: weeklysqueak.png
