@@ -9,11 +9,11 @@ layout: null
     <atom:link href="{{site.url}}" rel="self" type="application/rss+xml" />
     <description>{{site.podcast_description}}</description>
     <itunes:author>{{site.podcast_title}}</itunes:author>
-    <copyright>© {{ post.date | date: "%Y" }} {{site.podcast_title}}</copyright>
+    <copyright>© 2020 {{site.podcast_title}}</copyright>
     <language>en-us</language>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</lastBuildDate>
-    <itunes:category text="Technology">
-        <itunes:category text="Software How-To" />
+    <itunes:category text="Education">
+        <itunes:category text="How-To" />
     </itunes:category>
     <itunes:explicit>No</itunes:explicit>
     <itunes:image href="{{site.url}}/assets/img/wtdpodcastlogo.png"/>
@@ -32,8 +32,8 @@ layout: null
             <comments>{{ site.url }}{{ ep.url }}#comments</comments>
             {% comment %}<pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>{% endcomment %}
             <pubDate>{{ ep.date | date: "%Y-%m-%d" }}</pubDate>
-            <itunes:category text="Technology">
-                <itunes:category text="Software How-To"/>
+            <itunes:category text="Education">
+                <itunes:category text="How-To"/>
              </itunes:category>
             <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
             <description>

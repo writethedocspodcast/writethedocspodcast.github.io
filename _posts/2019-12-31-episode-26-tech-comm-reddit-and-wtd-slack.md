@@ -10,7 +10,7 @@ date: 2019-12-31
 tags:
 - community
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_26_reddit.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtd_episode_26_reddit.mp3
 podcast_file_size: 40.9 MB
 podcast_duration: "01:04:24"
 podcast_length: 40098260

@@ -10,7 +10,7 @@ date: 2019-10-20
 tags:
 - api-docs
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode25_how_devs_use_api_docs_andrew.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtd_episode25_how_devs_use_api_docs_andrew.mp3
 podcast_file_size: 31.5 MB
 podcast_duration: "56:14"
 podcast_length: 30487266

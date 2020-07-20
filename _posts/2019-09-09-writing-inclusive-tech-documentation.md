@@ -11,7 +11,7 @@ tags:
 - writing
 - community
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_23_inclusive_docs.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtd_episode_23_inclusive_docs.mp3
 podcast_file_size: 26.3 MB
 podcast_duration: "38:42"
 podcast_length: 26001680

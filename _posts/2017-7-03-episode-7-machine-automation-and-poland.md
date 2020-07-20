@@ -11,7 +11,7 @@ tags:
 - tools
 - findability
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtd_episode_7.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtd_episode_7.mp3
 podcast_file_size: 45.2 MB
 podcast_duration: "45:51"
 podcast_length: 45196308

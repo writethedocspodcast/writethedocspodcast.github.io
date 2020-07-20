@@ -1,0 +1,948 @@
+<p>
+<strong>Jared Morgan: </strong>[00:00:00] Okay. Hello there, folks then welcome to write the docs podcast, episode 30. Um, I am Jared Morgan, your defacto host for the show. Uh, and, uh, as usual we are joined for this episode by the usual suspects. First suspect of course, is Tom. Hello there, Tom.
+</p>
+<p>
+[00:00:25] <strong>Tom Johnson: </strong>[00:00:25] Hey, Jared. Nice to see you again.
+</p>
+<p>
+[00:00:28] <strong>Jared Morgan: </strong>[00:00:28] That's right. It's been too long.
+</p>
+<p>
+[00:00:29] Hasn't it?
+</p>
+<p>
+[00:00:31] <strong>Tom Johnson: </strong>[00:00:31] It has,
+</p>
+<p>
+[00:00:32] <strong>Jared Morgan: </strong>[00:00:32] you know, yeah. It's been a while between the podcast drinks, but we'll get back into the swing of it. And, um, this is a good one to get us back into the swing as well, but topic we've got today, but more than that in a moment before we go launch in, we can't forget about our friend Chris ward over in Berlin, Chris.
+</p>
+<p>
+[00:00:49] <strong>Chris Ward: </strong>[00:00:49] Hey
+</p>
+<p>
+[00:00:49] <strong>Jared Morgan: </strong>[00:00:49] doing good. I know it's very late for you over there. My apologies for scheduling this podcast so late for
+</p>
+<p>
+[00:00:54] <strong>Chris Ward: </strong>[00:00:54] you. Wow. Someday,
+</p>
+<p>
+[00:00:56] <strong>Jared Morgan: </strong>[00:00:56] someday. Look, you're in the same time zone as me.
+</p>
+<p>
+[00:01:01] It's very good. Well, look, thanks for joining us again, as you as an old today. Um, and uh, now that we've got the usual suspects, I would like to introduce our special guests for the show today. Um, welcome to the show, Tom and Chris, um, one Laura from Google. Hello. They want.
+</p>
+<p>
+[00:01:19] <strong>Juan Lara: </strong>[00:01:19] Thanks for having me on.
+</p>
+<p>
+[00:01:21] <strong>Jared Morgan: </strong>[00:01:21] Thanks for joining us today.
+</p>
+<p>
+[00:01:22] Um, on your Saturday, over there in the U S um, one for folks who don't know you, um, you you're actually on the right, the docs Slack, aren't you a fair bit. Um, some people might know you from the right, the docs Slack.
+</p>
+<p>
+[00:01:39] <strong>Tom Johnson: </strong>[00:01:39] Is that wrong?
+</p>
+<p>
+[00:01:44] Well, I don't think he can hear for some reason.
+</p>
+<p>
+[00:01:47] <strong>Juan Lara: </strong>[00:01:47] I'm sorry. I'm
+</p>
+<p>
+[00:01:48] <strong>Jared Morgan: </strong>[00:01:48] back. Good. Excellent. Yeah. Sorry. Yeah, I would just say that, um, uh, some folks might recognize you from, uh, Slack Slack. You seem to be on there a fair bit.
+</p>
+<p>
+[00:02:03] <strong>Juan Lara: </strong>[00:02:03] Yeah. The write the docs Slack. I try to attend a right to dock San Francisco meetups as often as I can.
+</p>
+<p>
+[00:02:11] Oh,
+</p>
+<p>
+[00:02:11] <strong>Jared Morgan: </strong>[00:02:11] great. Excellent. That's good. Now, um, how about, um, for folks who may not know you as well? Um, not being on Slack or for whatever reason, how about you tell us a little bit about yourself.
+</p>
+<p>
+[00:02:22] <strong>Juan Lara: </strong>[00:02:22] Sure. Um, I got into technical writing because I was interested in writing and technology and tech writing for me was a perfect way to reconcile those interests.
+</p>
+<p>
+[00:02:35] I've been a tech writer at Google for three years to the day on Friday. Well,
+</p>
+<p>
+[00:02:42] <strong>Jared Morgan: </strong>[00:02:42] happy anniversary. That's awesome.
+</p>
+<p>
+[00:02:44] <strong>Juan Lara: </strong>[00:02:44] Thank you.
+</p>
+<p>
+[00:02:46] <strong>Tom Johnson: </strong>[00:02:46] That's
+</p>
+<p>
+[00:02:46] <strong>Jared Morgan: </strong>[00:02:46] really good. Well, look, that's excellent. We're going to be talking a fair bit about some technical writing, obviously, considering this as right. The docs podcast, but today's episode is focusing on, um, documentation templates and everything around and surrounding that sort of, uh, idea in technical writing.
+</p>
+<p>
+[00:03:04] So, um, what we're gonna talk about today is, um, it's a whole range of subjects. We're gonna talk about the value of templates, um, whether the, um, Like templates are good for brainstorming or whether they're good for like actually just getting people to fill it in a cookie cutter style template. We're going to go into a pile of topics.
+</p>
+<p>
+[00:03:23] So rather than list them all out, let's just go and dive on in and talk about stuff. Tom, you might want to actually introduce a few points because I know you had some good points to sort of start the sheriffs to take it away.
+</p>
+<p>
+[00:03:35] <strong>Tom Johnson: </strong>[00:03:35] Yeah. Yeah. I would love to just introduce this topic a little bit and why I wanted to.
+</p>
+<p>
+[00:03:40] Focus the show on this, uh, at my work recently, we have a manager she's new and she wants us to create this center of excellence, uh, where like all these different teams who are publishing on our developer portal can go to the center of excellence and find best practices for. What's expected of their documentation templates for different documentation types, you know, a template for getting started, tutorial, a template for reference or something, um, and find other, just, you know, things they need to do, uh, for different doc types.
+</p>
+<p>
+[00:04:15] And I was thinking back to the discussion I had with one, um, back at an event in San Francisco, a while back, we were talking specifically about templates, um, and the different. Like categories of templates that are available in different companies. Um, and then I saw that Google launched this technical writing course, uh, geared.
+</p>
+<p>
+[00:04:37] Mainly towards engineers, teaching them how to write and write docs. Um, although I didn't see the templates there, but, uh, it did cover a lot. I haven't gone through in detail, all of that, but I was kind of skimming through, you know, it covers a lot of, uh, different instruction about how to write, um, how to write technical documentation.
+</p>
+<p>
+[00:04:57] So I thought this would be a perfect topic because I hear this a lot. And Jared, I know you were in this, um, you're involved in a, in a group that's trying to make. Templates. Uh, I'm sure you'll have a lot of input there, but that's kind of the gist of the REL. Why this topic I think, is relevant because as we, as we help other people contribute, we have to guide them.
+</p>
+<p>
+[00:05:19] And the template is like the default way to guide people.
+</p>
+<p>
+[00:05:23] <strong>Jared Morgan: </strong>[00:05:23] So,
+</p>
+<p>
+[00:05:24] <strong>Tom Johnson: </strong>[00:05:24] yeah. Now, sorry to kick things off. There's actually a link that I thought was pretty good. Um, uh, Google doc, sorry, cloud dot, google.com/spanners/docs. And it sort of had it has documentation broken out into seven different buckets. Quick start.
+</p>
+<p>
+[00:05:49] How to guides, API and reference concepts, tutorials, support, and resources. Um, And this is gonna tie into a much larger talk. Think about how different, uh, different technical writing methodologies kind of, uh, put documentation into different topic types. I'm sure you're familiar with did is concept, task, reference, troubleshooting, glossary.
+</p>
+<p>
+[00:06:16] You know, people have been doing this for years, so I'm a one. Tell me a little bit about templates. Like, do you find. Templates useful or is this only a tool to help non-writers get oriented
+</p>
+<p>
+[00:06:31] <strong>Juan Lara: </strong>[00:06:31] from the moment I started at Google, I found the templates they provided for us immensely useful.
+</p>
+<p>
+[00:06:40] So you saw in that documentation page, these buckets of document type stoves match exactly to the templates we use to, to write documentation. And it was immensely helpful for onboarding and learning the style we used for our documentation.
+</p>
+<p>
+[00:07:00] <strong>Tom Johnson: </strong>[00:07:00] Okay. So you kind of have in your team, you have like these templates more fleshed out, like w can you describe, I mean, I don't know if you.
+</p>
+<p>
+[00:07:08] Can describe them or what, but for example, Quickstart, is that a checkbox of different things to include or like what, uh, what might be a good template, maybe, you know, people want to make a quick start template. Is this something that is covered in a paragraph or do you just start with like fill in the blanks and placeholders?
+</p>
+<p>
+[00:07:26] I don't, I don't even really know how to approach templates.
+</p>
+<p>
+[00:07:31] <strong>Juan Lara: </strong>[00:07:31] We kind of have exactly documentation about how to write the documentation. Um, so we have, like you said, a template of what a document looks like, what the section should be, for example, before you began, describe the prerequisites and then the.
+</p>
+<p>
+[00:07:50] The our documentation or our template goes into the style for the page, how to write the headings, how to write the title and it most interestingly, and, and what I found really useful is that it went into information about the document type and what kind of audience you should be writing for and what the type of audience means for how you write.
+</p>
+<p>
+[00:08:19] Hmm.
+</p>
+<p>
+[00:08:20] <strong>Jared Morgan: </strong>[00:08:20] Hmm. I put it up on the screen. Hopefully you folks can see it there. Um,
+</p>
+<p>
+[00:08:25] <strong>Tom Johnson: </strong>[00:08:25] scroll down a bit. Uh, Jared, can you scroll down to show the, Oh, you've clicked into the Quickstar one.
+</p>
+<p>
+[00:08:31] <strong>Jared Morgan: </strong>[00:08:31] Yeah, I got,
+</p>
+<p>
+[00:08:34] <strong>Tom Johnson: </strong>[00:08:34] yeah. Back out
+</p>
+<p>
+[00:08:35] <strong>Jared Morgan: </strong>[00:08:35] to the kind of buckets. Yeah, yeah. Yeah.
+</p>
+<p>
+[00:08:39] <strong>Tom Johnson: </strong>[00:08:39] So. Interesting. So different documentation types might have different audiences.
+</p>
+<p>
+[00:08:45] Like for example, a conceptual overview might be something more oriented to a product manager or like a C level exec. Versus a, how to targeted
+</p>
+<p>
+[00:08:56] <strong>Juan Lara: </strong>[00:08:56] 12 concept, a conceptual, I would say, say my understanding is more geared to someone trying to build their expertise. Like it says, you're here to develop a deeper understanding of the product.
+</p>
+<p>
+[00:09:10] Yeah. Whereas a how to you as someone that has one very. Specific task they're trying to do in this case, it might be, um, creating a new database instance or uploading, uh, some set of data to the database.
+</p>
+<p>
+[00:09:30] <strong>Tom Johnson: </strong>[00:09:30] I know that this gets into this larger. Question about information models for tech and did is kind of built it's its whole philosophy around splitting content, up into concepts, tasks, and reference.
+</p>
+<p>
+[00:09:44] No, here I'm looking at called concepts and how to guides is like. Tasks and then API and reference. So there's very clearly like at least these three categories. Do you think that, um, like it's a good practice to separate out concepts from tasks? Or do you mix these two formats more fluidly? I'm just kind of curious what different people think about, uh, you know, separating content by type versus kind of mixing it all.
+</p>
+<p>
+[00:10:22] <strong>Juan Lara: </strong>[00:10:22] I would say that for me, the thing that, uh, information typing is one of the things that most improved my writing outside of learning grammar, and learning about writing an active voice, the. Information typing taught me to think about the audience and different kind of learning needs that a reader might have at different moments.
+</p>
+<p>
+[00:10:48] So, uh, how to, you know, how to guide someone's really focused on accomplishing one task. They need. To get their job done at the moment. Whereas a concept they might, someone might have more time and patience to read through, especially a longer, more complicated document.
+</p>
+<p>
+[00:11:10] <strong>Tom Johnson: </strong>[00:11:10] And I mean, uh, I, I can anticipate that there would be expectations from the audience, right?
+</p>
+<p>
+[00:11:15] If you, if you're in a concept topic, right. You probably are, are prepared to sit through a long chunks of text without, without tasks, right. Diagrams and lengthy explanations. Whereas if I'm, you know, you come to a quick start, your expectation is that you're going to be doing something. It's not going to take a long time and you're, you're going to see some kind of result.
+</p>
+<p>
+[00:11:40] Right. Whereas if you're in a reference, you probably, uh, you don't bring expectations about like getting. Grounded conceptually about how to like, understand the reference, but rather just to consult parameters and different values and, you know, function names or whatever it is. Uh, I guess that's interesting to think that, you know, uh, putting content into different, different patterns, like maybe helps the audience, uh, I dunno, consume it better, or just like interact more predictably with the different information types.
+</p>
+<p>
+[00:12:19] Um, no. I like that we have this cloud spanner documentation as a sample, because even though you've got the content organized by type, well, not you, I mean, I don't know who's the author of this, but I even know the person as the, even though this person has organized content by type there's another type of organization by, by topic.
+</p>
+<p>
+[00:12:43] Um, so that, you know, w when a user comes to docs, they're not necessarily not necessarily thinking. Hmm. I want a concept or, Ooh, I want to, I want to have to guide now. They're like, show me how to, uh, create a shipping label or something, or, you know, show me how to replicate my database, you know? And, and, and so, uh, I'm wondering, do you think there's like a conflict between, uh, organizing docs by topic, which is probably probably the natural inclination of a user versus kind of stamping them by types.
+</p>
+<p>
+[00:13:17] This, doesn't just have to be a question for Juan. This is like, you know, anybody, Chris or Jared. Uh,
+</p>
+<p>
+[00:13:23] <strong>Jared Morgan: </strong>[00:13:23] do you have any feelings about that one, Chris? Um,
+</p>
+<p>
+[00:13:27] <strong>Chris Ward: </strong>[00:13:27] I've never really done the topic based writing at all. Um, it's not a natural way for me to do it. I'm more likely to fall into this kind of path of organizing around areas.
+</p>
+<p>
+[00:13:39] I have not ever really formally done templates in any jobs. I think mostly because I've always been working for companies where you've never really had the time to take a step back and do that kind of stuff, even though maybe you should have, um, I'm probably about to start a job soon where I might actually, um, and it might be interesting to look at some of the sort of structure.
+</p>
+<p>
+[00:14:00] I think the, the thing where it's always hit me is those grades areas like, you know, already. I look at how to guides and tutorials. And it's the classic question of like, what's the difference and what goes, where, and I think that's always the problem with templates when people, uh, it's not a ways it's not always easy to stick things into a bucket.
+</p>
+<p>
+[00:14:22] And how do you decide where it goes and why? And is it just you arbitrarily deciding because you want it to fit into a
+</p>
+<p>
+[00:14:28] <strong>Jared Morgan: </strong>[00:14:28] bucket or
+</p>
+<p>
+[00:14:29] <strong>Chris Ward: </strong>[00:14:29] does it really fit into a bucket? That kind of thing has always bothered me about following templates, but. Hmm. Um, I do say that from our perspective, I've never really actively using them.
+</p>
+<p>
+[00:14:39] So. I don't, I may not necessarily know what I'm talking about.
+</p>
+<p>
+[00:14:43] <strong>Tom Johnson: </strong>[00:14:43] It's
+</p>
+<p>
+[00:14:43] <strong>Jared Morgan: </strong>[00:14:43] interesting to see it always struck me. I know that what you're saying, I do understand where you're coming from with like how you fit the content into a template. Particularly if there's a, like a document type that doesn't really quite exist yet.
+</p>
+<p>
+[00:14:58] And you kind of, you know, it should have some sort of form to it. So it makes it easier for people to consume the information. But working out what that looks like particularly for a new document type is really hard. And often takes a fair bit of information, architecture and decisions to actually get to the point where you have a template.
+</p>
+<p>
+[00:15:20] And this is probably the biggest thing I've found with, with what I'm doing with the good docs project. Um, the good docs project is a, um, a project, um, that. Helps its aim is to help, um, developers or anyone who needs to spin up a documentation set from scratch to use sort of, yeah, let's call them best practice.
+</p>
+<p>
+[00:15:42] I know that's an, a loaded term, but, um, for the benefits of this discussion, we'll call it best practice templates that help them quickly spin up the, the different types of documentation they might need for a project that's just starting out. And then from that point, iterate on them. Um, to the point where they're happy with her really good documentation set.
+</p>
+<p>
+[00:16:02] So they start off with good docs and then end up with great docs by iterating. So. It took a while for us to work out. When we were sitting at the project, what, what the information types should be, what the actual templates should be having them, whether we should go with the whole, you know, this almost strict, did a solid concept, task reference and make it really rigid or whether we should look a little bit wider and go, well, here's a sort of.
+</p>
+<p>
+[00:16:27] Rather than looking at the category of template. It's more about the goal, the templates trying to do, like, is it like a discussion? Is it like a, um, a, how to, is it something that teaches you something or is it something that you use as your assigned to learn about a project? And we settled on the letter being the goal-based sort of templates that help you, um, work out.
+</p>
+<p>
+[00:16:50] What you're trying to achieve, um, with the project. So things like, if you want to map them the concept, um, template style is almost like a discussion template. And now project, because concepts can be a little bit fluid. I know that it sounds like that's sort of what you were describing a little bit before Chris, where you have some content, you know, it's necessary to put into the document.
+</p>
+<p>
+[00:17:13] We don't quite know. It doesn't really fall into a category. It's a little bit conceptual. Yeah. It's a little bit out to multiple places. Yeah. Yeah. And that's where, like, you know, sometimes you can, you can sort of. Slot that into something more like a discussion style article, which sort of goes into some concepts, um, more broadly and, and sort of like fills in the gray areas a little bit, um, with the templates.
+</p>
+<p>
+[00:17:39] So that's, that's the way we went, uh, in, in the project. But the thing is that I think. Overall, I think with templates, they've they take a fair bit of research to get, right. Because you've got to make sure they're right for the audiences using them. And if you can get that right, and it takes time, that's when you'll find the templates become most useful.
+</p>
+<p>
+[00:18:02] <strong>Juan Lara: </strong>[00:18:02] Is
+</p>
+<p>
+[00:18:02] <strong>Chris Ward: </strong>[00:18:02] that a process that, uh, you are the people who. I'm not sure if these cloud spanner document example and he works on the van, but let's say with whatever projects you've worked on, is that a process you went through first to, to figure that out and find the pathways people follow, or was
+</p>
+<p>
+[00:18:21] <strong>Tom Johnson: </strong>[00:18:21] it more.
+</p>
+<p>
+[00:18:22] <strong>Juan Lara: </strong>[00:18:22] The templates I use were created before I got there.
+</p>
+<p>
+[00:18:27] But from what I understand, uh, there was a information architecture committee and that formed the templates. And now there's a team of editors that manage and update the templates. Okay. And the templates came out of the need to, uh, improve our documentation and quality and our consistency across all the different teams, because we have maybe around a hundred writers.
+</p>
+<p>
+[00:18:53] <strong>Jared Morgan: </strong>[00:18:53] Well,
+</p>
+<p>
+[00:18:54] <strong>Chris Ward: </strong>[00:18:54] how, how much, um, how much flexibility do you have in that, in terms of all the templates there was guidance only, or a starting point only. Can you.
+</p>
+<p>
+[00:19:06] <strong>Tom Johnson: </strong>[00:19:06] Can you
+</p>
+<p>
+[00:19:07] <strong>Chris Ward: </strong>[00:19:07] work them in slightly different directions, if you want to, can you feed back to that team and say this isn't working anymore, or it's
+</p>
+<p>
+[00:19:13] <strong>Tom Johnson: </strong>[00:19:13] actually causing us more
+</p>
+<p>
+[00:19:15] <strong>Chris Ward: </strong>[00:19:15] hassle to work
+</p>
+<p>
+[00:19:16] <strong>Tom Johnson: </strong>[00:19:16] to this template?
+</p>
+<p>
+[00:19:18] <strong>Juan Lara: </strong>[00:19:18] Yes. Uh, our, we have a great team of editors. I love working with them and they're very open to feedback and they definitely say this is a guidance. And if you really need to, you can change things up. But. I think it's really important for us across our products to keep a consistent information architecture.
+</p>
+<p>
+[00:19:43] <strong>Jared Morgan: </strong>[00:19:43] Right. So we did, I did mention the top of the show about how we use templates and what sort of utility they are for. So would you say, and this is an open question for anyone today. Do you think templates are sort of used as a way to. To figure out, um, um, a particular document, um, before you start writing the content, like a scratch pad essentially, or do you find that templates more?
+</p>
+<p>
+[00:20:12] Take the form of like a, I guess a cookie kind of style, um, document where really all the hard work's been done for you, and then you just fill in the gaps essentially with perhaps a little bit of leniency, either way around the document structure. What do you folks think about that?
+</p>
+<p>
+[00:20:30] <strong>Tom Johnson: </strong>[00:20:30] Well, I, I hope okay. I don't really use templates that much either, but I think that I should use them more because, um, I think unconsciously, when I start to write a, how to topic or some kind of task, I start off with high level summary.
+</p>
+<p>
+[00:20:47] Uh, then I include an OnPage table of contents. And then usually I might have a prerequisite section. Maybe I'll have a, like, Important terms section, and then I'll start off with like a task and. Kind of try to arrange the tasks, uh, in, in a way that makes sense. Sometimes they're sequential, but you know, sometimes when I read other people's writing and they're like, they don't have those sections where they have something totally different.
+</p>
+<p>
+[00:21:16] It makes me suddenly aware of the templates that I'm following unconsciously in my head. And I think it might be, be good to kind of like team the patterns that we're following, even if we're not aware of them, uh, in different ways. Sometimes when, uh, uh, after I list out all the tasks, one section of the bottom, I'll put like additional notes or FAQ for all the tidbits of information that didn't fit anywhere else.
+</p>
+<p>
+[00:21:43] You know, it's just like, The pattern I've sort of, uh, embraced, but, um, I can see how, like, if you have a hundred writers, you're going to have documentation going in every direction and it's going to be completely hodgepodge and like a mist mishmash of different preferences, styles, you know, one person says, no, you shouldn't have this another, no, you should have that.
+</p>
+<p>
+[00:22:07] So like, I can see a need for this. For sure to formalize the patterns that people follow for different information goals or whatever.
+</p>
+<p>
+[00:22:18] <strong>Jared Morgan: </strong>[00:22:18] I think Chrissy work a fair bit with, with engineers and all the different roles you do. Um, do you find that, uh, have you ever seen, um, engineers successfully use templates before?
+</p>
+<p>
+[00:22:30] Um, in some of the roles you're in, maybe that they're already set up and that was sort of using a form of templates before, have you ever seen any of
+</p>
+<p>
+[00:22:38] <strong>Tom Johnson: </strong>[00:22:38] them? Not
+</p>
+<p>
+[00:22:39] <strong>Chris Ward: </strong>[00:22:39] really because we'd never really set them up. Um, I'm not sure how successful they would. They maybe, yeah. The only time in actual documentation perspective, they've used them and followed them to be more the form of something like a blog post, but that's a very kind of loose
+</p>
+<p>
+[00:22:55] <strong>Tom Johnson: </strong>[00:22:55] template
+</p>
+<p>
+[00:22:56] <strong>Chris Ward: </strong>[00:22:56] or it's probably not a particularly relevant example, but it's anyone I can really think of where engineers will follow the template quite
+</p>
+<p>
+[00:23:03] <strong>Jared Morgan: </strong>[00:23:03] strictly.
+</p>
+<p>
+[00:23:04] <strong>Chris Ward: </strong>[00:23:04] Is actually things like get hub issues and
+</p>
+<p>
+[00:23:07] <strong>Jared Morgan: </strong>[00:23:07] stuff like that. Yeah. That's a great example,
+</p>
+<p>
+[00:23:10] <strong>Chris Ward: </strong>[00:23:10] but they're used to following that template and actually a get hub issue is extremely loose
+</p>
+<p>
+[00:23:14] <strong>Tom Johnson: </strong>[00:23:14] template.
+</p>
+<p>
+[00:23:15] <strong>Jared Morgan: </strong>[00:23:15] You know,
+</p>
+<p>
+[00:23:16] <strong>Chris Ward: </strong>[00:23:16] it's just prefilled marked down in a text box. You can do what you like with
+</p>
+<p>
+[00:23:20] <strong>Tom Johnson: </strong>[00:23:20] it.
+</p>
+<p>
+[00:23:21] <strong>Jared Morgan: </strong>[00:23:21] So it gives them a framework.
+</p>
+<p>
+[00:23:22] Doesn't it? I think that's, I think that's a key point for three for folks starting, I guess, for folks who have trouble starting to write. I think templates would like, at least there's some words on the page. Yeah, exactly.
+</p>
+<p>
+[00:23:36] <strong>Chris Ward: </strong>[00:23:36] And that's actually a really interesting thing to think about and something I never really thought about that perspective.
+</p>
+<p>
+[00:23:40] It's actually, before this call, we were talking with one about Toastmasters
+</p>
+<p>
+[00:23:45] <strong>Jared Morgan: </strong>[00:23:45] speaking and the
+</p>
+<p>
+[00:23:46] <strong>Chris Ward: </strong>[00:23:46] comment actually said was, it didn't really suit me, but I did notice that following that very rigid structure really helps people who are new to it. And it's somewhat very similar. It actually helps people who don't really know how to start.
+</p>
+<p>
+[00:24:02] They just like, well, I don't really want to do so I'll just follow
+</p>
+<p>
+[00:24:04] <strong>Jared Morgan: </strong>[00:24:04] this
+</p>
+<p>
+[00:24:05] <strong>Chris Ward: </strong>[00:24:05] and they might struggle a little bit, but at least they're not sitting there just staring at a
+</p>
+<p>
+[00:24:09] <strong>Tom Johnson: </strong>[00:24:09] blank screen. Um,
+</p>
+<p>
+[00:24:11] <strong>Chris Ward: </strong>[00:24:11] and it's a very good point. And, um, I, I think I'm almost sitting in on this podcast, we've kind of just. Thinking I'm going to do all these things
+</p>
+<p>
+[00:24:19] <strong>Tom Johnson: </strong>[00:24:19] that I am
+</p>
+<p>
+[00:24:20] <strong>Jared Morgan: </strong>[00:24:20] doing these things.
+</p>
+<p>
+[00:24:23] <strong>Tom Johnson: </strong>[00:24:23] Hey, well, so, so one, I have a question for you. So, uh, like have you ever had an experience where you had to help, like an engineering team, uh, contribute docs, like write their own docs and you were, you were kind of like their coach and the consultant and if so, Did you like implement these templates or send them to the Google writing courses?
+</p>
+<p>
+[00:24:43] Or like what, what was your approach for helping them? Right. Well,
+</p>
+<p>
+[00:24:49] <strong>Juan Lara: </strong>[00:24:49] in my current role, I haven't coach, uh, engineers or non tech writers in writing like longer docs. I've mostly helped them contribute a sections to existing documents. So I wouldn't say that's an experience that I've had, but I would definitely use the templates as a starting point for that.
+</p>
+<p>
+[00:25:14] <strong>Tom Johnson: </strong>[00:25:14] Yeah. Uh, I, um, there's one time, uh, where I specifically tried to guide a non-rider to using a template. They wanted to write a blog post for their product on our corporate blog. And I was like, Oh, You know, let me give you like six sections to follow, right? Uh, like a common blog pattern cause blogs have their own style.
+</p>
+<p>
+[00:25:38] Right? You, you can't just launch into some general topic. Like you need some relevancy hook, you know, was it a current event, something released, you know, why are you suddenly writing about this? And then what, what is the news? And then, you know, explain if you can have a story structure it's even better, you know, how did you overcome it?
+</p>
+<p>
+[00:25:54] What obstacles? You know? So I had like this little pattern for this guy and I was. You know, hoping that he would fill in the blanks. It was very specific section by section. He just like lost interest altogether. I heard from him again, I was like, okay, I guess you were really weren't that eager for this blog post.
+</p>
+<p>
+[00:26:13] So,
+</p>
+<p>
+[00:26:13] <strong>Jared Morgan: </strong>[00:26:13] but maybe it was too much. Maybe the template was actually suffering from a bit of, maybe it overwhelmed. The new writer.
+</p>
+<p>
+[00:26:21] <strong>Tom Johnson: </strong>[00:26:21] Yeah, I guess you're right. Like you can go too far. I mean, if a template is too specific, it can be a worldly. Think about like the open API description. That thing is super specific and it really guides.
+</p>
+<p>
+[00:26:34] It's almost like a form, you know, tell me the path, tell me the parameter type. Tell me this, tell me that don't, you know, it's like, uh, pushing somebody through there. Um, And yeah, those things are a pain to, to work on.
+</p>
+<p>
+[00:26:48] <strong>Chris Ward: </strong>[00:26:48] Yeah. My main memory giving people templates was way back in the past when I used to do more content management system work
+</p>
+<p>
+[00:26:56] <strong>Tom Johnson: </strong>[00:26:56] and.
+</p>
+<p>
+[00:26:58] No, you
+</p>
+<p>
+[00:26:58] <strong>Chris Ward: </strong>[00:26:58] didn't want people just to fill in a giant was you big box and you would try and set up fields with all these sort of bits of texts. And people always be like, but I want to change it. I want to move it around. I don't want that bit. What about that there? Why can't I just have a joke with you
+</p>
+<p>
+[00:27:13] and.
+</p>
+<p>
+[00:27:14] <strong>Jared Morgan: </strong>[00:27:14] Yeah, try to get this
+</p>
+<p>
+[00:27:15] <strong>Chris Ward: </strong>[00:27:15] middle ground was always fun, but, um, yeah, it's interesting. I wonder, you know, any place where there might be an interesting middle ground between giving that prompt to someone who doesn't know where to start, but completely overwhelmed them with so many things they feel they have to do that that
+</p>
+<p>
+[00:27:33] <strong>Jared Morgan: </strong>[00:27:33] week really is equally stopped.
+</p>
+<p>
+[00:27:38] <strong>Juan Lara: </strong>[00:27:38] The first thing that comes to mind is a way a Wikipedia uses templates and the way they have, you know, templates, especially, I think they mostly appear as little info boxes on the corner of the page for the most pertinent information for an article. And then they have common sections for related topics.
+</p>
+<p>
+[00:27:59] And I think that's been a really successful use of templates.
+</p>
+<p>
+[00:28:05] <strong>Tom Johnson: </strong>[00:28:05] I didn't even realize Wikipedia had templates. So, so if you create a new Wikipedia page, is there like a structure of expected sections and everything?
+</p>
+<p>
+[00:28:15] <strong>Juan Lara: </strong>[00:28:15] So the, the same way people can. Add any content for add content. They can define new templates for types of data.
+</p>
+<p>
+[00:28:26] And so, for example, for famous people and celebrities, there's probably a template type that collects there that asks you for their date of birth and other information, and then presents it on the Wikipedia page in a structured manner.
+</p>
+<p>
+[00:28:44] <strong>Tom Johnson: </strong>[00:28:44] I think definitely like if you can enforce a structure in content, um, that's a, that's a win, of course.
+</p>
+<p>
+[00:28:51] Now, if you say enforced that gets us into like ditto world with XML scheme is enforcing it, but I'm just thinking of simple things. Like, uh, for example, on my, on my blog, I added a field called description in the front matter. It's a juggle blog and a, this forces me to always have some kind of high level summary or overview or intro.
+</p>
+<p>
+[00:29:13] Uh, which then gets pushed into the description tags in the HTML and is shown in the like excerpt. So if I don't do it, it kind of breaks my layout basically. Um, and so, uh, I don't know if like, Documentation can be ever be that specific beyond reference material that is highly highly, but it seems like if he can enforce it somehow, um, that's like, I don't know.
+</p>
+<p>
+[00:29:38] Of course I, now hearing me say that makes me sound like I'm a data proponent. I'm going to go down
+</p>
+<p>
+[00:29:45] <strong>Jared Morgan: </strong>[00:29:45] that route. Like that's another level of technical writer. That one.
+</p>
+<p>
+[00:29:49] <strong>Tom Johnson: </strong>[00:29:49] Yeah, yeah, yeah.
+</p>
+<p>
+[00:29:51] <strong>Chris Ward: </strong>[00:29:51] You actually did get me something thinking there because I'm still trying to maybe understand, we should go into a bit more detail about what.
+</p>
+<p>
+[00:30:00] As much as you can, especially these, these Google templates are, um, is it a guidance
+</p>
+<p>
+[00:30:06] <strong>Tom Johnson: </strong>[00:30:06] thing
+</p>
+<p>
+[00:30:07] <strong>Chris Ward: </strong>[00:30:07] that it's, you know, it's suggested you follow these steps and fill in these steps on each page? Or is it something more rigid, like a content management system type form? Or is it just more of a framework that they would like you to follow?
+</p>
+<p>
+[00:30:20] How rigid is it if you
+</p>
+<p>
+[00:30:22] <strong>Tom Johnson: </strong>[00:30:22] don't fill it in, will it break the layout? Like
+</p>
+<p>
+[00:30:24] <strong>Chris Ward: </strong>[00:30:24] on Tom's side
+</p>
+<p>
+[00:30:25] <strong>Tom Johnson: </strong>[00:30:25] kind of thing?
+</p>
+<p>
+[00:30:26] <strong>Juan Lara: </strong>[00:30:26] No, it's not as rigid as what Tom rigid as what Tom described. It's a style guide for each of those document types and, uh, an example, but kind of a canonical example of how to, and a concept that you can use as a starting point.
+</p>
+<p>
+[00:30:44] <strong>Jared Morgan: </strong>[00:30:44] Okay. Okay. So I'd imagine that in a template, like a concept, there'd be a lot of, you can, you can use this section, but also if you need to, you can add this section as well, or you can take it out if you don't need it. Like, can you tell us a bit more if, if, if you're able to about. The decisions in the template and when writers can actually make a call going, no, I don't need that section, but it still makes it valid from the perspective of keeping the information architecture right.
+</p>
+<p>
+[00:31:12] In all the articles. Cause that's, I think that's the biggest value of templates that helps you preserve, um, the information architecture when people are switching between pages of a site.
+</p>
+<p>
+[00:31:28] <strong>Juan Lara: </strong>[00:31:28] Uh, yeah, I would say we do have a lot of, um, freedom and control about how we use the templates. And again, the end goal is to hopefully have a consistent experience across our site, but to at the same time, serve our readers, how we best think, uh, we can serve them.
+</p>
+<p>
+[00:31:50] <strong>Jared Morgan: </strong>[00:31:50] Must have been, I really liked the way this concept's page that you see here in the, in the fade, sort of like has the top level.
+</p>
+<p>
+[00:31:59] Um, concept and then that little short description, like, um, Tom was referring to that he has in his book place because that's really great for my what's in it for me perspective. And it's like, why should I read this? You know, that's really nice little bit of information for the, for the people. When they're looking through things, particularly concepts, that's sort of where a lot of new users would start.
+</p>
+<p>
+[00:32:18] I'd imagine one. So I imagine that the way you structure a concept for something as large as clouds planet would. Would be, uh, perhaps different to, um, other products that Google offers as well, or is there some consistency?
+</p>
+<p>
+[00:32:39] <strong>Juan Lara: </strong>[00:32:39] I work on the cloud databases team and there is some consistency across the database products. For example, they, we, most of our products have a page on backups and on schema design. So yeah, within different areas, we have our own layers of consistency.
+</p>
+<p>
+[00:33:03] <strong>Jared Morgan: </strong>[00:33:03] Hmm. Okay. That makes sense. There's no one size fits all really for, for a product release.
+</p>
+<p>
+[00:33:08] There has to be some variance.
+</p>
+<p>
+[00:33:11] <strong>Tom Johnson: </strong>[00:33:11] Right.
+</p>
+<p>
+[00:33:13] <strong>Jared Morgan: </strong>[00:33:13] That makes sense. The
+</p>
+<p>
+[00:33:15] <strong>Tom Johnson: </strong>[00:33:15] analogy I'm thinking of with this whole templates thing is, um, think about. Xandra fiction. If you are going to write a romance novel or a Western novel or something, right. He's uh, they're, they're, they're basically formulaic, right? TV shows that we watch are also genre based formulas and there are certain expectations about it.
+</p>
+<p>
+[00:33:36] And if I were to try to write a genre fiction, being an inexperienced fiction writer who doesn't know the right way to do that, I think it would be kind of. Hmm. I don't know, maybe be reassuring and the first go to kind of follow a pattern and be like, okay, now my, my hero has to, you know, first of all, hate the other person.
+</p>
+<p>
+[00:33:58] And then they have to go through a series of, uh, you know, montages and they learn to love each other. Some, you know, some kind of like pattern. And I, I, I bet if somebody's new to tech comm. And they're like documentation have no idea. And you're like, no, no, no, you got these types. And these are the patterns in each.
+</p>
+<p>
+[00:34:16] And this is a shape of documentation. It's like, it's probably super helpful. I think so many of these things are just internalized. I was, I was working on docs. For some team that had written them. This was like a maps API thing for 'em that we were re redoing. And I was reading through the overview and I was like, uh, it didn't explain the use cases for this product.
+</p>
+<p>
+[00:34:40] It was just like, Hey, you can have a map in your head tablet app, and you create a map using this class, and then this method allows you to manipulate it. And I was like, wait a minute, like, we need a little more overview. What are some use cases? Like, give me some samples of when you would use a tablet mapping app and, you know, can we highlight any, any cool examples?
+</p>
+<p>
+[00:35:03] Like that was completely lost on them. So I think if, uh, You know, just as a kind of, um, checkpoint for the overview, for example, topic, there's certainly different patterns. Like you really need to have the high level. What, why should I use this and what are some common uses and what are some general requirements and what's the availability and what's the implementation, that kind of stuff that, I mean, I think for many of us that would just come naturally because.
+</p>
+<p>
+[00:35:28] Like those are the high level questions, but somebody who's new that might be as foreign as John or fiction formulas, right. To somebody who's not a writer,
+</p>
+<p>
+[00:35:38] <strong>Chris Ward: </strong>[00:35:38] don't
+</p>
+<p>
+[00:35:38] <strong>Tom Johnson: </strong>[00:35:38] mix up your templates. So.
+</p>
+<p>
+[00:35:43] <strong>Jared Morgan: </strong>[00:35:43] That's right. Yeah.
+</p>
+<p>
+[00:35:46] <strong>Tom Johnson: </strong>[00:35:46] People have tried to mix. People have tried to mix it up. The story, the story fiction into documentation, right. People are saying, Oh, but you know, documentation tells a story too. And I have a hero. Who's my user who is, you know, struggling to overcome something. And then they, yeah. But you know, at the end of the day, that's very, very.
+</p>
+<p>
+[00:36:05] That got off of a very slight tangent. And
+</p>
+<p>
+[00:36:08] <strong>Chris Ward: </strong>[00:36:08] the only one that really sticks in my mind was the, um, is it Howe's guide to Ruby or something?
+</p>
+<p>
+[00:36:14] <strong>Tom Johnson: </strong>[00:36:14] It's just crazy,
+</p>
+<p>
+[00:36:15] <strong>Chris Ward: </strong>[00:36:15] like weird fiction comic book to Ruby.
+</p>
+<p>
+[00:36:20] <strong>Tom Johnson: </strong>[00:36:20] And, uh, why
+</p>
+<p>
+[00:36:20] <strong>Chris Ward: </strong>[00:36:20] is Ruby got some of that? And you read it just like
+</p>
+<p>
+[00:36:26] <strong>Tom Johnson: </strong>[00:36:26] what Ben is
+</p>
+<p>
+[00:36:27] <strong>Chris Ward: </strong>[00:36:27] very memorable, but I must've already got alerted.
+</p>
+<p>
+[00:36:33] <strong>Jared Morgan: </strong>[00:36:33] very sticky, but you didn't learn a lot. Yeah.
+</p>
+<p>
+[00:36:36] <strong>Chris Ward: </strong>[00:36:36] Yeah.
+</p>
+<p>
+[00:36:40] <strong>Jared Morgan: </strong>[00:36:40] I wonder if we might move on to a subject of, of, so you go to these separate sort of content types and, you know, concepts, task reference, but is there a, how do you actually organize these on a site to make them right for the reader? Do you mix them, do you keep them as separate sort of articles or templates designed to be mixed together or are they designed to be.
+</p>
+<p>
+[00:37:06] Separated so that the, you know, you don't actually mix concerns. Let's call it that. What are you, what are your thoughts about that one? Do you think that there's a place for, for templated content to be combined into one article? Or is it really more to inform, like to keep the structure rigid in one sort of article level type of thing?
+</p>
+<p>
+[00:37:29] How do you find you use it?
+</p>
+<p>
+[00:37:33] <strong>Juan Lara: </strong>[00:37:33] The way, I think about eight or the reason I wouldn't want to mix, for example, a lot of conceptual information in a how to guide is because I believe that would start to degrade the experience for a reader who's focused on a, on one single task. Does that
+</p>
+<p>
+[00:37:57] <strong>Tom Johnson: </strong>[00:37:57] make
+</p>
+<p>
+[00:37:57] <strong>Jared Morgan: </strong>[00:37:57] sense? Yeah. So do you think it would sort of, it sounds like what you're saying there is that it sort of creates too much noise in the overall sort of art information flooded that you want to, um, help the reader understand.
+</p>
+<p>
+[00:38:09] Would that be right?
+</p>
+<p>
+[00:38:12] <strong>Juan Lara: </strong>[00:38:12] Yeah. Yeah. I think more than anything, these, um, content types serve to separate different audiences and by separating those different audiences, you can right. In a way that best serves each different audience and maybe not audience, but, um, audience mindset. I had a moment. Hmm.
+</p>
+<p>
+[00:38:36] <strong>Jared Morgan: </strong>[00:38:36] Okay. So in the notion of concepts, do you think those, that particular audience type might be for people who are learning.
+</p>
+<p>
+[00:38:44] Yeah, foundational topics about a product and perhaps, um, the, the task based or procedural based contents for people who've already experienced and wanting to get something done. Is that the sort of thing you, you mean with that? Or is it something subtly different?
+</p>
+<p>
+[00:39:00] <strong>Juan Lara: </strong>[00:39:00] I would say it's the other way around, at least, um, when I'm learning a new framework or.
+</p>
+<p>
+[00:39:08] Programming language I first want to do, for example, a hello world. I want to, um, learn by, I mostly learn by doing, and it's only after I get stuck that I w or I've learned the basic things to, I want to go into the deeper concepts.
+</p>
+<p>
+[00:39:33] <strong>Jared Morgan: </strong>[00:39:33] Okay, so you need to sort of get a win first essentially, and then go, this is really cool.
+</p>
+<p>
+[00:39:38] I want to learn more type of thing.
+</p>
+<p>
+[00:39:41] <strong>Juan Lara: </strong>[00:39:41] Yes. And also sometimes it's only after you kick the tires a bit that you have the context, you need to understand the, how the concepts of more complicated concepts of a product.
+</p>
+<p>
+[00:39:55] <strong>Jared Morgan: </strong>[00:39:55] Hmm. That's a really good point. Yeah. You don't know what you don't know until you don't know it.
+</p>
+<p>
+[00:40:01] Exactly. Yeah. Yeah. That's a tough part about, about
+</p>
+<p>
+[00:40:06] <strong>Tom Johnson: </strong>[00:40:06] documentation is how to, how to organize all this stuff. You know, I'm just looking at this index of the cloud span. Our topics here with schema is transactions, introspection tools, foreign keys sessions. It's like, eh, there's often not like a specific order.
+</p>
+<p>
+[00:40:23] To a lot of the content, we write so many different parts and different scenarios require, you know, you to be familiar with things. And like, we don't know the path that a user's gonna follow the probably just land on it from search anyways. So there, you know, it's not as if you can kind of scale them up from, well, I don't know.
+</p>
+<p>
+[00:40:43] You know, sometimes once people get into it, then they're like, Oh, let me read the intro and get started and kind of warm up. But. Maybe they just land right into data manipulation language. And they're like, uh, you know, in the thick of some deep conceptual explanation that required like a bunch of other information or are there, you know, uh, in a task and they suddenly realized like all these terms, these terms that maybe weren't things they knew.
+</p>
+<p>
+[00:41:10] I mean, this is like why documentation is so impossible really to write because cause like you can't, you can't. Proceed linearly. So you try to chunk things up and make them stand alone articles. But even then, like things don't stand alone. I'm sure. I couldn't understand data manipulation language without reading a bunch of these other topics.
+</p>
+<p>
+[00:41:32] Right. So, you know, it's like, uh, uh, I'm surprised documentation is as good as it is. Given all these like difficulties and challenges, to be honest.
+</p>
+<p>
+[00:41:46] <strong>Jared Morgan: </strong>[00:41:46] Yeah. Docs docs is hard. We know this as technical writers, but it's sometimes difficult for other folks to actually understand that. Right. Like you were asking,
+</p>
+<p>
+[00:41:57] <strong>Tom Johnson: </strong>[00:41:57] sorry, I was just going to say one more thing, Jared, you were kind of alluding to this larger information model for documentation itself and like, what is the general structure of a, of a user guide and like, you know, um, beyond the, the overview and the getting started, and then maybe the reference section that's separate from the tasks.
+</p>
+<p>
+[00:42:17] It seems like the information model. Really should just fit the topic. And so the, uh, the, the topic can vary dramatically. And so there is no like information model just in the same way that, um, I don't know, books, don't all follow the same pattern. Right. It's it depends on the topic and, and the structure sort of proceeds from what makes sense for, for that topic,
+</p>
+<p>
+[00:42:41] <strong>Jared Morgan: </strong>[00:42:41] right?
+</p>
+<p>
+[00:42:42] Yeah. Well, that's wrong. I think it also really depends on the each product. This is different, of course, obviously. And I think the, the one good way of working out how to think about the audience, that's reading it as well and what they're trying to do. Um, so yeah. You might have a product that has a developer audience, as well as a, like a front end user audience.
+</p>
+<p>
+[00:43:04] You know, there might be two, two types of audiences. How do they want to navigate through the information that you're offering them on the docs portal? Like, um, do they want to start with like, sort of would, would a. I'm a typical front end user. Want to start first with, um, an overview of the user interface perhaps, so they can orient and sells to it.
+</p>
+<p>
+[00:43:24] You know, what sort of content type is that, is that a reference style or is that more conversational or conceptual information? You know, and this is where I think that the lines do pretty, pretty, um, pretty regularly when you're actually trying to work out. How, what template to apply to her a piece of content.
+</p>
+<p>
+[00:43:43] Um, and I think as, as one alluded earlier, it's, it's important to have flexibility. Uh, in these templates so that you, you get the general structure of what you need, but you still have the flexibility as a writer to tailor the content to the audience that you're writing to. So it meets their needs
+</p>
+<p>
+[00:44:05] <strong>Tom Johnson: </strong>[00:44:05] that, and, you know, hearing you say that now makes things.
+</p>
+<p>
+[00:44:08] Seem so much more sense. Right? Makes a lot more sense because right. If we start with the user journey and what they're trying to accomplish, like that should guide the way we struggle. Sure. The content. And then most of a lot of the docs that I write, for example, uh, people want to make their fire TV app.
+</p>
+<p>
+[00:44:27] Respond to voice phrases, right? So they have to implement something that is a very clear structure about him, implement it. And then they have to be aware of what phrases they're going to have to support. And we have a list of them, you know, it's like, that's not really rocket science, right? It's a, when there's a clear user journey, as you say, and you understand the user needs, you should like develop the pattern around that.
+</p>
+<p>
+[00:44:50] Uh, So sometimes it's a lot more clear of a user journey than others, right?
+</p>
+<p>
+[00:44:56] <strong>Jared Morgan: </strong>[00:44:56] Just like
+</p>
+<p>
+[00:44:57] <strong>Chris Ward: </strong>[00:44:57] cloud spanner. And these sorts of general purpose tools are the ones where it's a much harder because people have a myriad of use cases. Um,
+</p>
+<p>
+[00:45:05] <strong>Jared Morgan: </strong>[00:45:05] yeah, like if we stopped the screenshare, I'll start again. But the, like if we go into something like quick start, um, in the cloud spend adopts as, as an exemplar, like you've got, um, Using quick stuff using the console and yeah, that's a, that's a fairly long, quick start.
+</p>
+<p>
+[00:45:25] There's a lot of good detail in here that for a new user, if you follow that, step-by-step I particularly like the little jump out to the settings pages. That's really nice because that closes the closes, the loop for people who are following the. The steps in the guide. So being able to just go, right, this is the instance to page, go here, click that, and you get it.
+</p>
+<p>
+[00:45:45] That's really nice. Um, so, you know, it's, that's, that's a fair bit of stuff to work through. It's well laid out and it's step by step, but you know, there might be some people who. Who, depending on their experience level with cloud spinner, that might go, Ooh, that's, that's pretty heavy. That's that's a lot of table of contents feels a bit overwhelming, but you don't know that until.
+</p>
+<p>
+[00:46:09] Often you start getting your documentation out there and iterating on it until you start getting customer feedback on your documentation. So that's when templates start to evolve, right? So you've got to make sure those templates aren't sitting there. And there's a way to actually collect feedback about the template design, because if a template is not working, people just don't use them.
+</p>
+<p>
+[00:46:32] And then why are you bothering with templates? Because they no longer suit the purpose of the audience and that particular audience for template is the person writing the content. So, you know, there's that as well. You've got to think of a way of making the templates, um, fit for audience and who's actually using them.
+</p>
+<p>
+[00:46:52] <strong>Tom Johnson: </strong>[00:46:52] Jared, w w what's the status? Oh, sorry. Go ahead, Chris. I was going to ask a totally different question.
+</p>
+<p>
+[00:46:57] <strong>Chris Ward: </strong>[00:46:57] I was actually interested to know from, from one. And obviously you didn't necessarily start this process, but do you have any knowledge yourself or any
+</p>
+<p>
+[00:47:07] <strong>Jared Morgan: </strong>[00:47:07] knowledge from people who've
+</p>
+<p>
+[00:47:08] <strong>Chris Ward: </strong>[00:47:08] who read them before that changing, uh, documentation to these templates has, has helped at all as a feedback being more positive?
+</p>
+<p>
+[00:47:18] Has it, has there been significant feedback to show that it made a difference? I mean, we often know
+</p>
+<p>
+[00:47:23] <strong>Jared Morgan: </strong>[00:47:23] that. The
+</p>
+<p>
+[00:47:24] <strong>Chris Ward: </strong>[00:47:24] most, the biggest amount of feedback we get is no feedback at all. But have you, have you, has there been enough kind of significant good feedback to know that it was worth doing?
+</p>
+<p>
+[00:47:38] <strong>Tom Johnson: </strong>[00:47:38] I
+</p>
+<p>
+[00:47:38] <strong>Juan Lara: </strong>[00:47:38] don't know anything about metrics that were collected at the time, but I know anecdotally that we, as the writers believe that the templates definitely improved our writing quality across the
+</p>
+<p>
+[00:47:52] <strong>Tom Johnson: </strong>[00:47:52] board. Okay.
+</p>
+<p>
+[00:47:56] <strong>Chris Ward: </strong>[00:47:56] Okay. And that'd be the interesting thing to know. Wouldn't it it's
+</p>
+<p>
+[00:47:58] <strong>Tom Johnson: </strong>[00:47:58] like
+</p>
+<p>
+[00:48:00] <strong>Jared Morgan: </strong>[00:48:00] it makes
+</p>
+<p>
+[00:48:00] <strong>Chris Ward: </strong>[00:48:00] us feel better, but has it made the people who were reading it feel better?
+</p>
+<p>
+[00:48:04] We had so much. It's
+</p>
+<p>
+[00:48:06] <strong>Tom Johnson: </strong>[00:48:06] always hard to know. Actually
+</p>
+<p>
+[00:48:08] <strong>Jared Morgan: </strong>[00:48:08] we hope so. I'd imagine that, um, that Chris, the cause really when you start to use templates are essentially. The, the backbone to information architecture really aren't they, when you're building a website. So it's more, it's like trying to ask a user, it's the skeleton of our site useful for you.
+</p>
+<p>
+[00:48:31] And that's a, that's a really good, difficult question for a user to ask. It's almost like, um, I've had some feedback where I work at the moment, um, uh, which is squeezing. We have two dock sites at the moment, the older version of the matrix, um, squeeze matrix, CMS documentation, and the version I'm working on now, which has done through Ventura.
+</p>
+<p>
+[00:48:52] And a lot of the, that car you get from the oldest site, um, is that it's, it's hard to find information that's mentioned in an article. Um, yeah, reading and this goes down to like, there's, there's not really the whole idea of a lot of interlinking between like, uh, topics or information. So that's a, I guess that's an example that could be rolled into a, um, a template.
+</p>
+<p>
+[00:49:19] So actually explicitly say in the template guidance information, don't be afraid to cross reference or link to other information because it helps people close the loop to address the problem. The matrix five dot five manuals. What I've done is in matrix six, the whole lot of like terminology was really missing from one of the pages there was mentioned, and they were highlighted in a certain way in the document.
+</p>
+<p>
+[00:49:41] But the problem was, if you were a new user, you couldn't really. Easily find what that term meant in context, like just a quick two line summary of what is an asset in matrix, for example. Um, so I use because Anton right, for X rapes and cross referencing and linking between things I've made every glossary term or link in the content.
+</p>
+<p>
+[00:50:04] And I sort of like mentioned it once. Like on first use, almost like you do when you're defining an acronym. And then from there on, I didn't actually link it again. Cause you know, too many links is just too much visual load in a document. So you don't want to do that too much. But just that little piece of feedback that one of the customers gave me has changed the way I completely structure a page in the new and tore documentation to make it easier for people to actually use it.
+</p>
+<p>
+[00:50:30] So that change is something that I want to try and measure. When we actually released the product documentation soon to see if there's any improvement with, um, like through Google analytics, how people actually jump between pages, like how they go from a page with a whole lot of glossary terms on it. Do they actually jump up to those terms or do they just stick on the page and read it sort of sequence?
+</p>
+<p>
+[00:50:54] So those sort of things I'm interested in seeing what happens when we actually release a product properly.
+</p>
+<p>
+[00:51:00] <strong>Tom Johnson: </strong>[00:51:00] I had an experience last week where it's talking about like, how do we know if what we're doing makes an impact and like, how do you measure it with user feedback? Uh, I had an experience where we had field engineers, uh, basically come to us and say, okay, Hey, we learned that this other product documentation was written by the product team and not the tech writers.
+</p>
+<p>
+[00:51:20] And we really want it to look like this stuff. Tom wrote for this other product, which was much more procedural. And step-by-step like, I walked him through this huge, hairy process in 12 steps. Whereas this other documentation, they were complaining about written by the product team. Wasn't step-by-step it was kind of like a bunch of different sections, no clear, like.
+</p>
+<p>
+[00:51:40] Task order that you would do follow. Um, and, and that a lot of links pointing out to other sites. It was just like, Hey, read this, read that, implement this. Um, and you know, just unraveling at the very core pattern that we're following the template in our head as tech writers is. Step-by-step procedural.
+</p>
+<p>
+[00:52:00] It's like how we simplify complexity is by taking in saying, okay, do this this in the first step and then do that. And then do this T walk people through something in little micro turns until they build the table or whatever it is they're building. Right. And I'm like, I didn't even realize that, you know, I didn't realize that I had this step by step.
+</p>
+<p>
+[00:52:21] Model infused in my brain until they were like, yeah, this other docs, they don't have that. I'm like, Oh yeah, you're right. Anyway.
+</p>
+<p>
+[00:52:29] <strong>Jared Morgan: </strong>[00:52:29] Hmm. It's funny how we sort of, as rod, as we, we just assumed that everyone else does the writing like them. But when you actually look deeper into like, even in the same organization, you're in.
+</p>
+<p>
+[00:52:43] Everyone does it differently often? Yeah. Particularly if the, the team they're in doesn't actually have a technical writer is almost like the, the person to just, just guide them down on the right way. Like when they're sort of deviating from what they should maybe not be doing, you know? Cause I'm all for, you know, there's no reason why anybody in the business shouldn't have a go at writing content if they're given the right structures.
+</p>
+<p>
+[00:53:06] And, and really if they're giving templates that help them do that. But I still think. The, the role of a technical writer. I think I've seen certainly, um, is a role of like almost mentorship in some respects where if you have a large business with a technical writing team that has no chance, and actually being able to keep up with the amount of documentation that the product requires, then it's up to us as technical writers to actually champion.
+</p>
+<p>
+[00:53:33] The the, uh, I guess the off of writing into a way that people can, can actually help us out to actually help customers out to get a really great outcome. So, um, if templates are the way to do that, then that's where they become really good, valuable, because essentially you can force multiply yourself as a technical writer using these structures in the templates, across the business.
+</p>
+<p>
+[00:53:59] Um, And to have just have a, almost like a, a little bit of influence, always there in the template because you built it and you know, that it's a good information architecture. And then if other people use that structure, they almost like having a little bit of technical writing essence into their writing when they're actually writing stuff.
+</p>
+<p>
+[00:54:17] So that's how I, that's why I liked templates personally.
+</p>
+<p>
+[00:54:21] <strong>Tom Johnson: </strong>[00:54:21] Hey, Jared, Jared, you brought up this good docs project that has these templates. Well, what's the status of that? Like I'm sure people who are listening to this are thinking, cool. Can you share some templates or can you send me to some actual templates?
+</p>
+<p>
+[00:54:33] Like what, what is that actionable outcome for listeners here?
+</p>
+<p>
+[00:54:37] <strong>Jared Morgan: </strong>[00:54:37] Yeah, so the good docs project, um, we had to go, or we did what they call a straw man, um, back in, uh, uh, the right, the docs Australia conference in 2019 for, uh, the templates. And since then, um, we, uh, sort of we're in the sort of forming stage of the project where we want to get to the point by the end of the year, where we have something that you actually show your manager.
+</p>
+<p>
+[00:55:03] Um, to, uh, to say, look here, here's a pattern that we can use in our documentation, um, with templates. So, um, the, the current state is at the moment is we've sort of broken them down into, um, API, um, related content there, as well as like the whole discussions, how to, um, even sort of more technical template, Tufts like logging templates for if you want to have dev ops people.
+</p>
+<p>
+[00:55:30] Um, working out how to actually support something at 2:00 AM in the morning, they might want to have a template for logs so that they can understand what they're looking at. And some examples. So through their bleary eyes at 2:00 AM in the morning, they can troubleshoot a problem that's causing the slot to go down.
+</p>
+<p>
+[00:55:46] Um, so we sort of gone with that at the moment and at the moment. The, um, the templates are very much in, um, uh, an iterative phase. We've got, um, issues open at the moment, um, that, uh, need to be worked on for the product, but also we're part of the, um, seasonal docs, uh, for 2020 this year. And, um, we've, uh, in the process of selecting the, uh, the people who were going to get to help us out.
+</p>
+<p>
+[00:56:15] Take this vision forward, um, with the project, um, so that we can actually get to the end of the year and have those templates sort of laid out really nicely and ready to go, basically. So at the moment, you know, it'd be great if people listening to the episode could actually come on over and have a look at what we've got at the moment.
+</p>
+<p>
+[00:56:33] And, um, at that stage now we could actually use them. But I think there's a few rough edges in some of them that probably do need to be refined.
+</p>
+<p>
+[00:56:44] <strong>Tom Johnson: </strong>[00:56:44] No, also a question for Juan. I don't know that you'll have an answer, but it would be nice, you know, given that Google has already made these technical writing courses available and it looks like great content, you know, just, uh, why not add the templates there?
+</p>
+<p>
+[00:56:59] You know, I keep these internally, uh, it seems like they would be extremely useful. So I don't know if that's a, on the roadmap or a flag. You know, they're still iterating on the templates, but it'd be nice to see those there as part of that, like documentation set for the engineers.
+</p>
+<p>
+[00:57:15] <strong>Juan Lara: </strong>[00:57:15] Yeah, definitely. I agree.
+</p>
+<p>
+[00:57:17] I know the technical writing course is kind of geared more towards like a general writing and not it not. Specifically document technical documentation. I see. For example, it might be something that's also useful for writing design docs or even explaining things in email. So I can kind of see why they didn't go too much into a document documentation, types and templates.
+</p>
+<p>
+[00:57:45] But, uh, I also think it'd be really cool to see that and really useful.
+</p>
+<p>
+[00:57:52] <strong>Jared Morgan: </strong>[00:57:52] Yeah. Well, I can't believe it's been an hour already. This has been such a great discussion today. Um, I was just wondering before we, we do wrap up, I just want to make sure that we don't have any hanging questions or any other sort of, um, comments from folks. So
+</p>
+<p>
+[00:58:05] <strong>Chris Ward: </strong>[00:58:05] I had my one hanging question that fed a little bit off of that.
+</p>
+<p>
+[00:58:08] I actually, uh, how widespread is this style of template in Google documentation or do various teams and departments have their own templates or is it becoming a Google template?
+</p>
+<p>
+[00:58:23] <strong>Juan Lara: </strong>[00:58:23] So the templates I was talking about today and that you saw in the documentation are for the Google cloud documentation site.
+</p>
+<p>
+[00:58:35] There are other teams that are part of the Google that organization, and they might have their own templates or their own process.
+</p>
+<p>
+[00:58:45] <strong>Jared Morgan: </strong>[00:58:45] Okay. Okay, that's good. That comes down to having the templates right. For the product and the audience. I think probably Chris, doesn't it. Um,
+</p>
+<p>
+[00:58:55] <strong>Chris Ward: </strong>[00:58:55] yeah, I think you're right.
+</p>
+<p>
+[00:58:56] Otherwise you're just trying to.
+</p>
+<p>
+[00:58:58] <strong>Jared Morgan: </strong>[00:58:58] Well clings into
+</p>
+<p>
+[00:59:00] <strong>Chris Ward: </strong>[00:59:00] patterns. I don't want to be in.
+</p>
+<p>
+[00:59:01] <strong>Jared Morgan: </strong>[00:59:01] Yeah. Your cookie cutter is far too narrow for a much broader piece of pastry. You're trying to cut out. Let's use that as an analogy. How about that? Yeah, terrible. Let's just run with it. Um, so.
+</p>
+<p>
+[00:59:14] <strong>Tom Johnson: </strong>[00:59:14] Uh,
+</p>
+<p>
+[00:59:15] <strong>Jared Morgan: </strong>[00:59:15] I think that probably brings us to the, the end of the show.
+</p>
+<p>
+[00:59:18] It's been a pretty amazing hour talking about templates and the ins and outs of them and how you can perhaps consider working them into the process at your place, uh, where you work. Um, hopefully the episode is giving you some really good takeaways, um, that you can actually think about and, um, and, and work out perhaps how they fit in.
+</p>
+<p>
+[00:59:37] Um, do come over to the, um, the good docs projects and have a look at the templates there, and also check out the, um, the, the cloud spend adults because sometimes it's easy to work out. I'm a really good information architecture where you can see when in practice as well. And that's where it's really useful when you're trying to build out things to, to actually see something working and then go, that looks really good.
+</p>
+<p>
+[01:00:00] I might sort of honestly steal some ideas from that and, uh, and use them and work them into my own process, particularly if you're starting out. So it was really great to actually see that one and, and get the, a bit more of a deep dive into how the cloud spend a docs works. And in relation to templates, that's been really useful today.
+</p>
+<p>
+[01:00:17] Thank you very much. Um, so rounding out the show, cause we'll show you how to get in touch with us. We've got the, write the docs podcast website. Well, you can go and access all of the previous show, um, episodes. And, uh, Tom is the one who goes and summarizes those. So thanks for your efforts with that time.
+</p>
+<p>
+[01:00:38] Um, the, you can actually reach out you and even subscribe to the podcast then to get updates. Um, and also, um, there's a link here that you can use to get your feeds and Stitcher and pocket carts and, and pocket Carson also iTunes. So plenty of ways to actually get the episode delivered to you. Um, without any effort on your part.
+</p>
+<p>
+[01:00:58] So what you need to do is sit back and relax with the coffee and listen to us talk. Um, so, uh, with that being said, I think that's a wrap for episode 30 and as usual I'd like to thank our regular guests, Chris and Tom. Thanks again for coming on. And you can go to sleep now, Chris.
+</p>
+<p>
+[01:01:24] Um, and, uh, thanks again, Tom, for joining us this afternoon.
+</p>
+<p>
+[01:01:32] <strong>Tom Johnson: </strong>[01:01:32] I think he meant to say one.
+</p>
+<p>
+[01:01:33] <strong>Jared Morgan: </strong>[01:01:33] Oh yeah, no, I actually meant Tom as well. Sorry.
+</p>
+<p>
+[01:01:37] <strong>Tom Johnson: </strong>[01:01:37] Okay. Yeah. I just, uh, it's middle of my day. It's not like 1:00 AM in Berlin time, so yeah, this is no
+</p>
+<p>
+[01:01:43] <strong>Jared Morgan: </strong>[01:01:43] problem at all. Afternoons they're easy and mornings are easy for me. Look like. Thanks again, folks. And, um, as per usual, um, remember it docks or didn't happen.
+</p>
+<p>
+[01:01:53] Thanks. And we'll see you next time.
+</p>
+<p>
+
+</p>

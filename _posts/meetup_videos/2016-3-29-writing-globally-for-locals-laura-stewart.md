@@ -9,7 +9,7 @@ event_date: 2016-03-29
 tags:
 - localization
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/writing-globally-for-locals-laura-stewart.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/writing-globally-for-locals-laura-stewart.mp3
 podcast_file_size: 5.5
 podcast_duration: "6:15"
 podcast_length: 5461543

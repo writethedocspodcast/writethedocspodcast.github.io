@@ -12,7 +12,7 @@ tags:
 - community
 - engineers-write
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_12_founding_ideas.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtdpodcast_episode_12_founding_ideas.mp3
 podcast_file_size: 56.9 MB
 podcast_duration: "1:02:18"
 podcast_length: 56892530

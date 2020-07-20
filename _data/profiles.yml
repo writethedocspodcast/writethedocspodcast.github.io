@@ -189,10 +189,17 @@ info:
   twitter: https://twitter.com/domesticat
   linkedin: https://www.linkedin.com/in/amyqualls/
   image: amy_qualls.png
-  
+
 - name: Cynthia Ng
   website: https://about.me/cynthiang
   slack_handle: arty-chan
   twitter: https://twitter.com/TheRealArty
   linkedin: https://www.linkedin.com/in/cynthiasng/
   image: cynthia_ng.png
+
+- name: Juan Lara
+  website: https://twitter.com/JRLtechwriting
+  slack_handle: juanl
+  twitter: https://twitter.com/JRLtechwriting
+  linkedin: https://www.linkedin.com/in/juan-lara/
+  image: juan_lara.png

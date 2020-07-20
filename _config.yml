@@ -37,8 +37,8 @@ defaults:
 plugins: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
 
 ## mp4 videos for fire tv app are hosted here. this field appears in the fab.json template.
-# mp4_cdn_url: https://writethedocs-podcast.s3-us-west-2.amazonaws.com
-mp4_cdn_url: https://writethedocs-podcast.s3-us-west-2.amazonaws.com/
+# mp4_cdn_url: https://s3.us-west-1.wasabisys.com/writethedocs-podcast
+mp4_cdn_url: https://s3.us-west-1.wasabisys.com/writethedocs-podcast/
 
 ## Values for podcast RSS feed
 
@@ -47,10 +47,9 @@ podcast_url: http://podcast.writethedocs.org
 podcast_album_art: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
 podcast_title: Write the Docs Podcast
 podcast_owner: Write the Docs Community
-podcast_email: writethedocspodcast@gmail.com
-podcast_category: Technology
-podcast_subcategory_one: Software How-To
-podcast_subcategory_two: Tech News
+podcast_email: tomjoht@gmail.com
+podcast_category: Education
+podcast_subcategory_one: How-To
 podcast_explicit: "no"
 podcast_author: Write the Docs Community
 podcast_description: Podcasts for the Write the Docs community. Mostly focused on tech comm, tech writing, UX, IA, and more.

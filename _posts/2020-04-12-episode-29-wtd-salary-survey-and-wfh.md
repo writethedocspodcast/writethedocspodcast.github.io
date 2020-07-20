@@ -11,7 +11,7 @@ tags:
 - community
 - writing
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/episode29_wtd_salary_survey_wfh.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/episode29_wtd_salary_survey_wfh.mp3
 podcast_file_size: 23.1 MB
 podcast_duration: "56:03"
 podcast_length: 22959640

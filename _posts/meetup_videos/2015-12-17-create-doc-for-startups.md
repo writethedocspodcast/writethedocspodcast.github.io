@@ -10,7 +10,7 @@ tags:
 - startups
 - tools
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdstartuppanel.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtdstartuppanel.mp3
 podcast_file_size: 68.7
 podcast_duration: "1:03:39"
 podcast_length: 68746429

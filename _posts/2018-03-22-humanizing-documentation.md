@@ -12,7 +12,7 @@ tags:
 - writing
 - engineers-write
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/wtdpodcast_episode_14_humanizing_docs.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtdpodcast_episode_14_humanizing_docs.mp3
 podcast_file_size: 40.9 MB
 podcast_duration: "52:40"
 podcast_length: 40897716

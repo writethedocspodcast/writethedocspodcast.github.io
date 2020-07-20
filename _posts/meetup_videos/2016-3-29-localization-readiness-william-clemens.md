@@ -10,7 +10,7 @@ tags:
 - localization
 - writing
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/localization-readiness-william-clemens.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/localization-readiness-william-clemens.mp3
 podcast_file_size: 4.2
 podcast_duration: "4:53"
 podcast_length: 4225272

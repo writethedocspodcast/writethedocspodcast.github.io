@@ -9,7 +9,7 @@ event_date: 2016-11-17
 tags:
 - docs-as-code
 image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/writethedocs-podcast.s3-us-west-2.amazonaws.com/modern_tech_writing_andrew_etter_wtdsf.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/modern_tech_writing_andrew_etter_wtdsf.mp3
 podcast_file_size: 50.2
 podcast_duration: "1:11:39"
 podcast_length: 50242923
