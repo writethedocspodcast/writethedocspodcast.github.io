@@ -1,0 +1,791 @@
+<p>[00:00:00]<strong> Jared Morgan: </strong> All right. Hello everyone. And welcome to episode 30. One of right. The dogs podcast. It's great to have you here. And we've got a full show today for you. So without further ado, let's introduce the regulars and then we'll get into what's going on. So, first of all, welcome to the show from the West coast of the U S Tom Johnson.
+</p>
+<p>
+[00:00:24] Now, are you. Um, I'm
+</p>
+<p>
+[00:00:26] <strong>Tom Johnson: </strong>[00:00:26] doing all right. Uh, this is, I'm kind of weirded out by this virtual background, but I think
+</p>
+<p>
+[00:00:32] <strong>Jared Morgan: </strong>[00:00:32] I can't use,
+</p>
+<p>
+[00:00:34] <strong>Tom Johnson: </strong>[00:00:34] so this is the latest, this is the latest I've ever joined here and it's 11:00 PM and I feel like a very old. Old man here, because I'm like half asleep,
+</p>
+<p>
+[00:00:44] <strong>Jared Morgan: </strong>[00:00:44] but hopefully I'll
+</p>
+<p>
+[00:00:45] <strong>Tom Johnson: </strong>[00:00:45] stay awake.
+</p>
+<p>
+[00:00:46] <strong>Jared Morgan: </strong>[00:00:46] It's all right. Hopefully the, hopefully the conversation will wake you up again. Then the problem is you probably won't get to get back to sleep again. And, uh, of course joining us from, um, sunny Berlin is Chris ward. How are you? It's
+</p>
+<p>
+[00:01:01] <strong>Chris Ward: </strong>[00:01:01] not so sunny today. I'm good. I overslept. So I just woke up.
+</p>
+<p>
+[00:01:06] <strong>Jared Morgan: </strong>[00:01:06] Well, good morning.
+</p>
+<p>
+[00:01:08] Welcome to
+</p>
+<p>
+[00:01:10] <strong>Chris Ward: </strong>[00:01:10] I'm usually in Tom's position. And actually I was on a call yesterday with. Someone who said, Oh, I love the podcast. Do you do with the docs? People you're always the right mix of tired and grumpy.
+</p>
+<p>
+[00:01:27] <strong>Jared Morgan: </strong>[00:01:27] So it's actually a feature. I love it. Well, look, as I suggested before, we've got a bit of a, an interesting show today and the topic of the show today is all about search and. You know, Chris and Tom and I we've been around the traps of welfare as technical writers, but you know, the ins and outs of search is something that a lot of technical writers have a bit of trouble getting their heads around often.
+</p>
+<p>
+[00:01:51] So I thought I'd bring in someone who knows a little bit about search and that is a Peter 11 from funnel back. How are you, Peter?
+</p>
+<p>
+[00:02:02] <strong>Peter Levan: </strong>[00:02:02] Hi everybody. Um, yeah, no, no, it's good. It's the end of a long week, but uh, no ready to. To get stuck into and hopefully, um, provides some useful tips for you guys when you're, when you're developing your, um, your, your docs
+</p>
+<p>
+[00:02:20] <strong>Jared Morgan: </strong>[00:02:20] and search and all that sort of stuff.
+</p>
+<p>
+[00:02:23] Well, what first, what we normally do is when we have a guest on the show, we, um, we, uh, ask you to tell us a bit about yourself. So, uh, how about you start off by saying, well, how we know each other. Cause we sort of do know each other don't we.
+</p>
+<p>
+[00:02:38] <strong>Peter Levan: </strong>[00:02:38] Yes. Yeah. So, um, Jared and I both saw part of the documentation team at squares.
+</p>
+<p>
+[00:02:45] Um, I am actually working for, um, well, um, I, I brought the documentation for Funnelback, which is, um, squeezes search engine products. Um, but, um, and I've been, I've been, well, I've been working at squares. I started in the UK in 2009. So I've been using Funnelback for awhile. Yeah. Um, yeah, Jared, Jared, and I write all of the documentation for, um, squeezes suite of products
+</p>
+<p>
+[00:03:13] <strong>Jared Morgan: </strong>[00:03:13] along with Giles.
+</p>
+<p>
+[00:03:14] Who's also a friend of the show we've had jails on before talking about stuff as well. So it's a bit of a squeeze affair now. We've all, all three of us are on here now. So the trifecta is complete. So, uh, Peter, the thing that I was talking to knew about when I wanted to get you on the show is that I know that so many, um, documentation websites just rely on search.
+</p>
+<p>
+[00:03:37] Everyone sort of expects it as like a first class citizen on websites now, but it's, it's often a bit of a mystical thing. Or when you start to dive into it more, it's sort of, it feels sometimes a little bit overwhelming to get search right. And understand. What the really important things of search. So what I wanted to talk about today with everyone on the, on the panel today is a bit more going to few details about the ins and outs of search and, and think about the things that are like, almost like the things that you can't not think about when you're actually wanting to implement search.
+</p>
+<p>
+[00:04:11] Um, so I guess we should start at the beginning, which is, um, You know, Google does search. Why can't we just use Google to index our doc sites and, and manage it all for us, you know?
+</p>
+<p>
+[00:04:26] <strong>Peter Levan: </strong>[00:04:26] Well, um, you certainly can use Google for that. If, if that's what you want to call it, Google obviously does a really good job of search.
+</p>
+<p>
+[00:04:34] Um, and that's why everybody uses it. Um, Um, but there are some, um, imitations from using a search engine like Google. Um, so Google have a, an offering called Google custom, which allows you to, um, use your. Um, your content from within the group search index to deploy a search on your website. Um, and that is that search then just searches over the documents, that form part of your, your set of, um, your set of pages.
+</p>
+<p>
+[00:05:08] So maybe that would be your search domain. Usually. One of the big disadvantages of using search engine like Google is that you just have no control over when and how frequently your content is updated. You're totally a Google's. Um, we thought that it might be a day. It might be a month before your content appears in the Google index.
+</p>
+<p>
+[00:05:29] Um, and there's nothing at all that you can do. To change that, um, the other large area, I guess, is that you've got a lot less control over what you can do with your search. So, um, Google custom gives you some very basic, um, customization, um, Corruptions, you can do things like add a header and footer, a to kind of try and sort of brand it to match your site.
+</p>
+<p>
+[00:05:57] But beyond that, there's not a whole lot that you can do. Um, so if you want to start using more advanced functionality within your search or making use of some of the things that we're going to talk about a bit later, um, it's just not really an option with a free service like Google. Um, but having said that.
+</p>
+<p>
+[00:06:16] Um, you just think something like Google is, is definitely yeah. A much better thing to do then not having a search at all. Um, um, searchability and discoverability of content, um, is, goes hand in hand with all of the sort of best practice stuff that we do on a day to day basis when it comes to actually writing the content.
+</p>
+<p>
+[00:06:34] Um, and I'm having a bit of an understanding about. How people interact with your documentation when, when they run a search, um, does have some sort of, um, I will have a bit of an impact on how you write your content as well, because you have to keep in mind that, um, Uh, people can come in from a search engine.
+</p>
+<p>
+[00:06:55] People can come into your home from anywhere in your site. It doesn't matter how deep it is. So you've got to make that work and make that experience makes sense. So, for example, if you take a, a large document and break it into, um, down into chapters and sections within those chapters, And, and you kind of designed it in such a way that you meant to read through it from start to finish and kind of follow this process through what happens when you jump in at page 30, two of that with no context around that, uh, are people going to sort of understand what's going on?
+</p>
+<p>
+[00:07:25] So there's a lot of, 'em other things that you do need to think about, um, when you're even just designing your sort of basic sort of content.
+</p>
+<p>
+[00:07:34] <strong>Jared Morgan: </strong>[00:07:34] Right. So
+</p>
+<p>
+[00:07:37] <strong>Chris Ward: </strong>[00:07:37] supplemental Castro. Um, I just wonder, because when, when I saw this question, there was a little bit of me that was thinking, is that even still an option?
+</p>
+<p>
+[00:07:46] Because it used to be that the simple search was you saw it everywhere and now you hardly see it at all. And I was actually even quite surprised that it was even still an option. Um, but I, you do still see it. So occasionally, do you think people sort of stopped using it because of some of the reasons you outlined or just because there's better options now?
+</p>
+<p>
+[00:08:04] Or, yeah,
+</p>
+<p>
+[00:08:07] <strong>Peter Levan: </strong>[00:08:07] well, sorry. I don't, I don't quite understand the question. So I mean, searches,
+</p>
+<p>
+[00:08:12] <strong>Chris Ward: </strong>[00:08:12] Google simple search, like site search that you could add to, to website. He used to see it a lot more and now you see it a lot less. And I just, if there was another reason, apart from some of the reasons you outlined or just now we have other options, which we will.
+</p>
+<p>
+[00:08:26] <strong>Peter Levan: </strong>[00:08:26] Yeah. Yeah. It's not really something that I wasn't particularly aware that, that there was less usage of services.
+</p>
+<p>
+[00:08:36] <strong>Jared Morgan: </strong>[00:08:36] I wonder if it's got something to do with like a lot of, a lot of sites, like you say, Chris, there's probably at one point maybe early on in the web, um, when people were starting to think about, you know, embedding search on sites and stuff like that, you know, custom search was a.
+</p>
+<p>
+[00:08:51] It was probably an easy option to do when they probably, yeah. It wasn't a lot of search tools out there that were a affordable or free in a lot of cases, um, or, you know, sort of easy enough to set up. And I think for what Peter tells me, it's sort of seems relatively simple to set up a Google, a Google, um, custom search, whether that's a good thing or not.
+</p>
+<p>
+[00:09:14] It's another thing to sort of think about, but. You know, it's still, um, an interesting sort of, um, idea as to why I know that I think Ladbrokes when I was working at library cause they had a certain part of their site. They had a custom search, a Google custom search embedded in there just to search on this.
+</p>
+<p>
+[00:09:34] I think it was a terms and conditions page. So they just narrow it down to this one thing and probably had a lot to do with the fact that, that the terms and conditions space was really hard to navigate. So you needed something in there at least something that you could actually use to. To sort of
+</p>
+<p>
+[00:09:51] <strong>Chris Ward: </strong>[00:09:51] probably explain to people who don't know what that books is.
+</p>
+<p>
+[00:09:55] It important?
+</p>
+<p>
+[00:09:56] <strong>Jared Morgan: </strong>[00:09:56] It was, it was a bidding agency, bidding tunes, the conditions, it was a, it was a mammoth mammoth wall of text. So yeah, that mean, that is an example of where something really simple like that. If you don't need to search on any other part of your site, except for that little bit, then maybe that's a time when Google custom might fit in.
+</p>
+<p>
+[00:10:18] <strong>Peter Levan: </strong>[00:10:18] Yeah. Oh, I was just going to say, I think, um, having, which is something that, uh, we probably should all be kind of striving to have, because it's kind of one of those things that people just expect, um, that, that you'll have, um, people are, um, certainly the last few years have really shortened people's attention spans and everything, and they expect to find information sort of instantly, um, with very little sort of.
+</p>
+<p>
+[00:10:48] You know, put putting a one word query in and I'm going to find exactly the page that I want in some enormous website and, you know, search engines like Google Funnelback and you know, all of these other search engines, they've had to become quite smart at how they deal with that sort of thing. Um, so it's just kind of one of those services, what we should be providing, especially given that it's not very hard to do.
+</p>
+<p>
+[00:11:10] <strong>Jared Morgan: </strong>[00:11:10] Yeah, I guess there are a whole lot more options out there now. So if you think about the options outside of something, as basic as Google, um, Google custom, what do you start to get into when you're trying to work out? What search engine to maybe pick for the. The job that you're trying to do. Cause it's, it seems like at the moment in the marketplace, there's, there's plenty to choose from.
+</p>
+<p>
+[00:11:35] And I think in a lot of places, that's, that's me where people get a bit overwhelmed with going well, what do I do? Where do I start? You know,
+</p>
+<p>
+[00:11:44] <strong>Peter Levan: </strong>[00:11:44] Yeah. Well, I mean, I think actually starting, if you really don't know, starting with something like Google custom is a great way to go, because it introduces you and gives you a basic level of searchability of your content.
+</p>
+<p>
+[00:11:56] Um, going beyond that, um, there are some free search engines around that you can install, um, um, there's things like elastic search, um, I'm trying to think of some of the other ones there, there, there are certainly a bunch of free tools that are out there. Um, and then you obviously move up from that into starting to go into the paid, the paid for tools, um, funnel back of which is one of those, um, So it really, and it comes down to a number of things, I guess, one of which is how technically proficient are you and how much time do you want to invest in putting together a search?
+</p>
+<p>
+[00:12:34] So something like Google custom, you can deploy very quickly, um, with, with relatively little skill. Um, most of the, um, phrase search engines that are around, especially the more fully featured ones require quite a lot of work to configure. So you do need quite a bit of technical expertise to actually get in and set these things up.
+</p>
+<p>
+[00:12:54] Um, but if you do have that and you've got the time to invest in it, you can come up with something that's pretty good. Um, and what the page for services tend to do is they tend to give you, um, the ease of use plus the, you know, the, the real control over OVI over your search. Um, so you know, whether that comes down to, you know, picking the different, um, Front end sort of search features you want to enable, um, or configuring how frequently things get updated, all that sort of stuff.
+</p>
+<p>
+[00:13:23] Mmm. So yeah, it, it does, the decision really does come down to, I guess, what you want to get from your search. Um, the other thing to consider too is how large your site is. Um, if you have a very, very small site, you're not going to get a huge amount of benefit from putting a search on top of it. Um, so it's yeah, it's, it's just about really making that sort of evaluation.
+</p>
+<p>
+[00:13:47] <strong>Jared Morgan: </strong>[00:13:47] What do you think I'm on the subject of small site? I know sometimes it's hard to put a number on things, but if you, if you're talking like pages, which I'd imagine is what a search engines probably mostly focused on as far as like, what it thinks is a large or small site, what's, what's sort of like a small site to you.
+</p>
+<p>
+[00:14:07] What would you call that?
+</p>
+<p>
+[00:14:09] <strong>Peter Levan: </strong>[00:14:09] So I'd probably call a small site. It isn't, it it's available bit of a tricky question because, um, if a small site could just be, you know, two pages, but those pages are really big. I mean, having said that a search engine is not going to help you very much, because if you can only get two search results back, um, you're still gonna have to find where within those pages, the relevant bits of content are, um, I'd probably consider a small side, anything up, up to, I don't know, 50, a hundred pages, something like that.
+</p>
+<p>
+[00:14:44] <strong>Jared Morgan: </strong>[00:14:44] Okay. So 50 to a hundred, you know, you've raised an interesting point there about site size and page size, because you were saying just before, um, when you're talking about quality results, it depends on how the contents chunk down. A little bit too. And how many individual or unique pages or an engine can find Budd center things?
+</p>
+<p>
+[00:15:08] Um, Tom, do you have thumb? You've got a fairly large site being, you know, your, um, your blog site, if you've got search on your site. Yeah,
+</p>
+<p>
+[00:15:19] <strong>Tom Johnson: </strong>[00:15:19] actually, uh, probably three years ago, somebody from Algolia, um, was like, Hey, we'll give you a free Algolia search. Uh, as long as. Um, in the search results, we have this little Algolia image.
+</p>
+<p>
+[00:15:34] I was like, fine. Um, so I've, I've kind of been playing around with it and it's interesting, uh, the algorithm that Algolia takes, um, they actually. You, you, you tell it which elements that you want to index. So it's not like you just feed it a bunch of pages to index. It actually like breaks up each element on the page and indexes that section, partly every paragraph element, for example, or however granular you want to get it.
+</p>
+<p>
+[00:16:05] And that. Then makes it so that each element is like, uh, searched. Um, I guess if you were to just search the whole page, it's like not nearly as efficient. Um, some people like this approach, other people don't like it. It's very weird because like you think, Oh, let me just index everything. I'm going to index my code blocks.
+</p>
+<p>
+[00:16:28] I'm going to index my block, quotes my list, items, my head, everything. Uh, and when you do that though, um, it often like, Create these huge record sizes that then like give you errors and stuff. So it's, it's tricky to try to try to adjust. Um, but one thing about Algolia that I think is very, has a very strong, uh, appeal is the instant results.
+</p>
+<p>
+[00:16:55] Um, the ability to type and kind of see what's returning right in the same instant that you're typing feels very modern. Um, whereas other search engines where you have to like do the full query, hit enter, and then see what comes back and then adjust your query. That's not nearly as like gratifying as the instant search.
+</p>
+<p>
+[00:17:17] <strong>Peter Levan: </strong>[00:17:17] Yeah. Say instant searches, obviously. Great. And um, most search engines actually employ a bit of a combination of the two. So, um, I mean, just looking at Google's public search, when you start typing a search fuel, start getting a, um, a set of, um, Um, suggestions being returned, um, some sort of,  also allow you to kind of tailor a bit more what those suggestions look like.
+</p>
+<p>
+[00:17:39] So, you know, you might, for example, if you're searching like a staff directory or something, actually get. Um, items coming back, the shoulders, the staff members photo and, and sort of these rich sort of snippets coming back in those sort of suggestions as well. Um, and that sort of moves all the way to sort of full blown, um, sort of instant search.
+</p>
+<p>
+[00:17:57] So, um, what Algolia does is kind of gives you that auto completion, but in a fairly small little block in the corner of your screen, That's typically how I've seen it anyway, rather than actually updating the whole sort of page of search results. Um, but both, both sorts of things are certainly possible.
+</p>
+<p>
+[00:18:15] Um, and then you mean, sorry.
+</p>
+<p>
+[00:18:19] <strong>Tom Johnson: </strong>[00:18:19] Oh, no. Sorry. Keep going.
+</p>
+<p>
+[00:18:21] <strong>Peter Levan: </strong>[00:18:21] Um, yeah, so, I mean, it's certainly possible to, to implement, um, a sort of instant search with a lot of the sort of other sort of changes in products that are around there. Um, you're pointing to that you mentioned about sort of, um, chunking about. This, uh, uh, um, you know, throwing everything into the search.
+</p>
+<p>
+[00:18:41] Now, that's actually a really good point. Um, if you actually want to get really good quality from your search results, it's really important to kind of. Think about what, what is actually going to constitute it useful for useful search result for your users? So you don't want to interject index everything because otherwise you kind of get this situation of garbage in garbage out.
+</p>
+<p>
+[00:19:02] There's so much noise in the search results that you can actually find the thing that you're looking for. Um, and then when you actually sit down and take a much closer look at it, you find, well, actually I don't need half these items in the central house because they don't actually provide any useful content.
+</p>
+<p>
+[00:19:15] Um, so for something like a, um, Like a documentation site or just like a typical sort of website. Um, it's often a good idea to actually, um, not index your landing pages because they just duplicate the content, actually, what you, what people want to find that the content pages, um, so, uh, taking a blog, for example, you wouldn't want to index the main page of the blog.
+</p>
+<p>
+[00:19:38] You want to index the individual articles. Because, whatever you search for on that site is going to return the homepage because that lists everything. Um, or if you, you know, take a typical sort of, um, organizational website, um, you, you want to hide it here. There's some photos from the search engine, if you can, because if somebody searches for contact, It's going to return every single page on the site because it happens to be in the site.
+</p>
+<p>
+[00:20:01] Gotcha. Um, so there's things that you can do to make your user's life a lot, a lot better. Um, and thinking a lot about what constitutes good content in a, to actually include in the index is, uh, is probably the biggest thing that you can do. Temporary view search results.
+</p>
+<p>
+[00:20:19] <strong>Tom Johnson: </strong>[00:20:19] Hey, Peter, I have a question for you.
+</p>
+<p>
+[00:20:21] Um, so, so this leads perfectly into this big sort of conundrum I ran into when I was investigating search a couple months ago, uh, in our developer portal. There's documentation. There's a blog there's forums. And then there are marketing pages. And currently we have like a search that searches or searches across everything, but the forums, it uses cloud search.
+</p>
+<p>
+[00:20:48] It's not very exciting. And we've been looking for a replacement and I was researching different tools and sort of came to the conclusion that if I wanted to have a really good search, I needed. Structured, uh, content in there. Like I needed to have specific sort of, uh, tags that I was using for different purposes.
+</p>
+<p>
+[00:21:10] So my question was this, should I scope the search to just be docs? Because those are, that's the only part that I can actually control and I can highly refine the metadata that I'm feeding it. I can kind of prune the results. I can fine tune it on the other hand. Their results. Won't include a lot of other content that might be relevant.
+</p>
+<p>
+[00:21:29] But if I expand the scope and include all these other domains, change the blog, the forums, the marketing pages. I can't control the metadata. I can't say that. Yeah. You got to like tag them this way. It's going to be a lot of stuff. Like. Blog posts from, I don't know, five years ago that are no longer. Yeah.
+</p>
+<p>
+[00:21:46] Irrelevant. That I'll have to try to like bury, uh, old forum threads that are just optimized for certain key words, but aren't actually relevant. Like, is it better to just have a really narrow scope on just docs or should I really try to have a site search that is comprehensive of the site?
+</p>
+<p>
+[00:22:05] <strong>Peter Levan: </strong>[00:22:05] That is a, that is a tricky question.
+</p>
+<p>
+[00:22:07] It does depend a lot on your users. Um, I mean, a lot of search engines actually give you some tools to kind of give you the best of both worlds. So we were talking about Google custom, being a very basic search as you start to move into some of the other search tools that are out there and you can do things like set up filters on the search results.
+</p>
+<p>
+[00:22:26] So. If you search something like eBay, for example, or amazon.com, you'll find on the left hand side, there's a whole bunch of options that you can click on to start filtering down the set of search results. So for a site like, um, you were just talking about, um, you might have a filter, for example, there that says, I just want to restrict it.
+</p>
+<p>
+[00:22:44] I don't want to say the forum posts, I'm going to antique that box or I'm look, I just want to, I'm just interested in the documentation items that are in there, and then you could documentation button. Um, now you do need some form of structured data to inform that, but the structure data might be something as simple as what is the domain name?
+</p>
+<p>
+[00:23:04] Um, so the, you know, the domain name is a, is a form of metadata. If you, if you will, um, But I guess the level of functionality there is going to depend on the search tool that you're using. Um, and whether or not you can sort of set up this kind of thing.
+</p>
+<p>
+[00:23:20] <strong>Tom Johnson: </strong>[00:23:20] Yeah. The facets are something that I've always been intrigued by, like having a bunch of, you know, facets for documentation that would indicate like, Hey, what product are you searching?
+</p>
+<p>
+[00:23:31] What, uh, version? Um, I dunno, recency popularity, but as you say, like you've got. You've got to have everybody on board with the same kind of facets and they have to tag it. I mean, you could try to drive it from the URL, but that assumes your URL has that kind of information. And in my case, doesn't really, so it's like, it's kind of lost cause, and that's why I'm, I didn't even want to try to include those other domains in the search.
+</p>
+<p>
+[00:23:59] Cause I knew that I couldn't do any filters with them.
+</p>
+<p>
+[00:24:02] <strong>Peter Levan: </strong>[00:24:02] Yeah. So for something like that, um, if you do have the ability to kind of set up basic fascinating on the, on the URLs, you could basically, you could set up a top level one that just allows you to do that kind of restriction, where you can knock out all of the forum posts and knock out all the blog posts, and you could still then have facets that relate.
+</p>
+<p>
+[00:24:21] To the documentation part, because that's probably the more important bit anyway. Um, so that when you actually start to drill down into the documentation, you can still have that sort of, um, functionality across the, you know, across that just applies to the documentation. Right? Um, as to whether or not you include things like the marketing sections or the blog posts or those sorts of things.
+</p>
+<p>
+[00:24:43] I mean, that really comes down to, I think, whether or not you think that that content is valuable, um, for your customers and whether the trade off of including it in there, um, is, is I guess, a positive when you compare it to the, the, um, you know, increased difficulty in potentially in finding some of the other things, um, I mean, there's also a lot of other things, um, in search engine ranking algorithms that can, that can often sort of overcome some of those problems.
+</p>
+<p>
+[00:25:13] So search engines, for example, will take into account the age of a page. Um, there's a lot of actually things that come into the ranking algorithm that it uses to determine what is actually a good result. Uh, and some, some of those things that you can influence by how you write. Your content as well. Um, but uh, some search engines also allow you to go and sort of.
+</p>
+<p>
+[00:25:35] Pull pull little leavers and tweak those settings to say, you know, I want content from the doc site to be actually be seen as more important. So I want to push up those results relative to something from the marketing side. I want to push that right down. Um, and that doesn't mean you're not gonna, and to say marketing results because maybe the word that you search for is only in a marketing result, but it means that given everything else is the same, the docs one will rank higher than the marketing one.
+</p>
+<p>
+[00:26:00] So it, yeah, it's kind of a complex problem. And, um, I don't think there's necessarily a right answer for it. Um, and it's going to obviously, uh, it's going to obviously vary a lot from site to site. Um, and I think it really comes down to the content at the end of the day.
+</p>
+<p>
+[00:26:20] <strong>Tom Johnson: </strong>[00:26:20] Speaking, speaking of the algorithms, I just wanted to throw something else in here.
+</p>
+<p>
+[00:26:24] Uh, there's another search engine that, um, actually AWS just released called Kendra. I had never heard of it, but. It tries to incorporate machine learning algorithms, to allow users to sort of, uh, upvote or downvote different results that will then like inform the, the results that are shown in the future.
+</p>
+<p>
+[00:26:47] Um, I don't know how well it works, to be honest, I think AWS implemented it, implemented this on their site, replacing cloud search about two months ago. Um, so it's still kind of early to see if it's had any impact, but the idea of incorporating machine learning into search seems like a natural fit. Um, I don't know that much about machine learning, but I think like this is an area that it's, that is ripe.
+</p>
+<p>
+[00:27:13] To take advantage of it because, uh, I don't want to be in the business of manually adjusting all the levers of search myself. Right. Trying to figure out, well, let me figure out what the user's location is and then I'm going to optimize this continent. It's like, yeah, that's too much. Uh, uh, so yeah. Have you, have you, you kind of explored any kind of search engines that have machine learning algorithms.
+</p>
+<p>
+[00:27:40] <strong>Peter Levan: </strong>[00:27:40] Yeah, I guess the first thing is it really depends. And of what your definition of machine learning is, what you're talking about. There is actually quite similar. Now what you're talking about, there is quite similar to a feature that actually exists within Funnelback, um, where, um, users clicks on results will over time influence the results.
+</p>
+<p>
+[00:27:58] So an example of which, if you run a search for, for something, you get a set of results back. If. Yep. The vast majority of users click on result. Number two, eventually that will become result. Number one. And so it is I guess, a form of machine learning, but it's not machine learning in the way that has sort of regular machine learning algorithm would work.
+</p>
+<p>
+[00:28:18] Um, I think really
+</p>
+<p>
+[00:28:20] <strong>Jared Morgan: </strong>[00:28:20] up 30, isn't it really it's just humans uploading results,
+</p>
+<p>
+[00:28:24] <strong>Chris Ward: </strong>[00:28:24] I guess. I didn't know. I was, I was wondering as Tom was describing it like a common thing you have with searches. You don't really know what people want to find and how they look for it and things like that. So I guess there's elements there that could be useful of, you know, you discover that you call something one term, but people are actually looking for another term and the algorithm learns to adjust to that.
+</p>
+<p>
+[00:28:45] And maybe over time, you just change your copy as well. But, um, and then maybe where people go after that kind of thing, it actually starts to help you decide the, the journey that people follow that sometimes you don't know to begin with. Could be where it starts to help. I'm not sure I
+</p>
+<p>
+[00:29:00] <strong>Peter Levan: </strong>[00:29:00] haven't looked at it yet.
+</p>
+<p>
+[00:29:02] Yeah. So, so typically when people talk, what about machine learning? They're talking more about things like neural networks, where the mission, the algorithms actually modify things. Um, quite dynamically. Uh, what I was talking about before is a very simple kind of mechanism. Um, but it still can be quite effective, but for those things to work, um, you need to have decent volumes of queries coming into your site.
+</p>
+<p>
+[00:29:25] Uh, because if you've got very, very low query, um, number one, those kinds of things are really easy to spam. Like you just, it just takes somebody to click on a result three times and suddenly like they've influenced the results and that you don't want that to happen. Um, So it is a bit of a, it is a bit of a balancing act.
+</p>
+<p>
+[00:29:45] Mmm Mmm. Mmm. Tensions often give you some other tools that you can use as well, which aren't, aren't really machine learning, but they, I guess they have you as a human element in the system where you could. You know, and look at things like the search usage analytics to say, well, what are people searching for that they can't find?
+</p>
+<p>
+[00:30:03] Um, and then you can review that fairly regularly, go, Oh, they're searching for this word, which I don't have. I'm just going to put something in there to say that when somebody searches for, for this particular word, I'm going to map it to the word that I use. So mapping that sort of user language to what might be the technical term, um, that gets used within the site.
+</p>
+<p>
+[00:30:22] And that's another really, really good way of improving your search results. Um, Um, but in terms of machine learning, I think for the kind of stuff we're talking about, probably there's not a huge, yeah. I have a lot of benefit there. Um, I mean, yeah. Obviously search engines like Google user all the time, they use so many factors, things like, you know, what's your location and, um, and, and because it knows your location, I'm going to push up results that are kind of needed near to you and all this other kind of stuff.
+</p>
+<p>
+[00:30:49] Um, it's a sort of very, very sophisticated based, but the only reason they can do that is because they've just got such huge amounts of data to base this, this learning off that you can actually learn something useful.
+</p>
+<p>
+[00:31:03] <strong>Jared Morgan: </strong>[00:31:03] I suppose that's a bit different to like the, the scope of like the Google search. So public.
+</p>
+<p>
+[00:31:08] Google search. It's very different to, I guess, a site search because the site search is just focusing on a very narrow subset of the internet. Really? Isn't it. So, yeah, I guess, um, The type of things that people will be searching on on a doc site. For example, even like a basic website will be very different to what they would typically put into Google as a search result.
+</p>
+<p>
+[00:31:30] They probably, we already know when they go into your doc side, an idea of what they want to find. So they won't be doing a broad search. They'll probably like going like this case of, you know, the product I work on matrix. So probably want to search on something like, well, you know, I want some more information about assets and what they are and what they do.
+</p>
+<p>
+[00:31:48] So they probably already have an idea of what they need. And a lot of that sort of broader search that Google's so great at refining down to really narrow results is already done for you because you're already in the context of a site.
+</p>
+<p>
+[00:32:02] <strong>Peter Levan: </strong>[00:32:02] Yeah. Yeah, that's certainly true. And I think it's more true or very typical sites, like a documentation site that people are much more likely to be looking for an answer to a fairly specific question when they do run a search, as opposed to the more sort of information discovery kind of queries that you'll get, where it's like, I don't really know what I'm looking for, but I just want to find out stuff on this topic.
+</p>
+<p>
+[00:32:26] Um, You think that's something a lot less I'm so sorry for cutting you
+</p>
+<p>
+[00:32:32] <strong>Jared Morgan: </strong>[00:32:32] off there. I was thinking, while you were saying that I was thinking, is, is search a way of working at Brown, a bad information architecture on his website, or do you really need to already have a pretty decent information architectural structure to your site for the search to work well,
+</p>
+<p>
+[00:32:55] <strong>Peter Levan: </strong>[00:32:55] Uh, so as search can work well with a poor information architecture, but it'll work better if you've got a good information architecture.
+</p>
+<p>
+[00:33:03] So, um, I mean, probably the, the number one thing that you can do to get a good search is to just write your content. Well, you know, follow kind of those, these. Build them the sort of best practice things that are out there, particularly some of the web best practices. Like, you know, you don't use click here for links, for example, because actually those words you use when you define a hyperlink are actually really, really good indicators of what that type of piece of content is.
+</p>
+<p>
+[00:33:28] So, um, you know, if you've got a link site, matrix, asset listing or something like that, and that's the late the link text there, it's probably a very. Um, high probability that that page that you're going to go to is about those three words. Um, so search engines, if they've happened to find, so those are actually seen by search engine a bit like a vote for that page, especially if they come from an external site, right.
+</p>
+<p>
+[00:33:56] <strong>Jared Morgan: </strong>[00:33:56] is actually more important than you might think for how web crueler or a search engine crawls your site, I
+</p>
+<p>
+[00:34:04] <strong>Peter Levan: </strong>[00:34:04] guess, effective. Yeah, it's effectively, it's effectively another type of metadata about the page that you're going to in a similar way to the texts that you use for the title or the heading one for your page.
+</p>
+<p>
+[00:34:16] Again, it's seen as quite an important thing to describe in a very succinct way, what that page is about. Um, so, uh, if you happen to find a match in that particular part of the page, then that page is going to get pushed up because, because of that,
+</p>
+<p>
+[00:34:31] <strong>Jared Morgan: </strong>[00:34:31] it's just quality. And go ahead, Chris.
+</p>
+<p>
+[00:34:34] <strong>Chris Ward: </strong>[00:34:34] The question I had there that is, is something that it has always intrigued me.
+</p>
+<p>
+[00:34:40] I think maybe most with relation to search is just think you were starting to get to, there was the aspect of handing from how people often arrive at your site, which is through an external search engine to then, um, your own search. Um, is that something you've ever looked at as well? So, You know, you, you can, you can, you can finesse the experience once someone is on the documentation site, but how they get there in the first place.
+</p>
+<p>
+[00:35:08] Yeah. Somewhat harder to control. Although there are ways and then transitioning between the two.
+</p>
+<p>
+[00:35:14] <strong>Peter Levan: </strong>[00:35:14] Yeah. Um, I mean, I think a lot of them, the principles are the same. I mean, if you write a site that, that, um, that you can search well locally, it's also gonna benefit your public, um, presence as well. Um, uh, so, so, you know, sticking to those kinds of principles is always gonna, you know, have a better outcome.
+</p>
+<p>
+[00:35:34] Um, I mean, obviously when it comes to, you know, once they're in the site, as you say, you've got control over that, that's where that's where things like the metadata. And so on that you take your pages. It really starts to come to play. Uh, because frankly there's very little point in adding metadata to page.
+</p>
+<p>
+[00:35:50] If you're just using a public search engine, Most search engines, just ignore it. Um, I mean, I know, I believe Google has got some kind of heuristics in place to try and make an assessment. Is the metadata that, that, that exists on this page actually relevant to the content of the page because honestly people used to, um, really abuse metadata early on.
+</p>
+<p>
+[00:36:10] You know, there were a lot of varied. Dodgy sites out there that were just, um, you know, they buy a domain which was quite a normal domain. And then they'd have all these hidden metadata with just random keywords so that their page would come up in the, in the search results of Google. So that pretty much shut down metadata as being a useful thing.
+</p>
+<p>
+[00:36:27] But within your own site, within your own site, you could really, um, you can actually get at a lot of value, but having good quality metadata in there, um, Uh, because, you know, you can, you can make your search results have really nice summaries on them, or really enhanced the search results with, you know, particular information, maybe, you know, presenting some of the terms or showing an icon when it's of this particular type or whatever, or using it for your faceted navigation.
+</p>
+<p>
+[00:36:55] So there's a lot of things that you can, a lot of value you can get from metadata, but just don't. I guess don't put metadata in there for the sake of putting it in there. Cause it's not going to do anything really?
+</p>
+<p>
+[00:37:07] <strong>Tom Johnson: </strong>[00:37:07] Yeah,
+</p>
+<p>
+[00:37:08] <strong>Jared Morgan: </strong>[00:37:08] no question. Yeah.
+</p>
+<p>
+[00:37:09] <strong>Peter Levan: </strong>[00:37:09] Yeah.
+</p>
+<p>
+[00:37:10] <strong>Tom Johnson: </strong>[00:37:10] Uh, I want to make this as concrete and actionable as possible for everybody.
+</p>
+<p>
+[00:37:16] <strong>Peter Levan: </strong>[00:37:16] How have
+</p>
+<p>
+[00:37:16] <strong>Tom Johnson: </strong>[00:37:16] you. Has anybody ever like looked at search analytics and taken some kind of concrete action based on those analytics? Um, you know, we talk very abstractly, a lot about strategies, but I just want to hear stories like, Oh, Hey, we looked at our analytics. We found that people were searching for X.
+</p>
+<p>
+[00:37:38] So this is the action we took.
+</p>
+<p>
+[00:37:41] <strong>Peter Levan: </strong>[00:37:41] Or
+</p>
+<p>
+[00:37:42] <strong>Tom Johnson: </strong>[00:37:42] yeah, go ahead.
+</p>
+<p>
+[00:37:43] <strong>Peter Levan: </strong>[00:37:43] Good. So I did give you that example before, just in an abstract sense about, um, you know, looking at your analytics and you find for example that, uh, Oh, a lot of people are searching for this word, but I'm actually using a different word on my side. Um, so, um, you could then take an action.
+</p>
+<p>
+[00:37:59] You can go, Oh, um, I'm going to put something in place. So in funnel back, there's a feature called a synonym where you can map one word to another word, for example, or expand the query into a certain set of words. So for example, many years ago I was working for a small government organization. Um, one of the things they happened to do was research into, um, uh, research into homicides.
+</p>
+<p>
+[00:38:21] Was one of the things that this organization did, and they actually ran a, a program of like capturing all the national statistics on that particular topic. Now it was pretty important work in terms of the work that this organization did. Um, and we found when we looked at the analytics that are a lot of people who are actually searching for murder and not getting it any results.
+</p>
+<p>
+[00:38:42] So we actually punch that into punch that into the search. And lo and behold, we got four search results back and we're like, Whoa, We've got a lot more content on that, but we don't use, but the thing was that we didn't use the word murder murders, one of those sort of popular terms that, you know, the media use all the time, but there's a lot of technical terms like homicide and femicide and, and so on that are actually the technical terms for that.
+</p>
+<p>
+[00:39:07] So we just put a simple system in place that said, if somebody searches for the word murder actually said for murder or homicide or manslaughter or. Whatever else. And immediately, suddenly you're starting to get search results back for this topic. That's one example. Um, another example is that, um, okay.
+</p>
+<p>
+[00:39:25] Yeah. I go into your search analytics and say, Oh, a lot of people are searching for, I don't know, electric vehicles. Um, and, and again, you go and punch that in, or even just look at the term and go, Oh, actually we don't have any content on electric vehicles on our site. Um, so then you can go, well, should I be adding it?
+</p>
+<p>
+[00:39:43] Um, or if you're in the case of like a government organization, say, say you're the God, the country's environment department, and somebody searching for that on your side. And you just don't, it's not part of it, your government departments remit to have that content yeah. Site. So, um, but users don't know any different, you know, our environment.
+</p>
+<p>
+[00:40:01] Electric cars, same thing. So maybe it's the transport department's job for that one. So what you can do in that case is either go, well, I'm going to add some content on this so that people find something useful. Um, or again, funnel, Beck's got this feature where you can kind of do a featured result. And I believe other search engines have similar sorts of things.
+</p>
+<p>
+[00:40:20] So. What we did there. Um, and in the context of a government site, you don't have this situation where you necessarily want to keep people trapped or your website. Well, as a government department is to help people find the information that they need to find. Yeah. So what we did is we put this thing, um, which is like a featured result on the side sites, so that when people searches search for electric car, it would say, Hey, This is where you can go and go to find information.
+</p>
+<p>
+[00:40:46] I like, because it's on the department of transport's website or whatever. Um, so people, yeah, and it stay on your site, but at least they're not leaving your site being really annoyed at you because they couldn't find the information they thought that you had. Um, so that's a couple of examples of how you can sort of, you know, use your web analytics to.
+</p>
+<p>
+[00:41:06] To, to kind of improve things. Um, actually there's a blog post that I wrote a few years ago about this particular topic that sort of goes through some of these examples that have just given. Um,
+</p>
+<p>
+[00:41:18] <strong>Tom Johnson: </strong>[00:41:18] that'd be great.
+</p>
+<p>
+[00:41:19] <strong>Jared Morgan: </strong>[00:41:19] Yeah. We'll link that in the show notes for sure.
+</p>
+<p>
+[00:41:21] <strong>Peter Levan: </strong>[00:41:21] Yeah. But yeah, it goes through a few sort of fairly basic tips.
+</p>
+<p>
+[00:41:26] It is slanted a little bit towards the final back product, because that's what it was written for. But the, the, the gist of the, the advice, you know, kind of applies to anything really. And it's kind of things like, you know, look for queries in there that you think, Oh yeah, we don't have that content. It's direct people to where, where it is or things like, Oh, people are actually always searching for this word and they're always misspelling it.
+</p>
+<p>
+[00:41:49] Well, actually, rather than returning a spelling succession and it says, Oh, did you mean to search for, you know, organization with an S in it, or, you know, or governments with like, without an N in it, because they're not great spellers. You can just go, well, if somebody searches for government, we don't have an end in it.
+</p>
+<p>
+[00:42:05] I'm just going to search for government anyway. And then they get the results that they want because it's totally the unambiguous, what it is they're searching for.
+</p>
+<p>
+[00:42:11] <strong>Jared Morgan: </strong>[00:42:11] Hmm. So so far, I think I've heard a couple of takeaways that we've sort of been talking about, and it seems that
+</p>
+<p>
+[00:42:19] <strong>Chris Ward: </strong>[00:42:19] I'm making very big notes here as always, I am starting with a new project where I get to redo everything.
+</p>
+<p>
+[00:42:25] And, um,
+</p>
+<p>
+[00:42:28] <strong>Jared Morgan: </strong>[00:42:28] yeah. So it sounds like you're building out your medic. Cause you said Peter, that the importance of metadata can't be understated in your, your search. Um, but. I imagine there's a bit of a process to actually working out where to start with actually sitting up a metadata strategy for, for search.
+</p>
+<p>
+[00:42:49] Um, I wonder if we could maybe think about some basic steps that people could take when they're like saying Chris's case where it's just that the, the ground level of his docs and he's guys, I know that such as important. I know I want to put search on the site, but how am I going to tell my search engine?
+</p>
+<p>
+[00:43:09] The things I wanted to know about how will I know, how can I tell it what to crawl when to crawl? And it doesn't need to be, I mean, this is a pretty complex topic as we talked about offline. Okay. Maybe you're breaking it down to, like, how would you go about just doing a basic level of metadata that would really help bring really nice quality results back in a search.
+</p>
+<p>
+[00:43:29] <strong>Peter Levan: </strong>[00:43:29] Yeah. Okay. So if there's kind of two things we're talking about here, one of them is about sort of in page metadata, which you could use to enhance your search results. But for that, you need to make sure you have a tool that supports those sorts of things. So, you know, if you want to present faceted navigation based off metadata, you need a search tool that will be able to do that.
+</p>
+<p>
+[00:43:48] Um, the other side of what Jared just brought up was some of the other things that you can do, um, to tell. Web crawlers about your website. So, um, maybe I'll quickly talk about that first. That's probably a good starting point.
+</p>
+<p>
+[00:44:02] <strong>Jared Morgan: </strong>[00:44:02] Yeah. Let's let's start there.
+</p>
+<p>
+[00:44:03] <strong>Peter Levan: </strong>[00:44:03] Yeah. Something that anybody with a website can do.
+</p>
+<p>
+[00:44:06] So. Um, there's a few things that technology has actually provide to you as a web of an owner of a website. Um, uh, one of them is your robots, that text file. Uh, so, uh, if you don't know what a robot stop text file is, it's basically a special, um, text file that sits on your web server that, uh, um, a web, a robot, like, uh, we'd call it the Google bot or whatever goes and visits, and they can find out some information about your site.
+</p>
+<p>
+[00:44:34] You can tell. Um, you can tell these web crawlers what tells specific web crawlers. I don't want you to crawl these bits of my site example. Um, yeah. Your robots to text operates on the whole of your website. Um, so you can say, ah, yeah, I want all, um, I'm happy for you guys to call my site, but I don't want you to crawl.
+</p>
+<p>
+[00:44:55] I dunno, my private section, it might have a folder called slash private or something.
+</p>
+<p>
+[00:44:59] <strong>Jared Morgan: </strong>[00:44:59] There might be calendars for example.
+</p>
+<p>
+[00:45:02] <strong>Peter Levan: </strong>[00:45:02] Yeah. So a web crawler that sees that and mostly web crawlers well-behaved, we'll go. Okay. I'll follow these roles. I'll index the site, but I'm going to wait if I find that you all with calendar in it, I'm just going to ignore it.
+</p>
+<p>
+[00:45:13] So it doesn't end up in the index. So at a very high level, you can already start to exclude some stuff from their slide. Now, the one thing to keep in mind though, is that a web crawler is a bit like somebody opening up a webpage and then clicking on all the links. So if you tell a web crawler to ignore a page and don't follow that link, if you then need to go to that next page to get to another page, it's not, I'm going to find it.
+</p>
+<p>
+[00:45:35] So, so for example, if you want to. You don't want to index your website's homepage, but you want to index pages within the site, just as an example, but you couldn't put that into your robot stock texts because the web robot would say, Oh, it says don't index the homepage. I'm just going to go away. Now. I'm not going to click on any of the links.
+</p>
+<p>
+[00:45:56] So, um, to get over that, there's a special metadata tag called the robot's metadata tag, which you can put at a page level until you tell. Crawl us what to do. Um, and there's these robots Mediterra tags. You can tell you, can you basically give combinations of index this page, don't index this page follow links on this page.
+</p>
+<p>
+[00:46:17] Don't follow links in this page. There are a few other things as well, but those are the ones that are really of interest to us here from search point of view. Um, so if you say something like, um, put this meta tag in that says no index follow. A web crawler will come in and go, Oh, I'm not supposed to index the content on this page, but I'm still gonna click on all of the links and then not go to that next page.
+</p>
+<p>
+[00:46:39] And you can have it robots that text SRA robots, metadata entry in there as well that might say, Oh, index all of the content on this page, but don't follow any of the links because maybe it's the landing page of a calendar or something. And calendars are really bad for search engines because they often go infinitely in both directions.
+</p>
+<p>
+[00:46:56] Um, so somebody clicking, you know, it's called, it's called a crawler trap. Um, and most web crawlers have some something in their algorithm to identify one. But you know, you might crawl 10,000 pages from the calendar before you trigger that switch. So it's always good practice to prevent that sort of stuff.
+</p>
+<p>
+[00:47:15] So
+</p>
+<p>
+[00:47:15] <strong>Jared Morgan: </strong>[00:47:15] that's
+</p>
+<p>
+[00:47:15] <strong>Peter Levan: </strong>[00:47:15] the patient, you couple of
+</p>
+<p>
+[00:47:17] <strong>Jared Morgan: </strong>[00:47:17] robots and robots, metadata. They're the two things you can do right now on your site. To help Google and all the search providers out there to understand your site better and that's free. You can do it now.
+</p>
+<p>
+[00:47:31] <strong>Peter Levan: </strong>[00:47:31] It's free. It's just part of, part of the web standards. Um, if you, yeah, what did the robot stuff look up?
+</p>
+<p>
+[00:47:37] The robots don't text information. You can actually do it from a, from a link level as well. Uh, and you can also do it by sending, um, HTP headers. So there's various options to give you the same kind of effect. Uh, the other thing that you can do in terms of web techno technologies is to use a site map file as well.
+</p>
+<p>
+[00:47:54] And site map files allow you to. Tell web crawlers, Hey, I've got all of these pages. Maybe they're not even link to, but I want you to index them. Uh, and you can also specify some things like, I want you to crawl this page. Ideally, this is this often. So this content and it changes, you know, don't call this more than once a week.
+</p>
+<p>
+[00:48:13] Um, it's not going to guarantee that they're going to call you more frequently, but it'll, it'll tell them to not sort of hit your site so frequently or you don't need to check back very often. It doesn't change.
+</p>
+<p>
+[00:48:23] <strong>Jared Morgan: </strong>[00:48:23] No, that's a really good tips. Yeah.
+</p>
+<p>
+[00:48:25] <strong>Peter Levan: </strong>[00:48:25] It's worth searching
+</p>
+<p>
+[00:48:27] <strong>Chris Ward: </strong>[00:48:27] for, for anyone thinking this might sound like a lot of work that most, most tools open source and proprietary static site generators, and all these other things usually do this, but by default, or have a very easy to configure plugin that will do it for you.
+</p>
+<p>
+[00:48:41] So, yes.
+</p>
+<p>
+[00:48:43] <strong>Jared Morgan: </strong>[00:48:43] Yeah, yeah, yeah.
+</p>
+<p>
+[00:48:46] <strong>Tom Johnson: </strong>[00:48:46] I got a question, Peter. So, um, I've noticed that, uh, Google has started to sort of, uh, slowly correct parts of a page that try to answer the question I was asking. And then they present that selection as like micro content and the results. How do I tell Google that my page is a documentation page?
+</p>
+<p>
+[00:49:04] And so that it will, I don't know. Increase its rank. And in among the many other different types of many other types of pages on Google, uh, like I want Google to know that it's specifically a documentation page. That's helpful content.
+</p>
+<p>
+[00:49:21] <strong>Peter Levan: </strong>[00:49:21] Yeah, so that's a good point. So there, there are a bunch of other websites and it's an exist out there that, um, can, um, tell things like Google, um, um, things about a page.
+</p>
+<p>
+[00:49:31] You've got a number of standards, like the microdata standard, for example, where you can say this thing in a page, this bit of the page constitutes an entity of something. Um, this entity might be, this might be about a person or whatever. This is how it starts to get those sort of rich snippets happening.
+</p>
+<p>
+[00:49:48] Um, And, you know, sometimes a page might include multiple sorts of aunties, um, within them. So that's standard called microdata, then there's a few different variants of that. So there's another standard variant of that called RDF, which again is all about sort of, of tagging up specific things. It's all hidden stuff within the page generally.
+</p>
+<p>
+[00:50:09] Uh, so it's a bit, a little bit like in page metadata and actually some of it is in page metadata. So, um, for example, um, you know, when you share a page on Facebook, Um, some pages that you share will come up with a nice rich snippet when you share them. Now that's because there's a certain set of metadata tags, um, that tell Facebook, this is what the link of my page is.
+</p>
+<p>
+[00:50:30] This is what the, what you should display as the thumbnail image. These are the, um, and this is what you should display the description, for example, and those are the, um, the open graph metadata tanks. So, um, There is some metadata that is totally worth putting into your pages. If you think that it's going to help, um, you know, if you think your pages are going to be shared, for example, that's a great thing that you can do as well.
+</p>
+<p>
+[00:50:55] But I'm support for this kind of stuff is very sort of variable from, from product to product. Um, um, so probably starting with things like those sort of open graph tags or the Twitter tags, um, and these are specific metadata techs is a good place to start. I wonder
+</p>
+<p>
+[00:51:13] <strong>Jared Morgan: </strong>[00:51:13] if, um, the quality of your procedural titles also helps in that as well.
+</p>
+<p>
+[00:51:17] Like an imagine in a procedure's titled you, if you were say, wanting to search for how do I configure my labels in Gmail, you would expect that if a procedure, um, that comes up in a Google search had a lot of those matching keywords in the title that would. Presumably rank it up higher in the search results.
+</p>
+<p>
+[00:51:41] Yeah. It sounds like that that constant quality that you were talking about earlier about paying attention to how you're writing, how you structure might also play a role in this as well. It
+</p>
+<p>
+[00:51:52] <strong>Peter Levan: </strong>[00:51:52] wouldn't surprise me if that's the case. I mean, um, there's a, there's a lot of cues and things that, um, search engines do take from a page and of course Google and some of the large search engines, they've also got the machine learning and there as well.
+</p>
+<p>
+[00:52:04] Um, and when you start to extrapolate this across vast amounts of content, you can start to see patterns. So these how-tos, and so you can kind of go, Oh, it says how to, therefore I think I'm going to take it as, as, as an FAQ, for example. Um, so, but, but they, these are the kinds of things you do need fast amounts of data to be able to effectively sort of automatically tag if that's how you want to think about it.
+</p>
+<p>
+[00:52:29] <strong>Jared Morgan: </strong>[00:52:29] It sounds like your best, not to bank bank, the farmer esentially on, on doing, putting certain key words in your documents, just to try and affect the agenda that comes down to just write well and write for your audience and make it, you know, make the content meaningful.
+</p>
+<p>
+[00:52:46] <strong>Peter Levan: </strong>[00:52:46] I think if that's the one, take one takeaway message that you have.
+</p>
+<p>
+[00:52:50] Yeah. Right. Your content well and succinctly and follow all of the best practice roles and, and your, your. That will immediately help your, your site rank well, um, and avoid things like JavaScript as well. So, uh, one, one common problem that we see is if you've got a very heavily JavaScript driven site. And for example, if it's like an angular type site, that's a bit like a web app, uh, you'll find that most web crawlers will not be able to index them because they don't know how to run the Java script.
+</p>
+<p>
+[00:53:19] So that's another thing to avoid when you're looking at sort of technologies. That's still true.
+</p>
+<p>
+[00:53:24] <strong>Chris Ward: </strong>[00:53:24] I sort of felt like. Maybe that must have been solved.
+</p>
+<p>
+[00:53:30] <strong>Peter Levan: </strong>[00:53:30] It hasn't really been solved. Um, Google do have a queue, um, four pages that it identifies as being charged, script driven and it, and it will try to crawl them, uh, but it calls them at a much lower frequency.
+</p>
+<p>
+[00:53:44] Um, and sometimes it just gives up or can't deal with it because affectively, um, you know, the model becomes very, um, broken down. Simulating clicks on things because yeah. Becomes very big. Yeah.
+</p>
+<p>
+[00:53:57] <strong>Chris Ward: </strong>[00:53:57] I'm a big fan of using tabs output. Now I'm wondering if, if I should
+</p>
+<p>
+[00:54:05] <strong>Peter Levan: </strong>[00:54:05] tap, tap, tap, tap, put isn't necessarily a bad thing.
+</p>
+<p>
+[00:54:08] I mean, if you look at the HTML underlies, it is actually just like first tab, second tab.
+</p>
+<p>
+[00:54:13] <strong>Chris Ward: </strong>[00:54:13] Yeah. Yeah. True. True, true. True. Yeah. But check the HTML. It sounds
+</p>
+<p>
+[00:54:18] <strong>Jared Morgan: </strong>[00:54:18] like it's more effected by what progressive web apps and stuff like that.
+</p>
+<p>
+[00:54:22] <strong>Tom Johnson: </strong>[00:54:22] And I have like a site, the hash
+</p>
+<p>
+[00:54:24] <strong>Chris Ward: </strong>[00:54:24] links
+</p>
+<p>
+[00:54:25] <strong>Jared Morgan: </strong>[00:54:25] instantly strongly
+</p>
+<p>
+[00:54:26] <strong>Chris Ward: </strong>[00:54:26] becomes so popular.
+</p>
+<p>
+[00:54:27] I just assumed that maybe Google has started figuring it out, but
+</p>
+<p>
+[00:54:31] <strong>Peter Levan: </strong>[00:54:31] it does, it does a little bit, but it's certainly not, I'm not widespread
+</p>
+<p>
+[00:54:36] <strong>Chris Ward: </strong>[00:54:36] even promoted by other departments within Google itself. So
+</p>
+<p>
+[00:54:40] <strong>Jared Morgan: </strong>[00:54:40] this is interesting. I wonder if I'm. I wonder if focusing on stuff like accessibility helps with, um, with searching and the ability for things to, you know, discover content on your site, like web crawling.
+</p>
+<p>
+[00:54:58] <strong>Chris Ward: </strong>[00:54:58] Definitely.
+</p>
+<p>
+[00:54:59] <strong>Jared Morgan: </strong>[00:54:59] Yeah.
+</p>
+<p>
+[00:55:00] <strong>Chris Ward: </strong>[00:55:00] Yeah. They actually, uh, you know, me, I like automated stuff. I came across them. I have to. Uh, remind myself what it was cool, but there's a, a great automating tool for checking this stuff. I think Pat, Pat, I always forget how to pronounce the way it is, but the PA 11, 11, PA 11, Y I think is the one I came across that does a lot of automated checking for you.
+</p>
+<p>
+[00:55:24] And, um, I'm looking to, uh, to convert that to some kind of, uh, text editor extension at some point, but it's quite useful.
+</p>
+<p>
+[00:55:35] <strong>Peter Levan: </strong>[00:55:35] Yeah, no look, anything that you can do that makes the site easier for people to use is going to help a search engine as well. So, yeah, totally accessibility stuff. I mean, you could even go down to the level, for example, of making use of things like acronym, tags in HTML to expand that your acronyms, like that stuff all helps people.
+</p>
+<p>
+[00:55:53] Um, and it means, I mean, the search engine will see that when it's indexing the page. So, um,
+</p>
+<p>
+[00:55:59] <strong>Jared Morgan: </strong>[00:55:59] I would imagine things like hitting levels are pretty important sites as well. Like having those correctly missed it. And not sort of be like heading one to heading for and you know, that sort of stuff, you know, it would help a crueler traverse a page.
+</p>
+<p>
+[00:56:13] <strong>Peter Levan: </strong>[00:56:13] Yeah. Certainly all of that stuff helps as well. Um, I know for certainly heading ones, get ranked quite highly as you start to drop down the levels, it's probably less of an effect and that would totally vary from search engine to search engine.
+</p>
+<p>
+[00:56:27] <strong>Jared Morgan: </strong>[00:56:27] For sure. Yeah. Well, I can't believe it, but we're actually already at Al a lot of time.
+</p>
+<p>
+[00:56:34] This has been an incredibly interesting chat with you today, Peter. I just wanted to invite Tom or Chris. If you've got any last questions for me. Um, yeah. Chris, go ahead. If you've got some,
+</p>
+<p>
+[00:56:43] <strong>Chris Ward: </strong>[00:56:43] all that Tom, go first. I do
+</p>
+<p>
+[00:56:46] <strong>Tom Johnson: </strong>[00:56:46] Tom and I I'm just like 10, 10 ounces away from a complete sleep. So I'm at a question.
+</p>
+<p>
+[00:57:00] <strong>Chris Ward: </strong>[00:57:00] The call becomes a little bit hypnotic after a certain point. I started as Kelly. Yeah. That's how I usually feel.
+</p>
+<p>
+[00:57:07] <strong>Jared Morgan: </strong>[00:57:07] How are you Chris
+</p>
+<p>
+[00:57:08] <strong>Chris Ward: </strong>[00:57:08] to ask? Um, we've mentioned one predominantly, um, as I've mostly worked on open source projects fed out of static site generators, I've usually in the past used, um, Luna, um, which is, has its positives and negatives.
+</p>
+<p>
+[00:57:23] But apart from things like Luna, Google. Um, Algolia are there any other good options for docs that we haven't covered in terms of tooling that we should maybe mention?
+</p>
+<p>
+[00:57:34] <strong>Peter Levan: </strong>[00:57:34] That's a good question. Um, I'm a, a little bit out of the sight on all of the actual available frame, things that are around these days.
+</p>
+<p>
+[00:57:41] Um, uh, certainly I know there are a lot of people that use tools like elastic, um, Elasticsearch or elastic search with, um, Uh, so the tip of my tongue, um,
+</p>
+<p>
+[00:57:54] <strong>Chris Ward: </strong>[00:57:54] um,
+</p>
+<p>
+[00:57:56] <strong>Peter Levan: </strong>[00:57:56] yeah. Anyway, um, yeah, not really. I'm not actually sure. It's one of those things that I guess it's a matter of really researching what's out there and, um, and, and seeing what they can do.
+</p>
+<p>
+[00:58:10] Um, yeah, yeah. I'm sorry. I can't be more help. No, it's fine.
+</p>
+<p>
+[00:58:13] <strong>Chris Ward: </strong>[00:58:13] I hadn't actually, it's bizarre. I used to use elastic search and the precursor to it. Um, uh, uh, I can't look as code as an Apache project. Um, and they do take a lot of configuration. Uh, lunar is very easy, but some of the stuff you mentioned about.
+</p>
+<p>
+[00:58:34] Returning incorrect and not useful terms is something I've definitely hit with it at certain points. It depends how are static site generators implemented it. So be a little wary of it. It's quick and easy and free, but it's not necessarily going to get you the best results out of the box.
+</p>
+<p>
+[00:58:50] <strong>Jared Morgan: </strong>[00:58:50] I guess it comes down to, you'll get something out of it though.
+</p>
+<p>
+[00:58:52] So if it's easy to switch on your site, then absolutely go for it and throw it in the sea. Like it could be the starting point of further investigations for you. So, you know, switch, switch the configuration flag on and let it do its thing and see what it does for you, right?
+</p>
+<p>
+[00:59:07] <strong>Peter Levan: </strong>[00:59:07] Yeah. What's
+</p>
+<p>
+[00:59:07] <strong>Chris Ward: </strong>[00:59:07] the worst that can happen.
+</p>
+<p>
+[00:59:08] <strong>Jared Morgan: </strong>[00:59:08] Exactly. You were saying something. Yeah, it seems good. All right. Well, um, I think we might wrap it up there for, um, for this session, episode 30, one of the docs podcast. So, um, thanks again for coming on. Um, and having a chat with us about all things. Search Peter. It's been great having you today.
+</p>
+<p>
+[00:59:29] <strong>Peter Levan: </strong>[00:59:29] Oh, you're welcome.
+</p>
+<p>
+[00:59:30] I just hope that everyone finds at least something to take away.
+</p>
+<p>
+[00:59:34] <strong>Jared Morgan: </strong>[00:59:34] Oh, I'm sure we will. Yeah. It's should be interesting to see the comments we get from this one. Cause I think search is one of those things that people have so many questions about, but they don't know don't know what those questions are until they don't know until they know what they don't know.
+</p>
+<p>
+[00:59:47] So, yeah. Thanks again for coming on. It's been great. So. So for, um, people who, um, listen to the show regularly, you'll you'll know this already, but for this is your first time listening to write the docs podcast, podcasts you'll know that you won't know that you can actually find all of the episodes for past episodes for the people like Peter have come on, uh, at, uh, Podcasts that write the docs.org.
+</p>
+<p>
+[01:00:12] That'll get you into the right, the docs website, and we'll jump things to it. Um, if you like what you heard on the show, if you've got any other follow up questions, do jump onto the, write the docs, Slack into the podcast channel and, um, get in touch with us. Cause we'd love to hear. When people have actually, uh, got some value out of the show.
+</p>
+<p>
+[01:00:30] So, um, jump on in, or leave a comment on YouTube or your local, uh, your favorite podcasting app, whatever you'd like to use to listen to the show, it would be great to get your feedback. Um, but, uh, I guess until we meet again, it's, uh, the, I have to say it and it's docs, or it didn't happen. Have a great, uh, time everyone until we meet again.
+</p>
+<p>
+
+</p>

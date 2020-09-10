@@ -203,3 +203,12 @@ info:
   twitter: https://twitter.com/JRLtechwriting
   linkedin: https://www.linkedin.com/in/juan-lara/
   image: juan_lara.png
+
+- name: Peter Levan
+  # website: https://twitter.com/JRLtechwriting
+  slack_handle: peterlevan
+  # twitter: https://twitter.com/JRLtechwriting
+  linkedin: https://www.linkedin.com/in/peter-levan-39a722155/
+  image: peter_levan.png
+
+# images are 260px wide by 170px tall
