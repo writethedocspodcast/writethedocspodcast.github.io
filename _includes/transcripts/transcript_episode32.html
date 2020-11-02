@@ -1,0 +1,912 @@
+<p>
+[00:00:00] <strong>Jared Morgan: </strong>All right. I think we're yeah, we're alive. So hello everybody. Welcome to Write the Docs. Episode number 32. Can't believe we got 32 of these in the bag already. It's quite amazing. I'd say that every episode though. Um, so look, I just want to say, uh, hope you're well, if you're listening from wherever you out in the world and, um, uh, certainly been an interesting year.
+</p>
+<p>
+I don't know if we're going to get another podcast recording in before the end of the year. Hopefully we will, but if we don't, um, I hope 2020 has been a good year for you. Um, despite all the challenges and, um, uh, So, yeah, it's been, it's been definitely interesting, but we're not here to talk about retrospectives.
+</p>
+<p>
+We're here to talk about something far more interesting and that, um, is going to be revealed very shortly. But first I need to introduce our regular panel of guests. So could I please welcome to the show? Chris ward? How are you going, Chris?
+</p>
+<p>
+<strong>Chris Ward: </strong>Hey, I'm doing good. Um, yeah. Busy deadlines things to release.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Pretty good.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Well, that sort of stuff. Yeah. Right now. Uh, you're about to unfortunately go back down into lockdown, um, over there. Aren't you?
+</p>
+<p>
+<strong>Chris Ward: </strong>Yeah. But, um, I dunno, it wasn't so bad last time, apart from the lack of, uh, Sunlight. It'll be all right.
+</p>
+<p>
+<strong>Jared Morgan: </strong>It's certainly not something we have a problem with down here.
+</p>
+<p>
+It's super hot and rainy down here at the moment in Brisbane. So we're getting, we're floating away down here. And our other panelists that we always love to hear from each month is Tom Johnson. How are you, Tom?
+</p>
+<p>
+<strong>Tom Johnson: </strong>I'm doing well. How are you doing Jared? I'm I'm glad to, uh, have this podcast. This is kind of a highlight.
+</p>
+<p>
+I love, uh, joining in.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Okay, well, thanks for that, Tom. Now. We're going to jump into the topic of the day and that topic is actually writing books and ask your doc. So as many documentarians will know, um, ask your dog is one of the better ways of creating documentation for end users. It's got a really diverse.
+</p>
+<p>
+And a well-supported, um, sort of market patterns that you can use to, to write really quite complex technical documentation. Uh, it gives you a tight control, um, over, um, how you present that documentation to users. But what you might be surprised about is you can actually use AsciiDoc to write fiction and nonfiction books and publish those books.
+</p>
+<p>
+So with that in mind, I'd actually like to introduce our guest today, which is my med passage. Now mermaid, welcome to the show.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Okay, thank you very much. It's good to be here.
+</p>
+<p>
+<strong>Jared Morgan: </strong>It's so great to have you on today. I think this is going to be a really interesting topic because I think a lot of folks probably associate AsciiDoc with technical documentation, but.
+</p>
+<p>
+I think there's, there's quite a lot of, um, people out there who are using SQL for different things. It's just, this is just one example of that. But, um, before we launch him, I want to get a bit of an idea of, um, um, what you're about and where you're from. So how about you, um, just give us a bit of info about where you're from.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Uh, I'm calling from Bosnia Herzegovina and I've worked for many. Many publications that is a publisher company from Europe. And, uh, that company is basically publishing technical books, mostly paying for books. And the level of complexity of those books is very familiar to you. And. We are dealing with old challenges regarding that.
+</p>
+<p>
+<strong>Jared Morgan: </strong>So Manning does a lot of technical publications, but I've also learned that they also work with students as well. And do a lot of student publishing. Is that right?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yes. Yes. Yeah. Our marketing is working with a bunch of conferences and we are related to teaching. We have needed to. Students who are learning from our books, because for example, probably their professors are those outputs.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Right. Okay. Well, that's a very diverse range of, I guess, subject matter and topics. So I think we should probably get into a little bit more information, but yeah, I think probably what we should start with is, um, I guess with the, the whole idea of a book publisher for people who may not be super aware of, they probably think, you know, there's a publishing house.
+</p>
+<p>
+They get the books on the shelves, but there must be more to it than that. So maybe. Maybe you could tell us a little bit of the basic sort of stuff that publishes help authors with to try and get their books [00:05:00] out into the marketplace. Maybe give us a rundown on what that looks like.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Um, we are one of the companies that, that included the early access program.
+</p>
+<p>
+So basically Alto is coming to our house and starting to write the book in the role state. And then. We are publishing chapter by chapter, chapter after chapter. And a lot of people who are interested in that subject are included actually in right to note. So basically we are supporting the whole writing process, uh, and publishing all of that at the same time.
+</p>
+<p>
+So we are included very early and, uh, technically, uh, very connected. To them, uh, in terms of, uh, creating the product to, in a fastest possible way, uh, and expecting and allowing ourselves to make mistakes and retreat, which will be presented and accept those mistakes as, uh, inclusion corrections. And hopefully at the end, the group content.
+</p>
+<p>
+<strong>Jared Morgan: </strong>So it sounds like you've taken a really iterative approach with authors that come to you and help them build up what they want to write based on, based on the whole process of sort of extracting the information out and then helping them produce it in a way that actually makes sense. So it sounds like a lot of, a lot of, um, I guess mentoring happens as part of it's probably really exited.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I mean, usually the editors are included from the start and we are also alluded to, to make the real estate towards the book. Something that can be seen that can be presented, read this. So that's why I did hold teams included. Um, I think that's the good way to create good content.
+</p>
+<p>
+<strong>Tom Johnson: </strong>A med question. You said that, um, you will often accept mistakes and kind of correct them and iterate on the books.
+</p>
+<p>
+Can you talk more about that? You know, traditionally, once a book is published, another version is kind of a major release, but it sounds like you do more continual, uh, updates and publishing.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I'm still talking about early access program. So early access program was something that is not finished and that's the idea behind it.
+</p>
+<p>
+This is not finished. And if you can see if you can comment it and say something useful, you coming to the part of the book and the bookie is best to a lot of, lot of corrections all the way. Uh,
+</p>
+<p>
+<strong>Tom Johnson: </strong>I'd be interested to hear more about how you collaborate with authors. I mean, uh, in the documentation world, getting people to add comments on documentation and, and responding to them is a huge challenge.
+</p>
+<p>
+Does Manning have special tools or do you use standard tools and how does AsciiDoc plan to that?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Um, when I talk about all this to folks, so I can stop to always include usually my two year olds within English. Um, because of the boards or open office or any part or all, for example, Google docs as similar tunes.
+</p>
+<p>
+And on second one you asked you became hopeless. Don't know, since that happy marriage will lead lab and will be. And later on, we have eating them off in the youth ministry, uh, in relation to, in comparison to InDesign, Margaret down, Google docs, FrameMaker, etc. So we are accepting a lot of, uh, different tools.
+</p>
+<p>
+You have subs for lots of different sources of manuscripts and we dealing them as we, as we learn. So ask a doc, he's very. It's coming. I think to almost 30% of the books is went to Alaska and use you look heavily on our website too. So this is very good. We have very good relationship with them and ask you, what do you want to do?
+</p>
+<p>
+Do you want to hear something about tools? We
+</p>
+<p>
+<strong>Jared Morgan: </strong>could probably go into the tools discussion now, probably don't you think. Chris and Tom, do you think it flows?
+</p>
+<p>
+<strong>Chris Ward: </strong>It would also possibly be a good idea for those of who are not familiar to understand the subtle differences between AsciiDoc and other equivalents as well.
+</p>
+<p>
+Um, maybe we should even do that first.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Yeah, let's do that. Let's explore the [00:10:00] differences that I guess from a, I guess, you know, the, the markdowns, uh, uh, certainly marketing different. Yeah. So, what do you think? Um, yeah, if you could summarize the differences between something like mock down and something like , what do you think the main differences are to you?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>For me, I can't find differences. If I look at a screen and see the document, I can't see too many differences. Logic is the same. They use similar similar rate to present. Uh, each part of the structure. They use similar ways to, uh, similar tools to convert though. But I believe I asked the doctor. Is some of Hulu speed, fast in development and they, uh, they have a huge advantage because of that.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Do you find
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>that four, 10 development
+</p>
+<p>
+<strong>Jared Morgan: </strong>support and development, right. Do you find that, um, Now you were talking before about all the different formats that you accept the script's seen from, uh, authors. Do you find that, um, when you're trying to assemble a book, um, for publishing, do you find you hit certain limitations with some of the formats that you receive?
+</p>
+<p>
+Um, From authors or do you take it in your stride and just roll with it and, and get the in product out? How does that sort of work?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Um, the total is depends on complexity, particularly because if we talking about functional programming, if you're talking about mathematics, that's very difficult to present because from the start I have to mention that we are creating, uh, PDFs that's one type and the other one is EPUB.
+</p>
+<p>
+Which is basically HTML, incorporated, even ones in full, but yeah, and so HTML and PDF very different because PDF is print screen printed. You can see the screen and looking at that, um, when we transfer that to HTML, we can find difficulties on how to present something that is not common. And that you can read on your offline when you all fly in on your phone.
+</p>
+<p>
+So we don't care about tasks, so you can always find limitation with anything complex enough. So, but we tried to simplify things, especially during our early program, when we tried to simplify things to be, to be done and correct.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Hmm.
+</p>
+<p>
+<strong>Chris Ward: </strong>Okay. And maybe here's a good time to talk about the difference between AsciiDoc and ask your doctor, which you mentioned.
+</p>
+<p>
+And it's often a point of confusion.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>It's a place where we learn something about us, I believe, and use most of the tools like using Ruby, collect all the gems that are out there. And where the resolves levels of difficulties. So I believe Asciidoctor has a huge potential to develop to the level that not to nothing is a problem. Right.
+</p>
+<p>
+<strong>Jared Morgan: </strong>I think the way I sort of sum it up is off.
+</p>
+<p>
+<strong>Chris Ward: </strong>Sorry you use it as well. Like Jared, I think. Yeah,
+</p>
+<p>
+<strong>Jared Morgan: </strong>yeah. Yeah. I we'll. You use  and Torah where I work at suites, um, to produce a website, um, using the enter site builder, I guess the way I look at  language ask doctor is the processor that allows you to transfer, transform the language into pages. Like you say, it could be HTML.
+</p>
+<p>
+Could even be PDF or EPUB they all have transformations, XML. Yeah, that's right. It's pretty much a Swiss knife of have structured all three. I think that the whole idea of, and asked you to up was when Dan Allen, the, the person who sort of used to work at red hat when he set it up, he wanted to make the contributions easier and he wanted to make the ability to, you know, Take the content that you've written and turn it into different formats.
+</p>
+<p>
+It was a real challenge at red hat at the time. Cause we were all using it XML at red hat and that wasn't really great for contribution. It was very specialized. So something like asking don't really appeal to him and he could see the value in it. So he left red hat to pursue it. And here we are today with, I think you 2.0 point X's nearly about to be released.
+</p>
+<p>
+So. It's certainly come a long way in [00:15:00] about, I think it's around 10 years now, like ask your doctor has,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>or maybe less the area.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Yeah, that's right. I think
+</p>
+<p>
+<strong>Tom Johnson: </strong>here, that brings up an interesting question. You talk about how AsciiDoc has made it easier to publish into different formats, right. To PDF to EPUB HTML.
+</p>
+<p>
+How does that, um, pose challenges to book publishers? I mean, if, if a lay person can just generate all these formats, uh, what value does the publisher add? Um, you know, to, to this endeavor,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>sometimes we sell content early and early stage. So maybe I'm talking about, I mean, a level of security or in.
+</p>
+<p>
+Must be on the highest level. Uh, we offer a contract early and people are buying books before they retire sometimes that's and people like to learn that sometimes you need, you learn the subject during the year, during that week.  the whole year. So basically that book is already finished. Before it's published for some, some of the leaders, I
+</p>
+<p>
+<strong>Chris Ward: </strong>think personally as well.
+</p>
+<p>
+I, I did a book with one publisher and I actually worked on, um, a, um, that was in our notes. And now it's the live live video.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>You have a spot
+</p>
+<p>
+<strong>Chris Ward: </strong>for Manning. Um, and actually for me personally, working with two editors, a technical editor and a. Language editor I suppose was, yeah, it was extremely beneficial. Um, I think as, as people who write documentation, you, we kind of have review processes, but I'm always wondering how, how in-depth those review processes go.
+</p>
+<p>
+But book publishers, the editors do tend to go a lot deeper and make you think a lot more about structure. As well, because documentation people don't really read in any sort of order. They just jump around. Whereas a book people do tend to read from start to finish and having to think about the structure and the implications of that structure.
+</p>
+<p>
+It was quite an interesting exercise. It's quite a challenging one. Yeah.
+</p>
+<p>
+<strong>Tom Johnson: </strong>Jumping around. Oh, sorry. Go ahead. My man,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>you know,
+</p>
+<p>
+<strong>Tom Johnson: </strong>uh, well, speaking of jumping around Chris, like I feel as if there is also a trend, even in book publishing, um, markets to, to sell access to a whole library of books, for example, uh, Riley books or Safari books, whatever it's called. Right. If you want to learn PHP or something, um, would you rather.
+</p>
+<p>
+Just kind of search for it within their library and jumped from book to book. And maybe you land on one that you think is perfect. And you only want a certain chapter or would you rather like a guess which book would be the most appropriate? Buy it and then feel committed to read it from beginning to end, even if it's like not
+</p>
+<p>
+<strong>Chris Ward: </strong>choice.
+</p>
+<p>
+It's an interesting question. There's, there's something there's still something to be said about the journey of going through a book and feeling like you're accomplishing something as opposed to just jumping around random tutorials and piecing it all together. Um, of course the problem with books and I'm sure amendment can talk to this is that sometimes the length of time it takes you to get through it.
+</p>
+<p>
+It's out of date already. Um, I think I've been working through a unity book from Manning for about two years and I'm pretty sure most of the content is not much used to really bolt, but I still thinking about this. This is so yeah, especially listings.
+</p>
+<p>
+<strong>Tom Johnson: </strong>Especially with technical books. I find that it's very difficult to figure out, uh, what's the right level.
+</p>
+<p>
+If I want to go learn Android, for example, right. You can choose between the headfirst dummies type books. Right. Which are like, here's how you install it versus Android for pro developers. And it's like way over my head. So, I mean, for me, it's really. It's hard to gauge, like what's the right level. And I'm sure it's the same with a lot of technical books I'm trying to figure out anyway.
+</p>
+<p>
+<strong>Chris Ward: </strong>Yeah. I know Manning has specific commissioning, uh, editors for that. I don't know if I've met. Do you have particular much involvement in that, but they often go looking for subjects. What is
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>the subject that. Mainstream for example. So, so our physician is because this team is going around, such a for conferences, Sloane's particular subject, then look [00:20:00] for talent.
+</p>
+<p>
+I mean, that's how they do it. And it's somehow easier because you probably all know when you touch one subject that only five names will come up and those five names or. Usually some professors saw prestigious faculty. So I've heard
+</p>
+<p>
+<strong>Tom Johnson: </strong>that that would traditional books like romance books or something. Uh, 90% of the revenue at book publishers are based on very few authors.
+</p>
+<p>
+I'm just kind of curious. Can you speak candidly? How much, uh, does typical book bring with revenue and do you does like technical book publishing follow the same revenue? Paradigm is as like the romance where you've got, you know, most of your revenue from a small selection.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yeah. It's usually I can talk about that.
+</p>
+<p>
+I can't tell you about  I don't have any numbers, but, um, yeah, I can speak, I mean, we can say that, uh, one subject can be mainstreamed for two years and those outcomes from that subject, for example, can, can be the. Highest southerners, for example. And they earn from the, I mean, and they involved in promotion as well because everybody's willing to promote their own book can, and then they promote, we reward them in that way too.
+</p>
+<p>
+So they find a way that, uh, act like 15, I believe.
+</p>
+<p>
+<strong>Jared Morgan: </strong>So it almost sounds like there's a bit of ownership on both parties to actually promote and educate people that it's available. It's not just the publisher's job to do that.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>No, everybody's interesting too, to promote their own material. I mean, we all know how social media is working right now.
+</p>
+<p>
+Really huge part of it. Yeah, that's
+</p>
+<p>
+<strong>Jared Morgan: </strong>an interesting point because I guess my, my perception of it was that if you essentially sign up to a publisher, then they almost take over some of the promotion for you as part of your book. But it's interesting to hear that, um, is certainly in the case of Manny, uh, that's a different model altogether, and it's actually, if everyone is in, in there, everyone's got skin in the game, I guess, and they all need to publish
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>it out.
+</p>
+<p>
+Huh? We are in times where if you promote me, I will promote to both be happy. So
+</p>
+<p>
+that's changed. I'm going to compare everything from here to 30 years ago.
+</p>
+<p>
+<strong>Jared Morgan: </strong>that's actually, that's actually a really good segue. Cause we had a question relating to that. I'm sure that over the years you would have seen quite a shift in. In how publishing has evolved and changed with the times you touched on, like in the last 30 years it's changed, but what do you think are some of the biggest shifts in publishing
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>the youngest?
+</p>
+<p>
+<strong>Chris Ward: </strong>I think the only paper technical books I have caught the free copies of the first book I wrote for the publisher.
+</p>
+<p>
+<strong>Jared Morgan: </strong>So it sounds like it's, everything's going to ebook and online and no one really wants
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>to get trees. Who will find the time to go to the bookstore? I don't know.
+</p>
+<p>
+<strong>Chris Ward: </strong>Yeah.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>cereal on your phone. I mean, in 12 seconds after they started promotion. So
+</p>
+<p>
+<strong>Jared Morgan: </strong>that's
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>what we can say about that. I mean, we are all leaning to eat publications and D those are.
+</p>
+<p>
+She had to stay.
+</p>
+<p>
+<strong>Tom Johnson: </strong>What are the most popular digital formats? I mean, you've got the, the EPUB you mentioned right PDF. You've also got like a live HTML kind of format,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>right? Like, Oh, well I book it's called Lago, but that's basically four months we use for all our orders on the book.
+</p>
+<p>
+<strong>Jared Morgan: </strong>And
+</p>
+<p>
+<strong>Tom Johnson: </strong>you said EPUB is the most popular
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>yet?
+</p>
+<p>
+Definitely. W why,
+</p>
+<p>
+<strong>Tom Johnson: </strong>why is that more popular than like, um, mobi for Kindle or something?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yeah, I dunno. I prefer the rendering. I try everything and I prefer rendering or the do most. And, um, and number of you can find number of these since. Uh, apps [00:25:00] for the pub, but you can't find too many for mobile or easy, or
+</p>
+<p>
+<strong>Chris Ward: </strong>it's kind of the main problem in that mobi is largely a Kindle format.
+</p>
+<p>
+It's not exclusively, but it largely is. So you're kind of restricted to that ecosystem. Whereas the pub is more open. So you have access to a lot more options.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>this all printed zipped folders. So you can be open
+</p>
+<p>
+<strong>Jared Morgan: </strong>lit literally and literally,
+</p>
+<p>
+<strong>Chris Ward: </strong>yeah. Yeah.
+</p>
+<p>
+<strong>Tom Johnson: </strong>Do people read technical books on, um, Ink readers. What do you call the, not a Kindle, but anything that's digital reader or do they mostly read them on their, on their like
+</p>
+<p>
+<strong>Chris Ward: </strong>tablet?
+</p>
+<p>
+<strong>Tom Johnson: </strong>What devices do people mostly use to read books, especially technical ones with code samples.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Um, uh, codes are really related to computers, PCs, most of them, but people prefer to read, uh, Hmm, read on, on the tablets and they prefer to work with it on their computer.
+</p>
+<p>
+<strong>Jared Morgan: </strong>All right. So it sounds like they
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I'm sure.
+</p>
+<p>
+And some subject you can learn. Actually, we got a book seeing in months launches, for example, where we choose subjects that can be read on your lines and debate. And do you usually use your tablet? Or
+</p>
+<p>
+<strong>Jared Morgan: </strong>do you find the way that's a really interesting point, like slicing content up in a way that you can do it in your lunch break or do it on a commute, into work.
+</p>
+<p>
+Have you found that the way that you structure, um, a pub and that sort of format has changed as well? Like do you find that you don't have longer chapters and sort of have smaller bite size bits when you design a book structure?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I mean, when you're talking about books, they almost have a similar conference.
+</p>
+<p>
+Maybe you can have six chapters off, some highest level of, or deep level of, uh, One subject. And if you can have light version until you're so pages or chapters, that depends. And we can go back to Dan's question because Tom asked earlier how to find what level of the book I'm looking for. And. That's why we create certain additions, uh, in a model of light breaks.
+</p>
+<p>
+You can, you, you can finish some, one low level of, um, if you need to  books, fields, chapters. Hmm.
+</p>
+<p>
+<strong>Jared Morgan: </strong>That's really interesting. Let's
+</p>
+<p>
+<strong>Chris Ward: </strong>maybe flip back to the AsciiDoc perspective. I was firstly interested. Cause you did mention other forms. Um, and it's funny, like even personally, I still, when I'm writing long form books, which is mostly actually fiction, I'm not really writing nonfiction in.
+</p>
+<p>
+Yeah. And this, I will tend to turn to a tool like Scrivener, for example, which very much. Shows that I'm a Mac and IRS user, because it is a windows, but it's, it's sort of not great or windows it's all right. Or windows, but it's not, it's not optimal on windows. Um, is a lot of people still come from a kind of a word background, for example, is there a, is there a, why do some people find a bit of a learning curve?
+</p>
+<p>
+I know when I first started using markup languages, I found it. Quite weird to begin with. And then I really got used to it, but always a lot of the writers coming from a technical background, they're usually okay with it.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yes. I mean, it's difficult to find the logic in that because you can read the book without doing anything without formatting attitude.
+</p>
+<p>
+And you can finish that book in a couple of days. . That's the Atlanta service. I mean, you do a content and you don't deal with it. And. You don't deal with the previews or anything. You just deal with the content, the, the sentence. And, uh, that's the one challenge. And the other one is, um, when they start learning and they start.
+</p>
+<p>
+And they became inspired to do something special. That's the other man's children, because they are looking forward for some feature that they know they exist in [00:30:00] other Orlando. Yes. And they try to do that. And that's the other challenge. So we have to deal with those. But at the end of the day, it's easy to love.
+</p>
+<p>
+So to me, that's not challenge. That's not a huge challenge. I mean, everybody can learn that. Not just 10 people, every like, hold on. Yeah.
+</p>
+<p>
+So.
+</p>
+<p>
+<strong>Jared Morgan: </strong>I'm interested in sort of know. So as a preference, it sounds like, um, meaning prefer to go with SQL cause the way to publish. So they, they take anything in from people, but they use AsciiDoc to, to actually produce the final product and then publish it out to the different formats. Can you walk us through how sort of go from receiving the text to then.
+</p>
+<p>
+Publishing it out sort of like a, a light introduction to the workload. Don't feel like you need to go into super detail, but like sort of go over.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yeah. I can ask a couple of pads because we don't use the single wall. That'd be great. Um, we choose to create products directly from masculine, but that's not usually the final product.
+</p>
+<p>
+That's usually something for the you something simple, something not. Not that important. And then I choose to go, we do something presentable, like meet pub date till finally, well, two different routes. Uh, first route is to go. We use excellent having still because we use excellent books and we, we have outdoors, smart book as well.
+</p>
+<p>
+So that's the simplification of the process. We are. Ending in the, in the other one. So that's how we choose to bring 10 to present and control our status sheet via XML. Um, when we print, we can print  directly from us, and sometimes we can use tools like Aptiom as a little preview and using their are out version.
+</p>
+<p>
+For something for article or chapter or depending on complexity. And then we go to challenges or mathematic said functional program, or how it presented that we can choose. We can choose what is easier, easiest way to do so. Hmm.
+</p>
+<p>
+<strong>Jared Morgan: </strong>I would imagine with, with mathematic mathematics, heavy content, your having to deal with things like LayTec and stuff like that.
+</p>
+<p>
+When you're
+</p>
+<p>
+<strong>Chris Ward: </strong>Jared LaTech
+</p>
+<p>
+<strong>Jared Morgan: </strong>latte,
+</p>
+<p>
+latex, which is even worse. So latte. So when you're, when you're dealing with, with things like LaTec, um, I'd imagine that. Um, starts to refine down the choices of tools and output formats that you're actually going to.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yeah, we need to include late, but late is only for PDF.
+</p>
+<p>
+<strong>Jared Morgan: </strong>So
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>we start going to offline device in your hands.
+</p>
+<p>
+We need to present that in other ways. So we try to. To as much as we can.
+</p>
+<p>
+<strong>Chris Ward: </strong>Okay. I think
+</p>
+<p>
+<strong>Jared Morgan: </strong>I actually kind of,
+</p>
+<p>
+<strong>Chris Ward: </strong>I bizarrely I bizarrely quite like the quite light glottic, but it is very, very esoteric. This is,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I have to use it sometimes.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Yeah.
+</p>
+<p>
+<strong>Chris Ward: </strong>And do you have a, do you ever bring in my favorite tool in the world into the process?
+</p>
+<p>
+Yeah, Penn doc is the answer to about 80% of questions on the right, the dark Slack, as far as I can. Cause I can tell
+</p>
+<p>
+<strong>Jared Morgan: </strong>it it's a Swiss army knife converters.
+</p>
+<p>
+<strong>Chris Ward: </strong>They'll
+</p>
+<p>
+<strong>Jared Morgan: </strong>take anything and change it into anything really.
+</p>
+<p>
+<strong>Chris Ward: </strong>It's a little, it's a little, um, It's it's I don't mean it's old in terms of it doesn't work, but it's been around for a while.
+</p>
+<p>
+And as far as I know, Asciidoctor replicates all of that functionality or is that
+</p>
+<p>
+<strong>Jared Morgan: </strong>true?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>When you say replicate.
+</p>
+<p>
+<strong>Chris Ward: </strong>Yeah, yeah,
+</p>
+<p>
+<strong>Jared Morgan: </strong>yeah. Yeah. It's got an appetite for me to ask you to put, I believe it's a Python version, not the new version, which is subtly different. This is why I ask you to pick the moment is going through a [00:35:00] specification development phase,
+</p>
+<p>
+<strong>Chris Ward: </strong>big buck down.
+</p>
+<p>
+Is it
+</p>
+<p>
+<strong>Jared Morgan: </strong>well,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>maybe.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Yeah. First, you have to look at the flavor sheet. I think it's up to about 35 different flavors of buck down. Now
+</p>
+<p>
+<strong>Chris Ward: </strong>you just, you just described a flavor there. So it's getting there. It's got of
+</p>
+<p>
+<strong>Jared Morgan: </strong>that's what they're trying to do at the moment. There's two, right? So there's there's Python. See doc. And then there's asking you doctor pro se dot process with ads and stuff.
+</p>
+<p>
+And this is the problem. You, you, you brought the Chris, like it's. It is a flavor.
+</p>
+<p>
+<strong>Chris Ward: </strong>So it might be my, my main issue has always been, and I've brought this up a few times. There's not been the format itself is that there is very little tooling around it for, for plugins, for text editors and things. There isn't much.
+</p>
+<p>
+Um, and that's yeah.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Yeah. Well, that's a safe few now. Like I, I haven't found a tool that doesn't have support, uh, you know,
+</p>
+<p>
+<strong>Chris Ward: </strong>no, no, not support, not support, but there are the other options. Um, for example, I can find five plugins for vs code that lets me do, um, keyboard shortcuts for formats or buttons in the tool bar.
+</p>
+<p>
+And shortcuts for the and shortcuts for that. Like you have a plethora of options. All right. Some are, some are not great and some are great. And, you know, but with sq, dark, I've usually found is a lot less the same. It's the same with restructured text as well, to be fair.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Yeah. That's true.
+</p>
+<p>
+<strong>Chris Ward: </strong>Unique too.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Yeah.
+</p>
+<p>
+I think I tend to find with, with the AsciiDoctor ecosystem, there's one person. So that does one, um, looks after one plugin for one editor it's hot. Um, normally it's pretty well featured. Um, but you're right. There is. I guess less, less varieties out there or less different ways of thinking about how you do it,
+</p>
+<p>
+<strong>Chris Ward: </strong>which is of course the positives and negatives of those options.
+</p>
+<p>
+Not much choice is a positive and a negative in both cases.
+</p>
+<p>
+<strong>Jared Morgan: </strong>That's right. It's pretty much the Costco model. Isn't it? You go to Costco, they have two things. You might have two different types of, uh, almonds that you can get, but that's it? No, not many, but it's easy to choose. Uh, yeah. Well look, getting back to the
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>difficult to choose for that too.
+</p>
+<p>
+Yeah.
+</p>
+<p>
+<strong>Tom Johnson: </strong>I got a question, um, for, for amendment, I'm just looking@manning.com and I see that you've got both video and books. We've been talking almost exclusively about books in part because of the AsciiDoc element. I'm just wondering which sells better videos or books, or there are different audiences that prefer different.
+</p>
+<p>
+Formats.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I believe that books are still writing. Content is still something that you're looking for when you, in terms of time for those symptoms with skilled subject regard all to who doesn't bolt, but main content is usually in book.
+</p>
+<p>
+<strong>Chris Ward: </strong>Hmm. And
+</p>
+<p>
+<strong>Tom Johnson: </strong>is that because a technical. Like deep technical topics don't lend themselves well to video.
+</p>
+<p>
+It's like too complicated to just explain in a video. Yes.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I believe you need the code. When you read, for example, you can switch to, for example, um, uh, page all of any book can see that you can make copies of the pro then implemented in your, in your environments and test it. So, yeah. That kind of stuff.
+</p>
+<p>
+What
+</p>
+<p>
+<strong>Tom Johnson: </strong>is live project? I see that as an option next to live book, live video, live project,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>a live project related to a combination. I mean, when you really me to do something, move to meet here.
+</p>
+<p>
+<strong>Chris Ward: </strong>That's not a term I've heard for a while.
+</p>
+<p>
+<strong>Jared Morgan: </strong>you find mama, do you find that when people have produced a book, do you find that the videos flow on from the feedback they receive about the book? Is there ever been like a point where videos are informed from the book itself and what people are really looking for more information on.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Uh, they're starting to feel that,
+</p>
+<p>
+<strong>Jared Morgan: </strong>that, yeah. So I'm, I'm curious is after an author has published a book, do you find that yeah. After, or like during the early access phase where they received feedback from the  yeah. Yeah. Like during that process, do you find that, um, that's when they work out. If they need [00:40:00] to create video content or is it sort of, does it happen at different points or does it not even inform the conversation at all?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I mean, every altar is involved in writing articles is now in presenting videos. CPB have been enrolled in conferences where, where we are tied to and. They are ready to do everything that is appropriate for our building presentation of the book. But we always talking about the book as a final product.
+</p>
+<p>
+Everything else may come as promotional or promotional the brand or so Brandon out of his personal brand. Right? So they choosing to do videos as well. They're choosing to do. We're actually getting guest interviews podcast. Okay.
+</p>
+<p>
+<strong>Jared Morgan: </strong>So it's really a complementary format, but the book is always King.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yeah. Hmm.
+</p>
+<p>
+<strong>Jared Morgan: </strong>That's really interesting
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>from my perspective, maybe I'll publish.
+</p>
+<p>
+<strong>Chris Ward: </strong>I will also say like having made a video courses and books, the thing with video is it takes a lot more time. And also editing is there's a, there's a couple of platforms emerging. Now they're mostly in the audio space, but they are starting to test video as well. They'll let you edit audio and video, like texts.
+</p>
+<p>
+Well, I quote unquote in big quotes because they're still very early days, but if someone says, move a chapter around or change this terminology in a book in texts, it's quote unquote again, relatively easy doing that in a video is a lot more work. Um, and I personally enjoy the work, but it's very time-consuming and you
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>try to it.
+</p>
+<p>
+<strong>Chris Ward: </strong>Well,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I'll prefer your content to be presented
+</p>
+<p>
+<strong>Chris Ward: </strong>at the moment. I'm really enjoying live streaming because it's just done. It's video is direct, but there's no going back. It's done. If I make a mistake, you just keep going and it's done.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Bob, do you find yourself that you can do everything you need the screen?
+</p>
+<p>
+<strong>Chris Ward: </strong>No, of course not. Um, because
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>what is missing from that? It's
+</p>
+<p>
+<strong>Chris Ward: </strong>I think for me, it's the, it's the, the, just the going for it. And people seeing you making mistakes as well, a book and a video course that always the finished product, whereas streaming is you see people making mistakes along the way. And I think that's actually where people learn from it as well.
+</p>
+<p>
+Um, which is getting a little off topic. That's possibly another good potential topic for the future, but it's, um, it's,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I mean, the video is more popular at the moment is still, I mean, from our perspective, it's still not, it still has some time to do. I think,
+</p>
+<p>
+<strong>Chris Ward: </strong>I wonder if you have much metrics to support this, but.
+</p>
+<p>
+Now video courses as a popular consumable media have emerged quite recently in a time when people are not used to paying for things. Whereas books have existed for a long time in a format where people were used to paying for it. And I think people still. Reduced the value of video, even though it's
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>it's
+</p>
+<p>
+<strong>Chris Ward: </strong>yeah.
+</p>
+<p>
+You know, people are used to not paying for it. That's the problem.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yeah. But when you do videos, do you find reason to be involved in some kind of greater community or subject
+</p>
+<p>
+<strong>Chris Ward: </strong>matter? It depends. It's more subject for me than anything else, to be honest with you, it depends on the subject. Sometimes I've done video courses because someone asked me to, and sometimes I've done it because I wanted to say,
+</p>
+<p>
+yeah,
+</p>
+<p>
+<strong>Tom Johnson: </strong>I have a question. Um, the med, I'm just kind of glancing through a sample book on Manning. And, um, I imagine as a publisher, you have to make a, a judgment call about how to chunk up chapters. Um, like the sample book I'm looking at, like it shows the whole chapter. If I printed it out, it'd probably be 30 pages.
+</p>
+<p>
+Uh, is there any logic you use to determine whether to make the page really long or to make it short?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Um, um, does the role of the editors and they usually know. How many chapters you need for an how the law, I mean, deals Todd writing contracts for the book and mentioning number of pages. So they start from there and they will do soon.
+</p>
+<p>
+Those pages or [00:45:00] increasing depends on will happen along the way. Okay. So book is Dubai. Yeah. 30 pages is very often.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Okay. I think I'm running out of questions. I don't know if Chris, Tom, if you've got any more questions to add,
+</p>
+<p>
+<strong>Tom Johnson: </strong>I have a couple more,
+</p>
+<p>
+<strong>Chris Ward: </strong>I can just ask him
+</p>
+<p>
+<strong>Tom Johnson: </strong>a few, a few ideas of, I don't know, come to my mind as I'm looking through this,
+</p>
+<p>
+<strong>Chris Ward: </strong>you're about to meet some books.
+</p>
+<p>
+Tom
+</p>
+<p>
+<strong>Tom Johnson: </strong>sample book I'm looking at now has, has, uh, Uh, some code samples and the technique there they've used is to do screenshots of the code samples with some overlays, uh, that have like annotations, just kind of curious, what's your take on the best way to present code samples, uh, online? Do you have, um, like are images better because you can annotate them or do you prefer to have the raw code that can be easily
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>You probably find some of the older, because we use codes and you have bottle below the copy, the roles fall up without connotations. That's short. So that's a good way to test your, you can read your mood can to pick and choose your copies, copies, own the code and implemented in the States without complication.
+</p>
+<p>
+So that's the way that's what we're doing now. So maybe if you find me version of some of the names, you'll find your example of how to properly code and use it for your products.
+</p>
+<p>
+<strong>Tom Johnson: </strong>Yeah. Okay. Yeah. That makes sense. I mean, I definitely know that people like to, to copy code, but I also realize it's hard to annotate.
+</p>
+<p>
+Um, when it's in code form. It's hard to call out different parts of it, you know, like,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>especially we excluding those. So that's the greatest advantage of live of lab because it conduit with your people more PDF as well. That's the huge advantage of lab. One of the very important feature is just that to make clean calls, to make.
+</p>
+<p>
+<strong>Tom Johnson: </strong>I also noticed this is just kind of a small curiosity. Um, for the live book, as I'm scrolling down, it like starts out in a, um, Greeked format, whatever. And then as you scroll, like undecipherable, it w is that just to protect the digital rights of the
+</p>
+<p>
+<strong>Chris Ward: </strong>book? You know what I'm talking about?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>No, but that's, I'm not sure on that.
+</p>
+<p>
+Yeah, that never happened. Okay.
+</p>
+<p>
+<strong>Chris Ward: </strong>That's fine.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Yeah, but I can read everything fundamentally systems. So
+</p>
+<p>
+<strong>Chris Ward: </strong>yeah,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>we can discuss this later. Maybe button, hold on.
+</p>
+<p>
+<strong>Chris Ward: </strong>Can I just ask one other question about the format and mobi and EPUB, I mean, PDF is a whole other kind of. World, and it's sort of strange proprietary open bucket, but mobi and EPUB.
+</p>
+<p>
+Are they formats that change very much or has it basically been the same standard for a long time?
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I mean, we all, they have as long trees, the current big changes, for example, you popped three.
+</p>
+<p>
+<strong>Chris Ward: </strong>Okay.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>But they don't change too much. I mean, that's basically a small website with a style sheet and they can read something and hopefully in the way publisher presented,
+</p>
+<p>
+but changes mine in my, from my ex.
+</p>
+<p>
+<strong>Chris Ward: </strong>So E pub would probably never support that kind of thing. Like the option to toggle code and things like that.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I'm not sure how to do that
+</p>
+<p>
+Muslim possible. Now that these plugins, when they, or scripts, when they, I'm not sure that will work on every device.
+</p>
+<p>
+<strong>Chris Ward: </strong>I mean,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>we are getting there. I mean, in five years, Everything is possible.
+</p>
+<p>
+maybe every publisher loans, they all
+</p>
+<p>
+<strong>Chris Ward: </strong>have
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>to read their books probably wouldn't be the best option.
+</p>
+<p>
+<strong>Chris Ward: </strong>Yeah. Yeah. I mean, this, this happens with, um, some, I have a subscription to a service called described. They use their own format and their apps and it's, it's fine, but there's no, there's no interoperability anyway
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>that
+</p>
+<p>
+<strong>Chris Ward: </strong>popular.
+</p>
+<p>
+[00:50:00] <strong>Mehmed Pasic: </strong>Yeah. But I believe he probably a level that where you change.
+</p>
+<p>
+videos coming
+</p>
+<p>
+<strong>Chris Ward: </strong>up, Apple, Apple tried the whole book thing, and that was a bit of a disaster as well. So yeah. So yeah.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>I liked the look of it.
+</p>
+<p>
+<strong>Chris Ward: </strong>Yeah. Well, they looked amazing. Just no one bought them. So this is this
+</p>
+<p>
+<strong>Jared Morgan: </strong>right.
+</p>
+<p>
+<strong>Chris Ward: </strong>That's
+</p>
+<p>
+<strong>Jared Morgan: </strong>true. They can't be perfect. They're pretty good. Yeah. Perfect.
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>Before people involved, I believe there are still people.
+</p>
+<p>
+<strong>Jared Morgan: </strong>Well, it's time for us to actually, um, wrap up the show. I can't believe this hour is going as quickly as it has,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>but because of the day, a little bit,
+</p>
+<p>
+I had a long day. Sorry.
+</p>
+<p>
+<strong>Jared Morgan: </strong>No, no. That's all right. No, it's been really interesting to get a bit of, uh, the whole inside knowledge about how publishing works and how as, as a writer, you can actually get involved in. And get your, your ideas published fast. Through early access programs and, and iterate rapidly on it and get feedback and actually make a really good quality in product.
+</p>
+<p>
+And you don't, you don't
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>to the call to your great,
+</p>
+<p>
+<strong>Jared Morgan: </strong>it might actually, it might actually help folks sort of take that leap into publishing because they know that if they don't have to have something perfect, they just need to have a good idea that they can build upon as they develop. So that's been really, really interesting.
+</p>
+<p>
+I just want to thank you so much
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>that could work in 10 cookbooks. I'm not sure. If you can find any other area where people really
+</p>
+<p>
+<strong>Jared Morgan: </strong>probably run,
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>this is very different group of people,
+</p>
+<p>
+<strong>Jared Morgan: </strong>not
+</p>
+<p>
+<strong>Mehmed Pasic: </strong>so that that's the reason why, and everybody is willing to put tributes. That's the other case.
+</p>
+<p>
+<strong>Jared Morgan: </strong>That's right. Well look before we go.
+</p>
+<p>
+I just want to let folks know, um, about a discount that's available to them, um, for a, through many publications. And thank you very much for, for giving this discount to us. I'm admitted and Manning. Um, if you'd like to receive a 35%. Um, discount on any products in any format from many publications you can do.
+</p>
+<p>
+So by using the special right, the docs code, which is pod, right doc 20 that's O D. W a I T E D O C two zero. And that will give you 35% off any, um, any format and, uh, any book on the mining site, which is pretty awesome. Thank you very much for that. Um, and also not only that, but if you've been listening to the show today, you can also, um, get a, a completely free book code.
+</p>
+<p>
+From us, if you answer a question for us on the podcast channel. So what we'd like to know, um, is how do you like to listen to the show? Do you like to listen to it on, um, on YouTube? Do you like to watch us talk or do you like to listen to us talk. So, if you want to give us your answers, you can do that, um, on the podcast channel, in write the docs or Slack, and the first five people will snag a free book code.
+</p>
+<p>
+Uh, so, uh, that's pretty cool as well. It's the first time we've done give away on the show, which is pretty
+</p>
+<p>
+<strong>Chris Ward: </strong>exciting. Yeah, that's
+</p>
+<p>
+<strong>Jared Morgan: </strong>really awesome. So that does lead us to the end of the show. Thank you very much for joining us today. Um, it's been great talking with you. Thanks. Also Chris and Tom for joining us as well.
+</p>
+<p>
+And, um, uh, as we always do at the end of the show, we always end with this docs or it didn't happen. Thanks very much. Everyone have a great time until we meet you again.
+</p>
+<p>
+
+</p>

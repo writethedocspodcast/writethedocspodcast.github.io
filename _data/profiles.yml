@@ -211,4 +211,11 @@ info:
   linkedin: https://www.linkedin.com/in/peter-levan-39a722155/
   image: peter_levan.png
 
+- name: Mehmed Pasic
+  website: https://www.manning.com
+  slack_handle: mehmedpasic
+  twitter: https://twitter.com/ManningBooks
+  # linkedin:
+  image: mehmedpasic.jpg
+
 # images are 260px wide by 170px tall

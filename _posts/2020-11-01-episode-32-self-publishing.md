@@ -1,0 +1,56 @@
+---
+title: "WTD Episode 32: Self-publishing and AsciiDoc, with Mehmed Pasic"
+guid: wtd_self_publishing
+meetup: WTD Podcast
+keywords: search
+global_recommendation: true
+categories:
+- y2020
+date: 2020-11-01
+tags:
+- tools
+image: http://podcast.writethedocs.org/assets/img/wtdpodcastlogo.png
+# podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/episode29_wtd_salary_survey_wfh.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/writethedocs-podcast/wtdpodcast_episode32_self_publishing.mp3
+podcast_file_size: 36.5 MB
+podcast_duration: "54:09"
+podcast_length: 46325980
+youtube_id: i1N6OEPhVwQ
+summary: "Many tech writers are familiar with using AsciiDoc for documentation, but did you know that you can also create fiction and non-fiction books with AsciiDoc, publishing to popular digital formats such as EPUB or PDF, along with HTML? In this episode of the Write the Docs podcast, we chat with Mehmed Pasic from Manning Publications about self-publishing, AsciiDoc, collaborative workflows between authors and editors, trends in book publishing, the most popular devices for consuming content, book versus video formats for technical content, and more."
+bitlink: http://bit.ly/wtdpodcast32
+mp4_filename: wtdpodcast_episode32_self_publishingv3.mp4
+mp4_length: 305012888
+mp4_thumbnail: assets/img/episodethumbs/episode32_mehmed.png
+# make thumb 378px high by 478px wide. this image appears in FTV app only
+hosts:
+- mehmedpasic
+- jaredmorgs
+- chrisward
+- tomjohnson
+transcript: transcripts/transcript_episode32.html
+---
+
+## Topics discussed
+
+- Workflows for writers and publishers during content development, review, and publishing
+- Formats used in content authoring/editing (e.g., MS Word, AsciiDoc), and transformation to publishing outputs (XML, HTML, EPUB)
+- How AsciiDoc differs from other formats -- and advantages it brings with the publishing process
+- The value publishers provide even though many tools (e.g., like AsciiDoc) enable non-publishers to create digital outputs like MOBI, EPUB, PDF themselves
+- Benefits of reading a specific book versus jumping around in different chapters in an entire library
+- The highest-earning publications and their impact on publisher revenues
+- The devices readers prefer to use when consuming digital content (e.g., tablet, laptop, smartphone)
+- Strategies for slicing up content into consumable amounts that can be read during lunchtimes and commutes
+- Whether video or books sell better and why, and for which types of content
+- Whether MOBI or EPUB format is more popular and why
+
+## Resources
+
+- [AsciiDoc](https://asciidoc.org/)
+- [AsciiDoctor](https://asciidoctor.org/)
+- [Manning Publications](https://www.manning.com/)
+
+## Book giveaway
+
+All WTD podcast listeners can receive a 35% discount code on any books from [Manning Publications](https://www.manning.com/) when using the discount code `podwritedoc20`.
+
+Additionally, we also have a free book code for the first 5 people to head to the WTD Slack **#podcast** channel and show us how they listen to the show.
