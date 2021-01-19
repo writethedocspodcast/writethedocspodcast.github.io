@@ -42,7 +42,7 @@ Here's a predictive eyetracking report that shows the user's focus areas for the
 
 ## Resources
 
-* [Simplified Graphics Slack group at simplifiedgraphics.slack.com](https://join.slack.com/t/simplifiedgraphics/shared_invite/zt-854cf16o-WAze1qv~6fjZwTyvnlXFOA). Open to anyone who is interested in this discussing this topic, who wants to share example or who is looking for inspiration:  (Link expires on February 18th 2021. Contact a.bollen@techsith.com afterwards for an invite.)
+* [Simplified Graphics Slack group at simplifiedgraphics.slack.com](https://join.slack.com/t/simplifiedgraphics/shared_invite/zt-854cf16o-WAze1qv~6fjZwTyvnlXFOA). Open to anyone who is interested in this discussing this topic, who wants to share examples or who is looking for inspiration. (Note: This link expires on February 18, 2021. Contact a.bollen@techsith.com afterwards for an invite.)
 
 * [Steve Stegelin Talk at WTD Portland 2018](https://www.writethedocs.org/videos/portland/2018/graphic-content-warning-the-pros-cons-and-alternatives-to-screenshots-steve-stegelin/)
 
