@@ -8,6 +8,13 @@ The Write the Docs Podcast publishes discussion-style podcasts focusing on topic
 <h2>Recent Podcasts</h2>
 
 
+<h2>2021</h2>
+<ul class="postlist">
+{% for post in site.categories.y2021 %}
+    <li><a class="reference internal" href="{{ post.url }}">{{ post.title}}</a> (<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>)</li>
+{% endfor %}
+</ul>
+
 <h2>2020</h2>
 <ul class="postlist">
 {% for post in site.categories.y2020 %}

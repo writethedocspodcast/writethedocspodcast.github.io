@@ -218,4 +218,11 @@ info:
   # linkedin:
   image: mehmedpasic.jpg
 
+- name: Anton Bollen
+  website: https://www.techsmith.com
+  slack_handle: anton_bollen
+  # twitter: https://twitter.com/ManningBooks
+  linkedin: https://www.linkedin.com/in/antonbollen/
+  image: anton_bollen.png
+
 # images are 260px wide by 170px tall
