@@ -15,7 +15,7 @@ podcast_file_size: 35.2 MB
 podcast_duration: "43:05"
 podcast_length: 35032378
 youtube_id: Iwm5kK3vimM
-summary: "In this podcast, Fabrizio Ferri joins us for a discussion about adding both personal identity and personality to documentation. Why are the docs we write so often anonymous, and does that anonymity work against career progression? Are tech writers, typically introverts, averse to publicity, or does our industry not allow for it? And if you want to be a \"personality\" in the tech communications world, what do you do? How do you add personality constructively to your work without disrupting corporate brand and consistency?"
+summary: "In this podcast, Fabrizio Ferri joins us for a discussion about adding both personal identity and personality to documentation. Why are the docs we write so often anonymous, and does that anonymity work against progress in our careers? Are tech writers, who are typically introverts, averse to publicity, or does our industry not allow for it? And if you want to be a \"personality\" in the tech communications world, what do you do? How do you add personality constructively to your work without disrupting corporate brand and consistency?"
 bitlink: http://bit.ly/wtdpodcast34
 mp4_filename: wtd_episode_34_personality.mp4
 mp4_length: 24291891
