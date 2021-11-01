@@ -232,4 +232,18 @@ info:
   linkedin: https://www.linkedin.com/in/fabrizioferri/
   image: fabrizio_ferri.jpg
 
+- name: Jared Bhatti
+  website: https://docsfordevelopers.com
+  slack_handle: jaredb
+  twitter: https://twitter.com/jaredbhatti
+  linkedin: https://www.linkedin.com/in/jaredbhatti/
+  image: jared_bhatti.jpeg
+
+- name: Zachary Sarah Corleissen
+  website: https://corleissen.com
+  slack_handle: zcorleissen
+  twitter: https://twitter.com/zachorsarah
+  linkedin: https://www.linkedin.com/in/zcorleissen/
+  image: zach_corleissen.jpeg
+
 # images are 260px wide by 170px tall
