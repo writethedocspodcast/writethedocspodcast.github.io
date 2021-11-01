@@ -16,7 +16,7 @@ podcast_file_size: 34.9 MB
 podcast_duration: "57:00"
 podcast_length: 34894490
 youtube_id: b5aX0ipaFUM
-summary: "In this podcast, we discuss the newly released book <i>Docs for Developers: An Engineer's Field Guide to Technical Writing</i> with Jared Bhatti, staff technical writer at Google, and Zachary Sarah Corleissen, staff technical writer at Stripe (two of the co-authors). This book on writing documentation focuses on the end-to-end writing process (from audience analysis to drafting, editing, publishing, and more) and is written specifically with developers in mind. The authors use the scenario of documenting Corg.li, an API that translates barks, as a common thread through each of the chapters."
+summary: "In this podcast, we discuss the newly released book <i>Docs for Developers: An Engineer's Field Guide to Technical Writing</i> with Jared Bhatti, staff technical writer at Google, and Zachary Sarah Corleissen, staff technical writer at Stripe (two of the co-authors). This book on writing documentation focuses on the end-to-end writing process (from audience analysis to drafting, editing, publishing, and more) and is written specifically with developers in mind. The authors use the scenario of documenting Corg.ly, an API that translates barks, as a common thread through each of the chapters."
 bitlink: http://bit.ly/wtdpodcast34
 mp4_filename: wtd_episode_35_docsfordevelopers.mp4
 mp4_length: 24291891
