@@ -70,3 +70,13 @@ podcasts:
   author: Chris Ward
   url: https://chrischinchilla.com/podcasts/
   img: weeklysqueak.png
+
+- title: Sustain
+  author: Richard Littauer and SustainOSS
+  url: https://podcast.sustainoss.org
+  img: sustain.jpg
+
+- title: Let's Talk Docs
+  author: Portia Burton and Eric Holscher
+  url: https://ltd-podcast.sustainoss.org/
+  img: ltd.png
