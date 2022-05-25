@@ -14,4 +14,4 @@ Here are some podcasts focused on tech-comm:
 
 <div style="clear: both;"></div>
 
-If you have a podcast you'd like to recommend, [let us know](/contact/) and we'll add it here.
+If you have a podcast you'd like to recommend, [let us know](/contact/) and we'll add it here. Or, you can open a pull-request for [this page on GitHub](https://github.com/writethedocspodcast/writethedocspodcast.github.io)!
